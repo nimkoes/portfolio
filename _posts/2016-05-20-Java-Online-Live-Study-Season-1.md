@@ -6,7 +6,7 @@ date:   2021-03-01 01:21:17 +0530
 categories: ["study"]
 ---
 
-### 개요
+## **개요**
 ---
 유튜브로 진행하는 라이브 스터디 운영 프로젝트입니다.  
 이슈 게시판에 과제를 올리고 댓글로 과제 풀이 링크를 제출하시면 검토해 드리고 라이브 방송으로 피드백을 드립니다.  
@@ -14,14 +14,14 @@ categories: ["study"]
 [스터디 링크][link_study]
   
   
-### 수료 기준 및 선물
+## **수료 기준 및 선물**
 ---
 전체 15주 과정의 스터디로, 스터디 과제 제출율 80%를 넘긴 참여자에게 수료 기념으로 티셔츠를 선물해 드립니다.
 
 ![t-shirt_001](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/study/ws_003.jpg?raw=true "t-shirt_001"){: width="410px" height="410px"}
   
   
-### 스터디 정리 링크
+## **스터디 정리 링크**
  - 시간이 될 때마다 조금씩 [티스토리 블로그][link_tistory]에 글을 다듬어서 다시 정리 할 예정입니다.
 ---
 [1주차 JVM은 무엇이며 자바 코드는 어떻게 실행하는 것인가][link_week_01]  
@@ -41,7 +41,7 @@ categories: ["study"]
 [15주차 람다식][link_week_15]  
   
   
-### 스터디 관련 안내 영상 링크
+## **스터디 관련 안내 영상 링크**
 ---
 [(2020.11.07) 스터디 할래? 온라인 자바 스터디 시작합니다.][link_whiteship_youtube_study_info_01]  
 [(2020.11.14) 스터디 할래? 80% 참석시 티셔츠를 선물로 드립니다.][link_whiteship_youtube_study_info_02]  
@@ -57,7 +57,7 @@ categories: ["study"]
 [(2021.03.07) 15주간 421명과 자바 스터디를 성공적으로 마쳤습니다.][link_whiteship_youtube_study_info_12]  
   
   
-### 스터디 영상 링크 : 선원으로 가입하셔야 볼 수 있습니다.
+## **스터디 영상 링크 : 선원으로 가입하셔야 볼 수 있습니다.**
 ---
 [(2020.11.14) 1주차 : JVM은 무엇이며 자바 코드는 어떻게 실행하는 것인가][link_whiteship_youtube_study_01]  
 [(2020.11.21) 2주차 : 자바 데이터 타입, 변수 그리고 배열][link_whiteship_youtube_study_02]  
@@ -76,7 +76,7 @@ categories: ["study"]
 [(2021.03.06) 15주차 : 람다식][link_whiteship_youtube_study_15]  
   
   
-### 스터디 후기
+## **스터디 후기**
 ---
 ![study_end](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/study/ws_004.jpg?raw=true "study_end"){: width="510px"}
 
@@ -110,7 +110,7 @@ IT 전반적인 뉴스는 아니었고 자바라는 특정 언어에 대한 소�
 그 때 상황을 봐야 겠지만 되도록 참여하고 싶다.  
     
   
-### 시즌 1 누적 하트
+## **시즌 1 누적 하트**
 ---
   
 |닉네임|누적하트|스터디 주차|
