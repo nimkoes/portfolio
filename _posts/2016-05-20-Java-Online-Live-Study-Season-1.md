@@ -17,7 +17,7 @@ categories: ["study"]
 ### 수료 기준 및 선물
 전체 15주 과정의 스터디로, 스터디 과제 제출율 80%를 넘긴 참여자에게 수료 기념으로 티셔츠를 선물해 드립니다.
 
-![t-shirt_001](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/study/ws_003.jpg?raw=true "t-shirt_001"){: width="50px" height="50px"}{: .center}
+![t-shirt_001](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/study/ws_003.jpg?raw=true "t-shirt_001"){: width="410px" height="410px"}
 
 
 ### 스터디 정리 링크
@@ -74,7 +74,7 @@ categories: ["study"]
 
 
 ### 스터디 후기
-![study_end](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/study/ws_004.jpg?raw=true "study_end"){: width="50px" height="50px"}{: .center}
+![study_end](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/study/ws_004.jpg?raw=true "study_end"){: width="410px" height="410px"}
 
 사실 2019년 여름 자바를 내가 이해한 방식으로 정리하기를 시도한 적이 있었다.  
 다행이었다면 어쨌든 마무리를 지었다는 것이고, 아쉬운 것은 정리한 범위가 터무니없이 모자랐다는 것이다.  
