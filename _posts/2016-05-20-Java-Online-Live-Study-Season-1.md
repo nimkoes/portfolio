@@ -78,7 +78,7 @@ categories: ["study"]
   
 ### 스터디 후기
 ---
-![study_end](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/study/ws_004.jpg?raw=true "study_end"){: width="410px" height="410px"}
+![study_end](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/study/ws_004.jpg?raw=true "study_end"){: width="510px"}
 
 사실 2019년 여름 자바를 내가 이해한 방식으로 정리하기를 시도한 적이 있었다.  
 다행이었다면 어쨌든 마무리를 지었다는 것이고, 아쉬운 것은 정리한 범위가 터무니없이 모자랐다는 것이다.  
@@ -112,6 +112,7 @@ IT 전반적인 뉴스는 아니었고 자바라는 특정 언어에 대한 소�
   
 ### 시즌 1 누적 하트
 ---
+  
 |닉네임|누적하트|스터디 주차|
 |---|:---:|---|
 |nimkoes|13|1, 2, 3, 4, 10, 11, 12, 14, 15|
@@ -205,7 +206,7 @@ IT 전반적인 뉴스는 아니었고 자바라는 특정 언어에 대한 소�
 |gtpe|1|12|
 |sejongdeveloper|1|6|
 |clap1030|1|9|
-
+  
 
 
 
