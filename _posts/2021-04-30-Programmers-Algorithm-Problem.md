@@ -9,8 +9,8 @@ categories: ["algorithm"]
 
 
   
-### 프로그래머스 문제 풀이 코드
-  
+## 프로그래머스 문제 풀이 코드
+---
 **블로그에 풀이를 게시한 문제는 링크로 연결되어 있습니다.**  
   
 - **레벨 단위**로 패키지 생성
@@ -26,12 +26,14 @@ categories: ["algorithm"]
 - test.{FQCN} 위치에 '**입출력 예**' 에 해당하는 테스트 코드 작성
 
 
-- 라이브러리
+#### 라이브러리
+---
   - org.junit.jupiter:junit-jupiter:5.7.1
   - org.assertj:assertj-core:3.19.0
   - org.projectlombok:lombok:1.18.16
   
-- 라이브러리 추가하는 방법<sub>intelliJ 기준</sub>  
+#### 라이브러리 추가하는 방법<sub>intelliJ 기준</sub>
+---  
 ![intellij_add_library_001](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/algorithm/intellij_add_library_001.png?raw=true "intellij_add_library_001"){: width="320px"}  
   - File > Project Structure 클릭  
 ![intellij_add_library_002](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/algorithm/intellij_add_library_002.png?raw=true "intellij_add_library_002"){: width="410px"}
@@ -39,13 +41,17 @@ categories: ["algorithm"]
 ![intellij_add_library_003](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/algorithm/intellij_add_library_003.png?raw=true "intellij_add_library_003"){: width="570px"}
   - 위에 명시한 버전을 포함한 라이브러리 정보 넣고 Download to 에 원하는 위치 설정하고 OK 버튼 클릭
   
-- lombok 라이브러리 다운로드 이후 적용이 되지 않을 때 설정 방법
+  
+  
+#### lombok 라이브러리 다운로드 이후 적용이 되지 않을 때 설정 방법
+---
 ![intellij_lombok_setting_001](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/algorithm/intellij_lombok_setting_001.png?raw=true "intellij_lombok_setting_001"){: width="320px"}  
   - File > Settings 클릭  
 ![intellij_lombok_setting_002](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/algorithm/intellij_lombok_setting_002.png?raw=true "intellij_lombok_setting_002"){: width="710px"}  
   - Plugins 메뉴에서 lombok 을 검색해서 플러그인 설치  
 ![intellij_lombok_setting_003](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/algorithm/intellij_lombok_setting_003.png?raw=true "intellij_lombok_setting_003"){: width="710px"}  
   - annotation processor 검색한 다음 오른쪽의 Enable annotation processing 체크박스 활성화 되도록 체크  
+  
   
   
 #### level 1
