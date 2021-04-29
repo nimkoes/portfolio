@@ -26,13 +26,13 @@ categories: ["algorithm"]
 - test.{FQCN} 위치에 '**입출력 예**' 에 해당하는 테스트 코드 작성
 
 
-#### 라이브러리
+### 라이브러리
 ---
   - org.junit.jupiter:junit-jupiter:5.7.1
   - org.assertj:assertj-core:3.19.0
   - org.projectlombok:lombok:1.18.16
   
-#### 라이브러리 추가하는 방법<sub>intelliJ 기준</sub>
+### 라이브러리 추가하는 방법<sub>intelliJ 기준</sub>
 ---  
 ![intellij_add_library_001](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/algorithm/intellij_add_library_001.png?raw=true "intellij_add_library_001"){: width="320px"}  
   - File > Project Structure 클릭  
@@ -43,7 +43,7 @@ categories: ["algorithm"]
   
   
   
-#### lombok 라이브러리 다운로드 이후 적용이 되지 않을 때 설정 방법
+### lombok 라이브러리 다운로드 이후 적용이 되지 않을 때 설정 방법
 ---
 ![intellij_lombok_setting_001](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/algorithm/intellij_lombok_setting_001.png?raw=true "intellij_lombok_setting_001"){: width="320px"}  
   - File > Settings 클릭  
@@ -54,7 +54,7 @@ categories: ["algorithm"]
   
   
   
-#### level 1
+### level 1
 ---
   
 - 001 : [**크레인 인형뽑기 게임**<sub>2019 카카오 개발자 겨울 인턴십</sub>][link_level_1_001]
@@ -107,10 +107,10 @@ categories: ["algorithm"]
 - 048 : [**(1차) 다트 게임**<sub>2018 KAKAO BLIND RECRUITMENT</sub>][link_level_1_048]
 
 
-#### level 2
+### level 2
 ---
   
-#### level 3
+### level 3
 ---
 
 
