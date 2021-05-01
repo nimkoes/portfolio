@@ -41,7 +41,6 @@ author: "nimkoes"
 [10주차 멀티쓰레드 프로그래밍][link_week_10]  
 [11주차 Enum][link_week_11]  
 [12주차 애노테이션][link_week_12]  
-[13주차 I/O][link_week_13]  
 [14주차 제네릭][link_week_14]  
 [15주차 람다식][link_week_15]  
   
@@ -80,6 +79,7 @@ author: "nimkoes"
 [(2021.01.23) 10주차 : 멀티쓰레드 프로그래밍][link_whiteship_youtube_study_10]  
 [(2021.01.30) 11주차 : Enum][link_whiteship_youtube_study_11]  
 [(2021.02.06) 12주차 : 애노테이션][link_whiteship_youtube_study_12]  
+[(2021.02.20) 13주차 : I/O][link_whiteship_youtube_study_13]  
 [(2021.02.27) 14주차 : 제네릭][link_whiteship_youtube_study_14]  
 [(2021.03.06) 15주차 : 람다식][link_whiteship_youtube_study_15]  
   
