@@ -80,7 +80,6 @@ author: "nimkoes"
 [(2021.01.23) 10주차 : 멀티쓰레드 프로그래밍][link_whiteship_youtube_study_10]  
 [(2021.01.30) 11주차 : Enum][link_whiteship_youtube_study_11]  
 [(2021.02.06) 12주차 : 애노테이션][link_whiteship_youtube_study_12]  
-[(2021.02.20) 13주차 : I/O][link_whiteship_youtube_study_13]  
 [(2021.02.27) 14주차 : 제네릭][link_whiteship_youtube_study_14]  
 [(2021.03.06) 15주차 : 람다식][link_whiteship_youtube_study_15]  
   
@@ -228,21 +227,20 @@ IT 전반적인 뉴스는 아니었고 자바라는 특정 언어에 대한 소�
 [link_tistory]:https://xxxelppa.tistory.com/
 [link_study]:https://github.com/whiteship/live-study
 
-[link_week_01]:https://blog.naver.com/hsm622/222138523668
-[link_week_02]:https://blog.naver.com/hsm622/222144931396
-[link_week_03]:https://blog.naver.com/hsm622/222150928707
-[link_week_04]:https://blog.naver.com/hsm622/222159930944
-[link_week_05]:https://blog.naver.com/hsm622/222175480708
-[link_week_06]:https://blog.naver.com/hsm622/222182960932
-[link_week_07]:https://blog.naver.com/hsm622/222192979075
-[link_week_08]:https://blog.naver.com/hsm622/222201314752
-[link_week_09]:https://blog.naver.com/hsm622/222208809905
-[link_week_10]:https://blog.naver.com/hsm622/222212364489
-[link_week_11]:https://blog.naver.com/hsm622/222218251749
-[link_week_12]:https://blog.naver.com/hsm622/222226824623
-[link_week_13]:https://blog.naver.com/hsm622/222248438826
-[link_week_14]:https://blog.naver.com/hsm622/222251602836
-[link_week_15]:https://blog.naver.com/hsm622/222260183401
+[link_week_01]:https://xxxelppa.tistory.com/194?category=858435
+[link_week_02]:https://xxxelppa.tistory.com/195?category=858435
+[link_week_03]:https://xxxelppa.tistory.com/196?category=858435
+[link_week_04]:https://xxxelppa.tistory.com/197?category=858435
+[link_week_05]:https://xxxelppa.tistory.com/198?category=858435
+[link_week_06]:https://xxxelppa.tistory.com/199?category=858435
+[link_week_07]:https://xxxelppa.tistory.com/200?category=858435
+[link_week_08]:https://xxxelppa.tistory.com/201?category=858435
+[link_week_09]:https://xxxelppa.tistory.com/202?category=858435
+[link_week_10]:https://xxxelppa.tistory.com/203?category=858435
+[link_week_11]:https://xxxelppa.tistory.com/204?category=858435
+[link_week_12]:https://xxxelppa.tistory.com/205?category=858435
+[link_week_14]:https://xxxelppa.tistory.com/206?category=858435
+[link_week_15]:https://xxxelppa.tistory.com/207?category=858435
 
 [link_whiteship_youtube_study_info_01]:https://www.youtube.com/watch?v=peEXNN-oob4&list=PLfI752FpVCS96fSsQe2E3HzYTgdmbz6LU&index=2
 [link_whiteship_youtube_study_info_02]:https://www.youtube.com/watch?v=rPYhY5kFD5k&list=PLfI752FpVCS96fSsQe2E3HzYTgdmbz6LU&index=5
