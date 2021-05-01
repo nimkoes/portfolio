@@ -121,8 +121,8 @@ categories: ["algorithm"]
 [link_level_1_002]:https://xxxelppa.tistory.com/139
 [link_level_1_003]:https://xxxelppa.tistory.com/138
 [link_level_1_004]:https://xxxelppa.tistory.com/140
-[link_level_1_005]:#
-[link_level_1_006]:#
+[link_level_1_005]:https://xxxelppa.tistory.com/141
+[link_level_1_006]:https://xxxelppa.tistory.com/142
 [link_level_1_007]:#
 [link_level_1_008]:#
 [link_level_1_009]:#
