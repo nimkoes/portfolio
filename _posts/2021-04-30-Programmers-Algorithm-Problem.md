@@ -12,20 +12,18 @@ categories: ["algorithm"]
 ## 프로그래머스 문제 풀이 코드
 ---
 **블로그에 풀이를 게시한 문제는 링크로 연결되어 있습니다.**  
+**각 문제에 대한 '입출력 예' 에 대한 테스트는 [깃헙 저장소][link_github]에 업로드 되어 있습니다.**  
+  
+---  
   
 - **레벨 단위**로 패키지 생성
 - 이 프로젝트 내 클래스 이름은 **언더스코어 '_' 로 시작**하는 것으로 통일
 - 대부분의 **설명은 코드 내 주석**으로 작성 했으며, **필요에 따라** 일부 별도의 설명을 추가
-- **클래스명은 구글 번역기 사용**<sub>너무 이상한 이름은 확인해서 고칠 예정</sub>
-  
-  
-  
 - [**주석 이외의 추가 설명은 블로그**][link_tistory]에 정리
-- '**문제이름**'을 클릭하면 블로그 게시물로 이동
-- '**클래스이름**'을 클릭하면 깃헙 저장소로 이동
-- test.{FQCN} 위치에 '**입출력 예**' 에 해당하는 테스트 코드 작성
-
-
+- '**문제이름**'을 클릭하면 블로그 게시물로 이동  
+  
+  
+  
 ### 라이브러리
 ---
   - org.junit.jupiter:junit-jupiter:5.7.1
@@ -33,11 +31,14 @@ categories: ["algorithm"]
   - org.projectlombok:lombok:1.18.16
   
 ### 라이브러리 추가하는 방법<sub>intelliJ 기준</sub>
----  
+---
+  
 ![intellij_add_library_001](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/algorithm/intellij_add_library_001.png?raw=true "intellij_add_library_001"){: width="320px"}  
   - File > Project Structure 클릭  
+
 ![intellij_add_library_002](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/algorithm/intellij_add_library_002.png?raw=true "intellij_add_library_002"){: width="410px"}
   - Libraries 메뉴에서 '+' 버튼 클릭하여 나오는 드롭다운 메뉴의 From Maven 클릭    
+
 ![intellij_add_library_003](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/algorithm/intellij_add_library_003.png?raw=true "intellij_add_library_003"){: width="570px"}
   - 위에 명시한 버전을 포함한 라이브러리 정보 넣고 Download to 에 원하는 위치 설정하고 OK 버튼 클릭
   
@@ -47,8 +48,10 @@ categories: ["algorithm"]
 ---
 ![intellij_lombok_setting_001](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/algorithm/intellij_lombok_setting_001.png?raw=true "intellij_lombok_setting_001"){: width="320px"}  
   - File > Settings 클릭  
+
 ![intellij_lombok_setting_002](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/algorithm/intellij_lombok_setting_002.png?raw=true "intellij_lombok_setting_002"){: width="710px"}  
   - Plugins 메뉴에서 lombok 을 검색해서 플러그인 설치  
+
 ![intellij_lombok_setting_003](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/algorithm/intellij_lombok_setting_003.png?raw=true "intellij_lombok_setting_003"){: width="710px"}  
   - annotation processor 검색한 다음 오른쪽의 Enable annotation processing 체크박스 활성화 되도록 체크  
   
@@ -116,6 +119,7 @@ categories: ["algorithm"]
 
 
 [link_tistory]:http://xxxelppa.tistory.com
+[link_github]:https://github.com/nimkoes/programmers_code
 
 [link_level_1_001]:https://xxxelppa.tistory.com/137
 [link_level_1_002]:https://xxxelppa.tistory.com/139
