@@ -4,6 +4,7 @@ title:  "Java Online Live Study Season 1"
 subtitle: "with Whiteship"
 date:   2021-03-01 01:21:17 +0530
 categories: ["study"]
+author: "nimkoes"
 ---
 
 ## **개요**

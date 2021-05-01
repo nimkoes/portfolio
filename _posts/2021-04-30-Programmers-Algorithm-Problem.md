@@ -4,6 +4,7 @@ title:  "Programmers Algorithm Problem"
 subtitle: "my solution"
 date:   2021-04-30 01:21:17 +0530
 categories: ["algorithm"]
+author: "nimkoes"
 ---
 
 
