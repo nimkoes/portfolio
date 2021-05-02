@@ -149,7 +149,7 @@ author: "nimkoes"
 - 033 : [**배달**<sub>Summer/Winter Coding(~2018)</sub>][link_level_2_033]
 - 034 : [**영어 끝말잇기**<sub>Summer/Winter Coding(~2018)</sub>][link_level_2_034]
 - 035 : [**괄호 회전하기**<sub>월간 코드 챌린지 시즌2</sub>][link_level_2_035]
-- 036 : [**행렬 테두리 회전하기**<sub>2021 Dev-Matching: 웹 백엔드 개발자(상반기)</sub>][link_level_2 036]
+- 036 : [**행렬 테두리 회전하기**<sub>2021 Dev-Matching: 웹 백엔드 개발자(상반기)</sub>][link_level_2_036]
 - 037 : [**방문 길이**<sub>Summer/Winter Coding(~2018)</sub>][link_level_2_037]
 - 038 : [**삼각 달팽이**<sub>월간 코드 챌린지 시즌1</sub>][link_level_2_038]
 - 039 : [**멀쩡한 사각형**<sub>Summer/Winter Coding(2019)</sub>][link_level_2_039]
