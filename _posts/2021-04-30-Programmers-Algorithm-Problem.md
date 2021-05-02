@@ -113,6 +113,65 @@ author: "nimkoes"
 
 ### level 2
 ---
+
+- 001 : [**주식가격**<sub>스택/큐</sub>][link_level_2_001]
+- 002 : [**다리를 지나는 트럭**<sub>스택/큐</sub>][link_level_2_002]
+- 003 : [**프린터**<sub>스택/큐</sub>][link_level_2_003]
+- 004 : [**124 나라의 숫자**<sub>연습문제</sub>][link_level_2_004]
+- 005 : [**기능개발**<sub>스택/큐</sub>][link_level_2_005]
+- 006 : [**카카오프렌즈 컬러링북**<sub>2017 카카오코드 예선</sub>][link_level_2_006]
+- 007 : [**문자열 압축**<sub>2020 KAKAO BLIND RECRUITMENT</sub>][link_level_2_007]
+- 008 : [**소수 찾기**<sub>완전탐색</sub>][link_level_2_008]
+- 009 : [**메뉴 리뉴얼**<sub>2021 KAKAO BLIND RECRUITMENT</sub>][link_level_2_009]
+- 010 : [**가장 큰 수**<sub>정렬</sub>][link_level_2_010]
+- 011 : [**괄호 변환**<sub>2020 KAKAO BLIND RECRUITMENT</sub>][link_level_2_011]
+- 012 : [**조이스틱**<sub>탐욕법(Greedy)</sub>][link_level_2_012]
+- 013 : [**큰 수 만들기**<sub>탐욕법(Greedy)</sub>][link_level_2_013]
+- 014 : [**더 맵게**<sub>힙(Heap)</sub>][link_level_2_014]
+- 015 : [**H-Index**<sub>정렬</sub>][link_level_2_015]
+- 016 : [**전화번호 목록**<sub>해시</sub>][link_level_2_016]
+- 017 : [**위장**<sub>해시</sub>][link_level_2_017]
+- 018 : [**구명보트**<sub>탐욕법(Greedy)</sub>][link_level_2_018]
+- 019 : [**타겟 넘버**<sub>깊이/너비 우선 탐색(DFS/BFS)</sub>][link_level_2_019]
+- 020 : [**카펫**<sub>완전탐색</sub>][link_level_2_020]
+- 021 : [**순위 검색**<sub>2021 KAKAO BLIND RECRUITMENT</sub>][link_level_2_021]
+- 022 : [**가장 큰 정사각형 찾기**<sub>연습문제</sub>][link_level_2_022]
+- 023 : [**단체사진 찍기**<sub>2017 카카오코드 본선</sub>][link_level_2_023]
+- 024 : [**튜플**<sub>2019 카카오 개발자 겨울 인턴십</sub>][link_level_2_024]
+- 025 : [**올바른 괄호**<sub>연습문제</sub>][link_level_2_025]
+- 026 : [**다음 큰 숫자**<sub>연습문제</sub>][link_level_2_026]
+- 027 : [**땅따먹기**<sub>연습문제</sub>][link_level_2_027]
+- 028 : [**게임 맵 최단거리**<sub>찾아라 프로그래밍 마에스터</sub>][link_level_2_028]
+- 029 : [**이진 변환 반복하기**<sub>월간 코드 챌린지 시즌1</sub>][link_level_2_029]
+- 030 : [**스킬트리**<sub>Summer/Winter Coding(~2018)</sub>][link_level_2_030]
+- 031 : [**쿼드압축 후 개수 세기**<sub>월간 코드 챌린지 시즌1</sub>][link_level_2_031]
+- 032 : [**점프와 순간 이동**<sub>Summer/Winter Coding(~2018)</sub>][link_level_2_032]
+- 033 : [**배달**<sub>Summer/Winter Coding(~2018)</sub>][link_level_2_033]
+- 034 : [**영어 끝말잇기**<sub>Summer/Winter Coding(~2018)</sub>][link_level_2_034]
+- 035 : [**괄호 회전하기**<sub>월간 코드 챌린지 시즌2</sub>][link_level_2_035]
+- 036 : [**행렬 테두리 회전하기**<sub>2021 Dev-Matching: 웹 백엔드 개발자(상반기)</sub>][link_level_2 036]
+- 037 : [**방문 길이**<sub>Summer/Winter Coding(~2018)</sub>][link_level_2_037]
+- 038 : [**삼각 달팽이**<sub>월간 코드 챌린지 시즌1</sub>][link_level_2_038]
+- 039 : [**멀쩡한 사각형**<sub>Summer/Winter Coding(2019)</sub>][link_level_2_039]
+- 040 : [**숫자의 표현**<sub>연습문제</sub>][link_level_2_040]
+- 041 : [**최댓값과 최솟값**<sub>연습문제</sub>][link_level_2_041]
+- 042 : [**최솟값 만들기**<sub>연습문제</sub>][link_level_2_042]
+- 043 : [**피보나치 수**<sub>연습문제</sub>][link_level_2_043]
+- 044 : [**수식 최대화**<sub>2020 카카오 인턴십</sub>][link_level_2_044]
+- 045 : [**행렬의 곱셈**<sub>연습문제</sub>][link_level_2_045]
+- 046 : [**JadenCase 문자열 만들기**<sub>연습문제</sub>][link_level_2_046]
+- 047 : [**N개의 최소공배수**<sub>연습문제</sub>][link_level_2_047]
+- 048 : [**짝지어 제거하기**<sub>2017 팁스타운</sub>][link_level_2_048]
+- 049 : [**예상 대진표**<sub>2017 팁스타운</sub>][link_level_2_049]
+- 050 : [**(1차) 뉴스 클러스터링**<sub>2018 KAKAO BLIND RECRUITMENT</sub>][link_level_2_050]
+- 051 : [**(1차) 프렌즈4블록**<sub>2018 KAKAO BLIND RECRUITMENT</sub>][link_level_2_051]
+- 052 : [**(1차) 캐시**<sub>2018 KAKAO BLIND RECRUITMENT</sub>][link_level_2_052]
+- 053 : [**오픈채팅방**<sub>2019 KAKAO BLIND RECRUITMENT</sub>][link_level_2_053]
+- 054 : [**후보키**<sub>2019 KAKAO BLIND RECRUITMENT</sub>][link_level_2_054]
+- 055 : [**(3차) 방금그곡**<sub>2018 KAKAO BLIND RECRUITMENT</sub>][link_level_2_055]
+- 056 : [**(3차) 압축**<sub>2018 KAKAO BLIND RECRUITMENT</sub>][link_level_2_056]
+- 057 : [**(3차) 파일명 정렬**<sub>2018 KAKAO BLIND RECRUITMENT</sub>][link_level_2_057]
+- 058 : [**(3차) n진수 게임**<sub>2018 KAKAO BLIND RECRUITMENT</sub>][link_level_2_058]
   
 ### level 3
 ---
@@ -128,7 +187,7 @@ author: "nimkoes"
 [link_level_1_004]:https://xxxelppa.tistory.com/140
 [link_level_1_005]:https://xxxelppa.tistory.com/141
 [link_level_1_006]:https://xxxelppa.tistory.com/142
-[link_level_1_007]:#
+[link_level_1_007]:https://xxxelppa.tistory.com/143
 [link_level_1_008]:#
 [link_level_1_009]:#
 [link_level_1_010]:#
@@ -171,3 +230,62 @@ author: "nimkoes"
 [link_level_1_047]:#
 [link_level_1_048]:#
   
+  
+[link_level_2_001]:#
+[link_level_2_002]:#
+[link_level_2_003]:#
+[link_level_2_004]:#
+[link_level_2_005]:#
+[link_level_2_006]:#
+[link_level_2_007]:#
+[link_level_2_008]:#
+[link_level_2_009]:#
+[link_level_2_010]:#
+[link_level_2_011]:#
+[link_level_2_012]:#
+[link_level_2_013]:#
+[link_level_2_014]:#
+[link_level_2_015]:#
+[link_level_2_016]:#
+[link_level_2_017]:#
+[link_level_2_018]:#
+[link_level_2_019]:#
+[link_level_2_020]:#
+[link_level_2_021]:#
+[link_level_2_022]:#
+[link_level_2_023]:#
+[link_level_2_024]:#
+[link_level_2_025]:#
+[link_level_2_026]:#
+[link_level_2_027]:#
+[link_level_2_028]:#
+[link_level_2_029]:#
+[link_level_2_030]:#
+[link_level_2_031]:#
+[link_level_2_032]:#
+[link_level_2_033]:#
+[link_level_2_034]:#
+[link_level_2_035]:#
+[link_level_2_036]:#
+[link_level_2_037]:#
+[link_level_2_038]:#
+[link_level_2_039]:#
+[link_level_2_040]:#
+[link_level_2_041]:#
+[link_level_2_042]:#
+[link_level_2_043]:#
+[link_level_2_044]:#
+[link_level_2_045]:#
+[link_level_2_046]:#
+[link_level_2_047]:#
+[link_level_2_048]:#
+[link_level_2_049]:#
+[link_level_2_050]:#
+[link_level_2_051]:#
+[link_level_2_052]:#
+[link_level_2_053]:#
+[link_level_2_054]:#
+[link_level_2_055]:#
+[link_level_2_056]:#
+[link_level_2_057]:#
+[link_level_2_058]:#
