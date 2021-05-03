@@ -10,7 +10,7 @@ author: "nimkoes"
 
 
   
-## 프로그래머스 월간 코드 챌린지
+## **프로그래머스 월간 코드 챌린지**
 ### 9월부터 11월까지 총 5문제 풀기 미션에 도전하세요!
 ---
   
@@ -21,7 +21,7 @@ author: "nimkoes"
 　  
   
   
-### 어떤 경로로 알게 되었는지 몰라도 일단 해보기로<sub>~~무식하면 용감하다고..~~</sub>
+### **어떤 경로로 알게 되었는지 몰라도 일단 해보기로**<sub>~~무식하면 용감하다고..~~</sub>
 ---
   
 ![Programmers_Monthly_Code_Challenge_S01_001](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/algorithm/Programmers_Monthly_Code_Challenge_S01_001.png?raw=true "Programmers_Monthly_Code_Challenge_S01_001")  
@@ -72,7 +72,7 @@ author: "nimkoes"
 　  
 　  
   
-### 월간 코드 챌린지 시즌1 프로그래머스 제공 문제 해설
+### **월간 코드 챌린지 시즌1 프로그래머스 제공 문제 해설**
 ---
   [9월 문제 해설 링크][link_09_solution]  
   [10월 문제 해설 링크][link_10_solution]  
