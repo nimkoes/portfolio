@@ -18,9 +18,10 @@ spring.io 사이트의 Documentation 을 보고 번역과 실습을 하며 정�
 　  
 [**RESTful 웹 서비스 빌드하기 <sub>Building a RESTful Web Service</sub>**][link_gs_001]
 　  
+　  
   
-[**(Spring Framework Code) 1. The IoC Container > 1.1 Spring IoC 컨테이너와 빈 소개 : Introduction to the Spring IoC Container and Beans**][link_core_001_001]  
-[**(Spring Framework Code) 1. The IoC Container > 1.2 컨테이너 개요 : Container Overview**][link_core_001_002]  
+ - [**(Spring Framework Code) 1. The IoC Container > 1.1 Spring IoC 컨테이너와 빈 소개 : Introduction to the Spring IoC Container and Beans**][link_core_001_001]  
+ - [**(Spring Framework Code) 1. The IoC Container > 1.2 컨테이너 개요 : Container Overview**][link_core_001_002]  
   
   
 [link_gs_001]:https://xxxelppa.tistory.com/263
