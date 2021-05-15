@@ -28,5 +28,5 @@ spring.io 사이트의 Documentation 을 보고 번역과 실습을 하며 정�
 [link_gs_001]:https://xxxelppa.tistory.com/263
 [link_core_001_001]:https://xxxelppa.tistory.com/265
 [link_core_001_002]:https://xxxelppa.tistory.com/267
-[link_core_001_002]:https://xxxelppa.tistory.com/269
+[link_core_001_003]:https://xxxelppa.tistory.com/269
 
