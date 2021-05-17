@@ -9,11 +9,11 @@ author: "nimkoes"
   
 　  
 　  
+  ![study_end](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/study/go_study_golang.jpg?raw=true "study_end"){: width="210px"}  
 　  
 ## **Nomad Coders, Go 기초 스터디 정리**
 #### Nomad Coders 사이트에서 제공하는 "쉽고 빠른 Go 시작하기" 강의를 수강하고 정리한 글 입니다.  
   
-  ![study_end](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/study/go_study_golang.jpg?raw=true "study_end"){: width="510px"}
   
 - 이 강의는 무료입니다!
 - 한글자막 전체 제공되고 있습니다.
