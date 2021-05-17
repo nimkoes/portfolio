@@ -1,0 +1,68 @@
+---
+layout: page
+title:  "Nomad Coders, Go language study"
+subtitle: "Write in Go ~ , Go 언어 기초 스터디 정리"
+date:   2021-05-15 01:21:17 +0530
+categories: ["study"]
+author: "nimkoes"
+---
+  
+　  
+　  
+　  
+## **Nomad Coders, Go 기초 스터디 정리**
+#### Nomad Coders 사이트에서 제공하는 "쉽고 빠른 Go 시작하기" 강의를 수강하고 정리한 글 입니다.  
+  
+  ![study_end](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/study/go_study_golang.jpg?raw=true "study_end"){: width="510px"}
+  
+- 이 강의는 무료입니다!
+- 한글자막 전체 제공되고 있습니다.
+- 따끈따끈하게 추가된 2021년 신상 Go 강의도 살펴보세요!  [Go로 암호화폐 만들기][link_another_lecture]
+- 수업 관련 질문 및 토론은 수강생 전용 슬랙채널을 적극 이용해주세요 [슬랙 이용방법][link_how_to_use_slack]
+- 저희가 계속 양질의 좋은 강의 제작을 할 수 있도록. 지인 추천. [유튜브 구독][link_nomad_youtube] 등으로 응원해주세요! 고맙습니다.
+- LAST UPDATED (2020.03)
+
+  
+---
+　  
+　  
+[**쉽고 빠른 Go 시작하기<sub>링크를 누르면 강의 사이트로 이동합니다.</sub>**][link_intro]
+　  
+　  
+  
+#### THEORY
+- [Go 의 상수와 변수][link_blog_003]  
+- [Go 의 함수 part 1 (기본 사용법)][link_blog_004]  
+- [Go 의 함수 part 2 (naked return, defer)][link_blog_005]  
+- [Go 의 for, range, ...args][link_blog_006]  
+- [Go 의 if 사용 방법][link_blog_007]  
+- [Go 의 switch 사용 방법][link_blog_008]  
+- [Go 의 포인터][link_blog_009]  
+- [Go 의 Array 와 Slice 선언과 기본 사용법][link_blog_010]  
+- [Go 의 Map 기본 사용법][link_blog_011]  
+- [Go 의 Struct 기본 사용법][link_blog_012]  
+  
+  
+  
+  
+  
+[link_another_lecture]:https://nomadcoders.co/nomadcoin
+[link_how_to_use_slack]:https://nomadcoders.co/faq/slack
+[link_nomad_youtube]:https://www.youtube.com/channel/UCUpJs89fSBXNolQGOYKn0YQ?
+  
+[link_intro]:https://nomadcoders.co/go-for-beginners/lectures/1712
+  
+  
+[link_blog_001]:https://xxxelppa.tistory.com/270
+[link_blog_002]:https://xxxelppa.tistory.com/271
+[link_blog_003]:https://xxxelppa.tistory.com/272
+[link_blog_004]:https://xxxelppa.tistory.com/273
+[link_blog_005]:https://xxxelppa.tistory.com/274
+[link_blog_006]:https://xxxelppa.tistory.com/275
+[link_blog_007]:https://xxxelppa.tistory.com/276
+[link_blog_008]:https://xxxelppa.tistory.com/277
+[link_blog_009]:https://xxxelppa.tistory.com/278
+[link_blog_010]:https://xxxelppa.tistory.com/279
+[link_blog_011]:https://xxxelppa.tistory.com/280
+[link_blog_012]:https://xxxelppa.tistory.com/281
+
