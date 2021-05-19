@@ -45,6 +45,8 @@ author: "nimkoes"
 - [Go 의 Map 기본 사용법][link_blog_011]  
 - [Go 의 Struct 기본 사용법][link_blog_012]  
   
+#### **BANK & DICTIONARY PROJECTS**
+- [Go 'BANK & DICTIONARY PROJECTS' : Account + NewAccount][link_blog_013]  
   
   
   
@@ -68,4 +70,6 @@ author: "nimkoes"
 [link_blog_010]:https://xxxelppa.tistory.com/279
 [link_blog_011]:https://xxxelppa.tistory.com/280
 [link_blog_012]:https://xxxelppa.tistory.com/281
+
+[link_blog_013]:https://xxxelppa.tistory.com/282
 
