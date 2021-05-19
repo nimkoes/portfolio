@@ -46,7 +46,8 @@ author: "nimkoes"
 - [Go 의 Struct 기본 사용법][link_blog_012]  
   
 #### **BANK & DICTIONARY PROJECTS**
-- [Go 'BANK & DICTIONARY PROJECTS' : Account + NewAccount][link_blog_013]  
+- [Account + NewAccount][link_blog_013]  
+- [Methods part One][link_blog_014]  
   
   
   
@@ -72,4 +73,5 @@ author: "nimkoes"
 [link_blog_012]:https://xxxelppa.tistory.com/281
 
 [link_blog_013]:https://xxxelppa.tistory.com/282
+[link_blog_014]:https://xxxelppa.tistory.com/283
 
