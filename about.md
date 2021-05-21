@@ -19,6 +19,7 @@ subtitle: I work diligently to become lazy ☕
 
 ### WORK EXPERIENCE
 * **2021.01 - today**
+  * Adding '3DS 2.0' authentication process in payment system.
   * Device fingerprint technology research.
   * Payment history and deposit history inquiry api development.
   * 'Toss' payment module interlocking version upgrade.
