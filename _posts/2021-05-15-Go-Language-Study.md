@@ -52,6 +52,7 @@ author: "nimkoes"
 - [Finishing Up][link_blog_016]    
 - [Dictionary part One][link_blog_017]    
 - [Add Method (in map)][link_blog_018]    
+- [Update Delete (in map)][link_blog_019]    
   
   
   
@@ -82,4 +83,5 @@ author: "nimkoes"
 [link_blog_016]:https://xxxelppa.tistory.com/285
 [link_blog_017]:https://xxxelppa.tistory.com/286
 [link_blog_018]:https://xxxelppa.tistory.com/287
+[link_blog_019]:https://xxxelppa.tistory.com/288
 
