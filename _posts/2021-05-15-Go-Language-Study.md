@@ -27,13 +27,13 @@ author: "nimkoes"
 　  
 　  
 [**쉽고 빠른 Go 시작하기<sub>링크를 누르면 강의 사이트로 이동합니다.</sub>**][link_intro]
+  - 실습에서 사용한 main.go 를 제외한 패키지는 Go 가 설치된 기본 경로의 src 폴더 하위로 이동해야 정상 작동 합니다.  
 　  
 　  
   
 #### **THEORY**
 - [Go 개발 환경 설정과 Hello World (using 'VS Code')][link_blog_001]  
 - [Go 의 package 와 import][link_blog_002]  
-  - 실습에서 사용한 main.go 를 제외한 'something' 패키지는 Go 가 설치된 기본 경로의 src 하위로 이동해야 정상 작동 한다.  
 - [Go 의 상수와 변수][link_blog_003]  
 - [Go 의 함수 part 1 (기본 사용법)][link_blog_004]  
 - [Go 의 함수 part 2 (naked return, defer)][link_blog_005]  
@@ -49,6 +49,7 @@ author: "nimkoes"
 - [Account + NewAccount][link_blog_013]  
 - [Methods part One][link_blog_014]
 - [Methods part Two][link_blog_015]    
+- [Finishing Up][link_blog_016]    
   
   
   
@@ -76,4 +77,4 @@ author: "nimkoes"
 [link_blog_013]:https://xxxelppa.tistory.com/282
 [link_blog_014]:https://xxxelppa.tistory.com/283
 [link_blog_015]:https://xxxelppa.tistory.com/284
-
+[link_blog_016]:https://xxxelppa.tistory.com/285
