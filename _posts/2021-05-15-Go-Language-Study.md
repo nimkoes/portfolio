@@ -48,11 +48,14 @@ author: "nimkoes"
 #### **BANK & DICTIONARY PROJECTS**
 - [Account + NewAccount][link_blog_013]  
 - [Methods part One][link_blog_014]
-- [Methods part Two][link_blog_015]    
-- [Finishing Up][link_blog_016]    
-- [Dictionary part One][link_blog_017]    
-- [Add Method (in map)][link_blog_018]    
-- [Update Delete (in map)][link_blog_019]    
+- [Methods part Two][link_blog_015]  
+- [Finishing Up][link_blog_016]  
+- [Dictionary part One][link_blog_017]  
+- [Add Method (in map)][link_blog_018]  
+- [Update Delete (in map)][link_blog_019]  
+  
+#### **URL CHECKER & GO ROUTINES**
+- [Go 'URL CHECKER & GO ROUTINES' : hitURL, HTTP GET REQUEST][link_blog_020]  
   
   
   
@@ -84,4 +87,6 @@ author: "nimkoes"
 [link_blog_017]:https://xxxelppa.tistory.com/286
 [link_blog_018]:https://xxxelppa.tistory.com/287
 [link_blog_019]:https://xxxelppa.tistory.com/288
+
+[link_blog_020]:https://xxxelppa.tistory.com/289
 
