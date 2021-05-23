@@ -61,6 +61,7 @@ author: "nimkoes"
 - [Go 'URL CHECKER & GO ROUTINES' : Channels][link_blog_023]  
 - [Go 'URL CHECKER & GO ROUTINES' : Channels Recap, channel response receive using loop (blocking)][link_blog_024]  
 - [Go 'URL CHECKER & GO ROUTINES' : Channels One more Recap (요약 정리)][link_blog_025]  
+- [Go 'URL CHECKER & GO ROUTINES' : URL Checker + Go Routines][link_blog_026]  
   
   
   
@@ -99,4 +100,5 @@ author: "nimkoes"
 [link_blog_023]:https://xxxelppa.tistory.com/292
 [link_blog_024]:https://xxxelppa.tistory.com/293
 [link_blog_025]:https://xxxelppa.tistory.com/294
+[link_blog_026]:https://xxxelppa.tistory.com/295
 
