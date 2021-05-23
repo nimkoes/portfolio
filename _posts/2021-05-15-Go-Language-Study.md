@@ -55,13 +55,13 @@ author: "nimkoes"
 - [Update Delete (in map)][link_blog_019]  
   
 #### **URL CHECKER & GO ROUTINES**
-- [Go 'URL CHECKER & GO ROUTINES' : hitURL, HTTP GET REQUEST][link_blog_020]  
-- [Go 'URL CHECKER & GO ROUTINES' : Slow URLChecker, empty map 선언][link_blog_021]  
-- [Go 'URL CHECKER & GO ROUTINES' : Goroutines][link_blog_022]  
-- [Go 'URL CHECKER & GO ROUTINES' : Channels][link_blog_023]  
-- [Go 'URL CHECKER & GO ROUTINES' : Channels Recap, channel response receive using loop (blocking)][link_blog_024]  
-- [Go 'URL CHECKER & GO ROUTINES' : Channels One more Recap (요약 정리)][link_blog_025]  
-- [Go 'URL CHECKER & GO ROUTINES' : URL Checker + Go Routines][link_blog_026]  
+- [hitURL, HTTP GET REQUEST][link_blog_020]  
+- [Slow URLChecker, empty map 선언][link_blog_021]  
+- [Goroutines][link_blog_022]  
+- [Channels][link_blog_023]  
+- [Channels Recap, channel response receive using loop (blocking)][link_blog_024]  
+- [Channels One more Recap (요약 정리)][link_blog_025]  
+- [URL Checker + Go Routines][link_blog_026]  
   
   
   
