@@ -64,6 +64,9 @@ author: "nimkoes"
 - [URL Checker + Go Routines][link_blog_026]  
 - [FAST URL Checker][link_blog_027]  
   
+#### **JOB SCRAPPER**
+- [getPages part one, goquery, go get 오류 해결][link_blog_028]  
+  
   
   
   
@@ -103,4 +106,6 @@ author: "nimkoes"
 [link_blog_025]:https://xxxelppa.tistory.com/294
 [link_blog_026]:https://xxxelppa.tistory.com/295
 [link_blog_027]:https://xxxelppa.tistory.com/296
+
+[link_blog_028]:https://xxxelppa.tistory.com/297
 
