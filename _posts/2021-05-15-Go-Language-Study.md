@@ -78,6 +78,7 @@ author: "nimkoes"
   
 #### **WEB SERVER WITH ECHO**
 - [Setup Part One, modify to callable scraper & download echo][link_blog_034]  
+- [Setup Part Two & File Download using ECHO][link_blog_035]  
   
   
   
@@ -128,4 +129,5 @@ author: "nimkoes"
 [link_blog_033]:https://xxxelppa.tistory.com/303
 
 [link_blog_034]:https://xxxelppa.tistory.com/304
+[link_blog_035]:https://xxxelppa.tistory.com/305
 
