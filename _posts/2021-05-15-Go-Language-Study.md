@@ -29,6 +29,7 @@ author: "nimkoes"
 [**쉽고 빠른 Go 시작하기<sub>링크를 누르면 강의 사이트로 이동합니다.</sub>**][link_intro]
   - 실습에서 사용한 main.go 를 제외한 패키지는 Go 가 설치된 기본 경로의 src 폴더 하위로 이동해야 정상 작동 합니다.  
 　  
+  
 [**'쉽고 빠른 Go 시작하기' github repository 링크<sub>링크를 누르면 github repository 로 이동합니다.</sub>**][link_my_go_repository]
   - 강의를 보면서 개인적으로 작성한 예제 코드를 정리한 github repository 입니다.  
 　  
