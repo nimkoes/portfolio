@@ -86,7 +86,7 @@ author: "nimkoes"
   강의를 수료 하자마자 수료증이 메일로 전달 되었다.  
   수료증이 따로 있을거라고 생각하지 못했는데 뭔가 더 해낸것 같고 뿌듯하다.  
   
-  ![study_certifications](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/study/study_certifications.jpg?raw=true "study_certifications"){: width="410px"}
+  ![study_certifications](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/study/go_study_certifications.jpg?raw=true "study_certifications"){: width="410px"}
   그냥 한 번 해보지 뭐, 가벼운 마음으로 시작했는데 지금은 이 언어를 활용해서 프로그램을 만들고 싶다는 욕심이 생겼다.  
   그만큼 이 언어가 매력적이라고 생각한다.  
   특히 goroutine 이라던가 echo 서버를 실습할 때 이거 이렇게 간결하고 쉬워도 되는건가 싶었고  
