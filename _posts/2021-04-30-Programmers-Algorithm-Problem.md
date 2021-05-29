@@ -173,7 +173,7 @@ author: "nimkoes"
 - 001 : [**네트워크**<sub>깊이/너비 우선 탐색(DFS/BFS)</sub>][link_level_3_001]
 - 002 : [**단어 변환**<sub>깊이/너비 우선 탐색(DFS/BFS)</sub>][link_level_3_002]
 - 003 : [**2 x n 타일링**<sub>연습문제</sub>][link_level_3_003]
-- 004 : [**여행경로**<sub>연습문제</sub>][link_level_3_004]
+- 004 : [**여행경로**<sub>깊이/너비 우선 탐색(DFS/BFS)</sub>][link_level_3_004]
   
 
 
