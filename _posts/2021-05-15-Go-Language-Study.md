@@ -64,7 +64,7 @@ author: "nimkoes"
 - [URL Checker + Go Routines][link_blog_026]  
 - [FAST URL Checker][link_blog_027]  
   
-#### **JOB SCRAPPER**
+#### **JOB SCRAPER**
 - [getPages part one, goquery, go get 오류 해결][link_blog_028]  
   
   
