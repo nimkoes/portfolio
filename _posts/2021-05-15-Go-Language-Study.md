@@ -9,7 +9,7 @@ author: "nimkoes"
   
 　  
 　  
-  ![study_end](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/study/go_study_golang.jpg?raw=true "study_end"){: width="210px"}  
+  ![study_start](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/study/go_study_golang.jpg?raw=true "study_start"){: width="210px"}  
 　  
 ## **Nomad Coders, Go 기초 스터디 정리**
 #### Nomad Coders 사이트에서 제공하는 "쉽고 빠른 Go 시작하기" 강의를 수강하고 정리한 글 입니다.  
@@ -80,6 +80,20 @@ author: "nimkoes"
 - [Setup Part One, modify to callable scraper & download echo][link_blog_034]  
 - [Setup Part Two & File Download using ECHO][link_blog_035]  
   
+  
+#### **END GOLANG STUDY**
+  ![study_end_notify](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/study/go_study_end_notify.jpg?raw=true "study_end_notify"){: width="410px"}  
+  강의를 수료 하자마자 수료증이 메일로 전달 되었다.  
+  수료증이 따로 있을거라고 생각하지 못했는데 뭔가 더 해낸것 같고 뿌듯하다.  
+  
+  ![study_certifications](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/study/study_certifications.jpg?raw=true "study_certifications"){: width="410px"}
+  그냥 한 번 해보지 뭐, 가벼운 마음으로 시작했는데 지금은 이 언어를 활용해서 프로그램을 만들고 싶다는 욕심이 생겼다.  
+  그만큼 이 언어가 매력적이라고 생각한다.  
+  특히 goroutine 이라던가 echo 서버를 실습할 때 이거 이렇게 간결하고 쉬워도 되는건가 싶었고  
+  복수개의 반환 값을 가질 수 있는 function 과 언더바 _ 를 사용해서 반환 값 일부를 무시할 수 있다는게 큰 충격이었다.  
+  
+  Go 강의를 하나 수료하긴 했지만 보다 깊이있게 이해하고 활용하기 위해서는 앞으로가 더 중요한 만큼  
+  자꾸 사용해보려는 습관을 가지면서 작지만 유용한 프로그램을들 만들어 볼 생각이다.
   
   
   
