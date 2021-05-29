@@ -76,6 +76,9 @@ author: "nimkoes"
 - [Writing Jobs, save extracted data to 'csv' file][link_blog_032]  
 - [Channels Time & More Channels Baby (goroutine)][link_blog_033]  
   
+#### **WEB SERVER WITH ECHO**
+- [Setup Part One, modify to callable scraper & download echo][link_blog_034]  
+  
   
   
   
@@ -123,4 +126,6 @@ author: "nimkoes"
 [link_blog_031]:https://xxxelppa.tistory.com/301
 [link_blog_032]:https://xxxelppa.tistory.com/302
 [link_blog_033]:https://xxxelppa.tistory.com/303
+
+[link_blog_034]:https://xxxelppa.tistory.com/304
 
