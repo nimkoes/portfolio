@@ -45,7 +45,16 @@ author: "nimkoes"
   
 #### **INTRODUCTION**
 - [nomad coder, PYTHON 'INTRODUCTION'][link_blog_001]  
+　  
   
+#### **THEORY**
+- [Data Types of Python][link_blog_002]  
+  
+  
+  
+　  
+　  
+　  
   
 [link_how_to_use_slack]:https://nomadcoders.co/faq/slack
 [link_nomad_youtube]:https://www.youtube.com/channel/UCUpJs89fSBXNolQGOYKn0YQ?
@@ -57,3 +66,4 @@ author: "nimkoes"
   
 [link_blog_001]:https://xxxelppa.tistory.com/306
 
+[link_blog_002]:https://xxxelppa.tistory.com/307
