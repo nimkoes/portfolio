@@ -52,6 +52,7 @@ author: "nimkoes"
 - [Lists in Python][link_blog_003]  
 - [Tuples and Dicts][link_blog_004]  
 - [Built in Functions][link_blog_005]  
+- [Creating a Your First Python Function][link_blog_006]  
   
   
   
@@ -73,3 +74,4 @@ author: "nimkoes"
 [link_blog_003]:https://xxxelppa.tistory.com/308
 [link_blog_004]:https://xxxelppa.tistory.com/309
 [link_blog_005]:https://xxxelppa.tistory.com/310
+[link_blog_006]:https://xxxelppa.tistory.com/311
