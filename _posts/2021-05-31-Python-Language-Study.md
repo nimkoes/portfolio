@@ -56,6 +56,7 @@ author: "nimkoes"
 - [Function Arguments][link_blog_007]  
 - [Returns][link_blog_008]  
 - [Keyworded Arguments][link_blog_009]  
+- [Code Challenge][link_blog_010]  
   
   
   
@@ -81,3 +82,4 @@ author: "nimkoes"
 [link_blog_007]:https://xxxelppa.tistory.com/312
 [link_blog_008]:https://xxxelppa.tistory.com/313
 [link_blog_009]:https://xxxelppa.tistory.com/314
+[link_blog_010]:https://xxxelppa.tistory.com/315
