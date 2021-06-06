@@ -55,6 +55,7 @@ author: "nimkoes"
 - [Creating a Your First Python Function][link_blog_006]  
 - [Function Arguments][link_blog_007]  
 - [Returns][link_blog_008]  
+- [Keyworded Arguments][link_blog_009]  
   
   
   
@@ -79,3 +80,4 @@ author: "nimkoes"
 [link_blog_006]:https://xxxelppa.tistory.com/311
 [link_blog_007]:https://xxxelppa.tistory.com/312
 [link_blog_008]:https://xxxelppa.tistory.com/313
+[link_blog_009]:https://xxxelppa.tistory.com/314
