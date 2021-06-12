@@ -9,7 +9,7 @@ author: "nimkoes"
   
 　  
 　  
-  ![study_end](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/study/go_study_golang.jpg?raw=true "study_end"){: width="210px"}  
+  ![study_start](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/study/go_study_golang.jpg?raw=true "study_start"){: width="210px"}  
 　  
 ## **Nomad Coders, Go 기초 스터디 정리**
 #### Nomad Coders 사이트에서 제공하는 "쉽고 빠른 Go 시작하기" 강의를 수강하고 정리한 글 입니다.  
@@ -26,8 +26,12 @@ author: "nimkoes"
 ---
 　  
 　  
-[**쉽고 빠른 Go 시작하기<sub>링크를 누르면 강의 사이트로 이동합니다.</sub>**][link_intro]
+[**쉽고 빠른 Go 시작하기** <sub>링크를 누르면 강의 사이트로 이동합니다.</sub>][link_intro]
   - 실습에서 사용한 main.go 를 제외한 패키지는 Go 가 설치된 기본 경로의 src 폴더 하위로 이동해야 정상 작동 합니다.  
+　  
+  
+[**쉽고 빠른 Go 시작하기 github repository** <sub>링크를 누르면 github repository 로 이동합니다.</sub>][link_my_go_repository]
+  - 강의를 보면서 개인적으로 작성한 예제 코드를 정리한 github repository 입니다.  
 　  
 　  
   
@@ -48,12 +52,48 @@ author: "nimkoes"
 #### **BANK & DICTIONARY PROJECTS**
 - [Account + NewAccount][link_blog_013]  
 - [Methods part One][link_blog_014]
-- [Methods part Two][link_blog_015]    
-- [Finishing Up][link_blog_016]    
-- [Dictionary part One][link_blog_017]    
-- [Add Method (in map)][link_blog_018]    
-- [Update Delete (in map)][link_blog_019]    
+- [Methods part Two][link_blog_015]  
+- [Finishing Up][link_blog_016]  
+- [Dictionary part One][link_blog_017]  
+- [Add Method (in map)][link_blog_018]  
+- [Update Delete (in map)][link_blog_019]  
   
+#### **URL CHECKER & GO ROUTINES**
+- [hitURL, HTTP GET REQUEST][link_blog_020]  
+- [Slow URLChecker, empty map 선언][link_blog_021]  
+- [Goroutines][link_blog_022]  
+- [Channels][link_blog_023]  
+- [Channels Recap, channel response receive using loop (blocking)][link_blog_024]  
+- [Channels One more Recap (요약 정리)][link_blog_025]  
+- [URL Checker + Go Routines][link_blog_026]  
+- [FAST URL Checker][link_blog_027]  
+  
+#### **JOB SCRAPER**
+- [getPages part one, goquery, go get 오류 해결][link_blog_028]  
+- [getPages part two][link_blog_029]  
+- [extractJob part one][link_blog_030]  
+- [extractJob part two][link_blog_031]  
+- [Writing Jobs, save extracted data to 'csv' file][link_blog_032]  
+- [Channels Time & More Channels Baby (goroutine)][link_blog_033]  
+  
+#### **WEB SERVER WITH ECHO**
+- [Setup Part One, modify to callable scraper & download echo][link_blog_034]  
+- [Setup Part Two & File Download using ECHO][link_blog_035]  
+  
+  
+#### **END GOLANG STUDY**
+  ![study_end_notify](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/study/go_study_end_notify.jpg?raw=true "study_end_notify"){: width="410px"}  
+  강의를 수료 하자마자 수료증이 메일로 전달 되었다.  
+  수료증이 따로 있을거라고 생각하지 못했는데 뭔가 더 해낸것 같고 뿌듯하다.  
+  
+  ![study_certifications](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/study/go_study_certifications.jpg?raw=true "study_certifications"){: width="410px"}
+  그냥 한 번 해보지 뭐, 가벼운 마음으로 시작했는데 지금은 이 언어를 활용해서 프로그램을 만들고 싶다는 욕심이 생겼다.  
+  그만큼 이 언어가 매력적이라고 생각한다.  
+  특히 goroutine 이라던가 echo 서버를 실습할 때 이거 이렇게 간결하고 쉬워도 되는건가 싶었고  
+  복수개의 반환 값을 가질 수 있는 function 과 언더바 _ 를 사용해서 반환 값 일부를 무시할 수 있다는게 큰 충격이었다.  
+  
+  Go 강의를 하나 수료하긴 했지만 보다 깊이있게 이해하고 활용하기 위해서는 앞으로가 더 중요한 만큼  
+  자꾸 사용해보려는 습관을 가지면서 작지만 유용한 프로그램들을 만들어 볼 생각이다.
   
   
   
@@ -62,6 +102,7 @@ author: "nimkoes"
 [link_nomad_youtube]:https://www.youtube.com/channel/UCUpJs89fSBXNolQGOYKn0YQ?
   
 [link_intro]:https://nomadcoders.co/go-for-beginners/lectures/1712
+[link_my_go_repository]:https://github.com/nimkoes/learngo
   
   
 [link_blog_001]:https://xxxelppa.tistory.com/270
@@ -84,4 +125,23 @@ author: "nimkoes"
 [link_blog_017]:https://xxxelppa.tistory.com/286
 [link_blog_018]:https://xxxelppa.tistory.com/287
 [link_blog_019]:https://xxxelppa.tistory.com/288
+
+[link_blog_020]:https://xxxelppa.tistory.com/289
+[link_blog_021]:https://xxxelppa.tistory.com/290
+[link_blog_022]:https://xxxelppa.tistory.com/291
+[link_blog_023]:https://xxxelppa.tistory.com/292
+[link_blog_024]:https://xxxelppa.tistory.com/293
+[link_blog_025]:https://xxxelppa.tistory.com/294
+[link_blog_026]:https://xxxelppa.tistory.com/295
+[link_blog_027]:https://xxxelppa.tistory.com/296
+
+[link_blog_028]:https://xxxelppa.tistory.com/297
+[link_blog_029]:https://xxxelppa.tistory.com/299
+[link_blog_030]:https://xxxelppa.tistory.com/300
+[link_blog_031]:https://xxxelppa.tistory.com/301
+[link_blog_032]:https://xxxelppa.tistory.com/302
+[link_blog_033]:https://xxxelppa.tistory.com/303
+
+[link_blog_034]:https://xxxelppa.tistory.com/304
+[link_blog_035]:https://xxxelppa.tistory.com/305
 

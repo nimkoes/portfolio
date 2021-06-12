@@ -9,7 +9,7 @@ subtitle: I work diligently to become lazy ☕
 
     
 ### SKILLS
-* java
+* java, Go
 * javascript, html, css, jQuery, JSP, jqGrid
 * Spring Framework
 * Spring Boot
@@ -81,6 +81,7 @@ subtitle: I work diligently to become lazy ☕
 
 
 ### EDUCATION
+* [nomad coder, quickly and easily start "go"](https://nomadcoders.co/go-for-beginners/lobby){:target="_blank"}
 * [whiteship java online live study](https://xxxelppa.tistory.com/133){:target="_blank"}
 * [HTTP web basics for all developers](https://www.inflearn.com/course/http-%EC%9B%B9-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC#description){:target="_blank"}
 * [Spring Boot and Utilize JPA 2 (API development and performance optimization)](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-API%EA%B0%9C%EB%B0%9C-%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94#description){:target="_blank"}
