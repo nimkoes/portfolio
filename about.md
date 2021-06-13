@@ -18,6 +18,7 @@ subtitle: I work diligently to become lazy ☕
 * MOS Excel 2007 Expert
 * MOS PowerPoint 2007
 　  
+　  
   
 ### SKILLS
 * java, Go
@@ -27,6 +28,7 @@ subtitle: I work diligently to become lazy ☕
 * SQL (Oracle, MySQL)
 * Scratch
 　  
+　  
   
 ### ACTIVITIES & AWARDS
 * Programmers Monthly Coding Challenge 2020.10 Top 4%
@@ -35,6 +37,7 @@ subtitle: I work diligently to become lazy ☕
 * College Student Start-up Item Competition (excellence award)
 * Student Portfolio Competition in College (silver award, bronze award)
 * Military Service (Korea Army, Republic of Korea)
+　  
 　  
   
 ### EDUCATION
@@ -49,6 +52,7 @@ subtitle: I work diligently to become lazy ☕
 * [<u>the Java, various ways to test applications</u>](https://www.inflearn.com/course/the-java-application-test#description){:target="_blank"}
 * [<u>Spring Web MVC</u>](https://www.inflearn.com/course/%EC%9B%B9-mvc#description){:target="_blank"}
 * [<u>Spring Framework Core Technologies</u>](https://www.inflearn.com/course/spring-framework_core#description){:target="_blank"}
+　  
 　  
   
 ### WORK EXPERIENCE
