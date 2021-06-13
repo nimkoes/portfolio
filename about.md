@@ -6,8 +6,9 @@ subtitle: I work diligently to become lazy ☕
 
 <!-- <span style="float: right; "><a href="{{ '/assets/resume.pdf' | prepend: site.baseurl }}"><strong>> Download as PDF</strong></a> </span> -->
 <br>
-
-    
+  
+  
+  
 ### CERTIFICATION & LICENSE
 * BSc. in Computer Engineering
 * COS pro Highest level (Coding Specialist Professional, Java)
@@ -17,7 +18,7 @@ subtitle: I work diligently to become lazy ☕
 * MOS Excel 2007 Expert
 * MOS PowerPoint 2007
 　  
-　  
+  
 ### SKILLS
 * java, Go
 * javascript, html, css, jQuery, JSP, jqGrid
@@ -26,7 +27,7 @@ subtitle: I work diligently to become lazy ☕
 * SQL (Oracle, MySQL)
 * Scratch
 　  
-　  
+  
 ### ACTIVITIES & AWARDS
 * Programmers Monthly Coding Challenge 2020.10 Top 4%
 * Programmers Monthly Coding Challenge 2020.09 Top 5%
@@ -35,7 +36,7 @@ subtitle: I work diligently to become lazy ☕
 * Student Portfolio Competition in College (silver award, bronze award)
 * Military Service (Korea Army, Republic of Korea)
 　  
-　  
+  
 ### EDUCATION
 * [<u>nomad coder, quickly and easily start "go"</u>](https://nomadcoders.co/go-for-beginners/lobby){:target="_blank"}
 * [<u>whiteship java online live study</u>](https://xxxelppa.tistory.com/133){:target="_blank"}
@@ -49,7 +50,7 @@ subtitle: I work diligently to become lazy ☕
 * [<u>Spring Web MVC</u>](https://www.inflearn.com/course/%EC%9B%B9-mvc#description){:target="_blank"}
 * [<u>Spring Framework Core Technologies</u>](https://www.inflearn.com/course/spring-framework_core#description){:target="_blank"}
 　  
-　  
+  
 ### WORK EXPERIENCE
 * **2021.01 - today**
   * Adding '3DS 2.0' authentication process in payment system.
