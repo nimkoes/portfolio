@@ -17,68 +17,68 @@ author: "nimkoes"
   
 - 이 강의는 무료입니다!
 - 한글자막 전체 제공되고 있습니다.
-- 따끈따끈하게 추가된 2021년 신상 Go 강의도 살펴보세요!  [Go로 암호화폐 만들기][link_another_lecture]
-- 수업 관련 질문 및 토론은 수강생 전용 슬랙채널을 적극 이용해주세요 [슬랙 이용방법][link_how_to_use_slack]
-- 저희가 계속 양질의 좋은 강의 제작을 할 수 있도록. 지인 추천. [유튜브 구독][link_nomad_youtube] 등으로 응원해주세요! 고맙습니다.
+- 따끈따끈하게 추가된 2021년 신상 Go 강의도 살펴보세요!  [<u>Go로 암호화폐 만들기</u>][link_another_lecture]
+- 수업 관련 질문 및 토론은 수강생 전용 슬랙채널을 적극 이용해주세요 [<u>슬랙 이용방법</u>][link_how_to_use_slack]
+- 저희가 계속 양질의 좋은 강의 제작을 할 수 있도록. 지인 추천. [<u>유튜브 구독</u>][link_nomad_youtube] 등으로 응원해주세요! 고맙습니다.
 - LAST UPDATED (2020.03)
 
   
 ---
 　  
 　  
-[**쉽고 빠른 Go 시작하기** <sub>링크를 누르면 강의 사이트로 이동합니다.</sub>][link_intro]
+[**<u>쉽고 빠른 Go 시작하기</u>** <sub>링크를 누르면 강의 사이트로 이동합니다.</sub>][link_intro]
   - 실습에서 사용한 main.go 를 제외한 패키지는 Go 가 설치된 기본 경로의 src 폴더 하위로 이동해야 정상 작동 합니다.  
 　  
   
-[**쉽고 빠른 Go 시작하기 github repository** <sub>링크를 누르면 github repository 로 이동합니다.</sub>][link_my_go_repository]
+[**<u>쉽고 빠른 Go 시작하기 github repository</u>** <sub>링크를 누르면 github repository 로 이동합니다.</sub>][link_my_go_repository]
   - 강의를 보면서 개인적으로 작성한 예제 코드를 정리한 github repository 입니다.  
 　  
 　  
   
 #### **THEORY**
-- [Go 개발 환경 설정과 Hello World (using 'VS Code')][link_blog_001]  
-- [Go 의 package 와 import][link_blog_002]  
-- [Go 의 상수와 변수][link_blog_003]  
-- [Go 의 함수 part 1 (기본 사용법)][link_blog_004]  
-- [Go 의 함수 part 2 (naked return, defer)][link_blog_005]  
-- [Go 의 for, range, ...args][link_blog_006]  
-- [Go 의 if 사용 방법][link_blog_007]  
-- [Go 의 switch 사용 방법][link_blog_008]  
-- [Go 의 포인터][link_blog_009]  
-- [Go 의 Array 와 Slice 선언과 기본 사용법][link_blog_010]  
-- [Go 의 Map 기본 사용법][link_blog_011]  
-- [Go 의 Struct 기본 사용법][link_blog_012]  
+- [<u>Go 개발 환경 설정과 Hello World (using 'VS Code')</u>][link_blog_001]  
+- [<u>Go 의 package 와 import</u>][link_blog_002]  
+- [<u>Go 의 상수와 변수</u>][link_blog_003]  
+- [<u>Go 의 함수 part 1 (기본 사용법)</u>][link_blog_004]  
+- [<u>Go 의 함수 part 2 (naked return, defer)</u>][link_blog_005]  
+- [<u>Go 의 for, range, ...args</u>][link_blog_006]  
+- [<u>Go 의 if 사용 방법</u>][link_blog_007]  
+- [<u>Go 의 switch 사용 방법</u>][link_blog_008]  
+- [<u>Go 의 포인터</u>][link_blog_009]  
+- [<u>Go 의 Array 와 Slice 선언과 기본 사용법</u>][link_blog_010]  
+- [<u>Go 의 Map 기본 사용법</u>][link_blog_011]  
+- [<u>Go 의 Struct 기본 사용법</u>][link_blog_012]  
   
 #### **BANK & DICTIONARY PROJECTS**
-- [Account + NewAccount][link_blog_013]  
-- [Methods part One][link_blog_014]
-- [Methods part Two][link_blog_015]  
-- [Finishing Up][link_blog_016]  
-- [Dictionary part One][link_blog_017]  
-- [Add Method (in map)][link_blog_018]  
-- [Update Delete (in map)][link_blog_019]  
+- [<u>Account + NewAccount</u>][link_blog_013]  
+- [<u>Methods part One</u>][link_blog_014]
+- [<u>Methods part Two</u>][link_blog_015]  
+- [<u>Finishing Up</u>][link_blog_016]  
+- [<u>Dictionary part One</u>][link_blog_017]  
+- [<u>Add Method (in map)</u>][link_blog_018]  
+- [<u>Update Delete (in map)</u>][link_blog_019]  
   
 #### **URL CHECKER & GO ROUTINES**
-- [hitURL, HTTP GET REQUEST][link_blog_020]  
-- [Slow URLChecker, empty map 선언][link_blog_021]  
-- [Goroutines][link_blog_022]  
-- [Channels][link_blog_023]  
-- [Channels Recap, channel response receive using loop (blocking)][link_blog_024]  
-- [Channels One more Recap (요약 정리)][link_blog_025]  
-- [URL Checker + Go Routines][link_blog_026]  
-- [FAST URL Checker][link_blog_027]  
+- [<u>hitURL, HTTP GET REQUEST</u>][link_blog_020]  
+- [<u>Slow URLChecker, empty map 선언</u>][link_blog_021]  
+- [<u>Goroutines</u>][link_blog_022]  
+- [<u>Channels</u>][link_blog_023]  
+- [<u>Channels Recap, channel response receive using loop (blocking)</u>][link_blog_024]  
+- [<u>Channels One more Recap (요약 정리)</u>][link_blog_025]  
+- [<u>URL Checker + Go Routines</u>][link_blog_026]  
+- [<u>FAST URL Checker</u>][link_blog_027]  
   
 #### **JOB SCRAPER**
-- [getPages part one, goquery, go get 오류 해결][link_blog_028]  
-- [getPages part two][link_blog_029]  
-- [extractJob part one][link_blog_030]  
-- [extractJob part two][link_blog_031]  
-- [Writing Jobs, save extracted data to 'csv' file][link_blog_032]  
-- [Channels Time & More Channels Baby (goroutine)][link_blog_033]  
+- [<u>getPages part one, goquery, go get 오류 해결</u>][link_blog_028]  
+- [<u>getPages part two</u>][link_blog_029]  
+- [<u>extractJob part one</u>][link_blog_030]  
+- [<u>extractJob part two</u>][link_blog_031]  
+- [<u>Writing Jobs, save extracted data to 'csv' file</u>][link_blog_032]  
+- [<u>Channels Time & More Channels Baby (goroutine)</u>][link_blog_033]  
   
 #### **WEB SERVER WITH ECHO**
-- [Setup Part One, modify to callable scraper & download echo][link_blog_034]  
-- [Setup Part Two & File Download using ECHO][link_blog_035]  
+- [<u>Setup Part One, modify to callable scraper & download echo</u>][link_blog_034]  
+- [<u>Setup Part Two & File Download using ECHO</u>][link_blog_035]  
   
   
 #### **END GOLANG STUDY**

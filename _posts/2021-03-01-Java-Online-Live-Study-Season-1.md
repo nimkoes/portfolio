@@ -12,7 +12,7 @@ author: "nimkoes"
 유튜브로 진행하는 라이브 스터디 운영 프로젝트입니다.  
 이슈 게시판에 과제를 올리고 댓글로 과제 풀이 링크를 제출하시면 검토해 드리고 라이브 방송으로 피드백을 드립니다.  
 자바 기초에 대해 다루었습니다.  
-[스터디 링크][link_study]
+[<u>스터디 링크</u>][link_study]
   
   
   
@@ -28,59 +28,59 @@ author: "nimkoes"
   
 ## **스터디 정리 링크**
 ---
-[1주차 JVM은 무엇이며 자바 코드는 어떻게 실행하는 것인가][link_week_01]  
-[2주차 자바 데이터 타입, 변수 그리고 배열][link_week_02]  
-[3주차 연산자][link_week_03]  
-[4주차 제어문][link_week_04]  
-[5주차 클래스][link_week_05]  
-[6주차 상속][link_week_06]  
-[7주차 패키지][link_week_07]  
-[8주자 인터페이스][link_week_08]  
-[9주차 예외 처리][link_week_09]  
-[10주차 멀티쓰레드 프로그래밍][link_week_10]  
-[11주차 Enum][link_week_11]  
-[12주차 애노테이션][link_week_12]  
-[14주차 제네릭][link_week_14]  
-[15주차 람다식][link_week_15]  
+[<u>1주차 JVM은 무엇이며 자바 코드는 어떻게 실행하는 것인가</u>][link_week_01]  
+[<u>2주차 자바 데이터 타입, 변수 그리고 배열</u>][link_week_02]  
+[<u>3주차 연산자</u>][link_week_03]  
+[<u>4주차 제어문</u>][link_week_04]  
+[<u>5주차 클래스</u>][link_week_05]  
+[<u>6주차 상속</u>][link_week_06]  
+[<u>7주차 패키지</u>][link_week_07]  
+[<u>8주자 인터페이스</u>][link_week_08]  
+[<u>9주차 예외 처리</u>][link_week_09]  
+[<u>10주차 멀티쓰레드 프로그래밍</u>][link_week_10]  
+[<u>11주차 Enum</u>][link_week_11]  
+[<u>12주차 애노테이션</u>][link_week_12]  
+[<u>14주차 제네릭</u>][link_week_14]  
+[<u>15주차 람다식</u>][link_week_15]  
   
   
   
   
 ## **스터디 관련 안내 영상 링크**
 ---
-[(2020.11.07) 스터디 할래? 온라인 자바 스터디 시작합니다.][link_whiteship_youtube_study_info_01]  
-[(2020.11.14) 스터디 할래? 80% 참석시 티셔츠를 선물로 드립니다.][link_whiteship_youtube_study_info_02]  
-[(2020.11.21) 스터디 (후원) 할래? 3주차 과제 마감 일시 및 슬랙 공지][link_whiteship_youtube_study_info_03]  
-[(2020.12.13) 우아한형제들과 네이버가 후원하는 스터디 할래?][link_whiteship_youtube_study_info_04]  
-[(2020.12.09) 스터디 (끝까지) 할래?][link_whiteship_youtube_study_info_05]  
-[(2020.12.21) 스터디 할래 참여하시는 분들께 젯브레인에서 인텔리J 상용 버전 라이센스를 제공합니다.][link_whiteship_youtube_study_info_06]  
-[(2020.12.25) 스터디 할래, 인텔리J 라이센스 받아가세요.][link_whiteship_youtube_study_info_07]  
-[(2021.01.07) 스터디 기념 티셔츠 시안을 공개합니다.][link_whiteship_youtube_study_info_08]  
-[(2021.01.12) 스터디 (지금이라도) 할래? 참여 방법과 지난 스터디 영상 다시 보는 방법에 대해 설명해 드리겠습니다.][link_whiteship_youtube_study_info_09]  
-[(2021.02.01) 벌써 12주차라니.. 스터디 후기를 남겨주세요.][link_whiteship_youtube_study_info_10]  
-[(2021.02.13) [2021년 설날 맞이 특집 방송] 어느 개발자의 라이브 코딩 (빨리 끝내고 게임하기)][link_whiteship_youtube_study_info_11]  
-[(2021.03.07) 15주간 421명과 자바 스터디를 성공적으로 마쳤습니다.][link_whiteship_youtube_study_info_12]  
+[<u>(2020.11.07) 스터디 할래? 온라인 자바 스터디 시작합니다.</u>][link_whiteship_youtube_study_info_01]  
+[<u>(2020.11.14) 스터디 할래? 80% 참석시 티셔츠를 선물로 드립니다.</u>][link_whiteship_youtube_study_info_02]  
+[<u>(2020.11.21) 스터디 (후원) 할래? 3주차 과제 마감 일시 및 슬랙 공지</u>][link_whiteship_youtube_study_info_03]  
+[<u>(2020.12.13) 우아한형제들과 네이버가 후원하는 스터디 할래?</u>][link_whiteship_youtube_study_info_04]  
+[<u>(2020.12.09) 스터디 (끝까지) 할래?</u>][link_whiteship_youtube_study_info_05]  
+[<u>(2020.12.21) 스터디 할래 참여하시는 분들께 젯브레인에서 인텔리J 상용 버전 라이센스를 제공합니다.</u>][link_whiteship_youtube_study_info_06]  
+[<u>(2020.12.25) 스터디 할래, 인텔리J 라이센스 받아가세요.</u>][link_whiteship_youtube_study_info_07]  
+[<u>(2021.01.07) 스터디 기념 티셔츠 시안을 공개합니다.</u>][link_whiteship_youtube_study_info_08]  
+[<u>(2021.01.12) 스터디 (지금이라도) 할래? 참여 방법과 지난 스터디 영상 다시 보는 방법에 대해 설명해 드리겠습니다.</u>][link_whiteship_youtube_study_info_09]  
+[<u>(2021.02.01) 벌써 12주차라니.. 스터디 후기를 남겨주세요.</u>][link_whiteship_youtube_study_info_10]  
+[<u>(2021.02.13) [2021년 설날 맞이 특집 방송] 어느 개발자의 라이브 코딩 (빨리 끝내고 게임하기)</u>][link_whiteship_youtube_study_info_11]  
+[<u>(2021.03.07) 15주간 421명과 자바 스터디를 성공적으로 마쳤습니다.</u>][link_whiteship_youtube_study_info_12]  
   
   
   
   
 ## **스터디 영상 링크 <sub>선원으로 가입하셔야 볼 수 있습니다.</sub>**
 ---
-[(2020.11.14) 1주차 : JVM은 무엇이며 자바 코드는 어떻게 실행하는 것인가][link_whiteship_youtube_study_01]  
-[(2020.11.21) 2주차 : 자바 데이터 타입, 변수 그리고 배열][link_whiteship_youtube_study_02]  
-[(2020.11.28) 3주차 : 연산자][link_whiteship_youtube_study_03]  
-[(2020.12.12) 4주차 : 제어문][link_whiteship_youtube_study_04]  
-[(2020.12.19) 5주차 : 클래스][link_whiteship_youtube_study_05]  
-[(2020.12.26) 6주차 : 상속][link_whiteship_youtube_study_06]  
-[(2021.01.02) 7주차 : 패키지][link_whiteship_youtube_study_07]  
-[(2021.01.09) 8주자 : 인터페이스][link_whiteship_youtube_study_08]  
-[(2021.01.16) 9주차 : 예외 처리][link_whiteship_youtube_study_09]  
-[(2021.01.23) 10주차 : 멀티쓰레드 프로그래밍][link_whiteship_youtube_study_10]  
-[(2021.01.30) 11주차 : Enum][link_whiteship_youtube_study_11]  
-[(2021.02.06) 12주차 : 애노테이션][link_whiteship_youtube_study_12]  
-[(2021.02.20) 13주차 : I/O][link_whiteship_youtube_study_13]  
-[(2021.02.27) 14주차 : 제네릭][link_whiteship_youtube_study_14]  
-[(2021.03.06) 15주차 : 람다식][link_whiteship_youtube_study_15]  
+[<u>(2020.11.14) 1주차 : JVM은 무엇이며 자바 코드는 어떻게 실행하는 것인가</u>][link_whiteship_youtube_study_01]  
+[<u>(2020.11.21) 2주차 : 자바 데이터 타입, 변수 그리고 배열</u>][link_whiteship_youtube_study_02]  
+[<u>(2020.11.28) 3주차 : 연산자</u>][link_whiteship_youtube_study_03]  
+[<u>(2020.12.12) 4주차 : 제어문</u>][link_whiteship_youtube_study_04]  
+[<u>(2020.12.19) 5주차 : 클래스</u>][link_whiteship_youtube_study_05]  
+[<u>(2020.12.26) 6주차 : 상속</u>][link_whiteship_youtube_study_06]  
+[<u>(2021.01.02) 7주차 : 패키지</u>][link_whiteship_youtube_study_07]  
+[<u>(2021.01.09) 8주자 : 인터페이스</u>][link_whiteship_youtube_study_08]  
+[<u>(2021.01.16) 9주차 : 예외 처리</u>][link_whiteship_youtube_study_09]  
+[<u>(2021.01.23) 10주차 : 멀티쓰레드 프로그래밍</u>][link_whiteship_youtube_study_10]  
+[<u>(2021.01.30) 11주차 : Enum</u>][link_whiteship_youtube_study_11]  
+[<u>(2021.02.06) 12주차 : 애노테이션</u>][link_whiteship_youtube_study_12]  
+[<u>(2021.02.20) 13주차 : I/O</u>][link_whiteship_youtube_study_13]  
+[<u>(2021.02.27) 14주차 : 제네릭</u>][link_whiteship_youtube_study_14]  
+[<u>(2021.03.06) 15주차 : 람다식</u>][link_whiteship_youtube_study_15]  
   
   
   
