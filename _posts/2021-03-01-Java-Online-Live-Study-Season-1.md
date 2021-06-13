@@ -13,18 +13,18 @@ author: "nimkoes"
 이슈 게시판에 과제를 올리고 댓글로 과제 풀이 링크를 제출하시면 검토해 드리고 라이브 방송으로 피드백을 드립니다.  
 자바 기초에 대해 다루었습니다.  
 [<u>스터디 링크</u>][link_study]
-  
-  
-  
+　  
+　  
+　  
   
 ## **수료 기준 및 선물**
 ---
 전체 15주 과정의 스터디로, 스터디 과제 제출율 80%를 넘긴 참여자에게 수료 기념으로 티셔츠를 선물해 드립니다.
 
 ![t-shirt_001](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/study/ws_003.jpg?raw=true "t-shirt_001"){: width="410px" height="410px"}
-  
-  
-  
+　  
+　  
+　  
   
 ## **스터디 정리 링크**
 ---
@@ -42,9 +42,9 @@ author: "nimkoes"
 [<u>12주차 애노테이션</u>][link_week_12]  
 [<u>14주차 제네릭</u>][link_week_14]  
 [<u>15주차 람다식</u>][link_week_15]  
-  
-  
-  
+　  
+　  
+　  
   
 ## **스터디 관련 안내 영상 링크**
 ---
@@ -60,9 +60,9 @@ author: "nimkoes"
 [<u>(2021.02.01) 벌써 12주차라니.. 스터디 후기를 남겨주세요.</u>][link_whiteship_youtube_study_info_10]  
 [<u>(2021.02.13) [2021년 설날 맞이 특집 방송] 어느 개발자의 라이브 코딩 (빨리 끝내고 게임하기)</u>][link_whiteship_youtube_study_info_11]  
 [<u>(2021.03.07) 15주간 421명과 자바 스터디를 성공적으로 마쳤습니다.</u>][link_whiteship_youtube_study_info_12]  
-  
-  
-  
+　  
+　  
+　  
   
 ## **스터디 영상 링크 <sub>선원으로 가입하셔야 볼 수 있습니다.</sub>**
 ---
@@ -81,9 +81,9 @@ author: "nimkoes"
 [<u>(2021.02.20) 13주차 : I/O</u>][link_whiteship_youtube_study_13]  
 [<u>(2021.02.27) 14주차 : 제네릭</u>][link_whiteship_youtube_study_14]  
 [<u>(2021.03.06) 15주차 : 람다식</u>][link_whiteship_youtube_study_15]  
-  
-  
-  
+　  
+　  
+　  
   
 ## **스터디 후기**
 ---
@@ -117,9 +117,9 @@ IT 전반적인 뉴스는 아니었고 자바라는 특정 언어에 대한 소�
   
 시즌1 이라고 한 것으로 보아 시즌2 도 (언제가 될지 모르겠지만) 진행 할 것 같다.  
 그 때 상황을 봐야 겠지만 되도록 참여하고 싶다.  
-  
-  
-  
+　  
+　  
+　  
   
 ## **시즌 1 누적 하트**  
 <sub>해당 주차 (ISSUE Number)에 닉네임으로 검색</sub>
@@ -220,8 +220,9 @@ IT 전반적인 뉴스는 아니었고 자바라는 특정 언어에 대한 소�
 |sejongdeveloper|1|6|
 |clap1030|1|9|
   
-
-
+　  
+　  
+　  
 
 [link_tistory]:https://xxxelppa.tistory.com/
 [link_study]:https://github.com/whiteship/live-study
