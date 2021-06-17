@@ -3,7 +3,7 @@ layout: page
 title:  "Java, I'm talking about alone"
 subtitle: "혼자서 주저리 정리해본 자바 시작하기"
 date:   2021-05-01 01:21:17 +0530
-categories: ["study"]
+categories: ["summary"]
 author: "nimkoes"
 ---
 
