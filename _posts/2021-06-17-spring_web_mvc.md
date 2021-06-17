@@ -21,7 +21,7 @@ author: "nimkoes"
 ## **목차**  
 
 ---
-####**스프링 MVC 동작 원리**
+####스프링 MVC 동작 원리
    - 스프링 MVC 소개
    - 서블릿 소개
    - 서블릿 애플리케이션 개발
@@ -34,7 +34,7 @@ author: "nimkoes"
    - 스프링 MVC 구성 요소
    - 스프링 MVC 동작 원리 마무리
 　  
-####**스프링 MVC 동작 원리**
+####스프링 MVC 동작 원리
    - 스프링 MVC 빈 설정
    - @EnableWebMvc
    - WebMvcConfigurer
@@ -52,7 +52,7 @@ author: "nimkoes"
    - 기타 WebMvcConfigurer 설정
    - 스프링 MVC 설정 마무리
 　  
-####**스프링 MVC 활용**
+####스프링 MVC 활용
    - 스프링 MVC 활용 소개
    - 요청 맵핑하기 1부 HTTP Method
    - 요청 맵핑하기 2부 URI 패턴
@@ -88,7 +88,7 @@ author: "nimkoes"
 　  
 　  
 　  
-### **스프링 MVC 소개 & 서블릿 소개**  
+###스프링 MVC 소개 & 서블릿 소개  
 
 ---
 용어의 정의를 확실히 하는게 이해하는데 조금이라도 도움이 된다.  
