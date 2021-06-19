@@ -26,71 +26,71 @@ author: "nimkoes"
 
 #### **스프링 MVC 동작 원리**
 
-   - 스프링 MVC 소개
-   - 서블릿 소개
-   - 서블릿 애플리케이션 개발
-   - 서블릿 리스너와 필터
-   - 스프링 IoC 컨테이너 연동
-   - 스프링 MVC 연동
-   - DispatcherServlet 1부
-   - DispatcherServlet 2부
-   - DispatcherServlet 3부
-   - 스프링 MVC 구성 요소
-   - 스프링 MVC 동작 원리 마무리
+  - 스프링 MVC 소개
+  - 서블릿 소개
+  - 서블릿 애플리케이션 개발
+  - 서블릿 리스너와 필터
+  - 스프링 IoC 컨테이너 연동
+  - 스프링 MVC 연동
+  - DispatcherServlet 1부
+  - DispatcherServlet 2부
+  - DispatcherServlet 3부
+  - 스프링 MVC 구성 요소
+  - 스프링 MVC 동작 원리 마무리
 　  
 
 #### **스프링 MVC 동작 원리**
 
-   - 스프링 MVC 빈 설정
-   - @EnableWebMvc
-   - WebMvcConfigurer
-   - 스프링 부트의 스프링 MVC 설정
-   - 스프링 부트 JSP
-   - WAR 파일 배포하기
-   - WebMvcConfigurer 1부 Formatter
-   - 도메인 클래스 컨버터
-   - 핸들러 인터셉터
-   - 핸들러 인터셉터 구현
-   - 리소스 핸들러
-   - HTTP 메시지 컨버터
-   - HTTP 메시지 컨버터 2부 JSON
-   - HTTP 메시지 컨버터 XML
-   - 기타 WebMvcConfigurer 설정
-   - 스프링 MVC 설정 마무리
+  - 스프링 MVC 빈 설정
+  - @EnableWebMvc
+  - WebMvcConfigurer
+  - 스프링 부트의 스프링 MVC 설정
+  - 스프링 부트 JSP
+  - WAR 파일 배포하기
+  - WebMvcConfigurer 1부 Formatter
+  - 도메인 클래스 컨버터
+  - 핸들러 인터셉터
+  - 핸들러 인터셉터 구현
+  - 리소스 핸들러
+  - HTTP 메시지 컨버터
+  - HTTP 메시지 컨버터 2부 JSON
+  - HTTP 메시지 컨버터 XML
+  - 기타 WebMvcConfigurer 설정
+  - 스프링 MVC 설정 마무리
 　  
 
 #### **스프링 MVC 활용**
 
-   - 스프링 MVC 활용 소개
-   - 요청 맵핑하기 1부 HTTP Method
-   - 요청 맵핑하기 2부 URI 패턴
-   - 요청 맵핑하기 3부 미디어 타입
-   - 요청 맵핑하기 4부 헤더와 매개변수
-   - 요청 맵핑하기 5부 HEAD와 OPTIONS
-   - 요청 맵핑하기 6부 커스텀 애노테이션
-   - 요청 맵핑하기 7부 연습 문제
-   - 핸들러 메소드 1부 아규먼트와 리턴 타입
-   - 핸들러 메소드 2부 URI 패턴
-   - 핸들러 메소드 3부 요청 매개변수 (단순 타입)
-   - 핸들러 메소드 4부 폼 서브밋
-   - 핸들러 메소드 5부 @ModelAttribute
-   - 핸들러 메소드 6부 @Validated
-   - 핸들러 메소드 7부 폼 서브밋 에러 처리
-   - 핸들러 메소드 8부 @SessionAttribute
-   - 핸들러 메소드 9부 멀티 폼 서브밋
-   - 핸들러 메소드 10부 @SessionAttribute
-   - 핸들러 메소드 11부 RedirectAttributes
-   - 핸들러 메소드 12부 Flash Attributes
-   - 핸들러 메소드 13부 MultipartFile
-   - 핸들러 메소드 14부 ResponseEntity
-   - 핸들러 메소드 15부 @RequestBody & HttpEntity
-   - 핸들러 메소드 16부 @ResponseBody & ResponseEntity
-   - 핸들러 메소드 17부 정리 및 과제
-   - 모델 @ModelAttribute
-   - 데이터 바인더 @InitBinder
-   - 예외 처리 핸들러 @ExceptionHandler
-   - 전역 컨트롤러 @ControllerAdvice
-   - 스프링 MVC 강좌 마무리
+  - 스프링 MVC 활용 소개
+  - 요청 맵핑하기 1부 HTTP Method
+  - 요청 맵핑하기 2부 URI 패턴
+  - 요청 맵핑하기 3부 미디어 타입
+  - 요청 맵핑하기 4부 헤더와 매개변수
+  - 요청 맵핑하기 5부 HEAD와 OPTIONS
+  - 요청 맵핑하기 6부 커스텀 애노테이션
+  - 요청 맵핑하기 7부 연습 문제
+  - 핸들러 메소드 1부 아규먼트와 리턴 타입
+  - 핸들러 메소드 2부 URI 패턴
+  - 핸들러 메소드 3부 요청 매개변수 (단순 타입)
+  - 핸들러 메소드 4부 폼 서브밋
+  - 핸들러 메소드 5부 @ModelAttribute
+  - 핸들러 메소드 6부 @Validated
+  - 핸들러 메소드 7부 폼 서브밋 에러 처리
+  - 핸들러 메소드 8부 @SessionAttribute
+  - 핸들러 메소드 9부 멀티 폼 서브밋
+  - 핸들러 메소드 10부 @SessionAttribute
+  - 핸들러 메소드 11부 RedirectAttributes
+  - 핸들러 메소드 12부 Flash Attributes
+  - 핸들러 메소드 13부 MultipartFile
+  - 핸들러 메소드 14부 ResponseEntity
+  - 핸들러 메소드 15부 @RequestBody & HttpEntity
+  - 핸들러 메소드 16부 @ResponseBody & ResponseEntity
+  - 핸들러 메소드 17부 정리 및 과제
+  - 모델 @ModelAttribute
+  - 데이터 바인더 @InitBinder
+  - 예외 처리 핸들러 @ExceptionHandler
+  - 전역 컨트롤러 @ControllerAdvice
+  - 스프링 MVC 강좌 마무리
 　  
 　  
 　  
@@ -111,7 +111,12 @@ GoF 와 패턴이 무슨 상관이냐 할 수 있겠지만, 앞서 얘기한 가
 하지만 사실 model1 과 model2 가 있으며 model2 를 MVC2 라고 부를 뿐이고 MVC1 이라는 것은 존재하지 않는다.  
 model1 방식과 MVC2 라고도 하는 model2 의 차이점은 Controller 역할을 하는 Servlet 클래스의 존재 여부이다.  
 model1 방식은 사용자의 요청에 대해 모든것을 처리하는 킹왕짱울트라캡숑만능 JSP 를 사용한다.  
+　  
+![001_007](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/study/spring_web/001_007.PNG?raw=true "001_007")
+　  
 model2 방식은 사용자의 요청을 받는 Controller 역할을 할 Servlet 이 있고, 필요에 따라 JSP 를 View 의 용도로 사용한다.  
+　  
+![001_008](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/study/spring_web/001_008.PNG?raw=true "001_008")
 　  
 본격적으로 MVC 에 대해 알아보기 전에 JSP 에 대해 간단하게 알아보자.  
 아주 오래전에는 웹 애플리케이션을 개발할 때 JSP 기술을 많이 사용 했다.  
@@ -373,7 +378,8 @@ JSP 는 Scriptlet 이라는 <% %> 을 사용해서 java 코드를 직접 삽입�
 다시 본론으로 돌아가서 model1 은 킹왕짱울트라캡숑만능 JSP 를 사용하고, model2 는 Controller 역할을 하는 Servlet 을 분리한 구조이다.  
 Spring 의 MVC 는 model2 구조를 사용하는데 front controller 패턴을 사용 한다.  
 front controller 패턴이라고 하니 그럴싸해 보이지만, 사용자 요청을 처리 할 controller 역할을 하는 Servlet 을 하나만 등록 해서 사용하는 것을 뜻한다.  
-
+　  
+　  
 　  
   
   
