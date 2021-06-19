@@ -107,14 +107,20 @@ MVC 에 대해 검색을 해보면 '패턴' 이라는 말을 같이 볼 수 있�
 패턴에 대해 찾아보면 GoF 라는 것도 볼 수 있는데, GoF 는 Gang of Four 의 줄임 말로 Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides 네 사람을 뜻한다.  
 GoF 와 패턴이 무슨 상관이냐 할 수 있겠지만, 앞서 얘기한 가장 이상적인 방법에 대한 표준을 정리하신 분들이다.  
 　  
-다시 본론으로 돌아와서 웹 애플리케이션을 개발할 때 보통 MVC 패턴을 사용하는데, 이 패턴은 MVC1 과 MVC2 로 나뉜다.  
-우선 MVC1 패턴에 대해 알아보기 전에 JSP 에 대해 간단하게 알아보자.  
-MVC1 패턴을 사용했을 당시 JSP 기술을 사용해서 웹 애플리케이션 개발을 많이 했다.  
-JSP 는 Java Server Page 를 줄인 말로 Java 언어로 작성한 Server 에서 동작하는 Page 라는 의미를 담고 있다.  
-최근 JSP 를 JSP 답게 사용하는 경우가 많지 않기 때문에 누군가에게는 그저 html 태그로 작성한 view 를 위한 파일의 확장자 정도로 기억될 것 같다.  
+다시 MVC 에 대해 얘기하면, 보통 MVC 를 MVC1 과 MVC2 로 구분해서 얘기 한다.  
+하지만 사실 model1 과 model2 가 있으며 model2 를 MVC2 라고 부를 뿐이고 MVC1 이라는 것은 존재하지 않는다.  
+model1 방식과 MVC2 라고도 하는 model2 의 차이점은 Controller 역할을 하는 Servlet 클래스의 존재 여부이다.  
+model1 방식은 사용자의 요청에 대해 모든것을 처리하는 킹왕짱울트라캡숑만능 JSP 를 사용한다.  
+model2 방식은 사용자의 요청을 받는 Controller 역할을 할 Servlet 이 있고, 필요에 따라 JSP 를 View 의 용도로 사용한다.  
 　  
-Java Server Page 라는 의미인 만큼 JSP 는 Client 가 아닌 Server 에서 동작 한다.  
+본격적으로 MVC 에 대해 알아보기 전에 JSP 에 대해 간단하게 알아보자.  
+아주 오래전에는 웹 애플리케이션을 개발할 때 JSP 기술을 많이 사용 했다.  
+JSP 는 Java Server Page 를 줄인 말로 Java 언어로 작성한 Server 에서 동작하는 Page 라는 의미를 담고 있다.  
+최근 JSP 는 JSP 가 제공하는 다양한 기능을 사용하는 대신 View 의 용도로만 사용하려 노력하기 때문에, 그저 html 태그로 작성한 View 를 위한 파일 정도로 인식할 수 있다.  
+　  
+Java Server Page 라는 의미인 만큼 JSP 는 Client 가 아닌 Server 에서 동작 하며 결국 java 코드로 변환되어 사용 된다.  
 믿지 못할것 같아서 아주 오래된 방식의 웹 애플리케이션을 하나 만들어 봤다.  
+(model1 방식에 대한 예제는 만들지 않았다.)  
 　  
 ![001_001](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/study/spring_web/001_001.PNG?raw=true "001_001")
 　  
@@ -123,6 +129,7 @@ Dynamic Web Project 를 만드는데, module version 을 2.5로 설정 했다.
 ![001_002](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/study/spring_web/001_002.PNG?raw=true "001_002")
 　  
 프로젝트 디렉토리 구조는 위와 같으며, 다음과 같이 Servlet 을 하나 만들고, html 코드를 브라우저에 출력할 수 있도록 했다.  
+Controler 역할을 할 Servlet 을 만들었기 때문에 MVC2 구조를 가지는 웹 애플리케이션이라고 할 수 있다.  
 　  
 ```java
 package me.nimkoes.sample;
@@ -189,8 +196,8 @@ public class MyServlet extends HttpServlet {
 ![001_003](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/study/spring_web/001_003.PNG?raw=true "001_003")
 　  
 단순한 "Hello !" 문자열 하나 브라우저에 출력 하기 위해 수많은 print 메소드를 사용 했다.  
-화면이 복잡해지고, 외부 리소스를 사용하는 웹 애플리케이션을 만들어야 한다고 상상만 해보자.  
-상상만 해도 고통스러운 일을 하지 않기 위해 JSP 기술을 사용할 수 있다.  
+이렇게 Controller 역할을 하는 Servlet 클래스 안에서 View 처리까지 할 수 있겠지만 굳이 만들어보지 말고 상상만 해보자.  
+상상만 해도 고통스러운 일을 하지 않기 위해 View 역할을 하는 JSP 를 별도로 만들자.  
 보안을 위해 WEB-INF 폴더 아래 다음과 같이 jsp 파일을 하나 추가 했다.  
 　  
 ![001_004](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/study/spring_web/001_004.PNG?raw=true "001_004")
@@ -342,21 +349,31 @@ public final class MyHello_jsp extends org.apache.jasper.runtime.HttpJspBase
 ```
 　  
 java 코드로 변환 된 jsp 파일을 해석하기 위해서는 java class 파일을 해석하기 위한 compiler 가 있어야 하고, 이 java 코드를 실행한 결과 html 코드를 브라우저에 전달 한다.  
+오래된 웹 애플리케이션은 위와 같은 흐름으로 만들어 졌다.  
+MVC2 구조로 만들었다고 하더라도 JSP 가 제공하는 다양한 기능을 활용하면 View 역할 뿐만 아니라 비즈니스 로직까지도 담아낼 수 있다.  
+앞서 얘기했지만 각자의 역할을 분명히 하기 위해 갈수록 JSP 를 사용 하더라도 그 안에 View 역할만 하는 html 코드만 작성하려는 편이다.  
 　  
-JSP 기술을 사용한 오래된 웹 애플리케이션 개발은 위와 같은 흐름으로 만들었다.  
-그리고 MVC1 패턴은, 결국 java 코드로 변환 되는, jsp 파일에서 DB 접속도 하고, 브라우저에 보여주는 화면도 만드는 일을 했다.  
-이게 가능할 수 있던 것은 jsp 파일이 결국 java 파일로 변환 되어 사용 하고,  
-jsp 내에서 Scriptlet 이라는 <% %> 을 사용해서 java 코드를 직접 삽입하는 것도 가능하기 때문이다.  
+html 코드는 정적이다.  
+정적이라는 것은 한 번 읽은 자원에 대해 변화가 없다는 것을 뜻한다.  
+하지만 현실의 문제는 정적인 자원만으로 해결하기에는 너무 복잡하고 동적이다.  
+동적인 처리를 하기 위해 javascript 나 java 와 같은 언어를 사용해야 한다.  
 　  
-화면을 그리고 데이터 처리까지 모두 다 하는 만능 jsp 파일을 만들면 유지보수 하기가 매우 어려워진다.  
-정말 관리를 잘 한 jsp 코드라면 모르겠지만, 일반적인 경우 화면을 그리는 도중 비즈니스 로직을 수행 해도 기술적으로 문제 될 것이 없기 때문에  
-눈으로 먹는 스파게티를 만들어내기 아주 좋은 환경에 놓이게 된다.  
+앞서 만든 예제에서 보았듯 JSP 는 결국 java 코드로 변한다.  
+JSP 는 Scriptlet 이라는 <% %> 을 사용해서 java 코드를 직접 삽입하는 것도 가능하다.  
+그래서 오래된 웹 애플리케이션에서는 View 를 동적으로 구성하기 위해 Scriptlet 을 사용했고, 그 결과 아주 혼란스러운 코드가 만들어 졌다.  
 　  
-그래서 선배 개발자들은 하나의 파일 안에서 역할을 논리적으로 구분하여 관리하는게 너무 힘들기 때문에, 물리적으로 나누는 방법을 고안해 냈다.  
-역할에 따라 물리적으로 구분하도록 권장한 패턴이 MVC2 패턴이다.  
-물리적으로 구분했다고 해서 대단한건 아니고 그저 MVC 각자 역할에 따라 파일 단위로 구분했을 뿐이다.  
+일반적으로 개발자들은 디자인을 전문적으로 배운 디자이너와 비교했을 때 미적인 요소를 떠나 UX 적인 측면을 고려하기보다 기능이 동작하는 것에 초점을 맞춘다.  
+개발자가 model1 방식의 JSP 처럼 킹왕짱울트라캡숑 할 수 있었다면 좋았겠지만(?) 현실적으로 불가능 하기 때문에 디자이너와 협업을 한다.  
+하지만 디자이너는 Scriptlet 이나 java 코드에 대해 일반적으로 잘 알지 못한다.  
+시간이 지나 레거시 View 를 개선해야 한다고 할 때 java 코드가 뒤죽박죽 섞인 JSP 는 개발자도 건드리기 싫은데 디자이너는 그 코드를 보고 어떤 결과가 나오는지 파악하기가 거의 불가능 하다.  
+　  
+그래서 요즘엔 View 의 영역엔 되도록 html 코드만 남기고, 동적인 처리는 javascript 와 같은 언어를 사용해서 처리하는게 일반적이다.  
 　  
 　  
+다시 본론으로 돌아가서 model1 은 킹왕짱울트라캡숑만능 JSP 를 사용하고, model2 는 Controller 역할을 하는 Servlet 을 분리한 구조이다.  
+Spring 의 MVC 는 model2 구조를 사용하는데 front controller 패턴을 사용 한다.  
+front controller 패턴이라고 하니 그럴싸해 보이지만, 사용자 요청을 처리 할 controller 역할을 하는 Servlet 을 하나만 등록 해서 사용하는 것을 뜻한다.  
+
 　  
   
   
