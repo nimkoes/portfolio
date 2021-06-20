@@ -26,7 +26,7 @@ author: "nimkoes"
 
 #### **스프링 MVC 동작 원리**
 
-  - 서블릿과 스프링 MVC
+  - MVC 와 레거시 서블릿 애플리케이션
   - 스프링 IoC 컨테이너 연동
   - 스프링 MVC 연동
   - DispatcherServlet 1부
@@ -93,7 +93,7 @@ author: "nimkoes"
 　  
 　  
 
-### **서블릿과 스프링 MVC**  
+### **MVC 와 레거시 서블릿 애플리케이션**  
 
 ---
 
@@ -131,7 +131,7 @@ Dynamic Web Project 를 만드는데, module version 을 2.5로 설정 했다.
 ![001_002](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/study/spring_web/001_002.PNG?raw=true "001_002")
 　  
 프로젝트 디렉토리 구조는 위와 같으며, 다음과 같이 Servlet 을 하나 만들고, html 코드를 브라우저에 출력할 수 있도록 했다.  
-Controler 역할을 할 Servlet 을 만들었기 때문에 MVC2 구조를 가지는 웹 애플리케이션이라고 할 수 있다.  
+Controller 역할을 할 Servlet 을 만들었기 때문에 MVC2 구조를 가지는 웹 애플리케이션이라고 할 수 있다.  
 　  
 ```java
 package me.nimkoes.sample;
@@ -372,11 +372,20 @@ JSP 는 Scriptlet 이라는 <% %> 을 사용해서 java 코드를 직접 삽입�
 그래서 요즘엔 View 의 영역엔 되도록 html 코드만 남기고, 동적인 처리는 javascript 와 같은 언어를 사용해서 처리하는게 일반적이다.  
 　  
 　  
-다시 본론으로 돌아가서 model1 은 킹왕짱울트라캡숑만능 JSP 를 사용하고, model2 는 Controller 역할을 하는 Servlet 을 분리한 구조이다.  
-Spring 의 MVC 는 model2 구조를 사용하는데 front controller 패턴을 사용 한다.  
-front controller 패턴이라고 하니 그럴싸해 보이지만, 사용자 요청을 처리 할 controller 역할을 하는 Servlet 을 하나만 등록 해서 사용하는 것을 뜻한다.  
+정리하면 model1 은 킹왕짱울트라캡숑만능 JSP 를 사용하고, model2 는 Controller 역할을 하는 Servlet 을 분리한 구조이다.  
+Spring 의 MVC 는 model2 구조를 사용하며 front controller 패턴을 사용 한다.  
+front controller 패턴이라고 하니 그럴싸해 보이지만, 사용자 요청을 처리 할 controller 역할을 하는 DispatcherServlet 이라는 Servlet 을 하나만 등록 해서 사용하는 것을 뜻한다.  
+(그렇다고 무조건 하나만 등록 가능한 것은 아니지만 Spring 을 사용 하면서 2개 이상 Servlet 을 등록해서 사용하는것은 학습 목적 제외하고 아직은 본 적이 없다.)
 　  
 　  
 　  
+레거시 서블릿 애플리케이션 관련하여 마지막으로 리스너와 필터에 대해 정리한다.  
+
   
-  
+　  
+　  
+　  
+
+
+
+
