@@ -26,7 +26,7 @@ author: "nimkoes"
 
 #### **스프링 MVC 동작 원리**
 
-  - MVC 와 레거시 서블릿 애플리케이션
+  - MVC 와 Legacy Servlet 애플리케이션
   - 스프링 IoC 컨테이너 연동
   - 스프링 MVC 연동
   - DispatcherServlet 1부
@@ -93,7 +93,7 @@ author: "nimkoes"
 　  
 　  
 
-### **MVC 와 레거시 서블릿 애플리케이션**  
+### **MVC 와 Legacy Servlet 애플리케이션**  
 
 ---
 
@@ -162,7 +162,7 @@ public class MyServlet extends HttpServlet {
 }
 ```
 　  
-이 서블릿을 사용하기 위해 web.xml 을 다음과 같이 작성 했다.  
+이 Servlet 을 사용하기 위해 web.xml 을 다음과 같이 작성 했다.  
 　  
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -379,27 +379,28 @@ front controller 패턴이라고 하니 그럴싸해 보이지만, 사용자 요
 　  
 　  
 　  
-레거시 서블릿 애플리케이션 관련하여 마지막으로 리스너와 필터에 대해 정리한다.  
+Legacy Servlet 애플리케이션 관련하여 마지막으로 Listener 와 Filter 에 대해 정리한다.  
 　  
-리스너란 쉽게 설명하면 누가 내 얘기 안하나 귀 쫑긋 하고 듣고 있다가 자기 얘기 할 때 옳다구나 등장해서 무엇인가 처리한다고 생각하면 된다.  
-즉, 특정 이벤트가 발생하기를 기다리는 리스너가 그 이벤트가 발생하면 미리 정의한 로직을 수행한다.  
-다음은 서블릿에서 제공하는 이벤트 리스너를 정리한 것이다.  
+Listener 란 쉽게 설명하면 누가 내 얘기 안하나 귀 쫑긋 하고 듣고 있다가 자기 얘기 할 때 옳다구나 등장해서 무엇인가 처리한다고 생각하면 된다.  
+즉, 특정 이벤트가 발생하기를 기다리는 Listener 가 그 이벤트가 발생하면 미리 정의한 로직을 수행한다.  
+다음은 Servlet 에서 제공하는 이벤트 Listener 를 정리한 것이다.  
+　  
 
-|이벤트 리스너|설명|
+|Event Listener |설명|
 |---|---|
-| ServletContextListener | 　　→  웹 애플리케이션의 시작, 종료 이벤트에 대한 리스너 |
-| ServletContextAttributeListener | 　　→  ServletContext 에 attribute 를 추가, 수정, 삭제 이벤트에 대한 리스너 |
-| HttpSessionListener | 　　→  HTTP session 의 시작, 종료 이벤트에 대한 리스너 |
-| HttpSessionAttributeListener | 　　→  HttpSession 에 attribute 를 추가, 수정, 삭제 이벤트에 대한 리스너 |
-| ServletRequestListener | 　　→  Client 요청에 대해 ServletRequest 생성과 응답 후 ServletRequest 삭제 이벤트에 대한 리스너 |
-| ServletRequestAttributeListener | 　　→  ServletRequest 에 attribute 를 추가, 수정, 삭제 이벤트에 대한 리스너 |
+| ServletContextListener | 　　→  웹 애플리케이션의 시작, 종료 이벤트에 대한 Listener |
+| ServletContextAttributeListener | 　　→  ServletContext 에 attribute 를 추가, 수정, 삭제 이벤트에 대한 Listener |
+| HttpSessionListener | 　　→  HTTP session 의 시작, 종료 이벤트에 대한 Listener |
+| HttpSessionAttributeListener | 　　→  HttpSession 에 attribute 를 추가, 수정, 삭제 이벤트에 대한 Listener |
+| ServletRequestListener | 　　→  Client 요청에 대해 ServletRequest 생성과 응답 후 ServletRequest 삭제 이벤트에 대한 Listener |
+| ServletRequestAttributeListener | 　　→  ServletRequest 에 attribute 를 추가, 수정, 삭제 이벤트에 대한 Listener |
   
 　  
-그 외에도 HttpSessionActivationListener, HttpSessionBindingListener, AsyncListener 이벤트 리스너가 존재 한다.  
+그 외에도 HttpSessionActivationListener, HttpSessionBindingListener, AsyncListener 이벤트 Listener 가 존재 한다.  
 　  
 　  
-앞서 만든 레거시 프로젝트에 웹 애플리케이션 시작, 종료 이벤트에 대한 리스너인 ServletContectListener 를 리스너로 등록하고 실행 결과를 보자.  
-등록 과정은 ServletContextListener 를 구현한 클래스를 하나 추가하고, web.xml 파일에 이 클래스를 리스너로 추가하면 된다.  
+앞서 만든 레거시 프로젝트에 웹 애플리케이션 시작, 종료 이벤트에 대한 Listener 인 ServletContectListener 를 Listener 로 등록하고 실행 결과를 보자.  
+등록 과정은 ServletContextListener 를 구현한 클래스를 하나 추가하고, web.xml 파일에 이 클래스를 Listener 로 추가하면 된다.  
 
 　  
 ![001_009](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/study/spring_web/001_009.PNG?raw=true "001_009")
@@ -426,7 +427,7 @@ public class MyServletContextListener implements ServletContextListener {
 }
 ```
 　  
-그리고 web.xml 에 다음과 같이 이 클래스를 리스너로 등록 해준다.  
+그리고 web.xml 에 다음과 같이 이 클래스를 Listener 로 등록 해준다.  
 　  
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -461,7 +462,7 @@ public class MyServletContextListener implements ServletContextListener {
 </web-app>
 ```
 　  
-리스너를 등록할 때는 FQCN (Fully Qualified Class Name) 을 사용한다.  
+Listener 를 등록할 때는 FQCN (Fully Qualified Class Name) 을 사용한다.  
 이 상태에서 Tomcat server 를 시작했다 종료하면 다음과 같은 결과를 볼 수 있다.  
 　  
 ```text
@@ -512,9 +513,72 @@ contextDestroyed !!!
 정보: Destroying ProtocolHandler ["ajp-nio-8009"]
 ```
 　  
-실행 결과를 보면 앞서 리스너에서 표준 입출력 클래스인 System 클래스의 out 객체를 사용해 출력한 문자열이 특정 이벤트 발생시 알아서 실행 된 것을 볼 수 있다.  
+실행 결과를 보면 앞서 Listener 에서 표준 입출력 클래스인 System 클래스의 out 객체를 사용해 출력한 문자열이 특정 이벤트 발생시 알아서 실행 된 것을 볼 수 있다.  
 　  
 　  
+Servlet 에는 Listener 말고 Filter 가 있다.  
+이 Filter 는 정수기를 생각하면 된다. 정수기는 말 그대로 우리가 마시는 물을 정수해 주는 역할을 한다.  
+물을 마실 수 있도록 정수하기 위해서 정수기 내부에는 필터가 들어있다.  
+Servlet 의 Filter 도 이것과 같은 개념이다.  
+Client 요청을 처리 할 Servlet 을 호출하기 전에 이 Filter 를 거치게 된다.  
+그래서 보통 Filter 는 모든 또는 일부 Servlet 에 공통 적용 해야하는 것들을 정의 한다.  
+예를 들면 사용자 인증, 로깅, 컨버터 기능 등에 사용 한다.  
+　  
+Filter 도 일반적인 Servlet 과 유사한 lifecycle 을 가진다.  
+　  
+Servlet lifecycle  
+![001_010](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/study/spring_web/001_010.PNG?raw=true "001_010")
+　  
+
+Filter lifecycle  
+![001_011](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/study/spring_web/001_011.PNG?raw=true "001_011")
+　  
+　  
+실제로 filter 를 등록해서 확인해보자.  
+우선 Servlet lifecycle 도 같이 확인해볼 겸 앞서 작성한 MyServlet 클래스를 init, destroy 메소드를 재정의하여 다음과 같이 수정했다.  
+　  
+```java
+package me.nimkoes.sample;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class MyServlet extends HttpServlet {
+
+    @Override
+    public void init() throws ServletException {
+        System.out.println("MyServlet init !!!");
+    }
+
+    /*
+     * (non-Javadoc)
+     * 
+     * @see javax.servlet.http.HttpServlet#doGet(javax.servlet.http.
+     * HttpServletRequest, javax.servlet.http.HttpServletResponse)
+     */
+    @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        System.out.println("MyServlet doGet called !!!");
+        req.getRequestDispatcher("/WEB-INF/view/MyHello.jsp").forward(req, resp);
+    }
+
+    @Override
+    public void destroy() {
+        System.out.println("MyServlet destroy !!!");
+    }
+
+}
+```
+　  
+Filter 를 만들기 위해서는 Listener 에서와 유사하게 Filter 를 구현하는 클래스를 만들고 web.xml 에 Filter 로 추가하면 된다.  
+　  
+
+
+
 　  
   
 
