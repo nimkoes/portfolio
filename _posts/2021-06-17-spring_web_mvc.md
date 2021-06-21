@@ -380,10 +380,28 @@ front controller 패턴이라고 하니 그럴싸해 보이지만, 사용자 요
 　  
 　  
 레거시 서블릿 애플리케이션 관련하여 마지막으로 리스너와 필터에 대해 정리한다.  
+　  
+리스너란 쉽게 설명하면 누가 내 얘기 안하나 귀 쫑긋 하고 듣고 있다가 자기 얘기 할 때 옳다구나 등장해서 무엇인가 처리한다고 생각하면 된다.  
+즉, 특정 이벤트가 발생하기를 기다리는 리스너가 그 이벤트가 발생하면 미리 정의한 로직을 수행한다.  
+다음은 서블릿에서 제공하는 이벤트 리스너를 정리한 것이다.  
 
+|이벤트 리스너|설명|
+|---|---|
+|ServletContextListener|웹 애플리케이션의 시작, 종료 이벤트에 대한 리스너|
+|ServletContextAttributeListener|ServletContext 에 attribute 를 추가, 수정, 삭제 이벤트에 대한 리스너|
+|HttpSessionListener|HTTP session 의 시작, 종료 이벤트에 대한 리스너|
+|HttpSessionAttributeListener|HttpSession 에 attribute 를 추가, 수정, 삭제 이벤트에 대한 리스너|
+|ServletRequestListener|client 요청에 대해 ServletRequest 생성과 응답 후 ServletRequest 삭제 이벤트에 대한 리스너|
+|ServletRequestAttributeListener|ServletRequest 에 attribute 를 추가, 수정, 삭제 이벤트에 대한 리스너|
   
 　  
+그 외에도 HttpSessionActivationListener, HttpSessionBindingListener, AsyncListener 이벤트 리스너가 존재 한다.  
 　  
+　  
+앞서 만든 레거시 프로젝트에 웹 애플리케이션 시작, 종료 이벤트에 대한 리스너인 ServletContectListener 를 리스너로 등록하고 실행 결과를 보자.  
+등록 과정은 ServletContextListener 를 구현한 클래스를 하나 추가하고, web.xml 파일에 이 클래스를 리스너로 추가하면 된다.  
+
+  
 　  
 
 
