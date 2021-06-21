@@ -401,8 +401,122 @@ front controller 패턴이라고 하니 그럴싸해 보이지만, 사용자 요
 앞서 만든 레거시 프로젝트에 웹 애플리케이션 시작, 종료 이벤트에 대한 리스너인 ServletContectListener 를 리스너로 등록하고 실행 결과를 보자.  
 등록 과정은 ServletContextListener 를 구현한 클래스를 하나 추가하고, web.xml 파일에 이 클래스를 리스너로 추가하면 된다.  
 
-  
 　  
+![001_009](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/study/spring_web/001_009.PNG?raw=true "001_009")
+　  
+위와 같이 MyServletContextListener 클래스를 만들고 다음과 같이 ServletContextListener 인터페이스를 구현하도록 코드를 작성 했다.  
+　  
+```java
+package me.nimkoes.sample;
+
+import javax.servlet.ServletContextEvent;
+import javax.servlet.ServletContextListener;
+
+public class MyServletContextListener implements ServletContextListener {
+
+    @Override
+    public void contextDestroyed(ServletContextEvent arg0) {
+        System.out.println("contextDestroyed !!!");
+    }
+
+    @Override
+    public void contextInitialized(ServletContextEvent arg0) {
+        System.out.println("contextInitialized !!!");
+    }
+}
+```
+　  
+그리고 web.xml 에 다음과 같이 이 클래스를 리스너로 등록 해준다.  
+　  
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+    id="WebApp_ID" version="2.5">
+    <display-name>OldStyleDynamicWebApplication</display-name>
+
+    <listener>
+        <listener-class>me.nimkoes.sample.MyServletContextListener</listener-class>
+    </listener>
+
+    <servlet>
+        <servlet-name>MySample</servlet-name>
+        <servlet-class>me.nimkoes.sample.MyServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>MySample</servlet-name>
+        <url-pattern>/Hello</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+        <welcome-file>index.htm</welcome-file>
+        <welcome-file>index.jsp</welcome-file>
+        <welcome-file>default.html</welcome-file>
+        <welcome-file>default.htm</welcome-file>
+        <welcome-file>default.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>
+```
+　  
+리스너를 등록할 때는 FQCN (Fully Qualified Class Name) 을 사용한다.  
+이 상태에서 Tomcat server 를 시작했다 종료하면 다음과 같은 결과를 볼 수 있다.  
+　  
+```text
+6월 21, 2021 11:14:51 오후 org.apache.catalina.core.AprLifecycleListener init
+정보: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the 
+6월 21, 2021 11:14:51 오후 org.apache.tomcat.util.digester.SetPropertiesRule begin
+경고: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'source' to 'org.eclipse.jst.jee.server:OldStyleDynamicWebApplication' did not find a matching property.
+6월 21, 2021 11:14:51 오후 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-nio-8080"]
+6월 21, 2021 11:14:51 오후 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+정보: Using a shared selector for servlet write/read
+6월 21, 2021 11:14:51 오후 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["ajp-nio-8009"]
+6월 21, 2021 11:14:51 오후 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+정보: Using a shared selector for servlet write/read
+6월 21, 2021 11:14:51 오후 org.apache.catalina.startup.Catalina load
+정보: Initialization processed in 690 ms
+6월 21, 2021 11:14:51 오후 org.apache.catalina.core.StandardService startInternal
+정보: Starting service Catalina
+6월 21, 2021 11:14:51 오후 org.apache.catalina.core.StandardEngine startInternal
+정보: Starting Servlet Engine: Apache Tomcat/8.0.9
+contextInitialized !!!
+6월 21, 2021 11:14:51 오후 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-nio-8080"]
+6월 21, 2021 11:14:51 오후 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["ajp-nio-8009"]
+6월 21, 2021 11:14:51 오후 org.apache.catalina.startup.Catalina start
+정보: Server startup in 261 ms
+
+└> 서버 정상 시작 확인 완료 후 서버 중지
+
+6월 21, 2021 11:17:13 오후 org.apache.catalina.core.StandardServer await
+정보: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+6월 21, 2021 11:17:13 오후 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["http-nio-8080"]
+6월 21, 2021 11:17:13 오후 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["ajp-nio-8009"]
+6월 21, 2021 11:17:13 오후 org.apache.catalina.core.StandardService stopInternal
+정보: Stopping service Catalina
+contextDestroyed !!!
+6월 21, 2021 11:17:13 오후 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["http-nio-8080"]
+6월 21, 2021 11:17:13 오후 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["ajp-nio-8009"]
+6월 21, 2021 11:17:13 오후 org.apache.coyote.AbstractProtocol destroy
+정보: Destroying ProtocolHandler ["http-nio-8080"]
+6월 21, 2021 11:17:13 오후 org.apache.coyote.AbstractProtocol destroy
+정보: Destroying ProtocolHandler ["ajp-nio-8009"]
+```
+　  
+실행 결과를 보면 앞서 리스너에서 표준 입출력 클래스인 System 클래스의 out 객체를 사용해 출력한 문자열이 특정 이벤트 발생시 알아서 실행 된 것을 볼 수 있다.  
+　  
+　  
+　  
+  
 
 
 
