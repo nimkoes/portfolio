@@ -387,12 +387,12 @@ front controller 패턴이라고 하니 그럴싸해 보이지만, 사용자 요
 
 |이벤트 리스너|설명|
 |---|---|
-|ServletContextListener|웹 애플리케이션의 시작, 종료 이벤트에 대한 리스너|
-|ServletContextAttributeListener|ServletContext 에 attribute 를 추가, 수정, 삭제 이벤트에 대한 리스너|
-|HttpSessionListener|HTTP session 의 시작, 종료 이벤트에 대한 리스너|
-|HttpSessionAttributeListener|HttpSession 에 attribute 를 추가, 수정, 삭제 이벤트에 대한 리스너|
-|ServletRequestListener|client 요청에 대해 ServletRequest 생성과 응답 후 ServletRequest 삭제 이벤트에 대한 리스너|
-|ServletRequestAttributeListener|ServletRequest 에 attribute 를 추가, 수정, 삭제 이벤트에 대한 리스너|
+| ServletContextListener | 　　→  웹 애플리케이션의 시작, 종료 이벤트에 대한 리스너 |
+| ServletContextAttributeListener | 　　→  ServletContext 에 attribute 를 추가, 수정, 삭제 이벤트에 대한 리스너 |
+| HttpSessionListener | 　　→  HTTP session 의 시작, 종료 이벤트에 대한 리스너 |
+| HttpSessionAttributeListener | 　　→  HttpSession 에 attribute 를 추가, 수정, 삭제 이벤트에 대한 리스너 |
+| ServletRequestListener | 　　→  Client 요청에 대해 ServletRequest 생성과 응답 후 ServletRequest 삭제 이벤트에 대한 리스너 |
+| ServletRequestAttributeListener | 　　→  ServletRequest 에 attribute 를 추가, 수정, 삭제 이벤트에 대한 리스너 |
   
 　  
 그 외에도 HttpSessionActivationListener, HttpSessionBindingListener, AsyncListener 이벤트 리스너가 존재 한다.  
