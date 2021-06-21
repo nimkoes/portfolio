@@ -576,12 +576,157 @@ public class MyServlet extends HttpServlet {
 　  
 Filter 를 만들기 위해서는 Listener 에서와 유사하게 Filter 를 구현하는 클래스를 만들고 web.xml 에 Filter 로 추가하면 된다.  
 　  
+![001_012](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/study/spring_web/001_012.PNG?raw=true "001_012")
+　  
+위와 같이 MyFilter 클래스를 만들고 다음과 같이 Filter 인터페이스를 구현하도록 코드를 작성 했다.
+　  
+```java
+package me.nimkoes.sample;
 
+import java.io.IOException;
 
+import javax.servlet.Filter;
+import javax.servlet.FilterChain;
+import javax.servlet.FilterConfig;
+import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
 
+public class MyFilter implements Filter {
+
+    @Override
+    public void destroy() {
+        System.out.println("MyFilter destroy !!!");
+    }
+
+    @Override
+    public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
+        System.out.println("MyFilter destroy !!!");
+        // filter 는 반드시 다음 Filter 를 호출하도록 해야 Servlet 호출이 가능하다.
+        // 아래 코드를 작성하지 않으면 다음 Filter 또는 Servlet 을 호출하지 못한다.
+        filterChain.doFilter(servletRequest, servletResponse);
+    }
+
+    @Override
+    public void init(FilterConfig arg0) throws ServletException {
+        System.out.println("MyFilter init !!!");
+    }
+
+}
+```
+　  
+그리고 web.xml 에 다음과 같이 이 클래스를 Filter 로 등록 해준다.  
+　  
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+    id="WebApp_ID" version="2.5">
+    <display-name>OldStyleDynamicWebApplication</display-name>
+
+    <!-- 일반 Servlet 을 등록 하듯 Filter 를 등록 한다. -->
+    <filter>
+        <filter-name>MySampleFilter</filter-name>
+        <filter-class>me.nimkoes.sample.MyFilter</filter-class>
+    </filter>
+
+    <!-- 모든 또는 일부 Servlet 에 대해 url-pattern 을 사용하여 Filter 를 적용하도록 설정할 수 있다. -->
+    <filter-mapping>
+        <filter-name>MySampleFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <listener>
+        <listener-class>me.nimkoes.sample.MyServletContextListener</listener-class>
+    </listener>
+
+    <servlet>
+        <servlet-name>MySample</servlet-name>
+        <servlet-class>me.nimkoes.sample.MyServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>MySample</servlet-name>
+        <url-pattern>/Hello</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+        <welcome-file>index.htm</welcome-file>
+        <welcome-file>index.jsp</welcome-file>
+        <welcome-file>default.html</welcome-file>
+        <welcome-file>default.htm</welcome-file>
+        <welcome-file>default.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>
+```
+　  
+Filter 를 등록할 때도 FQCN (Fully Qualified Class Name) 을 사용한다.  
+Filter 를 등록해서 사용할 때 주의할 점은 반드시 Listener 보다 먼저 작성 되어야 한다.  
+
+이 상태에서 Tomcat server 를 시작하고 Servlet 을 실행한 다음 server 를 종료하면 다음과 같은 결과를 확인할 수 있다.  
+　  
+```text
+6월 22, 2021 12:05:05 오전 org.apache.catalina.core.AprLifecycleListener init
+정보: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the
+6월 22, 2021 12:05:05 오전 org.apache.tomcat.util.digester.SetPropertiesRule begin
+경고: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'source' to 'org.eclipse.jst.jee.server:OldStyleDynamicWebApplication' did not find a matching property.
+6월 22, 2021 12:05:05 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["http-nio-8080"]
+6월 22, 2021 12:05:05 오전 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+정보: Using a shared selector for servlet write/read
+6월 22, 2021 12:05:05 오전 org.apache.coyote.AbstractProtocol init
+정보: Initializing ProtocolHandler ["ajp-nio-8009"]
+6월 22, 2021 12:05:05 오전 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+정보: Using a shared selector for servlet write/read
+6월 22, 2021 12:05:05 오전 org.apache.catalina.startup.Catalina load
+정보: Initialization processed in 706 ms
+6월 22, 2021 12:05:06 오전 org.apache.catalina.core.StandardService startInternal
+정보: Starting service Catalina
+6월 22, 2021 12:05:06 오전 org.apache.catalina.core.StandardEngine startInternal
+정보: Starting Servlet Engine: Apache Tomcat/8.0.9
+contextInitialized !!!
+MyFilter init !!!
+6월 22, 2021 12:05:06 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["http-nio-8080"]
+6월 22, 2021 12:05:06 오전 org.apache.coyote.AbstractProtocol start
+정보: Starting ProtocolHandler ["ajp-nio-8009"]
+6월 22, 2021 12:05:06 오전 org.apache.catalina.startup.Catalina start
+정보: Server startup in 276 ms
+
+MyServlet init !!!
+MyFilter destroy !!!
+MyServlet doGet called !!!
+
+MyFilter destroy !!!
+MyServlet doGet called !!!
+
+6월 22, 2021 12:05:32 오전 org.apache.catalina.core.StandardServer await
+정보: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+6월 22, 2021 12:05:32 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["http-nio-8080"]
+6월 22, 2021 12:05:32 오전 org.apache.coyote.AbstractProtocol pause
+정보: Pausing ProtocolHandler ["ajp-nio-8009"]
+6월 22, 2021 12:05:32 오전 org.apache.catalina.core.StandardService stopInternal
+정보: Stopping service Catalina
+MyServlet destroy !!!
+MyFilter destroy !!!
+contextDestroyed !!!
+6월 22, 2021 12:05:32 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["http-nio-8080"]
+6월 22, 2021 12:05:32 오전 org.apache.coyote.AbstractProtocol stop
+정보: Stopping ProtocolHandler ["ajp-nio-8009"]
+6월 22, 2021 12:05:32 오전 org.apache.coyote.AbstractProtocol destroy
+정보: Destroying ProtocolHandler ["http-nio-8080"]
+6월 22, 2021 12:05:32 오전 org.apache.coyote.AbstractProtocol destroy
+정보: Destroying ProtocolHandler ["ajp-nio-8009"]
+```
+　  
+실행 결과를 보면 Listener 의 실행 시점과 Filter 의 lifecycle 그리고 Servlet 의 lifecycle 을 확인할 수 있다.  
+　  
+　  
+　  
+　  
 　  
   
-
-
-
-
