@@ -18,10 +18,12 @@ author: "nimkoes"
 　  
 <sub>처음엔 github 에 post 로 작성 했지만, 내용이 길어지면서 자꾸 오류가 발생하여 부득이 tistory 에 정리하게 되었다.</sub>
 　  
-
-### **목차**
-
 　  
+　  
+## **목차**
+
+---
+
 #### 1. Spring MVC 동작 원리  
   - [1.1 MVC 와 Legacy Servlet Application][link_spring_web_mvc_001]  
   - 1.2 Spring IoC Container 연동  
@@ -76,6 +78,7 @@ author: "nimkoes"
   - 3.28 전역 컨트롤러 ControllerAdvice annotation  
   - 3.29 Spring Web MVC 마무리  
 　  
+  
   
 
 [link_spring_web_mvc_001]:https://xxxelppa.tistory.com/321
