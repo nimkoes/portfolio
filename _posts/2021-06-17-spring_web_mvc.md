@@ -82,4 +82,4 @@ author: "nimkoes"
   
 
 [link_spring_web_mvc_001]:https://xxxelppa.tistory.com/321
-[link_spring_web_mvc_001]:https://xxxelppa.tistory.com/322
+[link_spring_web_mvc_002]:https://xxxelppa.tistory.com/322
