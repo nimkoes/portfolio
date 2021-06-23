@@ -26,7 +26,7 @@ author: "nimkoes"
 
 #### 1. Spring MVC 동작 원리  
   - [1.1 MVC 와 Legacy Servlet Application][link_spring_web_mvc_001]  
-  - 1.2 Spring IoC Container 연동  
+  - [1.2 Spring IoC Container 연동][link_spring_web_mvc_002]  
   - 1.3 Spring MVC 연동  
   - 1.4 DispatcherServlet  
   - 1.5 Spring MVC 구성 요소  
@@ -82,3 +82,4 @@ author: "nimkoes"
   
 
 [link_spring_web_mvc_001]:https://xxxelppa.tistory.com/321
+[link_spring_web_mvc_001]:https://xxxelppa.tistory.com/322
