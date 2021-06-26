@@ -28,7 +28,7 @@ author: "nimkoes"
   - [1.1 MVC 와 Legacy Servlet Application][link_spring_web_mvc_001]  
   - [1.2 Spring IoC Container 연동][link_spring_web_mvc_002]  
   - [1.3 Spring MVC 연동][link_spring_web_mvc_003]  
-  - 1.4 DispatcherServlet  
+  - [1.4 DispatcherServlet (response without view)][link_spring_web_mvc_004]  
   - 1.5 Spring MVC 구성 요소  
   - 1.6 Spring MVC 동작 원리 마무리  
 　  
@@ -84,3 +84,4 @@ author: "nimkoes"
 [link_spring_web_mvc_001]:https://xxxelppa.tistory.com/321
 [link_spring_web_mvc_002]:https://xxxelppa.tistory.com/322
 [link_spring_web_mvc_003]:https://xxxelppa.tistory.com/323
+[link_spring_web_mvc_004]:https://xxxelppa.tistory.com/324
