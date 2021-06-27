@@ -33,8 +33,6 @@ subtitle: I work diligently to become lazy ☕
 　  
   
 ##### ***HAVE EVER USED***
----
-
 * Go, C, C#, ASP.NET, Windows Server, PL/SQL
 　  
 　  
