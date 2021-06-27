@@ -9,7 +9,9 @@ subtitle: I work diligently to become lazy ☕
   
   
   
-### CERTIFICATION & LICENSE
+## **CERTIFICATION & LICENSE**
+---
+
 * BSc. in Computer Engineering
 * COS pro Highest level (Coding Specialist Professional, Java)
 * COS Advanced level (Coding Specialist, scratch)
@@ -20,17 +22,26 @@ subtitle: I work diligently to become lazy ☕
 　  
 　  
   
-### SKILLS
-* java, Go
-* javascript, html, css, jQuery, JSP, jqGrid
-* Spring Framework
-* Spring Boot
-* SQL (Oracle, MySQL)
+## **SKILLS**
+---
+
+* Java, JSP, JavaScript, HTML, CSS, Go
+* Spring, Spring Boot
+* SQL (MySQL, Oracle)
+* jQuery, jqGrid
 * Scratch
+　  
+  
+##### ***HAVE EVER USED***
+---
+
+* Go, C, C#, ASP.NET, Windows Server, PL/SQL
 　  
 　  
   
-### ACTIVITIES & AWARDS
+## **ACTIVITIES & AWARDS**
+---
+
 * Programmers Monthly Coding Challenge 2020.10 Top 4%
 * Programmers Monthly Coding Challenge 2020.09 Top 5%
 * the Order of Merit for Blood Donation (silver award)
@@ -40,7 +51,9 @@ subtitle: I work diligently to become lazy ☕
 　  
 　  
   
-### EDUCATION
+## **EDUCATION**
+---
+
 * [<u>nomad coder, quickly and easily start "go"</u>](https://nomadcoders.co/go-for-beginners/lobby){:target="_blank"}
 * [<u>whiteship java online live study</u>](https://xxxelppa.tistory.com/133){:target="_blank"}
 * [<u>HTTP web basics for all developers</u>](https://www.inflearn.com/course/http-%EC%9B%B9-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC#description){:target="_blank"}
@@ -55,7 +68,9 @@ subtitle: I work diligently to become lazy ☕
 　  
 　  
   
-### WORK EXPERIENCE
+## **WORK EXPERIENCE**
+---
+
 * **2021.01 - today**
   * Adding '3DS 2.0' authentication process in payment system.
   * Device fingerprint technology research.
