@@ -25,7 +25,7 @@ subtitle: I work diligently to become lazy ☕
 ## **SKILLS**
 ---
 
-* Java, JSP, JavaScript, HTML, CSS, Go
+* Java, JSP, JavaScript, HTML, CSS
 * Spring, Spring Boot
 * SQL (MySQL, Oracle)
 * jQuery, jqGrid
