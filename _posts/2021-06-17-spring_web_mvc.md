@@ -29,8 +29,7 @@ author: "nimkoes"
   - [1.2 Spring IoC Container 연동][link_spring_web_mvc_002]  
   - [1.3 Spring MVC 연동][link_spring_web_mvc_003]  
   - [1.4 DispatcherServlet 기본 동작 원리][link_spring_web_mvc_004]  
-  - [1.5 Spring MVC 구성 요소][link_spring_web_mvc_005]  
-  - 1.6 Spring MVC 동작 원리 마무리  
+  - [1.5 Spring MVC 동작 원리 마무리][link_spring_web_mvc_005]  
 　  
   
 #### 2. Spring MVC 설정  
