@@ -25,15 +25,18 @@ subtitle: I work diligently to become lazy ☕
 ## **SKILLS**
 ---
 
-* Java, JSP, JavaScript, HTML, CSS
-* Spring, Spring Boot
+* Java (1.7+)
+* Spring Web MVC, Spring Boot
 * SQL (MySQL, Oracle)
 * jQuery, jqGrid
+* JSP, JavaScript, HTML, CSS
 * Scratch
-　  
   
 ##### ***HAVE EVER USED***
-* Go, C, C#, ASP.NET, Windows Server, PL/SQL
+* Go, C, C#, ASP.NET, python
+* Windows Server
+* PL/SQL, stored procedure, DB2
+* thymeleaf
 　  
 　  
   
