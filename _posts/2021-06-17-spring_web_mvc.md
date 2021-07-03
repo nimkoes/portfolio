@@ -33,7 +33,7 @@ author: "nimkoes"
 　  
   
 #### 2. Spring MVC 설정  
-  - 2.1 Spring MVC Bean 설정  
+  - [2.1 Spring MVC Bean 설정][link_spring_web_mvc_006]  
   - 2.2 EnableWebMvc Annotation  
   - 2.3 Spring Boot 의 Spring MVC 설정  
   - 2.4 Spring Boot JSP  
@@ -85,3 +85,5 @@ author: "nimkoes"
 [link_spring_web_mvc_003]:https://xxxelppa.tistory.com/323
 [link_spring_web_mvc_004]:https://xxxelppa.tistory.com/324
 [link_spring_web_mvc_005]:https://xxxelppa.tistory.com/325
+
+[link_spring_web_mvc_006]:https://xxxelppa.tistory.com/326
