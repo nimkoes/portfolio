@@ -30,6 +30,7 @@ subtitle: I work diligently to become lazy ☕
 * SQL (MySQL, Oracle)
 * jQuery, jqGrid
 * JSP, JavaScript, HTML, CSS
+* Maven
 * Scratch
   
 ##### ***HAVE EVER USED***
@@ -38,6 +39,7 @@ subtitle: I work diligently to become lazy ☕
 * DB2, PL/SQL, stored procedure
 * thymeleaf
 * Git, Subversion
+* Hudson, Jenkins
 　  
 　  
   
