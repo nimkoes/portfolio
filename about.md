@@ -35,8 +35,9 @@ subtitle: I work diligently to become lazy ☕
 ##### ***HAVE EVER USED***
 * Go, C, C#, ASP.NET, python
 * Windows Server
-* PL/SQL, stored procedure, DB2
+* DB2, PL/SQL, stored procedure
 * thymeleaf
+* Git, Subversion
 　  
 　  
   
