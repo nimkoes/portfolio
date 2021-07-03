@@ -33,17 +33,16 @@ author: "nimkoes"
 　  
   
 #### 2. Spring MVC 설정  
-  - [2.1 Spring MVC Bean 설정][link_spring_web_mvc_006]  
-  - 2.2 EnableWebMvc Annotation  
-  - 2.3 Spring Boot 의 Spring MVC 설정  
-  - 2.4 Spring Boot JSP  
-  - 2.5 war 파일 배포하기  
-  - 2.6 WebMvcConfigurer Formatter  
-  - 2.7 도메인 클래스 컨버터  
-  - 2.8 핸들러 인터셉터  
-  - 2.9 리소스 핸들러  
-  - 2.10 HTTP 메시지 컨버터 (JSON, XML)  
-  - 2.11 Spring MVC 설정 마무리  
+  - [2.1 Spring Web MVC 설정 @EnableWebMvc, WebMvcConfigurer][link_spring_web_mvc_006]  
+  - 2.2 Spring Boot 의 Spring MVC 설정  
+  - 2.3 Spring Boot JSP  
+  - 2.4 war 파일 배포하기  
+  - 2.5 WebMvcConfigurer Formatter  
+  - 2.6 도메인 클래스 컨버터  
+  - 2.7 핸들러 인터셉터  
+  - 2.8 리소스 핸들러  
+  - 2.9 HTTP 메시지 컨버터 (JSON, XML)  
+  - 2.10 Spring MVC 설정 마무리  
 　  
   
 #### 3. Spring MVC 활용  
