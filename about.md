@@ -40,6 +40,12 @@ subtitle: I work diligently to become lazy ☕
 * thymeleaf
 * Git, Subversion
 * Hudson, Jenkins
+  
+##### ***utility***
+* eclipse, IntelliJ, Visual Studio Code
+* EmEditor, UltraEdit, Notepad++
+* WinMerge
+* Postman
 　  
 　  
   
