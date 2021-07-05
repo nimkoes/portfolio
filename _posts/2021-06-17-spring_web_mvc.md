@@ -35,7 +35,7 @@ author: "nimkoes"
 #### 2. Spring MVC 설정  
   - [2.1 Spring Web MVC 설정 @EnableWebMvc, WebMvcConfigurer][link_spring_web_mvc_006]  
   - [2.2 Spring Boot 의 Spring MVC 설정 (war 배포)][link_spring_web_mvc_007]  
-  - 2.3 WebMvcConfigurer Formatter  
+  - [2.3 Spring Web MVC 의 Formatter (Spring Boot 자동 설정)][link_spring_web_mvc_008]  
   - 2.4 도메인 클래스 컨버터  
   - 2.5 핸들러 인터셉터  
   - 2.6 리소스 핸들러  
@@ -85,3 +85,4 @@ author: "nimkoes"
 
 [link_spring_web_mvc_006]:https://xxxelppa.tistory.com/326
 [link_spring_web_mvc_007]:https://xxxelppa.tistory.com/327
+[link_spring_web_mvc_008]:https://xxxelppa.tistory.com/328
