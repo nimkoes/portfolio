@@ -38,7 +38,7 @@ author: "nimkoes"
   - [2.3 Spring Web MVC 의 Formatter (Spring Boot 자동 설정)][link_spring_web_mvc_008]  
   - [2.4 핸들러 인터셉터 (HandlerInterceptor interface)][link_spring_web_mvc_009]  
   - [2.5 리소스 핸들러 (default Servlet)][link_spring_web_mvc_010]  
-  - 2.6 HTTP 메시지 컨버터 (JSON, XML)  
+  - [2.6 HTTP 메시지 컨버터 (JSON, XML)][link_spring_web_mvc_011]  
   - 2.7 Spring MVC 설정 마무리  
 　  
   
@@ -87,3 +87,4 @@ author: "nimkoes"
 [link_spring_web_mvc_008]:https://xxxelppa.tistory.com/328
 [link_spring_web_mvc_009]:https://xxxelppa.tistory.com/329
 [link_spring_web_mvc_010]:https://xxxelppa.tistory.com/330
+[link_spring_web_mvc_011]:https://xxxelppa.tistory.com/331
