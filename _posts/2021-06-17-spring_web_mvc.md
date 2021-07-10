@@ -39,39 +39,31 @@ author: "nimkoes"
   - [2.4 핸들러 인터셉터 (HandlerInterceptor interface)][link_spring_web_mvc_009]  
   - [2.5 리소스 핸들러 (default Servlet)][link_spring_web_mvc_010]  
   - [2.6 HTTP 메시지 컨버터 (JSON, XML)][link_spring_web_mvc_011]  
-  - 2.7 Spring MVC 설정 마무리  
 　  
   
 #### 3. Spring MVC 활용  
-  - 3.1 Spring MVC 활용 개요  
-  - 3.2 요청 매핑하기 : HTTP Method  
-  - 3.3 요청 매핑하기 : URI 패턴  
-  - 3.4 요청 매핑하기 : 미디어 타입  
-  - 3.5 요청 매핑하기 : 헤더와 매개변수  
-  - 3.6 요청 매핑하기 : HEAD 와 OPTIONS  
-  - 3.7 요청 매핑하기 : 커스텀 annotation  
-  - 3.8 요청 매핑하기 : 연습 문제  
-  - 3.9 핸들러 메소드 : 아규먼트와 리턴 타입  
-  - 3.10 핸들러 메소드 : URI 패턴  
-  - 3.11 핸들러 메소드 : 요청 매개변수 (단순타입)  
-  - 3.12 핸들러 메소드 : 폼 서브밋  
-  - 3.13 핸들러 메소드 : ModelAttribute annotation  
-  - 3.14 핸들러 메소드 : Validated annotation  
-  - 3.15 햄들러 메소드 : 폼 서브밋 에러 처리  
-  - 3.16 핸들러 메소드 : SessionAttributes annotation  
-  - 3.17 핸들러 메소드 : 멀티 폼 서브밋  
-  - 3.18 핸들러 메소드 : SessionAttribute annotation  
-  - 3.19 핸들러 메소드 : RedirectAttribute  
-  - 3.20 핸들러 메소드 : Flash Attribute  
-  - 3.21 핸들러 메소드 : MultipartFile  
-  - 3.22 핸들러 메소드 : ResponseEntity  
-  - 3.23 핸들러 메소드 : RequestBody annotation & HttpEntity  
-  - 3.24 핸들러 메소드 : ResponseBody annotation & ResponseEntity  
-  - 3.25 핸들러 메소드 : 정리 및 과제  
-  - 3.26 모델 ModelAttribute annotation  
-  - 3.27 예외 처리 핸들러 ExceptionHandler annotation  
-  - 3.28 전역 컨트롤러 ControllerAdvice annotation  
-  - 3.29 Spring Web MVC 마무리  
+  - 3.1 요청 매핑하기 (handler method)  
+  - 3.2 핸들러 메소드 : 아규먼트와 리턴 타입  
+  - 3.3 핸들러 메소드 : URI 패턴  
+  - 3.4 핸들러 메소드 : 요청 매개변수 (단순타입)  
+  - 3.5 핸들러 메소드 : 폼 서브밋  
+  - 3.6 핸들러 메소드 : ModelAttribute annotation  
+  - 3.7 핸들러 메소드 : Validated annotation  
+  - 3.8 햄들러 메소드 : 폼 서브밋 에러 처리  
+  - 3.9 핸들러 메소드 : SessionAttributes annotation  
+  - 3.10 핸들러 메소드 : 멀티 폼 서브밋  
+  - 3.11 핸들러 메소드 : SessionAttribute annotation  
+  - 3.12 핸들러 메소드 : RedirectAttribute  
+  - 3.13 핸들러 메소드 : Flash Attribute  
+  - 3.14 핸들러 메소드 : MultipartFile  
+  - 3.15 핸들러 메소드 : ResponseEntity  
+  - 3.16 핸들러 메소드 : RequestBody annotation & HttpEntity  
+  - 3.17 핸들러 메소드 : ResponseBody annotation & ResponseEntity  
+  - 3.18 핸들러 메소드 : 정리 및 과제  
+  - 3.19 모델 ModelAttribute annotation  
+  - 3.20 예외 처리 핸들러 ExceptionHandler annotation  
+  - 3.21 전역 컨트롤러 ControllerAdvice annotation  
+  - 3.22 Spring Web MVC 마무리  
 　  
   
   
