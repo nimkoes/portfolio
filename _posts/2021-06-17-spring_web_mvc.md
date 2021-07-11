@@ -42,7 +42,7 @@ author: "nimkoes"
 　  
   
 #### 3. Spring MVC 활용  
-  - 3.1 요청 매핑하기 (handler method)  
+  - [3.1 요청 매핑하기 (handler method)][link_spring_web_mvc_012]  
   - 3.2 핸들러 메소드 : 아규먼트와 리턴 타입  
   - 3.3 핸들러 메소드 : URI 패턴  
   - 3.4 핸들러 메소드 : 요청 매개변수 (단순타입)  
@@ -80,3 +80,5 @@ author: "nimkoes"
 [link_spring_web_mvc_009]:https://xxxelppa.tistory.com/329
 [link_spring_web_mvc_010]:https://xxxelppa.tistory.com/330
 [link_spring_web_mvc_011]:https://xxxelppa.tistory.com/331
+
+[link_spring_web_mvc_012]:https://xxxelppa.tistory.com/332
