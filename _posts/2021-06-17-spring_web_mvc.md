@@ -42,30 +42,15 @@ author: "nimkoes"
 　  
   
 #### 3. Spring MVC 활용  
-  - [3.1 요청 매핑하기 (handler method)][link_spring_web_mvc_012]  
+  - [3.1 요청 매핑하기 (mapping handler method)][link_spring_web_mvc_012]  
   - [3.2 핸들러 메소드 : 아규먼트와 리턴 타입 (개요)][link_spring_web_mvc_013]  
   - [3.3 핸들러 메소드 : URI 패턴][link_spring_web_mvc_014]  
-  - 3.4 핸들러 메소드 : 요청 매개변수 (단순타입)  
-  - 3.5 핸들러 메소드 : 폼 서브밋  
-  - 3.6 핸들러 메소드 : ModelAttribute annotation  
-  - 3.7 핸들러 메소드 : Validated annotation  
-  - 3.8 햄들러 메소드 : 폼 서브밋 에러 처리  
-  - 3.9 핸들러 메소드 : SessionAttributes annotation  
-  - 3.10 핸들러 메소드 : 멀티 폼 서브밋  
-  - 3.11 핸들러 메소드 : SessionAttribute annotation  
-  - 3.12 핸들러 메소드 : RedirectAttribute  
-  - 3.13 핸들러 메소드 : Flash Attribute  
-  - 3.14 핸들러 메소드 : MultipartFile  
-  - 3.15 핸들러 메소드 : ResponseEntity  
-  - 3.16 핸들러 메소드 : RequestBody annotation & HttpEntity  
-  - 3.17 핸들러 메소드 : ResponseBody annotation & ResponseEntity  
-  - 3.18 핸들러 메소드 : 정리 및 과제  
-  - 3.19 모델 ModelAttribute annotation  
-  - 3.20 예외 처리 핸들러 ExceptionHandler annotation  
-  - 3.21 전역 컨트롤러 ControllerAdvice annotation  
-  - 3.22 Spring Web MVC 마무리  
+  - 3.3 핸들러 메소드 (execute & using handler method)
+  - 3.4 모델 ModelAttribute annotation  
+  - 3.5 예외 처리 핸들러 ExceptionHandler annotation  
+  - 3.6 전역 컨트롤러 ControllerAdvice annotation  
+  - 3.7 Spring Web MVC 마무리  
 　  
-  
   
 
 [link_spring_web_mvc_001]:https://xxxelppa.tistory.com/321
