@@ -45,11 +45,8 @@ author: "nimkoes"
   - [3.1 요청 매핑하기 (mapping handler method)][link_spring_web_mvc_012]  
   - [3.2 핸들러 메소드 : argument & return value (overview, 처리 구현체 자동 등록)][link_spring_web_mvc_013]  
   - [3.3 핸들러 메소드 (execute & using handler method) (작성중)][link_spring_web_mvc_014]
-  - 3.4 모델 ModelAttribute annotation  
-  - 3.5 데이터 바인더 InitBinder annotation  
-  - 3.6 예외 처리 핸들러 ExceptionHandler annotation  
-  - 3.7 전역 컨트롤러 ControllerAdvice annotation  
-  - 3.8 Spring Web MVC 마무리  
+  - 3.4 전역 컨트롤러 @ControllerAdvice (@ModelAttribute, @InitBinder, @ExceptionHandler)  
+  - 3.5 Spring Web MVC 마무리  
 　  
   
 
