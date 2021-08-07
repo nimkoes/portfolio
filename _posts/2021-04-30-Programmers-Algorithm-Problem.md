@@ -109,6 +109,8 @@ author: "nimkoes"
 - 046 : [**<u>(1차) 비밀지도</u>**<sub>2018 KAKAO BLIND RECRUITMENT</sub>][link_level_1_046]
 - 047 : [**<u>실패율</u>**<sub>2019 KAKAO BLIND RECRUITMENT</sub>][link_level_1_047]
 - 048 : [**<u>(1차) 다트 게임</u>**<sub>2018 KAKAO BLIND RECRUITMENT</sub>][link_level_1_048]
+- 049 : [**<u>숫자 문자열과 영단어</u>**<sub>2021 카카오 채용연계형 인턴십</sub>][link_level_1_049]
+- 050 : [**<u>약수의 개수와 덧셈</u>**<sub>월간 코드 챌린지 시즌2</sub>][link_level_1_050]
 
 
 ### level 2
@@ -165,6 +167,7 @@ author: "nimkoes"
 - 049 : [**<u>행렬의 곱셈</u>**<sub>연습문제</sub>][link_level_2_049]
 - 050 : [**<u>JadenCase 문자열 만들기</u>**<sub>연습문제</sub>][link_level_2_050]
 - 051 : [**<u>N개의 최소공배수</u>**<sub>연습문제</sub>][link_level_2_051]
+- 052 : [**<u>괄호 회전하기</u>**<sub>월간 코드 챌린지 시즌2</sub>][link_level_2_052]
 
 
 ### level 3
@@ -175,6 +178,12 @@ author: "nimkoes"
 - 003 : [**<u>2 x n 타일링</u>**<sub>연습문제</sub>][link_level_3_003]
 - 004 : [**<u>여행경로</u>**<sub>깊이/너비 우선 탐색(DFS/BFS)</sub>][link_level_3_004]
 - 005 : [**<u>베스트앨범</u>**<sub>해시</sub>][link_level_3_005]
+
+
+### weekly challenge
+---
+
+- WEEK 001 : [**<u>부족한 금액 계산하기</u>**][link_wc_001]
   
 
 
@@ -230,6 +239,8 @@ author: "nimkoes"
 [link_level_1_046]:https://xxxelppa.tistory.com/182
 [link_level_1_047]:https://xxxelppa.tistory.com/183
 [link_level_1_048]:https://xxxelppa.tistory.com/184
+[link_level_1_049]:https://xxxelppa.tistory.com/337
+[link_level_1_050]:https://xxxelppa.tistory.com/338
   
 [link_level_2_001]:https://xxxelppa.tistory.com/208
 [link_level_2_002]:https://xxxelppa.tistory.com/209
@@ -282,9 +293,13 @@ author: "nimkoes"
 [link_level_2_049]:https://xxxelppa.tistory.com/257
 [link_level_2_050]:https://xxxelppa.tistory.com/258
 [link_level_2_051]:https://xxxelppa.tistory.com/259
+[link_level_2_052]:https://xxxelppa.tistory.com/339
   
 [link_level_3_001]:https://xxxelppa.tistory.com/262
 [link_level_3_002]:https://xxxelppa.tistory.com/266
 [link_level_3_003]:https://xxxelppa.tistory.com/268
 [link_level_3_004]:https://xxxelppa.tistory.com/298
 [link_level_3_005]:https://xxxelppa.tistory.com/335
+
+[link_wc_001]:https://xxxelppa.tistory.com/336
+
