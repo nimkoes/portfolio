@@ -81,7 +81,11 @@ subtitle: I work diligently to become lazy ☕
 ## **WORK EXPERIENCE**
 ---
 
-* **2021.01 - today**
+* **2021.09 - today**
+  * Backend Developer (Senior)
+* **2021.01 - 2021.08**
+  * Junior developer technical interviewer.
+  * Junior developer coding test question maker.
   * Establish a new project development environment. (Spring Boot, Maven)
   * Adding '3DS 2.0' authentication process in payment system.
   * Device fingerprint technology research.
