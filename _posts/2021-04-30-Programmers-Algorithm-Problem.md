@@ -184,6 +184,8 @@ author: "nimkoes"
 ---
 
 - WEEK 001 : [**<u>부족한 금액 계산하기</u>**][link_wc_001]
+- WEEK 002 : [**<u>상호 평가</u>**][link_wc_002]
+- WEEK 004 : [**<u>직업군 추천하기</u>**][link_wc_004]
   
 
 
@@ -302,4 +304,6 @@ author: "nimkoes"
 [link_level_3_005]:https://xxxelppa.tistory.com/335
 
 [link_wc_001]:https://xxxelppa.tistory.com/336
+[link_wc_002]:https://xxxelppa.tistory.com/340
+[link_wc_004]:https://xxxelppa.tistory.com/341
 
