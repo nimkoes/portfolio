@@ -36,13 +36,15 @@ subtitle: I work diligently to become lazy ☕
 ##### ***HAVE EVER USED***
 * Go, C, C#, ASP.NET, python
 * Windows Server
-* DB2, PL/SQL, stored procedure
+* Redis, MySQL, DB2, MSSQL, PL/SQL, stored procedure
 * thymeleaf
 * Git, Subversion
-* Hudson, Jenkins
+* Docker, k8s
+* Hudson, Jenkins, Azure
+* TinyOS
   
 ##### ***utility***
-* eclipse, IntelliJ, Visual Studio Code
+* IntelliJ, Visual Studio Code, eclipse
 * EmEditor, UltraEdit, Notepad++
 * WinMerge
 * Postman
