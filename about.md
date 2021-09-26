@@ -66,6 +66,7 @@ subtitle: I work diligently to become lazy ☕
 ## **EDUCATION**
 ---
 
+* [<u>Spring Data JPA</u>](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EB%8D%B0%EC%9D%B4%ED%84%B0-JPA-%EC%8B%A4%EC%A0%84#){:target="_blank"}
 * [<u>nomad coder, quickly and easily start "go"</u>](https://nomadcoders.co/go-for-beginners/lobby){:target="_blank"}
 * [<u>whiteship java online live study</u>](https://xxxelppa.tistory.com/133){:target="_blank"}
 * [<u>HTTP web basics for all developers</u>](https://www.inflearn.com/course/http-%EC%9B%B9-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC#description){:target="_blank"}
