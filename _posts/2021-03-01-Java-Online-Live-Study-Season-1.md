@@ -21,7 +21,7 @@ author: "nimkoes"
 ---
 전체 15주 과정의 스터디로, 스터디 과제 제출율 80%를 넘긴 참여자에게 수료 기념으로 티셔츠를 선물해 드립니다.
 
-![t-shirt_001](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/study/ws_003.jpg?raw=true "t-shirt_001"){: width="410px" height="410px"}
+![t-shirt_001](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/study/ws_003.jpg?raw=true "t-shirt_001"){: width="310px" height="310px"}
 　  
 　  
 　  
