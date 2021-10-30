@@ -12,11 +12,11 @@ subtitle: I work diligently to become lazy ☕
 ## **CERTIFICATION & LICENSE**
 ---
 
-* BSc. in Computer Engineering
-* COS pro Highest level (Coding Specialist Professional, Java)
-* COS Advanced level (Coding Specialist, scratch)
-* SQLD (SQL Developer)
-* Engineer Information Processing
+* 컴퓨터공학사 <sub>BSc. in Computer Engineering</sub>
+* COS pro Java 1급 <sub>COS pro Highest level (Coding Specialist Professional, Java)</sub>
+* COS scratch 1급 / Advanced <sub>COS Advanced level (Coding Specialist, scratch)</sub>
+* 국가공인 SQL 개발자 (SQLD) <sub>SQLD (SQL Developer)</sub>
+* 정보처리기사 <sub>Engineer Information Processing</sub>
 * MOS Excel 2007 Expert
 * MOS PowerPoint 2007
 　  
@@ -46,8 +46,7 @@ subtitle: I work diligently to become lazy ☕
   
 ##### ***utility***
 * IntelliJ, Visual Studio Code, eclipse
-* EmEditor, UltraEdit, Notepad++
-* WinMerge
+* EmEditor, UltraEdit, Notepad++, WinMerge
 * Postman
 　  
 　  
@@ -55,11 +54,11 @@ subtitle: I work diligently to become lazy ☕
 ## **ACTIVITIES & AWARDS**
 ---
 
-* Programmers Monthly Coding Challenge 2020.10 Top 4%
-* Programmers Monthly Coding Challenge 2020.09 Top 5%
-* the Order of Merit for Blood Donation (silver award)
-* College Student Start-up Item Competition (excellence award)
-* Student Portfolio Competition in College (silver award, bronze award)
+* 프로그래머스 월간 코딩 챌린지 2020년 10월 <sub>Programmers Monthly Coding Challenge 2020.10 Top 4%</sub>
+* 프로그래머스 월간 코딩 챌린지 2020년 09월 <sub>Programmers Monthly Coding Challenge 2020.09 Top 5%</sub>
+* 적십자 헌혈 유공장 은장 <sub>the Order of Merit for Blood Donation (silver award)</sub>
+* 대학생 창업 아이템 경진대회 수상 <sub>College Student Start-up Item Competition (excellence award)</sub>
+* 학생 포트폴리오 경진대회 은상, 동상 <sub>Student Portfolio Competition in College (silver award, bronze award)</sub>
 * Military Service (Korea Army, Republic of Korea)
 　  
 　  
@@ -67,18 +66,18 @@ subtitle: I work diligently to become lazy ☕
 ## **EDUCATION**
 ---
 
-* [<u>Spring Data JPA</u>](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EB%8D%B0%EC%9D%B4%ED%84%B0-JPA-%EC%8B%A4%EC%A0%84#){:target="_blank"}
-* [<u>nomad coder, quickly and easily start "go"</u>](https://nomadcoders.co/go-for-beginners/lobby){:target="_blank"}
-* [<u>whiteship java online live study</u>](https://xxxelppa.tistory.com/133){:target="_blank"}
-* [<u>HTTP web basics for all developers</u>](https://www.inflearn.com/course/http-%EC%9B%B9-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC#description){:target="_blank"}
-* [<u>Spring Boot and Utilize JPA 2 (API development and performance optimization)</u>](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-API%EA%B0%9C%EB%B0%9C-%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94#description){:target="_blank"}
-* [<u>Spring Boot and Utilize JPA 1 (Web Application Development)</u>](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1#description){:target="_blank"}
-* [<u>Java ORM Standard JPA Programming</u>](https://www.inflearn.com/course/ORM-JPA-Basic#description){:target="_blank"}
-* [<u>Spring Boot concept and utilization</u>](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8#description){:target="_blank"}
-* [<u>the Java, various ways to manipulate the code</u>](https://www.inflearn.com/course/the-java-code-manipulation#description){:target="_blank"}
-* [<u>the Java, various ways to test applications</u>](https://www.inflearn.com/course/the-java-application-test#description){:target="_blank"}
-* [<u>Spring Web MVC</u>](https://www.inflearn.com/course/%EC%9B%B9-mvc#description){:target="_blank"}
-* [<u>Spring Framework Core Technologies</u>](https://www.inflearn.com/course/spring-framework_core#description){:target="_blank"}
+* 실전! 스프링 데이터 JPA <sub>[<u>Spring Data JPA</u>](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EB%8D%B0%EC%9D%B4%ED%84%B0-JPA-%EC%8B%A4%EC%A0%84#){:target="_blank"}</sub>
+* 쉽고 빠른 Go 시작하기 <sub>[<u>nomad coder, quickly and easily start "go"</u>](https://nomadcoders.co/go-for-beginners/lobby){:target="_blank"}</sub>
+* 자바 온라인 스터디 시즌1 <sub>[<u>whiteship java online live study</u>](https://xxxelppa.tistory.com/133){:target="_blank"}</sub>
+* 모든 개발자를 위한 HTTP 웹 기본 지식 <sub>[<u>HTTP web basics for all developers</u>](https://www.inflearn.com/course/http-%EC%9B%B9-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC#description){:target="_blank"}</sub>
+* 실전! 스프링 부트와 JPA 활용2 - API 개발과 성능 최적화 <sub>[<u>Spring Boot and Utilize JPA 2 (API development and performance optimization)</u>](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-API%EA%B0%9C%EB%B0%9C-%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94#description){:target="_blank"}</sub>
+* 실전! 스프링 부트와 JPA 활용1 - 웹 애플리케이션 개발 <sub>[<u>Spring Boot and Utilize JPA 1 (Web Application Development)</u>](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1#description){:target="_blank"}</sub>
+* 자바 ORM 표준 JPA 프로그래밍 - 기본편 <sub>[<u>Java ORM Standard JPA Programming</u>](https://www.inflearn.com/course/ORM-JPA-Basic#description){:target="_blank"}</sub>
+* 스프링 부트 개념과 활용 <sub>[<u>Spring Boot concept and utilization</u>](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8#description){:target="_blank"}</sub>
+* 더 자바, 코드를 조작하는 다양한 방법 <sub>[<u>the Java, various ways to manipulate the code</u>](https://www.inflearn.com/course/the-java-code-manipulation#description){:target="_blank"}</sub>
+* 더 자바, 애플리케이션을 테스트하는 다양한 방법 <sub>[<u>the Java, various ways to test applications</u>](https://www.inflearn.com/course/the-java-application-test#description){:target="_blank"}</sub>
+* 스프링 웹 MVC <sub>[<u>Spring Web MVC</u>](https://www.inflearn.com/course/%EC%9B%B9-mvc#description){:target="_blank"}</sub>
+* 스프링 프레임워크 핵심 기술 <sub>[<u>Spring Framework Core Technologies</u>](https://www.inflearn.com/course/spring-framework_core#description){:target="_blank"}</sub>
 　  
 　  
   
