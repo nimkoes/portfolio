@@ -27,20 +27,21 @@ subtitle: I work diligently to become lazy ☕
 
 * Java (1.7+)
 * Spring Web MVC, Spring Boot
-* SQL (MySQL, Oracle)
+* SQL (SQLD certified)
 * jQuery, jqGrid
 * JSP, JavaScript, HTML, CSS
 * Maven
 * Scratch
   
-##### ***HAVE EVER USED***
+##### ***experienced***
 * Go, C, C#, ASP.NET, python
 * Windows Server
+* Spring Data JPA, querydsl
 * Redis, MySQL, DB2, MSSQL, PL/SQL, stored procedure
 * thymeleaf
 * Git, Subversion
+* Azure, Jenkins, Hudson, Ant
 * Docker, k8s
-* Hudson, Jenkins, Azure
 * TinyOS
   
 ##### ***utility***
