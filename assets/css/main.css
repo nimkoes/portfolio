@@ -4,17 +4,17 @@
     /*font-family: 'Quicksand', sans-serif;  */
     font-family: 'D2Coding ligature';
     font-size: 100%;
-    color: #012;
-    background-color: #FFF; }
+    color: #082746;
+    background-color: #f9f9f9; }
 
   a {
-    color: #0069ff;
+    color: #f27324;
     font-weight: bold;
     text-decoration: none; }
 
   p, ul, ol, dl {
     font-size: 100%;
-    line-height: 32px; }
+    line-height: 21px; }
 
   img {
     display: block;
