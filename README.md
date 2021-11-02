@@ -1,6 +1,6 @@
 　  
 　  
-**portfolio blog** -> [nimkoes.github.io](link_portfolio)
+**portfolio blog** -> [nimkoes.github.io][link_portfolio]
 　  
 　  
 　  
