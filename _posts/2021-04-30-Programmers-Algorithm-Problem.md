@@ -111,6 +111,7 @@ author: "nimkoes"
 - 048 : [**<u>(1차) 다트 게임</u>**<sub>2018 KAKAO BLIND RECRUITMENT</sub>][link_level_1_048]
 - 049 : [**<u>숫자 문자열과 영단어</u>**<sub>2021 카카오 채용연계형 인턴십</sub>][link_level_1_049]
 - 050 : [**<u>약수의 개수와 덧셈</u>**<sub>월간 코드 챌린지 시즌2</sub>][link_level_1_050]
+- 051 : [**<u>없는 숫자 더하기</u>**<sub>월간 코드 챌린지 시즌3</sub>][link_level_1_051]
 
 
 ### level 2
@@ -244,6 +245,7 @@ author: "nimkoes"
 [link_level_1_048]:https://xxxelppa.tistory.com/184
 [link_level_1_049]:https://xxxelppa.tistory.com/337
 [link_level_1_050]:https://xxxelppa.tistory.com/338
+[link_level_1_051]:https://xxxelppa.tistory.com/343
   
 [link_level_2_001]:https://xxxelppa.tistory.com/208
 [link_level_2_002]:https://xxxelppa.tistory.com/209
