@@ -112,6 +112,7 @@ author: "nimkoes"
 - 049 : [**<u>숫자 문자열과 영단어</u>**<sub>2021 카카오 채용연계형 인턴십</sub>][link_level_1_049]
 - 050 : [**<u>약수의 개수와 덧셈</u>**<sub>월간 코드 챌린지 시즌2</sub>][link_level_1_050]
 - 051 : [**<u>없는 숫자 더하기</u>**<sub>월간 코드 챌린지 시즌3</sub>][link_level_1_051]
+- 052 : [**<u>나머지가 1이 되는 수 찾기</u>**<sub>월간 코드 챌린지 시즌3</sub>][link_level_1_052]
 
 
 ### level 2
@@ -246,6 +247,7 @@ author: "nimkoes"
 [link_level_1_049]:https://xxxelppa.tistory.com/337
 [link_level_1_050]:https://xxxelppa.tistory.com/338
 [link_level_1_051]:https://xxxelppa.tistory.com/343
+[link_level_1_052]:https://xxxelppa.tistory.com/344
   
 [link_level_2_001]:https://xxxelppa.tistory.com/208
 [link_level_2_002]:https://xxxelppa.tistory.com/209
