@@ -171,6 +171,7 @@ author: "nimkoes"
 - 050 : [**<u>JadenCase 문자열 만들기</u>**<sub>연습문제</sub>][link_level_2_050]
 - 051 : [**<u>N개의 최소공배수</u>**<sub>연습문제</sub>][link_level_2_051]
 - 052 : [**<u>괄호 회전하기</u>**<sub>월간 코드 챌린지 시즌2</sub>][link_level_2_052]
+- 053 : [**<u>방문 길이</u>**<sub>Summer/Winter Coding(~2018)</sub>][link_level_2_053]
 
 
 ### level 3
@@ -303,6 +304,7 @@ author: "nimkoes"
 [link_level_2_050]:https://xxxelppa.tistory.com/258
 [link_level_2_051]:https://xxxelppa.tistory.com/259
 [link_level_2_052]:https://xxxelppa.tistory.com/339
+[link_level_2_053]:https://xxxelppa.tistory.com/346
   
 [link_level_3_001]:https://xxxelppa.tistory.com/262
 [link_level_3_002]:https://xxxelppa.tistory.com/266
