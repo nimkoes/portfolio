@@ -24,18 +24,12 @@ author: "nimkoes"
 ##### 샘플 cli 명령의 namespace 는 'ns' 를 사용.  
 　  
 　  
-　  
 
-## **상태 실시간 조회 <sub>--watch</sub>**
-kubectl get pods -n ns **--watch**
+## 상태 실시간 조회 **<sub>kubectl get pods -n ns --watch</sub>**
+## 상세 정보 조회 **<sub>kubectl get pods -n ns -o wide</sub>**
+## 속성 조회 **<sub>kubectl describe pods -n ns</sub>**
 　  
-
-## **상세 정보 조회 <sub>-o wide</sub>**
-kubectl get pods -n ns **-o wide**
 　  
-
-## **속성 조회 <sub>describe</sub>**
-kubectl **describe** pods -n ns
 　  
 
 
