@@ -12,11 +12,8 @@ author: "nimkoes"
 ---
 
 　  
-　  
-　  
 
 
----
 # **Kubernetes cli command**
 
 ---
@@ -25,9 +22,9 @@ author: "nimkoes"
 　  
 　  
 
-## 상태 실시간 조회 **<sub>kubectl get pods -n ns --watch</sub>**
-## 상세 정보 조회 **<sub>kubectl get pods -n ns -o wide</sub>**
-## 속성 조회 **<sub>kubectl describe pods -n ns</sub>**
+### 상태 실시간 조회 **<sub>kubectl get pods -n ns --watch</sub>**
+### 상세 정보 조회 **<sub>kubectl get pods -n ns -o wide</sub>**
+### 속성 조회 **<sub>kubectl describe pods -n ns</sub>**
 　  
 　  
 　  
