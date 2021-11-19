@@ -22,3 +22,11 @@ styles: [agate, androidstudio, arta, asceti, atelier-cave.dark, atelier-cave.lig
 # Build settings
 highlighter: null
 markdown: kramdown
+
+
+# Analytics
+analytics:
+  provider: google-gtag
+  google:
+    tracking_id: G-0VHJHV04Q3
+    anonymize_ip: # true, false (default)

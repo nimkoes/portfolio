@@ -12,11 +12,11 @@ subtitle: I work diligently to become lazy ☕
 ## **CERTIFICATION & LICENSE**
 ---
 
-* 컴퓨터공학사 <sub>BSc. in Computer Engineering</sub>
-* COS pro Java 1급 <sub>COS pro Highest level (Coding Specialist Professional, Java)</sub>
-* COS scratch 1급 / Advanced <sub>COS Advanced level (Coding Specialist, scratch)</sub>
-* 국가공인 SQL 개발자 (SQLD) <sub>SQLD (SQL Developer)</sub>
-* 정보처리기사 <sub>Engineer Information Processing</sub>
+* 컴퓨터공학사 **<sub>BSc. in Computer Engineering</sub>**
+* COS pro Java 1급 **<sub>COS pro Highest level (Coding Specialist Professional, Java)</sub>**
+* COS scratch 1급 / Advanced **<sub>COS Advanced level (Coding Specialist, scratch)</sub>**
+* 국가공인 SQL 개발자 (SQLD) **<sub>SQLD (SQL Developer)</sub>**
+* 정보처리기사 **<sub>Engineer Information Processing</sub>**
 * MOS Excel 2007 Expert
 * MOS PowerPoint 2007
 　  
@@ -54,11 +54,11 @@ subtitle: I work diligently to become lazy ☕
 ## **ACTIVITIES & AWARDS**
 ---
 
-* 프로그래머스 월간 코딩 챌린지 2020년 10월 <sub>Programmers Monthly Coding Challenge 2020.10 Top 4%</sub>
-* 프로그래머스 월간 코딩 챌린지 2020년 09월 <sub>Programmers Monthly Coding Challenge 2020.09 Top 5%</sub>
-* 적십자 헌혈 유공장 은장 <sub>the Order of Merit for Blood Donation (silver award)</sub>
-* 대학생 창업 아이템 경진대회 수상 <sub>College Student Start-up Item Competition (excellence award)</sub>
-* 학생 포트폴리오 경진대회 은상, 동상 <sub>Student Portfolio Competition in College (silver award, bronze award)</sub>
+* 프로그래머스 월간 코딩 챌린지 2020년 10월 **<sub>Programmers Monthly Coding Challenge 2020.10 Top 4%</sub>**
+* 프로그래머스 월간 코딩 챌린지 2020년 09월 **<sub>Programmers Monthly Coding Challenge 2020.09 Top 5%</sub>**
+* 적십자 헌혈 유공장 은장 **<sub>the Order of Merit for Blood Donation (silver award)</sub>**
+* 대학생 창업 아이템 경진대회 수상 **<sub>College Student Start-up Item Competition (excellence award)</sub>**
+* 학생 포트폴리오 경진대회 은상, 동상 **<sub>Student Portfolio Competition in College (silver award, bronze award)</sub>**
 * Military Service (Korea Army, Republic of Korea)
 　  
 　  

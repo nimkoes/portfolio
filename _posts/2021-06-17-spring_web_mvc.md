@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Spring Web MVC (not boot) _ 작성중"
+title:  "Spring Web MVC (w/o boot)"
 subtitle: "Spring Web MVC 정리"
 date:   2021-06-17 01:21:17 +0530
 categories: ["summary"]
@@ -45,8 +45,6 @@ author: "nimkoes"
   - [3.1 요청 매핑하기 (mapping handler method)][link_spring_web_mvc_012]  
   - [3.2 핸들러 메소드 : argument & return value (overview, 처리 구현체 자동 등록)][link_spring_web_mvc_013]  
   - [3.3 핸들러 메소드 (execute & using handler method) (작성중)][link_spring_web_mvc_014]
-  - 3.4 전역 컨트롤러 @ControllerAdvice (@ModelAttribute, @InitBinder, @ExceptionHandler)  
-  - 3.5 Spring Web MVC 마무리  
 　  
   
 
