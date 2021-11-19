@@ -26,7 +26,7 @@ markdown: kramdown
 
 # Analytics
 analytics:
-  provider: "google-gtag" 
+  provider: google-gtag
   google:
-    tracking_id: "G-0VHJHV04Q3"
+    tracking_id: G-0VHJHV04Q3
     anonymize_ip: # true, false (default)
