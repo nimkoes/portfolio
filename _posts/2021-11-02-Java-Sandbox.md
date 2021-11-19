@@ -10,7 +10,7 @@ author: "nimkoes"
 　  
 　  
 
-## ***Java Sandbox***
+### ***Java Sandbox***
 
 ---
 
@@ -21,24 +21,24 @@ author: "nimkoes"
  - 의도하지 않은 auto boxing 사용되지 않도록 주의  
 　  
 
-#### **Stream Collectors 실습 <sub>[section_002](https://github.com/nimkoes/java-snippet/blob/master/src/me/nimkoes/section_002/StreamCollectors.java){:target="_blank"}/sub>**
+#### **Stream Collectors 실습 <sub>[section_002](https://github.com/nimkoes/java-snippet/blob/master/src/me/nimkoes/section_002/StreamCollectors.java){:target="_blank"}</sub>**
 　  
 
-#### **Builder Pattern 구현 실습 <sub>[section_003](https://github.com/nimkoes/java-snippet/blob/master/src/me/nimkoes/section_003/BuilderPattern.java){:target="_blank"}/sub>**
+#### **Builder Pattern 구현 실습 <sub>[section_003](https://github.com/nimkoes/java-snippet/blob/master/src/me/nimkoes/section_003/BuilderPattern.java){:target="_blank"}</sub>**
  - lombok 라이브러리를 사용하는게 편함  
 　  
 
-#### **if, if else, switch 속도 비교 테스트 <sub>[section_004](https://github.com/nimkoes/java-snippet/blob/master/src/me/nimkoes/section_004/Main.java){:target="_blank"}/sub>**
+#### **if, if else, switch 속도 비교 테스트 <sub>[section_004](https://github.com/nimkoes/java-snippet/blob/master/src/me/nimkoes/section_004/Main.java){:target="_blank"}</sub>**
  - 분기하는 경우를 10가지로 가정하고, enum 으로 정의  
  - 조건이 참이 되는 경우를 랜덤하게 생성 하도록 구현  
  - 바이트코드까지 열어보진 않았으나 if 가 성능이 제일 떨어지고, if else 와 switch 는 근소한 차이로 switch 가 느림  
 　  
 
-#### **불필요한 객체 생성 속도 비교 테스트 (정규표현식) <sub>[section_005](https://github.com/nimkoes/java-snippet/blob/master/src/me/nimkoes/section_005/Main.java){:target="_blank"}/sub>**
+#### **불필요한 객체 생성 속도 비교 테스트 (정규표현식) <sub>[section_005](https://github.com/nimkoes/java-snippet/blob/master/src/me/nimkoes/section_005/Main.java){:target="_blank"}</sub>**
  - 불필요한 객체를 생성하지 않았을 경우 테스트 상황 기준으로 평균 10배 정도 성능 차이 발생  
 　  
 
-#### **System.out.println vs. logback <sub>[section_006](https://github.com/nimkoes/java-snippet/blob/master/src/me/nimkoes/section_006/Main.java){:target="_blank"}/sub>**
+#### **System.out.println vs. logback <sub>[section_006](https://github.com/nimkoes/java-snippet/blob/master/src/me/nimkoes/section_006/Main.java){:target="_blank"}</sub>**
  - 동일한 내용을 출력 한다고 가정하고 실습  
  - 대략 최소 2배 ~ 최대 10배 까지 시간 차이 발생　  
 
@@ -49,7 +49,7 @@ author: "nimkoes"
 　  
 　  
 
-## ***Java Paragraph***
+### ***Java Paragraph***
 
 ---
 
