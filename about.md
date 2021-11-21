@@ -147,7 +147,7 @@ subtitle: I work diligently to become lazy ☕
 　  
 
 
-## **CERTIFICATES**
+## **EDUCATION CERTIFICATES**
 
 ---
 
