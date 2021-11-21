@@ -151,18 +151,31 @@ subtitle: I work diligently to become lazy ☕
 
 ---
 
-![Certificates_013](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/aboutme/certificates_013.png?raw=true "certificates_013"){: width="570px"}
-![Certificates_012](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/aboutme/certificates_012.png?raw=true "certificates_012"){: width="570px"}
-![Certificates_011](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/aboutme/certificates_011.png?raw=true "certificates_011"){: width="570px"}
-![Certificates_010](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/aboutme/certificates_010.png?raw=true "certificates_010"){: width="570px"}
-![Certificates_009](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/aboutme/certificates_009.png?raw=true "certificates_009"){: width="570px"}
-![Certificates_008](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/aboutme/certificates_008.png?raw=true "certificates_008"){: width="570px"}
-![Certificates_007](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/aboutme/certificates_007.png?raw=true "certificates_007"){: width="570px"}
-![Certificates_006](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/aboutme/certificates_006.png?raw=true "certificates_006"){: width="570px"}
-![Certificates_005](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/aboutme/certificates_005.png?raw=true "certificates_005"){: width="570px"}
-![Certificates_004](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/aboutme/certificates_004.png?raw=true "certificates_004"){: width="570px"}
-![Certificates_003](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/aboutme/certificates_003.png?raw=true "certificates_003"){: width="570px"}
-![Certificates_002](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/aboutme/certificates_002.png?raw=true "certificates_002"){: width="570px"}
-![Certificates_001](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/aboutme/certificates_001.png?raw=true "certificates_001"){: width="570px"}
+![Certificates_013](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/aboutme/certificates_013.png?raw=true "certificates_013"){: width="470px"}  
+　  
+![Certificates_012](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/aboutme/certificates_012.png?raw=true "certificates_012"){: width="470px"}  
+　  
+![Certificates_011](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/aboutme/certificates_011.png?raw=true "certificates_011"){: width="470px"}  
+　  
+![Certificates_010](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/aboutme/certificates_010.png?raw=true "certificates_010"){: width="470px"}  
+　  
+![Certificates_009](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/aboutme/certificates_009.png?raw=true "certificates_009"){: width="470px"}  
+　  
+![Certificates_008](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/aboutme/certificates_008.png?raw=true "certificates_008"){: width="470px"}  
+　  
+![Certificates_007](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/aboutme/certificates_007.png?raw=true "certificates_007"){: width="470px"}  
+　  
+![Certificates_006](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/aboutme/certificates_006.png?raw=true "certificates_006"){: width="470px"}  
+　  
+![Certificates_005](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/aboutme/certificates_005.png?raw=true "certificates_005"){: width="470px"}  
+　  
+![Certificates_004](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/aboutme/certificates_004.png?raw=true "certificates_004"){: width="470px"}  
+　  
+![Certificates_003](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/aboutme/certificates_003.png?raw=true "certificates_003"){: width="470px"}  
+　  
+![Certificates_002](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/aboutme/certificates_002.png?raw=true "certificates_002"){: width="470px"}  
+　  
+![Certificates_001](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/aboutme/certificates_001.png?raw=true "certificates_001"){: width="470px"}  
+　  
 
 
