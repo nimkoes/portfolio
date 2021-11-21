@@ -69,10 +69,10 @@ subtitle: I work diligently to become lazy ☕
 
 **<sub><sub>본문 마지막에 인증서 첨부</sub></sub>**
 
-* 스프링 핵심 원리 - 고급편 <sub>[<u>Spring Core Principles - Advanced</u>](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%ED%95%B5%EC%8B%AC-%EC%9B%90%EB%A6%AC-%EA%B3%A0%EA%B8%89%ED%8E%B8/dashboard){:target="_blank"}</sub>
+* 스프링 핵심 원리 - 고급편 <sub>[<u>Spring Core Principles - Advanced</u>](https://github.com/nimkoes/Spring_Advanced_Study/blob/master/README.md){:target="_blank"}</sub>
 * 실전! 스프링 데이터 JPA <sub>[<u>Spring Data JPA</u>](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EB%8D%B0%EC%9D%B4%ED%84%B0-JPA-%EC%8B%A4%EC%A0%84#){:target="_blank"}</sub>
-* 쉽고 빠른 Go 시작하기 <sub>[<u>nomad coder, quickly and easily start "go"</u>](https://nomadcoders.co/go-for-beginners/lobby){:target="_blank"}</sub>
-* 자바 온라인 스터디 시즌1 <sub>[<u>whiteship java online live study</u>](https://xxxelppa.tistory.com/133){:target="_blank"}</sub>
+* 쉽고 빠른 Go 시작하기 <sub>[<u>nomad coder, quickly and easily start "go"</u>](https://nimkoes.github.io/study/2021/05/14/Go-Language-Study.html){:target="_blank"}</sub>
+* 자바 온라인 스터디 시즌1 <sub>[<u>whiteship java online live study</u>](https://nimkoes.github.io/study/2021/02/28/Java-Online-Live-Study-Season-1.html){:target="_blank"}</sub>
 * 모든 개발자를 위한 HTTP 웹 기본 지식 <sub>[<u>HTTP web basics for all developers</u>](https://www.inflearn.com/course/http-%EC%9B%B9-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC#description){:target="_blank"}</sub>
 * 실전! 스프링 부트와 JPA 활용2 - API 개발과 성능 최적화 <sub>[<u>Spring Boot and Utilize JPA 2 (API development and performance optimization)</u>](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-API%EA%B0%9C%EB%B0%9C-%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94#description){:target="_blank"}</sub>
 * 실전! 스프링 부트와 JPA 활용1 - 웹 애플리케이션 개발 <sub>[<u>Spring Boot and Utilize JPA 1 (Web Application Development)</u>](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1#description){:target="_blank"}</sub>
