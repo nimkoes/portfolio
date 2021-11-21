@@ -66,18 +66,32 @@ subtitle: I work diligently to become lazy ☕
 ## **EDUCATION**
 ---
 
+* 스프링 핵심 원리 - 고급편 <sub>[<u>Spring Core Principles - Advanced</u>](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%ED%95%B5%EC%8B%AC-%EC%9B%90%EB%A6%AC-%EA%B3%A0%EA%B8%89%ED%8E%B8/dashboard){:target="_blank"}</sub>
+  * ![Certificates_013](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/aboutme/certificates_013.png?raw=true "certificates_013"){: width="210px"}
 * 실전! 스프링 데이터 JPA <sub>[<u>Spring Data JPA</u>](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EB%8D%B0%EC%9D%B4%ED%84%B0-JPA-%EC%8B%A4%EC%A0%84#){:target="_blank"}</sub>
+  * ![Certificates_012](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/aboutme/certificates_012.png?raw=true "certificates_012"){: width="210px"}
 * 쉽고 빠른 Go 시작하기 <sub>[<u>nomad coder, quickly and easily start "go"</u>](https://nomadcoders.co/go-for-beginners/lobby){:target="_blank"}</sub>
+  * ![Certificates_011](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/aboutme/certificates_011.png?raw=true "certificates_011"){: width="210px"}
 * 자바 온라인 스터디 시즌1 <sub>[<u>whiteship java online live study</u>](https://xxxelppa.tistory.com/133){:target="_blank"}</sub>
+  * ![Certificates_010](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/aboutme/certificates_010.png?raw=true "certificates_010"){: width="210px"}
 * 모든 개발자를 위한 HTTP 웹 기본 지식 <sub>[<u>HTTP web basics for all developers</u>](https://www.inflearn.com/course/http-%EC%9B%B9-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC#description){:target="_blank"}</sub>
+  * ![Certificates_009](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/aboutme/certificates_009.png?raw=true "certificates_009"){: width="210px"}
 * 실전! 스프링 부트와 JPA 활용2 - API 개발과 성능 최적화 <sub>[<u>Spring Boot and Utilize JPA 2 (API development and performance optimization)</u>](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-API%EA%B0%9C%EB%B0%9C-%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94#description){:target="_blank"}</sub>
+  * ![Certificates_008](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/aboutme/certificates_008.png?raw=true "certificates_008"){: width="210px"}
 * 실전! 스프링 부트와 JPA 활용1 - 웹 애플리케이션 개발 <sub>[<u>Spring Boot and Utilize JPA 1 (Web Application Development)</u>](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1#description){:target="_blank"}</sub>
+  * ![Certificates_007](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/aboutme/certificates_007.png?raw=true "certificates_007"){: width="210px"}
 * 자바 ORM 표준 JPA 프로그래밍 - 기본편 <sub>[<u>Java ORM Standard JPA Programming</u>](https://www.inflearn.com/course/ORM-JPA-Basic#description){:target="_blank"}</sub>
+  * ![Certificates_006](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/aboutme/certificates_006.png?raw=true "certificates_006"){: width="210px"}
 * 스프링 부트 개념과 활용 <sub>[<u>Spring Boot concept and utilization</u>](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8#description){:target="_blank"}</sub>
+  * ![Certificates_005](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/aboutme/certificates_005.png?raw=true "certificates_005"){: width="210px"}
 * 더 자바, 코드를 조작하는 다양한 방법 <sub>[<u>the Java, various ways to manipulate the code</u>](https://www.inflearn.com/course/the-java-code-manipulation#description){:target="_blank"}</sub>
+  * ![Certificates_004](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/aboutme/certificates_004.png?raw=true "certificates_004"){: width="210px"}
 * 더 자바, 애플리케이션을 테스트하는 다양한 방법 <sub>[<u>the Java, various ways to test applications</u>](https://www.inflearn.com/course/the-java-application-test#description){:target="_blank"}</sub>
+  * ![Certificates_003](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/aboutme/certificates_003.png?raw=true "certificates_003"){: width="210px"}
 * 스프링 웹 MVC <sub>[<u>Spring Web MVC</u>](https://www.inflearn.com/course/%EC%9B%B9-mvc#description){:target="_blank"}</sub>
+  * ![Certificates_002](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/aboutme/certificates_002.png?raw=true "certificates_002"){: width="210px"}
 * 스프링 프레임워크 핵심 기술 <sub>[<u>Spring Framework Core Technologies</u>](https://www.inflearn.com/course/spring-framework_core#description){:target="_blank"}</sub>
+  * ![Certificates_001](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/aboutme/certificates_001.png?raw=true "certificates_001"){: width="210px"}
 　  
 　  
   
