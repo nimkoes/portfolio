@@ -18,11 +18,47 @@ inflearn 강의를 보고 정리한 자료
 ## **정리**
 ---
 <details markdown="1">
-<summary>첫 번째 컨텐츠</summary>
+<summary>[기초] 기초 다지기</summary>
 
-접기/펼치기 테스트
+ - Why Kubernetes?     [<sub>쿠버네티스 사용 이유</sub>](https://xxxelppa.tistory.com/347){:target="_blank"}  
+ - VM vs Container     [<sub>VM 과 Container 비교</sub>](https://xxxelppa.tistory.com/348){:target="_blank"}  
+ - Kubernetes Overview [<sub>쿠버네티스 훑어보기</sub>] (https://xxxelppa.tistory.com/349){:target="_blank"}  
 
 </details>
+
+
+---
+
+#### 아래 내용은 스터디 예정  
+
+<details markdown="1">
+<summary>[기초] 쿠버네티스 설치</summary>
+</details>
+
+<details markdown="1">
+<summary>[기초] 기본 오브젝트</summary>
+</details>
+
+<details markdown="1">
+<summary>[기초] 컨트롤러</summary>
+</details>
+
+<details markdown="1">
+<summary>[중급] Pod</summary>
+</details>
+
+<details markdown="1">
+<summary>[중급] 기본 오브젝트</summary>
+</details>
+
+<details markdown="1">
+<summary>[중급] Pod</summary>
+</details>
+
+<details markdown="1">
+<summary>[중급] 아키택처</summary>
+</details>
+
 　  
 　  
 　  
