@@ -22,6 +22,7 @@ inflearn 강의를 보고 정리한 자료
   - Why Kubernetes?                      [<sub>쿠버네티스 사용 이유</sub>](https://xxxelppa.tistory.com/347){:target="_blank"}  
   - VM vs Container                      [<sub>VM 과 Container 비교</sub>](https://xxxelppa.tistory.com/348){:target="_blank"}  
   - Kubernetes Overview                  [<sub>쿠버네티스 훑어보기</sub> ](https://xxxelppa.tistory.com/349){:target="_blank"}  
+- **(기초) 기본 오브젝트**
   - Pod - Container, Label, NodeSchedule [<sub>Pod (Container, Label, NodeSchedule)</sub> ](https://xxxelppa.tistory.com/350){:target="_blank"}  
 　  
 　  
@@ -30,8 +31,6 @@ inflearn 강의를 보고 정리한 자료
 
 #### 아래 내용은 스터디 예정  
 
-- **(기초) 쿠버네티스 설치**
-- **(기초) 기본 오브젝트**
 - **(기초) 컨트롤러**
 - **(중급) Pod**
 - **(중급) 기본 오브젝트**
