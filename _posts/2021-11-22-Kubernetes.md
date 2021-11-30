@@ -35,11 +35,31 @@ inflearn 강의를 보고 정리한 자료
 #### 아래 내용은 스터디 예정  
 
 - **(기초) 컨트롤러**
+  - Replication Controller, ReplicaSet - Template, Replicas, Selector <sub>Replication Controller, ReplicaSet (Template, Replicas, Selector)</sub>  
+  - Deployment - Recreate, RollingUpdate <sub>Deployment (Recreate, RollingUpdate)</sub>  
+  - DaemonSet, Job, CronJob <sub>DaemonSet, Job, CronJob</sub>  
 - **(중급) Pod**
+  - Pod - Lifecycle <sub>Pod (Lifecycle)</sub>  
+  - Pod - ReadinessProbe, LivenessProbe <sub>Pod (ReadinessProbe, LivenessProbe)</sub>  
+  - Pod - QoS Classes <sub>Pod (QoS Classes)</sub>  
+  - Pod - Node Scheduling <sub>Pod (Node Scheduling)</sub>  
 - **(중급) 기본 오브젝트**
+  - Service - Headless, Endpoint, ExternalName <sub>Service (Headless, Endpoint, ExternalName)</sub>  
+  - Volume - Dynamic Provisioning, StorageClass, Status, ReclaimPolicy <sub>Volume (Dynamic Provisioning, StorageClass, Status, ReclaimPolicy)</sub>  
+  - Accessing API - Overview <sub>Accessing API (Overview)</sub>  
+  - Authentication - X509 Certs, kubectl, ServiceAccount <sub>Authentication (X509 Certs, kubectl, ServiceAccount)</sub>  
+  - Authorization - RBAC, Role, RoleBinding <sub>Authorization (RBAC, Role, RoleBinding)</sub>  
+  - Kubernetes Dashboard <sub>Kubernetes Dashboard</sub>  
+  - <sub></sub>  
 - **(중급) Pod**
+  - StatefulSet <sub>StatefulSet</sub>  
+  - Ingress - Nginx <sub>Ingress (Nginx)</sub>  
+  - Autoscaler - HPA <sub>Autoscaler (HPA)</sub>  
 - **(중급) 아키택처**
-
+  - Component - kube-apiserver, etcd, kube-schedule, kube-proxy, kube-controlelr-manager <sub>Component (kube-apiserver, etcd, kube-schedule, kube-proxy, kube-controlelr-manager)</sub>  
+  - Networking - Pod / Service Network (Calico), Pause Container <sub>Networking (Pod / Service Network (Calico), Pause Container)</sub>  
+  - Storage - NFS(FileStorage), Longhorn(BlockStorage) <sub>Storage (NFS(FileStorage), Longhorn(BlockStorage))</sub>  
+  - Logging - PLG Stack <sub>Logging (PLG Stack)</sub>  
 　  
 　  
 　  
