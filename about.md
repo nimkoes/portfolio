@@ -88,6 +88,7 @@ subtitle: I work diligently to become lazy ☕
 
 * **2021.09 - today**
   * Backend Developer (Senior)
+    * <sup><sub>2021.09 ~ 2021.11</sub></sup> :: Build an SSO (Single Sign-On) environment.
 * **2021.01 - 2021.08**
   * Junior developer technical interviewer.
   * Junior developer coding test question maker.
