@@ -25,7 +25,7 @@ inflearn 강의를 보고 정리한 자료
 - **(기초) 기본 오브젝트**
   - Pod - Container, Label, NodeSchedule [<sub>Pod (Container, Label, NodeSchedule)</sub> ](https://xxxelppa.tistory.com/350){:target="_blank"}  
   - Service - ClusterIP, NodePort, LoadBalancer [<sub>Service (ClusterIP, NodePort, LoadBalancer)</sub>](https://xxxelppa.tistory.com/351){:target="_blank"}  
-  - Volume - emptyDir, hostPath, PV/PVC <sub>Volume (emptyDir, hostPath, PVC/PV)</sub>  
+  - Volume - emptyDir, hostPath, PV/PVC [<sub>Volume (emptyDir, hostPath, PVC/PV)</sub>](https://xxxelppa.tistory.com/352){:target="_blank"}  
   - ConfigMap, Secret - Env, Mount <sub>ConfigMap, Secret (Env, Mount)</sub>  
 　  
 　  
