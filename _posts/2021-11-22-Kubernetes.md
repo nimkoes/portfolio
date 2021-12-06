@@ -28,6 +28,10 @@ inflearn 강의를 보고 정리한 자료
   - Volume - emptyDir, hostPath, PV/PVC [<sub>Volume (emptyDir, hostPath, PVC/PV)</sub>](https://xxxelppa.tistory.com/352){:target="_blank"}  
   - ConfigMap, Secret - Env, Mount [<sub>ConfigMap, Secret (Env, Mount)</sub>](https://xxxelppa.tistory.com/353){:target="_blank"}  
   - Namespace, ResourceQuota, LimitRange [<sub>Namespace, ResourceQuota, LimitRange</sub>](https://xxxelppa.tistory.com/354){:target="_blank"}  
+- **(기초) 컨트롤러**
+  - Replication Controller, ReplicaSet - Template, Replicas, Selector <sub>Replication Controller, ReplicaSet (Template, Replicas, Selector)</sub>
+  - Deployment - Recreate, RollingUpdate <sub>Deployment (Recreate, RollingUpdate)</sub>
+  - DaemonSet, Job, CronJob <sub>DaemonSet, Job, CronJob</sub>  
 　  
 　  
 
@@ -35,10 +39,6 @@ inflearn 강의를 보고 정리한 자료
 
 #### 아래 내용은 스터디 예정  
 
-- **(기초) 컨트롤러**
-  - Replication Controller, ReplicaSet - Template, Replicas, Selector <sub>Replication Controller, ReplicaSet (Template, Replicas, Selector)</sub>  
-  - Deployment - Recreate, RollingUpdate <sub>Deployment (Recreate, RollingUpdate)</sub>  
-  - DaemonSet, Job, CronJob <sub>DaemonSet, Job, CronJob</sub>  
 - **(중급) Pod**
   - Pod - Lifecycle <sub>Pod (Lifecycle)</sub>  
   - Pod - ReadinessProbe, LivenessProbe <sub>Pod (ReadinessProbe, LivenessProbe)</sub>  
