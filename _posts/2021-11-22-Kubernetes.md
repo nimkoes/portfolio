@@ -30,7 +30,7 @@ inflearn 강의를 보고 정리한 자료
   - Namespace, ResourceQuota, LimitRange [<sub>Namespace, ResourceQuota, LimitRange</sub>](https://xxxelppa.tistory.com/354){:target="_blank"}  
 - **(기초) 컨트롤러**
   - Replication Controller, ReplicaSet - Template, Replicas, Selector [<sub>Replication Controller, ReplicaSet (Template, Replicas, Selector)</sub>](https://xxxelppa.tistory.com/355){:target="_blank"}  
-  - Deployment - Recreate, RollingUpdate <sub>Deployment (Recreate, RollingUpdate)</sub>
+  - Deployment - Recreate, RollingUpdate [<sub>Deployment (Recreate, RollingUpdate)</sub>](https://xxxelppa.tistory.com/356){:target="_blank"}  
   - DaemonSet, Job, CronJob <sub>DaemonSet, Job, CronJob</sub>  
 - **(중급) Pod**
   - Pod - Lifecycle <sub>Pod (Lifecycle)</sub>  
