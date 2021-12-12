@@ -34,14 +34,13 @@ inflearn 강의를 보고 정리한 자료
   - DaemonSet, Job, CronJob <sub>DaemonSet, Job, CronJob</sub>  
 - **(중급) Pod**
   - Pod - Lifecycle <sub>Pod (Lifecycle)</sub>  
-　  
+  - Pod - ReadinessProbe, LivenessProbe <sub>Pod (ReadinessProbe, LivenessProbe)</sub>  
 　  
 
 ---
 
 #### 아래 내용은 스터디 예정  
 
-  - Pod - ReadinessProbe, LivenessProbe <sub>Pod (ReadinessProbe, LivenessProbe)</sub>  
   - Pod - QoS Classes <sub>Pod (QoS Classes)</sub>  
   - Pod - Node Scheduling <sub>Pod (Node Scheduling)</sub>  
 - **(중급) 기본 오브젝트**
