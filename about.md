@@ -38,7 +38,7 @@ subtitle: I work diligently to become lazy ☕
 ##### ***experienced***
 * Go, C, C#, ASP.NET, python
 * Windows Server
-* Redis, MySQL, DB2, MSSQL, PL/SQL, stored procedure
+* MongoDB, Redis, MySQL, DB2, MSSQL, PL/SQL, stored procedure
 * thymeleaf
 * Jenkins, Hudson
 * Docker
@@ -89,6 +89,7 @@ subtitle: I work diligently to become lazy ☕
 * **2021.09 - today**
   * Backend Developer (Senior)
     * <sup><sub>2021.09 ~ 2021.11</sub></sup> :: Build an SSO (Single Sign-On) environment.
+    * <sup><sub>2021.12 ~ </sub></sup> :: Zimgo 서비스 백엔드 서버 개발
 * **2021.01 - 2021.08**
   * 신입 개발자 기술 면접관
   * 신입 개발자 코딩 테스트 문제 출제

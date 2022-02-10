@@ -31,7 +31,7 @@ inflearn 강의를 보고 정리한 자료
 - **(기초) 컨트롤러**
   - Replication Controller, ReplicaSet - Template, Replicas, Selector [<sub>Replication Controller, ReplicaSet (Template, Replicas, Selector)</sub>](https://xxxelppa.tistory.com/355){:target="_blank"}  
   - Deployment - Recreate, RollingUpdate [<sub>Deployment (Recreate, RollingUpdate)</sub>](https://xxxelppa.tistory.com/356){:target="_blank"}  
-  - DaemonSet, Job, CronJob [<sub>DaemonSet, Job, CronJob</sub>](https://xxxelppa.tistory.com/357){:target="_blank"}
+  - DaemonSet, Job, CronJob [<sub>DaemonSet, Job, CronJob</sub>](https://xxxelppa.tistory.com/358){:target="_blank"}
 - **(중급) Pod**
   - Pod - Lifecycle <sub>Pod (Lifecycle)</sub>  
   - Pod - ReadinessProbe, LivenessProbe <sub>Pod (ReadinessProbe, LivenessProbe)</sub>  
