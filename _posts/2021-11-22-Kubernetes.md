@@ -23,17 +23,17 @@ inflearn 강의를 보고 정리한 자료
   - VM vs Container                      [<sub>VM 과 Container 비교</sub>](https://xxxelppa.tistory.com/348){:target="_blank"}  
   - Kubernetes Overview                  [<sub>쿠버네티스 훑어보기</sub> ](https://xxxelppa.tistory.com/349){:target="_blank"}  
 - **(기초) 기본 오브젝트**
-  - Pod - Container, Label, NodeSchedule [<sub>Pod (Container, Label, NodeSchedule)</sub> ](https://xxxelppa.tistory.com/350){:target="_blank"}  
+  - Pod - Container, Label, NodeSchedule        [<sub>Pod (Container, Label, NodeSchedule)</sub> ](https://xxxelppa.tistory.com/350){:target="_blank"}  
   - Service - ClusterIP, NodePort, LoadBalancer [<sub>Service (ClusterIP, NodePort, LoadBalancer)</sub>](https://xxxelppa.tistory.com/351){:target="_blank"}  
-  - Volume - emptyDir, hostPath, PV/PVC [<sub>Volume (emptyDir, hostPath, PVC/PV)</sub>](https://xxxelppa.tistory.com/352){:target="_blank"}  
-  - ConfigMap, Secret - Env, Mount [<sub>ConfigMap, Secret (Env, Mount)</sub>](https://xxxelppa.tistory.com/353){:target="_blank"}  
-  - Namespace, ResourceQuota, LimitRange [<sub>Namespace, ResourceQuota, LimitRange</sub>](https://xxxelppa.tistory.com/354){:target="_blank"}  
+  - Volume - emptyDir, hostPath, PV/PVC         [<sub>Volume (emptyDir, hostPath, PVC/PV)</sub>](https://xxxelppa.tistory.com/352){:target="_blank"}  
+  - ConfigMap, Secret - Env, Mount              [<sub>ConfigMap, Secret (Env, Mount)</sub>](https://xxxelppa.tistory.com/353){:target="_blank"}  
+  - Namespace, ResourceQuota, LimitRange        [<sub>Namespace, ResourceQuota, LimitRange</sub>](https://xxxelppa.tistory.com/354){:target="_blank"}  
 - **(기초) 컨트롤러**
   - Replication Controller, ReplicaSet - Template, Replicas, Selector [<sub>Replication Controller, ReplicaSet (Template, Replicas, Selector)</sub>](https://xxxelppa.tistory.com/355){:target="_blank"}  
-  - Deployment - Recreate, RollingUpdate [<sub>Deployment (Recreate, RollingUpdate)</sub>](https://xxxelppa.tistory.com/356){:target="_blank"}  
-  - DaemonSet, Job, CronJob [<sub>DaemonSet, Job, CronJob</sub>](https://xxxelppa.tistory.com/358){:target="_blank"}
+  - Deployment - Recreate, RollingUpdate                              [<sub>Deployment (Recreate, RollingUpdate)</sub>](https://xxxelppa.tistory.com/356){:target="_blank"}  
+  - DaemonSet, Job, CronJob                                           [<sub>DaemonSet, Job, CronJob</sub>](https://xxxelppa.tistory.com/358){:target="_blank"}
 - **(중급) Pod**
-  - Pod - Lifecycle <sub>Pod (Lifecycle)</sub>  
+  - Pod - Lifecycle [<sub>Pod (Lifecycle)</sub>](https://xxxelppa.tistory.com/359){:target="_blank"}  
   - Pod - ReadinessProbe, LivenessProbe <sub>Pod (ReadinessProbe, LivenessProbe)</sub>  
   - Pod - QoS Classes <sub>Pod (QoS Classes)</sub>  
   - Pod - Node Scheduling <sub>Pod (Node Scheduling)</sub>  
