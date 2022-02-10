@@ -35,7 +35,7 @@ inflearn 강의를 보고 정리한 자료
 - **(중급) Pod**
   - Pod - Lifecycle                     [<sub>Pod (Lifecycle)</sub>](https://xxxelppa.tistory.com/359){:target="_blank"}  
   - Pod - ReadinessProbe, LivenessProbe [<sub>Pod (ReadinessProbe, LivenessProbe)</sub>](https://xxxelppa.tistory.com/360){:target="_blank"}  
-  - Pod - QoS Classes <sub>Pod (QoS Classes)</sub>  
+  - Pod - QoS Classes                   [<sub>Pod (QoS Classes)</sub>](https://xxxelppa.tistory.com/361){:target="_blank"}  
   - Pod - Node Scheduling <sub>Pod (Node Scheduling)</sub>  
 - **(중급) 기본 오브젝트**
   - Service - Headless, Endpoint, ExternalName <sub>Service (Headless, Endpoint, ExternalName)</sub>  
