@@ -29,8 +29,9 @@ subtitle: I work diligently to become lazy ☕
 * SQL (SQLD certified)
 * Spring Web MVC, Spring Boot
 * Spring Data JPA, querydsl
+* WebSocket
 * jQuery, jqGrid
-* JSP, JavaScript, HTML, CSS
+* HTML, CSS, JavaScript, JSP, jQuery, jqGrid
 * Git, Subversion
 * Azure, k8s, Maven, Ant
 * Scratch
@@ -38,7 +39,9 @@ subtitle: I work diligently to become lazy ☕
 ##### ***experienced***
 * Go, C, C#, ASP.NET, python
 * Windows Server
-* MongoDB, Redis, MySQL, DB2, MSSQL, PL/SQL, stored procedure
+* Redis, MongoDB
+* MSSQL, MySQL, DB2
+* PL/SQL, stored procedure
 * thymeleaf
 * Jenkins, Hudson
 * Docker
