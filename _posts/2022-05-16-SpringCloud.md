@@ -15,6 +15,27 @@ inflearn 강의를 보고 정리한 자료
 　  
 　  
 
+
+**초급자**를 위한**[웹 개발, 백엔드] 강의**
+
+Spring framework의 Spring Cloud 제품군을 이용하여  
+마이크로서비스 애플리케이션을 개발해 보는 과정  
+Cloud Native Application으로써의 Spring Cloud를 어떻게 사용하는지,  
+구성을 어떻게 하는지에 대해 학습  
+
+　  
+
+- **이런 걸 배워요!**
+  - Spring Cloud
+  - Spring Boot
+  - Cloud Native Application
+  - Microservice Architecture
+  - MSA Application
+  - 스프링 부트
+  - 스프링 클라우드
+  - 마이크로서비스
+
+
 ## **정리**
 ---
 
