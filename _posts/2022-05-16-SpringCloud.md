@@ -32,7 +32,7 @@ inflearn 강의를 보고 정리한 자료
   [Spring Cloud란?]()  
 
 - **섹션 1. Service Discovery**  
-  [**섹션 소개]()  
+  [섹션 소개]()  
   [Spring Cloud Netflix Eureka]()  
   [Eureka Service Discovery - 프로젝트 생성]()  
   [User Service - 프로젝트 생성]()  
@@ -40,7 +40,7 @@ inflearn 강의를 보고 정리한 자료
   [User Service - Load Balancer]()  
 
 - **섹션 2. API Gateway Service**  
-  [**섹션 소개]()  
+  [섹션 소개]()  
   [API Gateway 란?]()  
   [Netflix Zuul - 프로젝트 생성]()  
   [Netflix Zuul - Filter 적용]()  
@@ -57,12 +57,12 @@ inflearn 강의를 보고 정리한 자료
   [Spring Cloud Gateway - Load Balancer ➁]()  
 
 - **섹션 3. E-commerce 애플리케이션**  
-  [**섹션 소개]()  
+  [섹션 소개]()  
   [E-commerce 애플리케이션 개요]()  
   [E-commerce 애플리케이션 구성]()  
 
 - **섹션 4. Users Microservice ➀**  
-  [**섹션 소개]()  
+  [섹션 소개]()  
   [Users Microservice 개요]()  
   [Users Microservice - 프로젝트 생성]()  
   [Users Microservice - welcome()   메소드]()  
@@ -73,7 +73,7 @@ inflearn 강의를 보고 정리한 자료
   [Users Microservice - Spring Security 연동]()  
 
 - **섹션 5. Catalogs and Orders Microservice**  
-  [**섹션 소개]()  
+  [섹션 소개]()  
   [Users Microservice - 사용자 조회 ①]()  
   [Users Microservice와 Spring Cloud Gateway 연동]()  
   [Users Microservice - 사용자 조회 ②]()  
@@ -86,7 +86,7 @@ inflearn 강의를 보고 정리한 자료
   [Orders Microservice - 기능 구현 ②]()  
 
 - **섹션 6. Users Microservice ➁**  
-  [**섹션 소개]()  
+  [섹션 소개]()  
   [Users Microservice - 인증과 권한 기능 개요]()  
   [Users Microservice - AuthenticationFilter 추가]()  
   [Users Microservice - loadUserByUsername()   구현]()  
@@ -100,7 +100,7 @@ inflearn 강의를 보고 정리한 자료
   [Users Microservice - 테스트]()  
 
 - **섹션 7. Configuration Service**  
-  [**섹션 소개]()  
+  [섹션 소개]()  
   [Spring Cloud Config]()  
   [Local Git Repository]()  
   [Spring Cloud Config - 프로젝트 생성]()  
@@ -113,7 +113,7 @@ inflearn 강의를 보고 정리한 자료
   [Native File Repository]()  
 
 - **섹션 8. Spring Cloud Bus**  
-  [**섹션 소개]()  
+  [섹션 소개]()  
   [Spring Cloud Bus 개요]()  
   [RabbitMQ 설치 - MacOS]()  
   [RabbitMQ 설치 - Windows 10]()  
@@ -121,7 +121,7 @@ inflearn 강의를 보고 정리한 자료
   [Spring Cloud Bus 테스트]()  
 
 - **섹션 9. 설정 정보의 암호화 처리**  
-  [**섹션 소개]()  
+  [섹션 소개]()  
   [대칭키와 비대칭키]()  
   [대칭키를 이용한 암호화 ①]()  
   [대칭키를 이용한 암호화 ②]()  
@@ -129,7 +129,7 @@ inflearn 강의를 보고 정리한 자료
   [비대칭키를 이용한 암호화 ②]()  
 
 - **섹션 10. Microservcie간 통신**  
-  [**섹션 소개]()  
+  [섹션 소개]()  
   [Communication types]()  
   [RestTemplate 사용 ①]()  
   [RestTemplate 사용 ②]()  
@@ -142,7 +142,7 @@ inflearn 강의를 보고 정리한 자료
   [데이터 동기화 문제 ②]()  
 
 - **섹션 11. 데이터 동기화를 위한 Apache Kafka의 활용 ①**  
-  [**섹션 소개]()  
+  [섹션 소개]()  
   [Apache Kafka 개요]()  
   [Apache Kafka 설치]()  
   [Apache Kafka 사용 - Producer/Consumer]()  
@@ -166,7 +166,7 @@ inflearn 강의를 보고 정리한 자료
   [Kafka를 활용한 데이터 동기화 테스트 ②]()  
 
 - **섹션 13. 장애 처리와 Microservice 분산 추적**  
-  [**섹션 소개]()  
+  [섹션 소개]()  
   [CircuitBreaker와 Resilience4J의 사용]()  
   [Users Microservice에 CircuitBreaker 적용]()  
   [분산 추적의 개요 Zipkin 서버 설치]()  
@@ -174,7 +174,7 @@ inflearn 강의를 보고 정리한 자료
   [Spring Cloud Sleuth + Zipkin을 이용한 Microservice의 분산 추적 ②]()  
 
 - **섹션 14. Microservice 모니터링**  
-  [**섹션 소개]()  
+  [섹션 소개]()  
   [Micrometer 개요]()  
   [Micrometer 구현]()  
   [Prometheus와 Grafana 개요]()  
@@ -182,14 +182,14 @@ inflearn 강의를 보고 정리한 자료
   [Prometheus와 Grafana의 연동과 Dashboard 구성]()  
 
 - **섹션 15. 애플리케이션 배포를 위한 컨테이너 가상화**  
-  [**섹션 소개]()  
+  [섹션 소개]()  
   [컨테이너 가상화]()  
   [Docker 컨테이너]()  
   [컨테이너 생성과 실행]()  
   [Docker 이미지 생성과 Public registry에 Push]()  
 
 - **섹션 16. 애플리케이션 배포 - Docker Container**  
-  [**섹션 소개]()  
+  [섹션 소개]()  
   [애플리케이션 배포 구성]()  
   [RabbitMQ]()  
   [Configuration Service]()  
