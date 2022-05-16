@@ -19,7 +19,7 @@ inflearn 강의를 보고 정리한 자료
 ---
 
 - **섹션 0. Microservice와 Spring Cloud의 소개**  
-  [강의를 시작하며]()  
+  [강의를 시작하며](https://inky-bug-9a2.notion.site/0f3e4e0d99ca4ee7880daf0bee3b6654)  
   [목차]()  
   [소프트웨어 아키텍처]()  
   [Cloud Native Architecture]()  
