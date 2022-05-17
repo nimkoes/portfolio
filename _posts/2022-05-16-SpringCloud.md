@@ -42,7 +42,7 @@ Cloud Native Application으로써의 Spring Cloud를 어떻게 사용하는지,
 
 - **섹션 0. Microservice와 Spring Cloud의 소개**  
   [강의를 시작하며](https://inky-bug-9a2.notion.site/0f3e4e0d99ca4ee7880daf0bee3b6654)  
-  [목차]()  
+  [목차](https://inky-bug-9a2.notion.site/472a9d512bf84ff8aaf899e5c37ca1d0)  
   [소프트웨어 아키텍처]()  
   [Cloud Native Architecture]()  
   [Cloud Native Application]()  
