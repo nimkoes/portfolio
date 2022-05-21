@@ -9,7 +9,7 @@ author: "nimkoes"
 
 ## **개요**
 ---
-inflearn 강의를 보고 정리한 자료  
+inflearn 강의를 보고 정리  
 [<u>'Spring Cloud로 개발하는 마이크로서비스 애플리케이션(MSA)</u>][link_study]
 　  
 　  
