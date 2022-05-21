@@ -35,7 +35,6 @@ Cloud Native Application으로써의 Spring Cloud를 어떻게 사용하는지,
   - 스프링 클라우드
   - 마이크로서비스
 
-　  
 
 ## **정리**
 ---
