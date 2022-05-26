@@ -47,11 +47,11 @@ Cloud Native Application으로써의 Spring Cloud를 어떻게 사용하는지,
   [Cloud Native Application](https://inky-bug-9a2.notion.site/Cloud-Native-Application-ac05be269fb149ca8f8659383bddd0b9)  
   [12 Factors](https://inky-bug-9a2.notion.site/12-Factors-494c3afc7c1543949e39d4eb661f6ce8)  
   [Monolithic vs. Microservice](https://inky-bug-9a2.notion.site/Monolithic-vs-Microservice-c45903b8c5e54e52ba07762ca61d982f)
+  [Microservice Architecture란?](https://inky-bug-9a2.notion.site/Microservice-Architecture-33cf8775e15b4c20b0901a0da4932bf1)
 
 ----
 
 - 　  
-  [Microservice Architecture란?]()  
   [SOA vs. MSA]()  
   [Microservice Architecture Structures]()  
   [Spring Cloud란?]()  
