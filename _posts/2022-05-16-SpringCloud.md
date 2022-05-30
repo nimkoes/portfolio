@@ -50,11 +50,11 @@ Cloud Native Application으로써의 Spring Cloud를 어떻게 사용하는지,
   [Microservice Architecture란?](https://inky-bug-9a2.notion.site/Microservice-Architecture-33cf8775e15b4c20b0901a0da4932bf1)  
   [SOA vs. MSA](https://inky-bug-9a2.notion.site/SOA-vs-MSA-006635ae149648c587d82710f3eb5b25)  
   [Microservice Architecture Structures](https://inky-bug-9a2.notion.site/Microservice-Architecture-Structures-a3f6a3dd3dbb4ba491c3e4ee3f436f37****)  
+  [Spring Cloud란?](https://inky-bug-9a2.notion.site/Spring-Cloud-1eab4fd0eb51486d85b3b8b83cd04c0b)  
+- 　  
 
 ----
 
-- 　  
-  [Spring Cloud란?]()  
 
 - **섹션 1. Service Discovery**  
   [섹션 소개]()  
