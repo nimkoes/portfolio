@@ -53,12 +53,12 @@ Cloud Native Application으로써의 Spring Cloud를 어떻게 사용하는지,
   [Spring Cloud란?](https://inky-bug-9a2.notion.site/Spring-Cloud-1eab4fd0eb51486d85b3b8b83cd04c0b)  
 
 - **섹션 1. Service Discovery**  
-   [섹션 소개](https://inky-bug-9a2.notion.site/a1c5bce738844ae390bad8a45fd560fb)
+  [섹션 소개](https://inky-bug-9a2.notion.site/a1c5bce738844ae390bad8a45fd560fb)  
+  [Spring Cloud Netflix Eureka](https://inky-bug-9a2.notion.site/Spring-Cloud-Netflix-Eureka-d62c0be9a7934d9c8870d02d41dfa74d)  
 
 ----
 
 - 　  
-  [Spring Cloud Netflix Eureka]()  
   [Eureka Service Discovery - 프로젝트 생성]()  
   [User Service - 프로젝트 생성]()  
   [User Service - 등록]()  
