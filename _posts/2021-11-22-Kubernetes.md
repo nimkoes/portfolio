@@ -19,24 +19,24 @@ inflearn 강의를 보고 정리한 자료
 ---
 
 - **(기초) 기초 다지기**
-  - Why Kubernetes?                      [<sub>쿠버네티스 사용 이유</sub>](https://xxxelppa.tistory.com/347){:target="_blank"}  
-  - VM vs Container                      [<sub>VM 과 Container 비교</sub>](https://xxxelppa.tistory.com/348){:target="_blank"}  
-  - Kubernetes Overview                  [<sub>쿠버네티스 훑어보기</sub> ](https://xxxelppa.tistory.com/349){:target="_blank"}  
+  - Why Kubernetes?                      [<sub>쿠버네티스 사용 이유</sub>](){:target="_blank"}  
+  - VM vs Container                      [<sub>VM 과 Container 비교</sub>](){:target="_blank"}  
+  - Kubernetes Overview                  [<sub>쿠버네티스 훑어보기</sub> ](){:target="_blank"}  
 - **(기초) 기본 오브젝트**
-  - Pod - Container, Label, NodeSchedule        [<sub>Pod (Container, Label, NodeSchedule)</sub> ](https://xxxelppa.tistory.com/350){:target="_blank"}  
-  - Service - ClusterIP, NodePort, LoadBalancer [<sub>Service (ClusterIP, NodePort, LoadBalancer)</sub>](https://xxxelppa.tistory.com/351){:target="_blank"}  
-  - Volume - emptyDir, hostPath, PV/PVC         [<sub>Volume (emptyDir, hostPath, PVC/PV)</sub>](https://xxxelppa.tistory.com/352){:target="_blank"}  
-  - ConfigMap, Secret - Env, Mount              [<sub>ConfigMap, Secret (Env, Mount)</sub>](https://xxxelppa.tistory.com/353){:target="_blank"}  
-  - Namespace, ResourceQuota, LimitRange        [<sub>Namespace, ResourceQuota, LimitRange</sub>](https://xxxelppa.tistory.com/354){:target="_blank"}  
+  - Pod - Container, Label, NodeSchedule        [<sub>Pod (Container, Label, NodeSchedule)</sub> ](){:target="_blank"}  
+  - Service - ClusterIP, NodePort, LoadBalancer [<sub>Service (ClusterIP, NodePort, LoadBalancer)</sub>](){:target="_blank"}  
+  - Volume - emptyDir, hostPath, PV/PVC         [<sub>Volume (emptyDir, hostPath, PVC/PV)</sub>](){:target="_blank"}  
+  - ConfigMap, Secret - Env, Mount              [<sub>ConfigMap, Secret (Env, Mount)</sub>](){:target="_blank"}  
+  - Namespace, ResourceQuota, LimitRange        [<sub>Namespace, ResourceQuota, LimitRange</sub>](){:target="_blank"}  
 - **(기초) 컨트롤러**
-  - Replication Controller, ReplicaSet - Template, Replicas, Selector [<sub>Replication Controller, ReplicaSet (Template, Replicas, Selector)</sub>](https://xxxelppa.tistory.com/355){:target="_blank"}  
-  - Deployment - Recreate, RollingUpdate                              [<sub>Deployment (Recreate, RollingUpdate)</sub>](https://xxxelppa.tistory.com/356){:target="_blank"}  
-  - DaemonSet, Job, CronJob                                           [<sub>DaemonSet, Job, CronJob</sub>](https://xxxelppa.tistory.com/358){:target="_blank"}
+  - Replication Controller, ReplicaSet - Template, Replicas, Selector [<sub>Replication Controller, ReplicaSet (Template, Replicas, Selector)</sub>](){:target="_blank"}  
+  - Deployment - Recreate, RollingUpdate                              [<sub>Deployment (Recreate, RollingUpdate)</sub>](){:target="_blank"}  
+  - DaemonSet, Job, CronJob                                           [<sub>DaemonSet, Job, CronJob</sub>](){:target="_blank"}
 - **(중급) Pod**
-  - Pod - Lifecycle                     [<sub>Pod (Lifecycle)</sub>](https://xxxelppa.tistory.com/359){:target="_blank"}  
-  - Pod - ReadinessProbe, LivenessProbe [<sub>Pod (ReadinessProbe, LivenessProbe)</sub>](https://xxxelppa.tistory.com/360){:target="_blank"}  
-  - Pod - QoS Classes                   [<sub>Pod (QoS Classes)</sub>](https://xxxelppa.tistory.com/361){:target="_blank"}  
-  - Pod - Node Scheduling               [<sub>Pod (Node Scheduling)</sub>](https://xxxelppa.tistory.com/362){:target="_blank"}  
+  - Pod - Lifecycle                     [<sub>Pod (Lifecycle)</sub>](){:target="_blank"}  
+  - Pod - ReadinessProbe, LivenessProbe [<sub>Pod (ReadinessProbe, LivenessProbe)</sub>](){:target="_blank"}  
+  - Pod - QoS Classes                   [<sub>Pod (QoS Classes)</sub>](){:target="_blank"}  
+  - Pod - Node Scheduling               [<sub>Pod (Node Scheduling)</sub>](){:target="_blank"}  
 - **(중급) 기본 오브젝트**
   - Service - Headless, Endpoint, ExternalName <sub>Service (Headless, Endpoint, ExternalName)</sub>  
   - Volume - Dynamic Provisioning, StorageClass, Status, ReclaimPolicy <sub>Volume (Dynamic Provisioning, StorageClass, Status, ReclaimPolicy)</sub>  
