@@ -18,6 +18,9 @@ inflearn 강의를 보고 정리한 자료
 ## **정리**
 ---
 
+- **intro**
+  - Introduction [<sub>introduction</sub>](https://inky-bug-9a2.notion.site/Introduction-e291b18ece2546bd93326ebc76ee1ac1){:target="_blank"}
+
 - **(기초) 기초 다지기**
   - Why Kubernetes?                      [<sub>쿠버네티스 사용 이유</sub>](){:target="_blank"}  
   - VM vs Container                      [<sub>VM 과 Container 비교</sub>](){:target="_blank"}  
