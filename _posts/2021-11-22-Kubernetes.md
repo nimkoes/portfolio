@@ -24,7 +24,8 @@ inflearn 강의를 보고 정리한 자료
 - **(기초) 기초 다지기**
   - Why Kubernetes?                      [<sub>쿠버네티스 사용 이유</sub>](https://inky-bug-9a2.notion.site/Why-Kubernetes-4bdeef9821e54b18b59beb8f69cae525){:target="_blank"}  
   - VM vs Container                      [<sub>VM 과 Container 비교</sub>](https://inky-bug-9a2.notion.site/VM-vs-Container-cf0a270b8e1d499687b463f598cf057f){:target="_blank"}  
-  - Kubernetes Overview                  [<sub>쿠버네티스 훑어보기</sub> ](){:target="_blank"}  
+  - Getting started - Kubernetes         [<sub>Kubernetes 시작하기</sub>](https://inky-bug-9a2.notion.site/Getting-started-Kubernetes-43a28a5ac53c4f3daf34febd43960e3e){:target="_blank"}  
+  - Kubernetes Overview                  [<sub>쿠버네티스 훑어보기</sub> ](https://inky-bug-9a2.notion.site/Kubernetes-Overview-72f57cd08ba248ecafb152abd25674ac){:target="_blank"}  
 - **(기초) 기본 오브젝트**
   - Pod - Container, Label, NodeSchedule        [<sub>Pod (Container, Label, NodeSchedule)</sub> ](){:target="_blank"}  
   - Service - ClusterIP, NodePort, LoadBalancer [<sub>Service (ClusterIP, NodePort, LoadBalancer)</sub>](){:target="_blank"}  
