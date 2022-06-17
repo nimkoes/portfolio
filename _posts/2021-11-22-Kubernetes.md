@@ -27,7 +27,7 @@ inflearn 강의를 보고 정리한 자료
   - Getting started - Kubernetes         [<sub>Kubernetes 시작하기</sub>](https://inky-bug-9a2.notion.site/Getting-started-Kubernetes-43a28a5ac53c4f3daf34febd43960e3e){:target="_blank"}  
   - Kubernetes Overview                  [<sub>쿠버네티스 훑어보기</sub> ](https://inky-bug-9a2.notion.site/Kubernetes-Overview-72f57cd08ba248ecafb152abd25674ac){:target="_blank"}  
 - **(기초) 기본 오브젝트**
-  - Pod - Container, Label, NodeSchedule        [<sub>Pod (Container, Label, NodeSchedule)</sub> ](){:target="_blank"}  
+  - Pod - Container, Label, NodeSchedule        [<sub>Pod (Container, Label, NodeSchedule)</sub>](https://inky-bug-9a2.notion.site/Pod-Container-Label-NodeSchedule-4a1ed94cc7234de998c8f59b80b0d7c0){:target="_blank"}  
   - Service - ClusterIP, NodePort, LoadBalancer [<sub>Service (ClusterIP, NodePort, LoadBalancer)</sub>](){:target="_blank"}  
   - Volume - emptyDir, hostPath, PV/PVC         [<sub>Volume (emptyDir, hostPath, PVC/PV)</sub>](){:target="_blank"}  
   - ConfigMap, Secret - Env, Mount              [<sub>ConfigMap, Secret (Env, Mount)</sub>](){:target="_blank"}  
