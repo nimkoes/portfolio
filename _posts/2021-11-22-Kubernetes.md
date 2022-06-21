@@ -31,7 +31,7 @@ inflearn 강의를 보고 정리한 자료
   - Service - ClusterIP, NodePort, LoadBalancer [<sub>Service (ClusterIP, NodePort, LoadBalancer)</sub>](https://inky-bug-9a2.notion.site/Service-ClusterIP-NodePort-LoadBalancer-68f2357916804e2cbc5157845f3eb84f){:target="_blank"}  
   - Volume - emptyDir, hostPath, PV/PVC         [<sub>Volume (emptyDir, hostPath, PVC/PV)</sub>](https://inky-bug-9a2.notion.site/Volume-emptyDir-hostPath-PVC-PV-8a51676bf0454647b827e16bb0caa688){:target="_blank"}  
   - ConfigMap, Secret - Env, Mount              [<sub>ConfigMap, Secret (Env, Mount)</sub>](https://inky-bug-9a2.notion.site/ConfigMap-Secret-Env-Mount-5b1750a16de44653a33e200c0b6a2d11){:target="_blank"}  
-  - Namespace, ResourceQuota, LimitRange        [<sub>Namespace, ResourceQuota, LimitRange</sub>](){:target="_blank"}  
+  - Namespace, ResourceQuota, LimitRange        [<sub>Namespace, ResourceQuota, LimitRange</sub>](https://inky-bug-9a2.notion.site/Namespace-ResourceQuota-LimitRange-d64e89da928140a48c39e7452c8263c6){:target="_blank"}  
 - **(기초) 컨트롤러**
   - Replication Controller, ReplicaSet - Template, Replicas, Selector [<sub>Replication Controller, ReplicaSet (Template, Replicas, Selector)</sub>](){:target="_blank"}  
   - Deployment - Recreate, RollingUpdate                              [<sub>Deployment (Recreate, RollingUpdate)</sub>](){:target="_blank"}  
