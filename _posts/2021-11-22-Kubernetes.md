@@ -35,7 +35,7 @@ inflearn 강의를 보고 정리한 자료
 - **(기초) 컨트롤러**
   - Replication Controller, ReplicaSet - Template, Replicas, Selector [<sub>Replication Controller, ReplicaSet (Template, Replicas, Selector)</sub>](https://inky-bug-9a2.notion.site/Replication-Controller-ReplicaSet-Template-Replicas-Selector-e5c7cc7cb2d4484084f127983dfe278f){:target="_blank"}  
   - Deployment - Recreate, RollingUpdate                              [<sub>Deployment (Recreate, RollingUpdate)</sub>](https://inky-bug-9a2.notion.site/Deployment-Recreate-RollingUpdate-cf999c3724c24b9da4947b98c5012681){:target="_blank"}  
-  - DaemonSet, Job, CronJob                                           [<sub>DaemonSet, Job, CronJob</sub>](){:target="_blank"}
+  - DaemonSet, Job, CronJob                                           [<sub>DaemonSet, Job, CronJob</sub>](https://inky-bug-9a2.notion.site/DaemonSet-Job-CronJob-d3fd08aa986c43479ecef6ca69b5a2df){:target="_blank"}
 - **(중급) Pod**
   - Pod - Lifecycle                     [<sub>Pod (Lifecycle)</sub>](){:target="_blank"}  
   - Pod - ReadinessProbe, LivenessProbe [<sub>Pod (ReadinessProbe, LivenessProbe)</sub>](){:target="_blank"}  
