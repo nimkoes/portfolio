@@ -33,7 +33,7 @@ inflearn 강의를 보고 정리한 자료
   - ConfigMap, Secret - Env, Mount              [<sub>ConfigMap, Secret (Env, Mount)</sub>](https://inky-bug-9a2.notion.site/ConfigMap-Secret-Env-Mount-5b1750a16de44653a33e200c0b6a2d11){:target="_blank"}  
   - Namespace, ResourceQuota, LimitRange        [<sub>Namespace, ResourceQuota, LimitRange</sub>](https://inky-bug-9a2.notion.site/Namespace-ResourceQuota-LimitRange-d64e89da928140a48c39e7452c8263c6){:target="_blank"}  
 - **(기초) 컨트롤러**
-  - Replication Controller, ReplicaSet - Template, Replicas, Selector [<sub>Replication Controller, ReplicaSet (Template, Replicas, Selector)</sub>](){:target="_blank"}  
+  - Replication Controller, ReplicaSet - Template, Replicas, Selector [<sub>Replication Controller, ReplicaSet (Template, Replicas, Selector)</sub>](https://inky-bug-9a2.notion.site/Replication-Controller-ReplicaSet-Template-Replicas-Selector-e5c7cc7cb2d4484084f127983dfe278f){:target="_blank"}  
   - Deployment - Recreate, RollingUpdate                              [<sub>Deployment (Recreate, RollingUpdate)</sub>](){:target="_blank"}  
   - DaemonSet, Job, CronJob                                           [<sub>DaemonSet, Job, CronJob</sub>](){:target="_blank"}
 - **(중급) Pod**
