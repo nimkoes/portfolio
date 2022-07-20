@@ -48,7 +48,7 @@ inflearn 강의를 보고 정리한 자료
   - Authentication - X509 Certs, kubectl, ServiceAccount               [<sub>Authentication (X509 Certs, kubectl, ServiceAccount)</sub>](){:target="_blank"}  
   - Authorization - RBAC, Role, RoleBinding                            [<sub>Authorization (RBAC, Role, RoleBinding)</sub>](){:target="_blank"}  
   - Kubernetes Dashboard                                               [<sub>Kubernetes Dashboard</sub>](){:target="_blank"}
-- **(중급) Pod**
+- **(중급) **
   - StatefulSet      [<sub>StatefulSet</sub>](){:target="_blank"}  
   - Ingress - Nginx  [<sub>Ingress (Nginx)</sub>](){:target="_blank"}  
   - Autoscaler - HPA [<sub>Autoscaler (HPA)</sub>](){:target="_blank"}  
