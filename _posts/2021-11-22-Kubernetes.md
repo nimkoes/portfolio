@@ -37,7 +37,7 @@ inflearn 강의를 보고 정리한 자료
   - Deployment - Recreate, RollingUpdate                              [<sub>Deployment (Recreate, RollingUpdate)</sub>](https://inky-bug-9a2.notion.site/Deployment-Recreate-RollingUpdate-cf999c3724c24b9da4947b98c5012681){:target="_blank"}  
   - DaemonSet, Job, CronJob                                           [<sub>DaemonSet, Job, CronJob</sub>](https://inky-bug-9a2.notion.site/DaemonSet-Job-CronJob-d3fd08aa986c43479ecef6ca69b5a2df){:target="_blank"}
 - **(중급) Pod**
-  - Pod - Lifecycle                     [<sub>Pod (Lifecycle)</sub>](){:target="_blank"}  
+  - Pod - Lifecycle                     [<sub>Pod (Lifecycle)</sub>](https://inky-bug-9a2.notion.site/Pod-Lifecycle-f890c1c8fac145b4bc96ddee11ab842a){:target="_blank"}  
   - Pod - ReadinessProbe, LivenessProbe [<sub>Pod (ReadinessProbe, LivenessProbe)</sub>](){:target="_blank"}  
   - Pod - QoS Classes                   [<sub>Pod (QoS Classes)</sub>](){:target="_blank"}  
   - Pod - Node Scheduling               [<sub>Pod (Node Scheduling)</sub>](){:target="_blank"}  
