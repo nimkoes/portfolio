@@ -38,7 +38,7 @@ inflearn 강의를 보고 정리한 자료
   - DaemonSet, Job, CronJob                                           [<sub>DaemonSet, Job, CronJob</sub>](https://inky-bug-9a2.notion.site/DaemonSet-Job-CronJob-d3fd08aa986c43479ecef6ca69b5a2df){:target="_blank"}
 - **(중급) Pod**
   - Pod - Lifecycle                     [<sub>Pod (Lifecycle)</sub>](https://inky-bug-9a2.notion.site/Pod-Lifecycle-f890c1c8fac145b4bc96ddee11ab842a){:target="_blank"}  
-  - Pod - ReadinessProbe, LivenessProbe [<sub>Pod (ReadinessProbe, LivenessProbe)</sub>](https://www.notion.so/Pod-ReadinessProbe-LivenessProbe-0b5d9c09755d4e9ba9fd84ee229c0898){:target="_blank"}  
+  - Pod - ReadinessProbe, LivenessProbe [<sub>Pod (ReadinessProbe, LivenessProbe)</sub>](https://inky-bug-9a2.notion.site/Pod-ReadinessProbe-LivenessProbe-0b5d9c09755d4e9ba9fd84ee229c0898){:target="_blank"}  
   - Pod - QoS Classes                   [<sub>Pod (QoS Classes)</sub>](https://inky-bug-9a2.notion.site/Pod-QoS-Classes-c09f43640f8c4e608949f32bf2cd358a){:target="_blank"}  
   - Pod - Node Scheduling               [<sub>Pod (Node Scheduling)</sub>](){:target="_blank"}  
 - **(중급) 기본 오브젝트**
