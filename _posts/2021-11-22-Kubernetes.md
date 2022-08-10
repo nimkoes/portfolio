@@ -43,7 +43,7 @@ inflearn 강의를 보고 정리한 자료
   - Pod - Node Scheduling               [<sub>Pod (Node Scheduling)</sub>](https://inky-bug-9a2.notion.site/Pod-Node-Scheduling-2d9b4f767bb74c568c96229c9b9adc3d){:target="_blank"}  
 - **(중급) 기본 오브젝트**
   - Service - Headless, Endpoint, ExternalName                         [<sub>Service (Headless, Endpoint, ExternalName)</sub>](https://inky-bug-9a2.notion.site/Service-Headless-Endpoint-ExternalName-264ba44a0db141acb2842f6ff9129188){:target="_blank"}  
-  - Volume - Dynamic Provisioning, StorageClass, Status, ReclaimPolicy [<sub>Volume (Dynamic Provisioning, StorageClass, Status, ReclaimPolicy)</sub>](){:target="_blank"}  
+  - Volume - Dynamic Provisioning, StorageClass, Status, ReclaimPolicy [<sub>Volume (Dynamic Provisioning, StorageClass, Status, ReclaimPolicy)</sub>](https://inky-bug-9a2.notion.site/Volume-Dynamic-Provisioning-StorageClass-Status-ReclaimPolicy-7081229163074f23a6d3f4b6f7698aa9){:target="_blank"}  
   - Accessing API - Overview                                           [<sub>Accessing API (Overview)</sub>](){:target="_blank"}  
   - Authentication - X509 Certs, kubectl, ServiceAccount               [<sub>Authentication (X509 Certs, kubectl, ServiceAccount)</sub>](){:target="_blank"}  
   - Authorization - RBAC, Role, RoleBinding                            [<sub>Authorization (RBAC, Role, RoleBinding)</sub>](){:target="_blank"}  
