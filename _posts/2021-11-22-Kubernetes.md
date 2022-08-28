@@ -45,7 +45,7 @@ inflearn 강의를 보고 정리한 자료
   - Service - Headless, Endpoint, ExternalName                         [<sub>Service (Headless, Endpoint, ExternalName)</sub>](https://inky-bug-9a2.notion.site/Service-Headless-Endpoint-ExternalName-264ba44a0db141acb2842f6ff9129188){:target="_blank"}  
   - Volume - Dynamic Provisioning, StorageClass, Status, ReclaimPolicy [<sub>Volume (Dynamic Provisioning, StorageClass, Status, ReclaimPolicy)</sub>](https://inky-bug-9a2.notion.site/Volume-Dynamic-Provisioning-StorageClass-Status-ReclaimPolicy-7081229163074f23a6d3f4b6f7698aa9){:target="_blank"}  
   - Accessing API - Overview                                           [<sub>Accessing API (Overview)</sub>](https://inky-bug-9a2.notion.site/Accessing-API-Overview-c63616108aed4590a244b7dfad89aef1){:target="_blank"}  
-  - Authentication - X509 Certs, kubectl, ServiceAccount               [<sub>Authentication (X509 Certs, kubectl, ServiceAccount)</sub>](){:target="_blank"}  
+  - Authentication - X509 Certs, kubectl, ServiceAccount               [<sub>Authentication (X509 Certs, kubectl, ServiceAccount)</sub>](https://inky-bug-9a2.notion.site/Authentication-X509-Certs-kubectl-ServiceAccount-0184906630e8496db7636cbbf1f58e64){:target="_blank"}  
   - Authorization - RBAC, Role, RoleBinding                            [<sub>Authorization (RBAC, Role, RoleBinding)</sub>](){:target="_blank"}  
   - Kubernetes Dashboard                                               [<sub>Kubernetes Dashboard</sub>](){:target="_blank"}
 - **(중급) 컨트롤러**
