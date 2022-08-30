@@ -49,7 +49,7 @@ inflearn 강의를 보고 정리한 자료
   - Authorization - RBAC, Role, RoleBinding                            [<sub>Authorization (RBAC, Role, RoleBinding)</sub>](https://inky-bug-9a2.notion.site/Authorization-RBAC-Role-RoleBinding-7914f989e9324557809a8d775f6ecdf1){:target="_blank"}  
   - Kubernetes Dashboard                                               [<sub>Kubernetes Dashboard</sub>](https://inky-bug-9a2.notion.site/Kubernetes-Dashboard-454dc8281d9e47dca85a25e5d8e1e9bd){:target="_blank"}
 - **(중급) 컨트롤러**
-  - StatefulSet      [<sub>StatefulSet</sub>](){:target="_blank"}  
+  - StatefulSet      [<sub>StatefulSet</sub>](https://inky-bug-9a2.notion.site/StatefulSet-dca938a479e646cb9adbb4f1d7684959){:target="_blank"}  
   - Ingress - Nginx  [<sub>Ingress (Nginx)</sub>](){:target="_blank"}  
   - Autoscaler - HPA [<sub>Autoscaler (HPA)</sub>](){:target="_blank"}  
 - **(중급) 아키택처**
