@@ -53,7 +53,7 @@ inflearn 강의를 보고 정리한 자료
   - Ingress - Nginx  [<sub>Ingress (Nginx)</sub>](https://inky-bug-9a2.notion.site/Ingress-Nginx-a3b35e77479a4a78bc0f28b919cce800){:target="_blank"}  
   - Autoscaler - HPA [<sub>Autoscaler (HPA)</sub>](https://inky-bug-9a2.notion.site/Autoscaler-HPA-25a28f3b1f2b4faeb9277c3928c0a21f){:target="_blank"}  
 - **(중급) 아키택처**
-  - Component - kube-apiserver, etcd, kube-schedule, kube-proxy, kube-controlelr-manager [<sub>Component (kube-apiserver, etcd, kube-schedule, kube-proxy, kube-controlelr-manager)</sub>](){:target="_blank"}  
+  - Component - kube-apiserver, etcd, kube-schedule, kube-proxy, kube-controlelr-manager [<sub>Component (kube-apiserver, etcd, kube-schedule, kube-proxy, kube-controlelr-manager)</sub>](https://inky-bug-9a2.notion.site/Kubernetes-Architecture-6621b551f3324f34826dd044036a7200){:target="_blank"}  
   - Networking - Pod / Service Network (Calico), Pause Container                         [<sub>Networking (Pod / Service Network (Calico), Pause Container)</sub>](){:target="_blank"}  
   - Storage - NFS(FileStorage), Longhorn(BlockStorage)                                   [<sub>Storage (NFS(FileStorage), Longhorn(BlockStorage))</sub>](){:target="_blank"}  
   - Logging - PLG Stack                                                                  [<sub>Logging (PLG Stack)</sub>](){:target="_blank"}  
