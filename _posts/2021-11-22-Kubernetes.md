@@ -57,7 +57,7 @@ inflearn 강의를 보고 정리한 자료
   - Component - kube-apiserver, etcd, kube-schedule, kube-proxy, kube-controlelr-manager [<sub>Component (kube-apiserver, etcd, kube-schedule, kube-proxy, kube-controlelr-manager)</sub>](https://inky-bug-9a2.notion.site/Component-kube-apiserver-etcd-kube-schedule-kube-proxy-kube-controller-manager-96a112f32f4944359d59a8c569ab0805){:target="_blank"}  
   - Networking - Pod / Service Network (Calico), Pause Container                         [<sub>Networking (Pod / Service Network (Calico), Pause Container)</sub>](https://inky-bug-9a2.notion.site/Networking-Pod-Service-Network-Calico-Pause-Container-d44f87c39f23413a8f84d1e5ae7be87a){:target="_blank"}  
   - Storage - NFS(FileStorage), Longhorn(BlockStorage)                                   [<sub>Storage (NFS(FileStorage), Longhorn(BlockStorage))</sub>](https://inky-bug-9a2.notion.site/Storage-NFS-FileStorage-Longhorn-BlockStorage-ad1d5dcfa23e43f9b1bbf95b3f89ae43){:target="_blank"}  
-  - Logging - PLG Stack                                                                  [<sub>Logging (PLG Stack)</sub>](){:target="_blank"}  
+  - Logging - PLG Stack                                                                  [<sub>Logging (PLG Stack)</sub>](https://inky-bug-9a2.notion.site/Logging-PLG-Stack-9fe6c4f56603490eb2bfc1ac7d635338){:target="_blank"}  
 　  
 　  
 　  
