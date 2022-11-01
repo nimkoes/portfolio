@@ -19,7 +19,7 @@ inflearn 강의를 보고 정리한 자료
 ---
 
 - **섹션 0. 구구단**
-  - [0-00. 리액트를 왜 쓰는가](){:target="_blank"}  
+  - [0-00. 리액트를 왜 쓰는가](https://inky-bug-9a2.notion.site/0-00-c366caac56b94e8c996ab7fb4ff9300a){:target="_blank"}  
   - [0-01. 강의 수강 시 주의할 점](){:target="_blank"}  
   - [0-02. 첫 리액트 컴포넌트(아직은 Class)](){:target="_blank"}  
   - [0-03. 가독성을 위한 JSX(XML임!)](){:target="_blank"}  
