@@ -19,12 +19,12 @@ inflearn 강의를 보고 정리한 자료
 ---
 
 - **섹션 0. 구구단**
-  - [0-00. 리액트를 왜 쓰는가](https://inky-bug-9a2.notion.site/0-00-c366caac56b94e8c996ab7fb4ff9300a){:target="_blank"}  
-  - [0-01. 강의 수강 시 주의할 점](https://inky-bug-9a2.notion.site/0-01-04a253a07c034e91b31f2cf3a9859fd1){:target="_blank"}  
-  - [0-02. 첫 리액트 컴포넌트(아직은 Class)](https://inky-bug-9a2.notion.site/0-02-Class-d64812876c2d432da9284f031a6e1c3c){:target="_blank"}  
-  - [0-03. 가독성을 위한 JSX(XML임!)](){:target="_blank"}  
-  - [0-04. 클래스 컴포넌트의 형태와 리액트 데브툴즈](){:target="_blank"}  
-  - [0-05. 함수 컴포넌트(함수형 아님)](){:target="_blank"}  
+  - [0-00. 리액트를 왜 쓰는가](https://inky-bug-9a2.notion.site/0-00-c366caac56b94e8c996ab7fb4ff9300a){:target="_blank"}
+  - [0-01. 강의 수강 시 주의할 점](https://inky-bug-9a2.notion.site/0-01-04a253a07c034e91b31f2cf3a9859fd1){:target="_blank"}
+  - [0-02. 첫 리액트 컴포넌트(아직은 Class)](https://inky-bug-9a2.notion.site/0-02-Class-d64812876c2d432da9284f031a6e1c3c){:target="_blank"}
+  - [0-03. 가독성을 위한 JSX(XML임!)](){:target="_blank"}
+  - [0-04. 클래스 컴포넌트의 형태와 리액트 데브툴즈](){:target="_blank"}
+  - [0-05. 함수 컴포넌트(함수형 아님)](){:target="_blank"}
   - [0-06. 구구단 리액트로 만들기](){:target="_blank"}  
   - [0-07. 클래스 메서드](){:target="_blank"}  
   - [0-08. Fragment와 기타 팁들](){:target="_blank"}  
