@@ -23,7 +23,7 @@ inflearn 강의를 보고 정리한 자료
   - [0-01. 강의 수강 시 주의할 점](https://inky-bug-9a2.notion.site/0-01-04a253a07c034e91b31f2cf3a9859fd1){:target="_blank"}  
   - [0-02. 첫 리액트 컴포넌트(아직은 Class)](https://inky-bug-9a2.notion.site/0-02-Class-d64812876c2d432da9284f031a6e1c3c){:target="_blank"}  
   - [0-03. 가독성을 위한 JSX(XML임!)](https://inky-bug-9a2.notion.site/0-03-JSX-XML-0663c4d254ec41dc9289525a763ce852){:target="_blank"}  
-  - [0-04. 클래스 컴포넌트의 형태와 리액트 데브툴즈](){:target="_blank"}  
+  - [0-04. 클래스 컴포넌트의 형태와 리액트 데브툴즈](https://inky-bug-9a2.notion.site/0-04-f36e37b078d54c55890994e77fc0d1db){:target="_blank"}  
   - [0-05. 함수 컴포넌트(함수형 아님)](){:target="_blank"}  
   - [0-06. 구구단 리액트로 만들기](){:target="_blank"}  
   - [0-07. 클래스 메서드](){:target="_blank"}  
