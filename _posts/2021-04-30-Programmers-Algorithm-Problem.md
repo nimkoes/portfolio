@@ -55,9 +55,17 @@ author: "nimkoes"
 
 ![intellij_lombok_setting_003](https://github.com/nimkoes/nimkoes.github.io/blob/master/assets/img/milestone/algorithm/intellij_lombok_setting_003.png?raw=true "intellij_lombok_setting_003"){: width="710px"}  
   - annotation processor 검색한 다음 오른쪽의 Enable annotation processing 체크박스 활성화 되도록 체크  
-  
-  
-  
+
+
+
+
+
+### level 0
+---
+
+- 001 : [**<u>옹알이(1)</u>**<sub>코딩테스트 입문</sub>][link_level_0_001]
+
+
 ### level 1
 ---
   
@@ -197,6 +205,8 @@ author: "nimkoes"
 
 [link_tistory]:http://xxxelppa.tistory.com
 [link_github]:https://github.com/nimkoes/programmers_code
+
+[link_level_0_001]:https://xxxelppa.tistory.com/363
 
 [link_level_1_001]:https://xxxelppa.tistory.com/137
 [link_level_1_002]:https://xxxelppa.tistory.com/139
