@@ -64,6 +64,16 @@ author: "nimkoes"
 ---
 
 - 001 : [**<u>옹알이(1)</u>**<sub>코딩테스트 입문</sub>][link_level_0_001]
+- 002 : [**<u>두 수의 곱</u>**<sub>코딩테스트 입문</sub>][link_level_0_002]
+- 003 : [**<u>두 수의 차</u>**<sub>코딩테스트 입문</sub>][link_level_0_003]
+- 004 : [**<u>몫 구하기</u>**<sub>코딩테스트 입문</sub>][link_level_0_004]
+- 005 : [**<u>두 수의 합</u>**<sub>코딩테스트 입문</sub>][link_level_0_005]
+- 006 : [**<u>나머지 구하기</u>**<sub>코딩테스트 입문</sub>][link_level_0_006]
+- 007 : [**<u>숫자 비교하기</u>**<sub>코딩테스트 입문</sub>][link_level_0_007]
+- 008 : [**<u>나이 출력</u>**<sub>코딩테스트 입문</sub>][link_level_0_008]
+- 009 : [**<u>각도기</u>**<sub>코딩테스트 입문</sub>][link_level_0_009]
+- 010 : [**<u>짝수의 합</u>**<sub>코딩테스트 입문</sub>][link_level_0_010]
+- 011 : [**<u>배열의 평균값</u>**<sub>코딩테스트 입문</sub>][link_level_0_011]
 
 
 ### level 1
@@ -206,7 +216,17 @@ author: "nimkoes"
 [link_tistory]:http://xxxelppa.tistory.com
 [link_github]:https://github.com/nimkoes/programmers_code
 
-[link_level_0_001]:https://xxxelppa.tistory.com/363
+[link_level_0_001]:https://github.com/nimkoes/programmers_code/blob/master/src/com/tistory/xxxelppa/level0/Solution_001.java
+[link_level_0_002]:https://github.com/nimkoes/programmers_code/blob/master/src/com/tistory/xxxelppa/level0/Solution_002.java
+[link_level_0_003]:https://github.com/nimkoes/programmers_code/blob/master/src/com/tistory/xxxelppa/level0/Solution_003.java
+[link_level_0_004]:https://github.com/nimkoes/programmers_code/blob/master/src/com/tistory/xxxelppa/level0/Solution_004.java
+[link_level_0_005]:https://github.com/nimkoes/programmers_code/blob/master/src/com/tistory/xxxelppa/level0/Solution_005.java
+[link_level_0_006]:https://github.com/nimkoes/programmers_code/blob/master/src/com/tistory/xxxelppa/level0/Solution_006.java
+[link_level_0_007]:https://github.com/nimkoes/programmers_code/blob/master/src/com/tistory/xxxelppa/level0/Solution_007.java
+[link_level_0_008]:https://github.com/nimkoes/programmers_code/blob/master/src/com/tistory/xxxelppa/level0/Solution_008.java
+[link_level_0_009]:https://github.com/nimkoes/programmers_code/blob/master/src/com/tistory/xxxelppa/level0/Solution_009.java
+[link_level_0_010]:https://github.com/nimkoes/programmers_code/blob/master/src/com/tistory/xxxelppa/level0/Solution_010.java
+[link_level_0_011]:https://github.com/nimkoes/programmers_code/blob/master/src/com/tistory/xxxelppa/level0/Solution_011.java
 
 [link_level_1_001]:https://xxxelppa.tistory.com/137
 [link_level_1_002]:https://xxxelppa.tistory.com/139
