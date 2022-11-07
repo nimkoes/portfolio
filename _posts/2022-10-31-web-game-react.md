@@ -26,7 +26,7 @@ inflearn 강의를 보고 정리한 자료
   - [0-04. 클래스 컴포넌트의 형태와 리액트 데브툴즈](https://inky-bug-9a2.notion.site/0-04-f36e37b078d54c55890994e77fc0d1db){:target="_blank"}  
   - [0-05. 함수 컴포넌트(함수형 아님)](https://inky-bug-9a2.notion.site/0-05-a448096fba604ed8a056c15172ede187){:target="_blank"}  
   - [0-06. 구구단 리액트로 만들기](https://inky-bug-9a2.notion.site/0-06-b0fb824b5c754847877a61d1ca468cdc){:target="_blank"}  
-  - [0-07. 클래스 메서드](){:target="_blank"}  
+  - [0-07. 클래스 메서드](https://inky-bug-9a2.notion.site/0-07-34557994586242489b5d76ca97fa8305){:target="_blank"}  
   - [0-08. Fragment와 기타 팁들](){:target="_blank"}  
   - [0-09. 함수형 setState](){:target="_blank"}  
   - [0-10. ref](){:target="_blank"}  
