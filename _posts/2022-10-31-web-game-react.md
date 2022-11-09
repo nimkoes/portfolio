@@ -29,7 +29,7 @@ inflearn 강의를 보고 정리한 자료
   - [0-07. 클래스 메서드](https://inky-bug-9a2.notion.site/0-07-34557994586242489b5d76ca97fa8305){:target="_blank"}  
   - [0-08. Fragment와 기타 팁들](https://inky-bug-9a2.notion.site/0-08-Fragment-4cc082d7e9724ce2b57bff4da87d3829){:target="_blank"}  
   - [0-09. 함수형 setState](https://inky-bug-9a2.notion.site/0-09-setState-12874e0b478041d4bd7abeda21eeddcd){:target="_blank"}  
-  - [0-10. ref](){:target="_blank"}  
+  - [0-10. ref](https://inky-bug-9a2.notion.site/0-10-ref-460f703230be4904bfa32c15bb5d4f2b){:target="_blank"}  
 - **섹션 1. 끝말잇기**
   - [1-01. React Hooks 사용하기](){:target="_blank"}  
   - [1-02. Class와 Hooks 비교하기](){:target="_blank"}  
