@@ -82,6 +82,16 @@ author: "nimkoes"
 - 017 : [**<u>아이스 아메리카노</u>**][link_level_0_017]
 - 018 : [**<u>피자 나눠 먹기 (1)</u>**][link_level_0_018]
 - 019 : [**<u>배열 뒤집기</u>**][link_level_0_019]
+- 020 : [**<u>문자열 뒤집기</u>][link_level_0_020]
+- 021 : [**<u>피자 나눠 먹기 (3)</u>][link_level_0_021]
+- 022 : [**<u>배열 두배 만들기</u>][link_level_0_022]
+- 023 : [**<u>배열 원소의 길이</u>][link_level_0_023]
+- 024 : [**<u>편지</u>][link_level_0_024]
+- 025 : [**<u>최댓값 만들기 (1)</u>][link_level_0_025]
+- 026 : [**<u>배열 자르기</u>][link_level_0_026]
+- 027 : [**<u>점의 위치 구하기</u>][link_level_0_027]
+- 028 : [**<u>특정 문자 제거하기</u>][link_level_0_028]
+
 
 
 ### level 1
@@ -243,6 +253,15 @@ author: "nimkoes"
 [link_level_0_017]:https://github.com/nimkoes/programmers_code/blob/master/src/com/tistory/xxxelppa/level0/Solution_017.java
 [link_level_0_018]:https://github.com/nimkoes/programmers_code/blob/master/src/com/tistory/xxxelppa/level0/Solution_018.java
 [link_level_0_019]:https://github.com/nimkoes/programmers_code/blob/master/src/com/tistory/xxxelppa/level0/Solution_019.java
+[link_level_0_020]:https://github.com/nimkoes/programmers_code/blob/master/src/com/tistory/xxxelppa/level0/Solution_020.java
+[link_level_0_021]:https://github.com/nimkoes/programmers_code/blob/master/src/com/tistory/xxxelppa/level0/Solution_021.java
+[link_level_0_022]:https://github.com/nimkoes/programmers_code/blob/master/src/com/tistory/xxxelppa/level0/Solution_022.java
+[link_level_0_023]:https://github.com/nimkoes/programmers_code/blob/master/src/com/tistory/xxxelppa/level0/Solution_023.java
+[link_level_0_024]:https://github.com/nimkoes/programmers_code/blob/master/src/com/tistory/xxxelppa/level0/Solution_024.java
+[link_level_0_025]:https://github.com/nimkoes/programmers_code/blob/master/src/com/tistory/xxxelppa/level0/Solution_025.java
+[link_level_0_026]:https://github.com/nimkoes/programmers_code/blob/master/src/com/tistory/xxxelppa/level0/Solution_026.java
+[link_level_0_027]:https://github.com/nimkoes/programmers_code/blob/master/src/com/tistory/xxxelppa/level0/Solution_027.java
+[link_level_0_028]:https://github.com/nimkoes/programmers_code/blob/master/src/com/tistory/xxxelppa/level0/Solution_028.java
 
 [link_level_1_001]:https://xxxelppa.tistory.com/137
 [link_level_1_002]:https://xxxelppa.tistory.com/139
