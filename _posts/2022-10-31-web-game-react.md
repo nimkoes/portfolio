@@ -35,7 +35,7 @@ inflearn 강의를 보고 정리한 자료
   - [1-02. Class와 Hooks 비교하기](https://inky-bug-9a2.notion.site/1-02-Class-Hooks-1beca2ebca0848e48622d09a5b617da2){:target="_blank"}  
   - [1-03. 웹팩 설치하기](https://inky-bug-9a2.notion.site/1-03-170ca3d832bd460293e84252e19c420a){:target="_blank"}  
   - [1-04. 모듈 시스템과 웹팩 설정](https://inky-bug-9a2.notion.site/1-04-65b125eab32b48b7bf3f7a798fe507a1){:target="_blank"}  
-  - [1-05. 웹팩으로 빌드하기](){:target="_blank"}  
+  - [1-05. 웹팩으로 빌드하기](https://inky-bug-9a2.notion.site/1-05-545d2df003d548caac1af0fe98077374){:target="_blank"}  
   - [1-06. 구구단 웹팩으로 빌드하기](){:target="_blank"}  
   - [1-07. @babel/preset-env와 plugins](){:target="_blank"}  
   - [1-08. 끝말잇기 Class 만들기](){:target="_blank"}  
