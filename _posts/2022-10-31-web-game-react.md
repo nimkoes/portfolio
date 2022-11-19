@@ -39,7 +39,7 @@ inflearn 강의를 보고 정리한 자료
   - [1-06. 구구단 웹팩으로 빌드하기](https://inky-bug-9a2.notion.site/1-06-8dd2cf30d0284495afd23c8107d027a0){:target="_blank"}  
   - [1-07. @babel/preset-env와 plugins](https://inky-bug-9a2.notion.site/1-07-babel-preset-env-plugins-6539be6134a044ec89b294d15271ff93){:target="_blank"}  
   - [1-08. 끝말잇기 Class 만들기](https://inky-bug-9a2.notion.site/1-08-Class-838d7efbb34d4e8b90033ded9383b5a6){:target="_blank"}  
-  - [1-09. 웹팩 데브 서버와 핫 리로딩](){:target="_blank"}  
+  - [1-09. 웹팩 데브 서버와 핫 리로딩](https://inky-bug-9a2.notion.site/1-09-27cb67b746c64823ab109b8dbd47c8c6){:target="_blank"}  
   - [1-10. 끝말잇기 Hooks로 전환하기](){:target="_blank"}  
   - [1-11. 컨트롤드 인풋 vs 언컨트롤드 인풋](){:target="_blank"}  
 - **섹션 2. 숫자야구**
