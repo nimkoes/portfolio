@@ -37,7 +37,7 @@ inflearn 강의를 보고 정리한 자료
   - [1-04. 모듈 시스템과 웹팩 설정](https://inky-bug-9a2.notion.site/1-04-65b125eab32b48b7bf3f7a798fe507a1){:target="_blank"}  
   - [1-05. 웹팩으로 빌드하기](https://inky-bug-9a2.notion.site/1-05-545d2df003d548caac1af0fe98077374){:target="_blank"}  
   - [1-06. 구구단 웹팩으로 빌드하기](https://inky-bug-9a2.notion.site/1-06-8dd2cf30d0284495afd23c8107d027a0){:target="_blank"}  
-  - [1-07. @babel/preset-env와 plugins](){:target="_blank"}  
+  - [1-07. @babel/preset-env와 plugins](https://inky-bug-9a2.notion.site/1-07-babel-preset-env-plugins-6539be6134a044ec89b294d15271ff93){:target="_blank"}  
   - [1-08. 끝말잇기 Class 만들기](){:target="_blank"}  
   - [1-09. 웹팩 데브 서버와 핫 리로딩](){:target="_blank"}  
   - [1-10. 끝말잇기 Hooks로 전환하기](){:target="_blank"}  
