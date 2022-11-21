@@ -44,7 +44,7 @@ inflearn 강의를 보고 정리한 자료
   - [1-11. 컨트롤드 인풋 vs 언컨트롤드 인풋](https://inky-bug-9a2.notion.site/1-11-vs-3b14787459c847b78add5089caded268){:target="_blank"}  
 - **섹션 2. 숫자야구**
   - [2-01. import와 require 비교](https://inky-bug-9a2.notion.site/2-01-import-require-277b8b21d5644f80bfaa6b7b18fe333d){:target="_blank"}  
-  - [2-02. 리액트 반복문(map)](){:target="_blank"}  
+  - [2-02. 리액트 반복문(map)](https://inky-bug-9a2.notion.site/2-02-map-80d280e6359d44fe998347b1b0ebf5ef){:target="_blank"}  
   - [2-03. 리액트 반복문(key)](){:target="_blank"}  
   - [2-04. 컴포넌트 분리와 props](){:target="_blank"}  
   - [2-05. 주석과 메서드 바인딩](){:target="_blank"}  
