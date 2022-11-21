@@ -41,7 +41,7 @@ inflearn 강의를 보고 정리한 자료
   - [1-08. 끝말잇기 Class 만들기](https://inky-bug-9a2.notion.site/1-08-Class-838d7efbb34d4e8b90033ded9383b5a6){:target="_blank"}  
   - [1-09. 웹팩 데브 서버와 핫 리로딩](https://inky-bug-9a2.notion.site/1-09-27cb67b746c64823ab109b8dbd47c8c6){:target="_blank"}  
   - [1-10. 끝말잇기 Hooks로 전환하기](https://inky-bug-9a2.notion.site/1-10-Hooks-25b80dfd11ed44928404b037aa4639fa){:target="_blank"}  
-  - [1-11. 컨트롤드 인풋 vs 언컨트롤드 인풋](){:target="_blank"}  
+  - [1-11. 컨트롤드 인풋 vs 언컨트롤드 인풋](https://inky-bug-9a2.notion.site/1-11-vs-3b14787459c847b78add5089caded268){:target="_blank"}  
 - **섹션 2. 숫자야구**
   - [2-01. import와 require 비교](){:target="_blank"}  
   - [2-02. 리액트 반복문(map)](){:target="_blank"}  
