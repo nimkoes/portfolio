@@ -43,7 +43,7 @@ inflearn 강의를 보고 정리한 자료
   - [1-10. 끝말잇기 Hooks로 전환하기](https://inky-bug-9a2.notion.site/1-10-Hooks-25b80dfd11ed44928404b037aa4639fa){:target="_blank"}  
   - [1-11. 컨트롤드 인풋 vs 언컨트롤드 인풋](https://inky-bug-9a2.notion.site/1-11-vs-3b14787459c847b78add5089caded268){:target="_blank"}  
 - **섹션 2. 숫자야구**
-  - [2-01. import와 require 비교](){:target="_blank"}  
+  - [2-01. import와 require 비교](https://inky-bug-9a2.notion.site/2-01-import-require-277b8b21d5644f80bfaa6b7b18fe333d){:target="_blank"}  
   - [2-02. 리액트 반복문(map)](){:target="_blank"}  
   - [2-03. 리액트 반복문(key)](){:target="_blank"}  
   - [2-04. 컴포넌트 분리와 props](){:target="_blank"}  
