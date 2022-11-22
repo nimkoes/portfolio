@@ -169,59 +169,59 @@ author: "nimkoes"
 ### level 1
 ---
   
-- 001 : [**<u>크레인 인형뽑기 게임</u>**<sub>2019 카카오 개발자 겨울 인턴십</sub>][link_level_1_001]
+- 001 : [**<u>2016년</u>**<sub>연습문제</sub>][link_level_1_001]
 - 002 : [**<u>완주하지 못한 선수</u>**<sub>해시</sub>][link_level_1_002]
-- 003 : [**<u>신규 아이디 추천</u>**<sub>2021 KAKAO BLIND RECRUITMENT</sub>][link_level_1_003]
-- 004 : [**<u>모의고사</u>**<sub>완전탐색</sub>][link_level_1_004]
-- 005 : [**<u>체육복</u>**<sub>탐욕법(Greedy)</sub>][link_level_1_005]
-- 006 : [**<u>K번째수</u>**<sub>정렬</sub>][link_level_1_006]
-- 007 : [**<u>2016년</u>**<sub>연습문제</sub>][link_level_1_007]
-- 008 : [**<u>가운데 글자 가져오기</u>**<sub>연습문제</sub>][link_level_1_008]
-- 009 : [**<u>같은 숫자는 싫어</u>**<sub>연습문제</sub>][link_level_1_009]
-- 010 : [**<u>3진법 뒤집기</u>**<sub>월간 코드 챌린지 시즌1</sub>][link_level_1_010]
-- 011 : [**<u>로또의 최고 순위와 최저 순위</u>**<sub>2021 Dev-Matching: 웹 백엔드 개발자(상반기)</sub>][link_level_1_011]
-- 012 : [**<u>내적</u>**<sub>월간 코드 챌린지 시즌1</sub>][link_level_1_012]
-- 013 : [**<u>소수 만들기</u>**<sub>Summer/Winter Coding(~2018)</sub>][link_level_1_013]
-- 014 : [**<u>두 개 뽑아서 더하기</u>**<sub>월간 코드 챌린지 시즌1</sub>][link_level_1_014]
-- 015 : [**<u>예산</u>**<sub>Summer/Winter Coding(~2018)</sub>][link_level_1_015]
-- 016 : [**<u>음양 더하기</u>**<sub>월간 코드 챌린지 시즌2</sub>][link_level_1_016]
-- 017 : [**<u>나누어 떨어지는 숫자 배열</u>**<sub>연습문제</sub>][link_level_1_017]
-- 018 : [**<u>폰켓몬</u>**<sub>찾아라 프로그래밍 마에스터</sub>][link_level_1_018]
-- 019 : [**<u>두 정수 사이의 합</u>**<sub>연습문제</sub>][link_level_1_019]
-- 020 : [**<u>문자열 내 마음대로 정렬하기</u>**<sub>연습문제</sub>][link_level_1_020]
-- 021 : [**<u>문자열 내 p와 y의 개수</u>**<sub>연습문제</sub>][link_level_1_021]
-- 022 : [**<u>문자열 내림차순으로 배치하기</u>**<sub>연습문제</sub>][link_level_1_022]
-- 023 : [**<u>문자열 다루기 기본</u>**<sub>연습문제</sub>][link_level_1_023]
-- 024 : [**<u>서울에서 김서방 찾기</u>**<sub>연습문제</sub>][link_level_1_024]
-- 025 : [**<u>소수 찾기</u>**<sub>연습문제</sub>][link_level_1_025]
-- 026 : [**<u>수박수박수박수박수박수?</u>**<sub>연습문제</sub>][link_level_1_026]
-- 027 : [**<u>문자열을 정수로 바꾸기</u>**<sub>연습문제</sub>][link_level_1_027]
-- 028 : [**<u>시저 암호</u>**<sub>연습문제</sub>][link_level_1_028]
-- 029 : [**<u>약수의 합</u>**<sub>연습문제</sub>][link_level_1_029]
-- 030 : [**<u>이상한 문자 만들기</u>**<sub>연습문제</sub>][link_level_1_030]
-- 031 : [**<u>자릿수 더하기</u>**<sub>연습문제</sub>][link_level_1_031]
-- 032 : [**<u>자연수 뒤집어 배열로 만들기</u>**<sub>연습문제</sub>][link_level_1_032]
-- 033 : [**<u>정수 내림차순으로 배치하기</u>**<sub>연습문제</sub>][link_level_1_033]
-- 034 : [**<u>정수 제곱근 판별</u>**<sub>연습문제</sub>][link_level_1_034]
-- 035 : [**<u>제일 작은 수 제거하기</u>**<sub>연습문제</sub>][link_level_1_035]
-- 036 : [**<u>짝수와 홀수</u>**<sub>연습문제</sub>][link_level_1_036]
-- 037 : [**<u>키패드 누르기</u>**<sub>2020 카카오 인턴십</sub>][link_level_1_037]
-- 038 : [**<u>최대공약수와 최소공배수</u>**<sub>연습문제</sub>][link_level_1_038]
-- 039 : [**<u>콜라츠 추측</u>**<sub>연습문제</sub>][link_level_1_039]
-- 040 : [**<u>평균 구하기</u>**<sub>연습문제</sub>][link_level_1_040]
-- 041 : [**<u>하샤드 수</u>**<sub>연습문제</sub>][link_level_1_041]
-- 042 : [**<u>핸드폰 번호 가리기</u>**<sub>연습문제</sub>][link_level_1_042]
-- 043 : [**<u>행렬의 덧셈</u>**<sub>연습문제</sub>][link_level_1_043]
-- 044 : [**<u>x만큼 간격이 있는 n개의 숫자</u>**<sub>연습문제</sub>][link_level_1_044]
-- 045 : [**<u>직사각형 별찍기</u>**<sub>연습문제</sub>][link_level_1_045]
-- 046 : [**<u>(1차) 비밀지도</u>**<sub>2018 KAKAO BLIND RECRUITMENT</sub>][link_level_1_046]
-- 047 : [**<u>실패율</u>**<sub>2019 KAKAO BLIND RECRUITMENT</sub>][link_level_1_047]
-- 048 : [**<u>(1차) 다트 게임</u>**<sub>2018 KAKAO BLIND RECRUITMENT</sub>][link_level_1_048]
-- 049 : [**<u>숫자 문자열과 영단어</u>**<sub>2021 카카오 채용연계형 인턴십</sub>][link_level_1_049]
-- 050 : [**<u>약수의 개수와 덧셈</u>**<sub>월간 코드 챌린지 시즌2</sub>][link_level_1_050]
-- 051 : [**<u>없는 숫자 더하기</u>**<sub>월간 코드 챌린지 시즌3</sub>][link_level_1_051]
-- 052 : [**<u>나머지가 1이 되는 수 찾기</u>**<sub>월간 코드 챌린지 시즌3</sub>][link_level_1_052]
-- 053 : [**<u>최소직사각형</u>**<sub>위클리 챌린지</sub>][link_level_1_053]
+- 003 : [**<u>없는 숫자 더하기</u>**<sub>연습문제</sub>][link_level_1_003]
+- 004 : [**<u>자릿수 더하기</u>**<sub>월간 코드 챌린지 시즌3</sub>][link_level_1_004]
+- 005 : [**<u>음양 더하기</u>**<sub>월간 코드 챌린지 시즌2</sub>][link_level_1_005]
+- 006 : [**<u>나누어 떨어지는 숫자 배열</u>**<sub>연습문제</sub>][link_level_1_006]
+- 007 : [**<u>문자열 내림차순으로 배치하기</u>**<sub>연습문제</sub>][link_level_1_007]
+- 008 : [**<u>문자열 다루기 기본</u>**<sub>연습문제</sub>][link_level_1_008]
+- 009 : [**<u>예산</u>**<sub>Summer/Winter Coding(~2018)</sub>][link_level_1_009]
+- 010 : [**<u>시저 암호</u>**<sub>연습문제</sub>][link_level_1_010]
+- 011 : [**<u>콜라츠 추측</u>**<sub>연습문제</sub>][link_level_1_011]
+- 012 : [**<u>문자열을 정수로 바꾸기</u>**<sub>연습문제</sub>][link_level_1_012]
+- 013 : [**<u>크레인 인형뽑기 게임</u>**<sub>2019 카카오 개발자 겨울 인턴십</sub>][link_level_1_013]
+- 014 : [**<u>이상한 문자 만들기</u>**<sub>연습문제</sub>][link_level_1_014]
+- 015 : [**<u>(1차) 다트 게임</u>**<sub>2018 KAKAO BLIND RECRUITMENT</sub>][link_level_1_015]
+- 016 : [**<u>내적</u>**<sub>월간 코드 챌린지 시즌1</sub>][link_level_1_016]
+- 017 : [**<u>직사각형 별찍기</u>**<sub>연습문제</sub>][link_level_1_017]
+- 018 : [**<u>짝수와 홀수</u>**<sub>연습문제</sub>][link_level_1_018]
+- 019 : [**<u>실패율</u>**<sub>2019 KAKAO BLIND RECRUITMENT</sub>][link_level_1_019]
+- 020 : [**<u>서울에서 김서방 찾기</u>**<sub>연습문제</sub>][link_level_1_020]
+- 021 : [**<u>나머지가 1이 되는 수 찾기</u>**<sub>월간 코드 챌린지 시즌3</sub>][link_level_1_021]
+- 022 : [**<u>소수 찾기</u>**<sub>연습문제</sub>][link_level_1_022]
+- 023 : [**<u>평균 구하기</u>**<sub>연습문제</sub>][link_level_1_023]
+- 024 : [**<u>가운데 글자 가져오기</u>**<sub>연습문제</sub>][link_level_1_024]
+- 025 : [**<u>최대공약수와 최소공배수</u>**<sub>연습문제</sub>][link_level_1_025]
+- 026 : [**<u>체육복</u>**<sub>탐욕법(Greedy)</sub>][link_level_1_026]
+- 027 : [**<u>하샤드 수</u>**<sub>연습문제</sub>][link_level_1_027]
+- 028 : [**<u>핸드폰 번호 가리기</u>**<sub>연습문제</sub>][link_level_1_028]
+- 029 : [**<u>같은 숫자는 싫어</u>**<sub>연습문제</sub>][link_level_1_029]
+- 030 : [**<u>정수 제곱근 판별</u>**<sub>연습문제</sub>][link_level_1_030]
+- 031 : [**<u>K번째수</u>**<sub>정렬</sub>][link_level_1_031]
+- 032 : [**<u>로또의 최고 순위와 최저 순위</u>**<sub>2021 Dev-Matching: 웹 백엔드 개발자(상반기)</sub>][link_level_1_032]
+- 033 : [**<u>소수 만들기</u>**<sub>Summer/Winter Coding(~2018)</sub>][link_level_1_033]
+- 034 : [**<u>행렬의 덧셈</u>**<sub>연습문제</sub>][link_level_1_034]
+- 035 : [**<u>최소직사각형</u>**<sub>위클리 챌린지</sub>][link_level_1_035]
+- 036 : [**<u>x만큼 간격이 있는 n개의 숫자</u>**<sub>연습문제</sub>][link_level_1_036]
+- 037 : [**<u>약수의 개수와 덧셈</u>**<sub>월간 코드 챌린지 시즌2</sub>][link_level_1_037]
+- 038 : [**<u>숫자 문자열과 영단어</u>**<sub>2021 카카오 채용연계형 인턴십</sub>][link_level_1_038]
+- 039 : [**<u>두 개 뽑아서 더하기</u>**<sub>월간 코드 챌린지 시즌1</sub>][link_level_1_039]
+- 040 : [**<u>정수 내림차순으로 배치하기</u>**<sub>연습문제</sub>][link_level_1_040]
+- 041 : [**<u>폰켓몬</u>**<sub>찾아라 프로그래밍 마에스터</sub>][link_level_1_041]
+- 042 : [**<u>모의고사</u>**<sub>완전탐색</sub>][link_level_1_042]
+- 043 : [**<u>키패드 누르기</u>**<sub>2020 카카오 인턴십</sub>][link_level_1_043]
+- 044 : [**<u>신규 아이디 추천</u>**<sub>2021 KAKAO BLIND RECRUITMENT</sub>][link_level_1_044]
+- 045 : [**<u>제일 작은 수 제거하기</u>**<sub>연습문제</sub>][link_level_1_045]
+- 046 : [**<u>3진법 뒤집기</u>**<sub>월간 코드 챌린지 시즌1</sub>][link_level_1_046]
+- 047 : [**<u>(1차) 비밀지도</u>**<sub>2018 KAKAO BLIND RECRUITMENT</sub>][link_level_1_047]
+- 048 : [**<u>문자열 내 마음대로 정렬하기</u>**<sub>연습문제</sub>][link_level_1_048]
+- 049 : [**<u>문자열 내 p와 y의 개수</u>**<sub>연습문제</sub>][link_level_1_049]
+- 050 : [**<u>두 정수 사이의 합</u>**<sub>연습문제</sub>][link_level_1_050]
+- 051 : [**<u>약수의 합</u>**<sub>연습문제</sub>][link_level_1_051]
+- 052 : [**<u>자연수 뒤집어 배열로 만들기</u>**<sub>연습문제</sub>][link_level_1_052]
+- 053 : [**<u>수박수박수박수박수박수?</u>**<sub>연습문제</sub>][link_level_1_053]
 
 
 ### level 2
@@ -407,59 +407,59 @@ author: "nimkoes"
 [link_level_0_099]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level0/Solution_099.java
 [link_level_0_100]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level0/Solution_100.java
 
-[link_level_1_001]:https://xxxelppa.tistory.com/137
-[link_level_1_002]:https://xxxelppa.tistory.com/139
-[link_level_1_003]:https://xxxelppa.tistory.com/138
-[link_level_1_004]:https://xxxelppa.tistory.com/140
-[link_level_1_005]:https://xxxelppa.tistory.com/141
-[link_level_1_006]:https://xxxelppa.tistory.com/142
-[link_level_1_007]:https://xxxelppa.tistory.com/143
-[link_level_1_008]:https://xxxelppa.tistory.com/144
-[link_level_1_009]:https://xxxelppa.tistory.com/145
-[link_level_1_010]:https://xxxelppa.tistory.com/146
-[link_level_1_011]:https://xxxelppa.tistory.com/149
-[link_level_1_012]:https://xxxelppa.tistory.com/148
-[link_level_1_013]:https://xxxelppa.tistory.com/152
-[link_level_1_014]:https://xxxelppa.tistory.com/150
-[link_level_1_015]:https://xxxelppa.tistory.com/151
-[link_level_1_016]:https://xxxelppa.tistory.com/147
-[link_level_1_017]:https://xxxelppa.tistory.com/153
-[link_level_1_018]:https://xxxelppa.tistory.com/154
-[link_level_1_019]:https://xxxelppa.tistory.com/155
-[link_level_1_020]:https://xxxelppa.tistory.com/156
-[link_level_1_021]:https://xxxelppa.tistory.com/157
-[link_level_1_022]:https://xxxelppa.tistory.com/158
-[link_level_1_023]:https://xxxelppa.tistory.com/159
-[link_level_1_024]:https://xxxelppa.tistory.com/160
-[link_level_1_025]:https://xxxelppa.tistory.com/161
-[link_level_1_026]:https://xxxelppa.tistory.com/162
-[link_level_1_027]:https://xxxelppa.tistory.com/163
-[link_level_1_028]:https://xxxelppa.tistory.com/164
-[link_level_1_029]:https://xxxelppa.tistory.com/165
-[link_level_1_030]:https://xxxelppa.tistory.com/166
-[link_level_1_031]:https://xxxelppa.tistory.com/167
-[link_level_1_032]:https://xxxelppa.tistory.com/168
-[link_level_1_033]:https://xxxelppa.tistory.com/169
-[link_level_1_034]:https://xxxelppa.tistory.com/170
-[link_level_1_035]:https://xxxelppa.tistory.com/171
-[link_level_1_036]:https://xxxelppa.tistory.com/172
-[link_level_1_037]:https://xxxelppa.tistory.com/173
-[link_level_1_038]:https://xxxelppa.tistory.com/174
-[link_level_1_039]:https://xxxelppa.tistory.com/175
-[link_level_1_040]:https://xxxelppa.tistory.com/176
-[link_level_1_041]:https://xxxelppa.tistory.com/177
-[link_level_1_042]:https://xxxelppa.tistory.com/178
-[link_level_1_043]:https://xxxelppa.tistory.com/179
-[link_level_1_044]:https://xxxelppa.tistory.com/180
-[link_level_1_045]:https://xxxelppa.tistory.com/181
-[link_level_1_046]:https://xxxelppa.tistory.com/182
-[link_level_1_047]:https://xxxelppa.tistory.com/183
-[link_level_1_048]:https://xxxelppa.tistory.com/184
-[link_level_1_049]:https://xxxelppa.tistory.com/337
-[link_level_1_050]:https://xxxelppa.tistory.com/338
-[link_level_1_051]:https://xxxelppa.tistory.com/343
-[link_level_1_052]:https://xxxelppa.tistory.com/344
-[link_level_1_053]:https://xxxelppa.tistory.com/345
+[link_level_1_001]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_001.java
+[link_level_1_002]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_002.java
+[link_level_1_003]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_003.java
+[link_level_1_004]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_004.java
+[link_level_1_005]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_005.java
+[link_level_1_006]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_006.java
+[link_level_1_007]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_007.java
+[link_level_1_008]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_008.java
+[link_level_1_009]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_009.java
+[link_level_1_010]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_010.java
+[link_level_1_011]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_011.java
+[link_level_1_012]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_012.java
+[link_level_1_013]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_013.java
+[link_level_1_014]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_014.java
+[link_level_1_015]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_015.java
+[link_level_1_016]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_016.java
+[link_level_1_017]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_017.java
+[link_level_1_018]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_018.java
+[link_level_1_019]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_019.java
+[link_level_1_020]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_020.java
+[link_level_1_021]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_021.java
+[link_level_1_022]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_022.java
+[link_level_1_023]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_023.java
+[link_level_1_024]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_024.java
+[link_level_1_025]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_025.java
+[link_level_1_026]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_026.java
+[link_level_1_027]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_027.java
+[link_level_1_028]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_028.java
+[link_level_1_029]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_029.java
+[link_level_1_030]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_030.java
+[link_level_1_031]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_031.java
+[link_level_1_032]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_032.java
+[link_level_1_033]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_033.java
+[link_level_1_034]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_034.java
+[link_level_1_035]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_035.java
+[link_level_1_036]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_036.java
+[link_level_1_037]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_037.java
+[link_level_1_038]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_038.java
+[link_level_1_039]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_039.java
+[link_level_1_040]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_040.java
+[link_level_1_041]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_041.java
+[link_level_1_042]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_042.java
+[link_level_1_043]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_043.java
+[link_level_1_044]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_044.java
+[link_level_1_045]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_045.java
+[link_level_1_046]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_046.java
+[link_level_1_047]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_047.java
+[link_level_1_048]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_048.java
+[link_level_1_049]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_049.java
+[link_level_1_050]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_050.java
+[link_level_1_051]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_051.java
+[link_level_1_052]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_052.java
+[link_level_1_053]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_053.java
   
 [link_level_2_001]:https://xxxelppa.tistory.com/208
 [link_level_2_002]:https://xxxelppa.tistory.com/209
