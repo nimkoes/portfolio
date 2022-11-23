@@ -62,7 +62,7 @@ author: "nimkoes"
 
 ### level 0
 ---
-
+  
 - 001 : [**<u>옹알이(1)</u>**][link_level_0_001]
 - 002 : [**<u>두 수의 곱</u>**][link_level_0_002]
 - 003 : [**<u>두 수의 차</u>**][link_level_0_003]
@@ -165,7 +165,6 @@ author: "nimkoes"
 - 100 : [**<u>평행</u>**][link_level_0_100]
 
 
-
 ### level 1
 ---
   
@@ -226,7 +225,7 @@ author: "nimkoes"
 
 ### level 2
 ---
-
+  
 - 001 : [**<u>기능개발</u>**<sub>스택/큐</sub>][link_level_2_001]
 - 002 : [**<u>단체사진 찍기</u>**<sub>2017 카카오코드 본선</sub>][link_level_2_002]
 - 003 : [**<u>짝지어 제거하기</u>**<sub>2017 팁스타운</sub>][link_level_2_003]
@@ -284,7 +283,7 @@ author: "nimkoes"
 
 ### level 3
 ---
-
+  
 - 001 : [**<u>네트워크</u>**<sub>깊이/너비 우선 탐색(DFS/BFS)</sub>][link_level_3_001]
 - 002 : [**<u>단어 변환</u>**<sub>깊이/너비 우선 탐색(DFS/BFS)</sub>][link_level_3_002]
 - 003 : [**<u>2 x n 타일링</u>**<sub>연습문제</sub>][link_level_3_003]
@@ -294,7 +293,7 @@ author: "nimkoes"
 
 ### weekly challenge
 ---
-
+  
 - WEEK 001 : [**<u>부족한 금액 계산하기</u>**][link_wc_001]
 - WEEK 002 : [**<u>상호 평가</u>**][link_wc_002]
 - WEEK 004 : [**<u>직업군 추천하기</u>**][link_wc_004]
