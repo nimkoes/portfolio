@@ -260,7 +260,7 @@ author: "nimkoes"
 - 031 : [**<u>영어 끝말잇기</u>**<sub>Summer/Winter Coding(~2018)</sub>][link_level_2_031]
 - 032 : [**<u>점프와 순간 이동</u>**<sub>Summer/Winter Coding(~2018)</sub>][link_level_2_032]
 - 033 : [**<u>이진 변환 반복하기</u>**<sub>월간 코드 챌린지 시즌1</sub>][link_level_2_033]
-- 034 : [**<u>[1차]캐시</u>**<sub>2018 KAKAO BLIND RECRUITMENT</sub>][link_level_2_034]
+- 034 : [**<u>[1차] 캐시</u>**<sub>2018 KAKAO BLIND RECRUITMENT</sub>][link_level_2_034]
 - 035 : [**<u>쿼드압축 후 개수 세기</u>**<sub>월간 코드 챌린지 시즌1</sub>][link_level_2_035]
 - 036 : [**<u>스킬트리</u>**<sub>Summer/Winter Coding(~2018)</sub>][link_level_2_036]
 - 037 : [**<u>가장 큰 정사각형 찾기</u>**<sub>연습문제</sub>][link_level_2_037]
@@ -278,8 +278,8 @@ author: "nimkoes"
 - 049 : [**<u>행렬의 곱셈</u>**<sub>연습문제</sub>][link_level_2_049]
 - 050 : [**<u>JadenCase 문자열 만들기</u>**<sub>연습문제</sub>][link_level_2_050]
 - 051 : [**<u>N개의 최소공배수</u>**<sub>연습문제</sub>][link_level_2_051]
-- 052 : [**<u>괄호 회전하기</u>**<sub>월간 코드 챌린지 시즌2</sub>][link_level_2_052]
-- 053 : [**<u>방문 길이</u>**<sub>Summer/Winter Coding(~2018)</sub>][link_level_2_053]
+- 052 : [**<u>방문 길이</u>**<sub>Summer/Winter Coding(~2018)</sub>][link_level_2_052]
+- 053 : [**<u>괄호 회전하기</u>**<sub>월간 코드 챌린지 시즌2</sub>][link_level_2_053]
 
 
 ### level 3
@@ -460,60 +460,60 @@ author: "nimkoes"
 [link_level_1_051]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_051.java
 [link_level_1_052]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_052.java
 [link_level_1_053]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_053.java
-  
-[link_level_2_001]:https://xxxelppa.tistory.com/208
-[link_level_2_002]:https://xxxelppa.tistory.com/209
-[link_level_2_003]:https://xxxelppa.tistory.com/210
-[link_level_2_004]:https://xxxelppa.tistory.com/211
-[link_level_2_005]:https://xxxelppa.tistory.com/212
-[link_level_2_006]:https://xxxelppa.tistory.com/213
-[link_level_2_007]:https://xxxelppa.tistory.com/214
-[link_level_2_008]:https://xxxelppa.tistory.com/215
-[link_level_2_009]:https://xxxelppa.tistory.com/216
-[link_level_2_010]:https://xxxelppa.tistory.com/217
-[link_level_2_011]:https://xxxelppa.tistory.com/218
-[link_level_2_012]:https://xxxelppa.tistory.com/219
-[link_level_2_013]:https://xxxelppa.tistory.com/220
-[link_level_2_014]:https://xxxelppa.tistory.com/221
-[link_level_2_015]:https://xxxelppa.tistory.com/222
-[link_level_2_016]:https://xxxelppa.tistory.com/223
-[link_level_2_017]:https://xxxelppa.tistory.com/224
-[link_level_2_018]:https://xxxelppa.tistory.com/225
-[link_level_2_019]:https://xxxelppa.tistory.com/226
-[link_level_2_020]:https://xxxelppa.tistory.com/227
-[link_level_2_021]:https://xxxelppa.tistory.com/228
-[link_level_2_022]:https://xxxelppa.tistory.com/229
-[link_level_2_023]:https://xxxelppa.tistory.com/230
-[link_level_2_024]:https://xxxelppa.tistory.com/231
-[link_level_2_025]:https://xxxelppa.tistory.com/232
-[link_level_2_026]:https://xxxelppa.tistory.com/233
-[link_level_2_027]:https://xxxelppa.tistory.com/234
-[link_level_2_028]:https://xxxelppa.tistory.com/235
-[link_level_2_029]:https://xxxelppa.tistory.com/236
-[link_level_2_030]:https://xxxelppa.tistory.com/237
-[link_level_2_031]:https://xxxelppa.tistory.com/238
-[link_level_2_032]:https://xxxelppa.tistory.com/239
-[link_level_2_033]:https://xxxelppa.tistory.com/240
-[link_level_2_034]:https://xxxelppa.tistory.com/241
-[link_level_2_035]:https://xxxelppa.tistory.com/243
-[link_level_2_036]:https://xxxelppa.tistory.com/244
-[link_level_2_037]:https://xxxelppa.tistory.com/245
-[link_level_2_038]:https://xxxelppa.tistory.com/246
-[link_level_2_039]:https://xxxelppa.tistory.com/247
-[link_level_2_040]:https://xxxelppa.tistory.com/248
-[link_level_2_041]:https://xxxelppa.tistory.com/249
-[link_level_2_042]:https://xxxelppa.tistory.com/250
-[link_level_2_043]:https://xxxelppa.tistory.com/251
-[link_level_2_044]:https://xxxelppa.tistory.com/252
-[link_level_2_045]:https://xxxelppa.tistory.com/253
-[link_level_2_046]:https://xxxelppa.tistory.com/254
-[link_level_2_047]:https://xxxelppa.tistory.com/255
-[link_level_2_048]:https://xxxelppa.tistory.com/256
-[link_level_2_049]:https://xxxelppa.tistory.com/257
-[link_level_2_050]:https://xxxelppa.tistory.com/258
-[link_level_2_051]:https://xxxelppa.tistory.com/259
-[link_level_2_052]:https://xxxelppa.tistory.com/339
-[link_level_2_053]:https://xxxelppa.tistory.com/346
+
+[link_level_2_001]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_001.java
+[link_level_2_002]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_002.java
+[link_level_2_003]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_003.java
+[link_level_2_004]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_004.java
+[link_level_2_005]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_005.java
+[link_level_2_006]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_006.java
+[link_level_2_007]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_007.java
+[link_level_2_008]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_008.java
+[link_level_2_009]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_009.java
+[link_level_2_010]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_010.java
+[link_level_2_011]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_011.java
+[link_level_2_012]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_012.java
+[link_level_2_013]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_013.java
+[link_level_2_014]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_014.java
+[link_level_2_015]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_015.java
+[link_level_2_016]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_016.java
+[link_level_2_017]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_017.java
+[link_level_2_018]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_018.java
+[link_level_2_019]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_019.java
+[link_level_2_020]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_020.java
+[link_level_2_021]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_021.java
+[link_level_2_022]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_022.java
+[link_level_2_023]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_023.java
+[link_level_2_024]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_024.java
+[link_level_2_025]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_025.java
+[link_level_2_026]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_026.java
+[link_level_2_027]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_027.java
+[link_level_2_028]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_028.java
+[link_level_2_029]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_029.java
+[link_level_2_030]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_030.java
+[link_level_2_031]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_031.java
+[link_level_2_032]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_032.java
+[link_level_2_033]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_033.java
+[link_level_2_034]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_034.java
+[link_level_2_035]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_035.java
+[link_level_2_036]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_036.java
+[link_level_2_037]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_037.java
+[link_level_2_038]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_038.java
+[link_level_2_039]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_039.java
+[link_level_2_040]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_040.java
+[link_level_2_041]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_041.java
+[link_level_2_042]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_042.java
+[link_level_2_043]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_043.java
+[link_level_2_044]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_044.java
+[link_level_2_045]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_045.java
+[link_level_2_046]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_046.java
+[link_level_2_047]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_047.java
+[link_level_2_048]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_048.java
+[link_level_2_049]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_049.java
+[link_level_2_050]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_050.java
+[link_level_2_051]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_051.java
+[link_level_2_052]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_052.java
+[link_level_2_053]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_053.java
   
 [link_level_3_001]:https://xxxelppa.tistory.com/262
 [link_level_3_002]:https://xxxelppa.tistory.com/266
