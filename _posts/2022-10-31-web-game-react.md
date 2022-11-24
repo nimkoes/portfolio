@@ -47,7 +47,7 @@ inflearn 강의를 보고 정리한 자료
   - [2-02. 리액트 반복문(map)](https://inky-bug-9a2.notion.site/2-02-map-80d280e6359d44fe998347b1b0ebf5ef){:target="_blank"}  
   - [2-03. 리액트 반복문(key)](https://inky-bug-9a2.notion.site/2-03-key-dc9dfbb6f8944c9ab64f34a65686d428){:target="_blank"}  
   - [2-04. 컴포넌트 분리와 props](https://inky-bug-9a2.notion.site/2-04-props-9197400f010a4c9bb5e4f39bfa88f23a){:target="_blank"}  
-  - [2-05. 주석과 메서드 바인딩](){:target="_blank"}  
+  - [2-05. 주석과 메서드 바인딩](https://inky-bug-9a2.notion.site/2-05-26e2407cac6c4c15a60a9320c97f2d2b){:target="_blank"}  
   - [2-06. 숫자야구 만들기](){:target="_blank"}  
   - [2-07. Q&amp;A](){:target="_blank"}  
   - [2-08. 숫자야구 Hooks로 전환하기(+useState lazy init)](){:target="_blank"}  
