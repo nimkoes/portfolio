@@ -53,7 +53,7 @@ inflearn 강의를 보고 정리한 자료
   - [2-08. 숫자야구 Hooks로 전환하기(+useState lazy init)](https://inky-bug-9a2.notion.site/2-08-Hooks-useState-lazy-init-e3eb83de5968477da0ec0108aaf86c3e){:target="_blank"}  
   - [2-09. React Devtools](https://inky-bug-9a2.notion.site/2-09-React-Devtools-8122b87d52f54438942c793740bfa683){:target="_blank"}  
   - [2-10. shouldComponentUpdate](https://inky-bug-9a2.notion.site/2-10-shouldComponentUpdate-5b3d074197f74419bd902d272c01712c){:target="_blank"}  
-  - [2-11. 억울한 자식 리렌더링 막기(PureComponent와 memo)](){:target="_blank"}  
+  - [2-11. 억울한 자식 리렌더링 막기(PureComponent와 memo)](https://inky-bug-9a2.notion.site/2-11-PureComponent-memo-8b58d7e58ec44a788336c29683065b24){:target="_blank"}  
   - [2-12. React.createRef](){:target="_blank"}  
   - [2-13. props와 state 연결하기](){:target="_blank"}  
 - **섹션 3. 반응속도체크**
