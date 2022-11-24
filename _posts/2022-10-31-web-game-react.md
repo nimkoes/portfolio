@@ -55,7 +55,7 @@ inflearn 강의를 보고 정리한 자료
   - [2-10. shouldComponentUpdate](https://inky-bug-9a2.notion.site/2-10-shouldComponentUpdate-5b3d074197f74419bd902d272c01712c){:target="_blank"}  
   - [2-11. 억울한 자식 리렌더링 막기(PureComponent와 memo)](https://inky-bug-9a2.notion.site/2-11-PureComponent-memo-8b58d7e58ec44a788336c29683065b24){:target="_blank"}  
   - [2-12. React.createRef](https://inky-bug-9a2.notion.site/2-12-React-createRef-4e8f4f17e4434ed881bfed79bdfa7599){:target="_blank"}  
-  - [2-13. props와 state 연결하기](){:target="_blank"}  
+  - [2-13. props와 state 연결하기](https://inky-bug-9a2.notion.site/2-13-props-state-ddeb642ab3a04c728728b747c7472c3b){:target="_blank"}  
 - **섹션 3. 반응속도체크**
   - [3-01. React 조건문](){:target="_blank"}  
   - [3-02. setTimeout 넣어 반응속도체크](){:target="_blank"}  
