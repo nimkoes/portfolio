@@ -58,7 +58,7 @@ inflearn 강의를 보고 정리한 자료
   - [2-13. props와 state 연결하기](https://inky-bug-9a2.notion.site/2-13-props-state-ddeb642ab3a04c728728b747c7472c3b){:target="_blank"}  
 - **섹션 3. 반응속도체크**
   - [3-01. React 조건문](https://inky-bug-9a2.notion.site/3-01-React-cc0157b410e7416592bef4d2beeabf97){:target="_blank"}  
-  - [3-02. setTimeout 넣어 반응속도체크](){:target="_blank"}  
+  - [3-02. setTimeout 넣어 반응속도체크](https://inky-bug-9a2.notion.site/3-02-setTimeout-527f69f7127c4facad94a52313d2acf9){:target="_blank"}  
   - [3-03. 성능 체크와 Q&amp;amp;A](){:target="_blank"}  
   - [3-04. 반응속도체크 Hooks로 전환하기](){:target="_blank"}  
   - [3-05. return 내부에 for과 if 쓰기](){:target="_blank"}  
