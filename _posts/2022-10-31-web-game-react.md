@@ -60,7 +60,7 @@ inflearn 강의를 보고 정리한 자료
   - [3-01. React 조건문](https://inky-bug-9a2.notion.site/3-01-React-cc0157b410e7416592bef4d2beeabf97){:target="_blank"}  
   - [3-02. setTimeout 넣어 반응속도체크](https://inky-bug-9a2.notion.site/3-02-setTimeout-527f69f7127c4facad94a52313d2acf9){:target="_blank"}  
   - [3-03. 성능 체크와 Q&A](https://inky-bug-9a2.notion.site/3-03-Q-A-c43721a5aed4461e81e865e263de28e8){:target="_blank"}  
-  - [3-04. 반응속도체크 Hooks로 전환하기](){:target="_blank"}  
+  - [3-04. 반응속도체크 Hooks로 전환하기](https://inky-bug-9a2.notion.site/3-04-Hooks-dec7fc1effc14a8bba8a785653cef9f5){:target="_blank"}  
   - [3-05. return 내부에 for과 if 쓰기](){:target="_blank"}  
 - **섹션 4. 가위바위보**
   - [4-01. 리액트 라이프사이클 소개](){:target="_blank"}  
