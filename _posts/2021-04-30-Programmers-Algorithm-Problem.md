@@ -221,6 +221,7 @@ author: "nimkoes"
 - 051 : [**<u>약수의 합</u>**<sub>연습문제</sub>][link_level_1_051]
 - 052 : [**<u>자연수 뒤집어 배열로 만들기</u>**<sub>연습문제</sub>][link_level_1_052]
 - 053 : [**<u>수박수박수박수박수박수?</u>**<sub>연습문제</sub>][link_level_1_053]
+- 054 : [**<u>삼총사</u>**<sub>연습문제</sub>][link_level_1_054]
 
 
 ### level 2
@@ -459,6 +460,7 @@ author: "nimkoes"
 [link_level_1_051]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_051.java
 [link_level_1_052]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_052.java
 [link_level_1_053]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_053.java
+[link_level_1_054]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level1/Solution_054.java
 
 [link_level_2_001]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_001.java
 [link_level_2_002]:https://github.com/nimkoes/programmers_code/blob/master/src/com/nimkoes/level2/Solution_002.java
