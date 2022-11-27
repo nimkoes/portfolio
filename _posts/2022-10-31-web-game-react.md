@@ -64,7 +64,7 @@ inflearn 강의를 보고 정리한 자료
   - [3-05. return 내부에 for과 if 쓰기](https://inky-bug-9a2.notion.site/3-05-return-for-if-e17ee802593a45e3bcdfa6402228235e){:target="_blank"}  
 - **섹션 4. 가위바위보**
   - [4-01. 리액트 라이프사이클 소개](https://inky-bug-9a2.notion.site/4-01-e681eaac5b614835af7cca95f87f58f7){:target="_blank"}  
-  - [4-02. setInterval과 라이프사이클 연동하기](){:target="_blank"}  
+  - [4-02. setInterval과 라이프사이클 연동하기](https://inky-bug-9a2.notion.site/4-02-setInterval-405b447668c3447ca4704fb9266a6c72){:target="_blank"}  
   - [4-03. 가위바위보 게임 만들기](){:target="_blank"}  
   - [4-04. 고차 함수와 Q&amp;amp;A](){:target="_blank"}  
   - [4-05. Hooks와 useEffect](){:target="_blank"}  
