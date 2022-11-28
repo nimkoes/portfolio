@@ -69,7 +69,7 @@ inflearn 강의를 보고 정리한 자료
   - [4-04. 고차 함수와 Q&A](https://inky-bug-9a2.notion.site/4-04-Q-A-cfe368abdc494c949bd3b2ca90e28427){:target="_blank"}  
   - [4-05. Hooks와 useEffect](https://inky-bug-9a2.notion.site/4-05-Hooks-useEffect-bb275eadaeb641878ee7d5fcb662f32c){:target="_blank"}  
   - [4-06. 클래스와 Hooks 라이프사이클 비교](https://inky-bug-9a2.notion.site/4-06-Hooks-636379160d43450ebea3148f435e95ef){:target="_blank"}  
-  - [4-07. 커스텀 훅으로 우아하게 interval하기](){:target="_blank"}  
+  - [4-07. 커스텀 훅으로 우아하게 interval하기](https://inky-bug-9a2.notion.site/4-07-interval-2fc98c71f13741b29deec1706c45eb01){:target="_blank"}  
 - **섹션 5. 로또 추첨기**
   - [5-01. 로또 추첨기 컴포넌트](){:target="_blank"}  
   - [5-02. setTimeout 여러 번 사용하기](){:target="_blank"}  
