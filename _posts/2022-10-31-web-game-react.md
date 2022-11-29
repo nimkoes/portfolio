@@ -71,7 +71,7 @@ inflearn 강의를 보고 정리한 자료
   - [4-06. 클래스와 Hooks 라이프사이클 비교](https://inky-bug-9a2.notion.site/4-06-Hooks-636379160d43450ebea3148f435e95ef){:target="_blank"}  
   - [4-07. 커스텀 훅으로 우아하게 interval하기](https://inky-bug-9a2.notion.site/4-07-interval-2fc98c71f13741b29deec1706c45eb01){:target="_blank"}  
 - **섹션 5. 로또 추첨기**
-  - [5-01. 로또 추첨기 컴포넌트](){:target="_blank"}  
+  - [5-01. 로또 추첨기 컴포넌트](https://inky-bug-9a2.notion.site/5-01-ab6199c7056a4ba78a47b5ca0f29b49f){:target="_blank"}  
   - [5-02. setTimeout 여러 번 사용하기](){:target="_blank"}  
   - [5-03. componentDidUpdate](){:target="_blank"}  
   - [5-04. useEffect로 업데이트 감지하기](){:target="_blank"}  
