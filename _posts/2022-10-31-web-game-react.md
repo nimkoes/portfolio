@@ -73,7 +73,7 @@ inflearn 강의를 보고 정리한 자료
 - **섹션 5. 로또 추첨기**
   - [5-01. 로또 추첨기 컴포넌트](https://inky-bug-9a2.notion.site/5-01-ab6199c7056a4ba78a47b5ca0f29b49f){:target="_blank"}  
   - [5-02. setTimeout 여러 번 사용하기](https://inky-bug-9a2.notion.site/5-02-setTimeout-2db44064c5064e429ee8375d0d264717){:target="_blank"}  
-  - [5-03. componentDidUpdate](){:target="_blank"}  
+  - [5-03. componentDidUpdate](https://inky-bug-9a2.notion.site/5-03-componentDidUpdate-8992aeed5685450789ca98df518d1e4a){:target="_blank"}  
   - [5-04. useEffect로 업데이트 감지하기](){:target="_blank"}  
   - [5-05. useMemo와 useCallback](){:target="_blank"}  
   - [5-06. Hooks에 대한 자잘한 팁들](){:target="_blank"}  
