@@ -75,7 +75,7 @@ inflearn 강의를 보고 정리한 자료
   - [5-02. setTimeout 여러 번 사용하기](https://inky-bug-9a2.notion.site/5-02-setTimeout-2db44064c5064e429ee8375d0d264717){:target="_blank"}  
   - [5-03. componentDidUpdate](https://inky-bug-9a2.notion.site/5-03-componentDidUpdate-8992aeed5685450789ca98df518d1e4a){:target="_blank"}  
   - [5-04. useEffect로 업데이트 감지하기](https://inky-bug-9a2.notion.site/5-04-useEffect-07854078959a46fcbfe429be97a85682){:target="_blank"}  
-  - [5-05. useMemo와 useCallback](){:target="_blank"}  
+  - [5-05. useMemo와 useCallback](https://inky-bug-9a2.notion.site/5-05-useMemo-useCallback-7d24522266ba40c79a9717a2e99a8840){:target="_blank"}  
   - [5-06. Hooks에 대한 자잘한 팁들](){:target="_blank"}  
 - **섹션 6. 틱택토**
   - [6-01. 틱택토와 useRedcuer 소개](){:target="_blank"}  
