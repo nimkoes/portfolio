@@ -79,7 +79,7 @@ inflearn 강의를 보고 정리한 자료
   - [5-06. Hooks에 대한 자잘한 팁들](https://inky-bug-9a2.notion.site/5-06-Hooks-b8aac972a3334839ab5755b4b44fe57c){:target="_blank"}  
 - **섹션 6. 틱택토**
   - [6-01. 틱택토와 useRedcuer 소개](https://inky-bug-9a2.notion.site/6-01-useReducer-61d66a9a24c7401eafe241245ec43392){:target="_blank"}  
-  - [6-02. reducer, action. dispatch의 관계](){:target="_blank"}  
+  - [6-02. reducer, action. dispatch의 관계](https://inky-bug-9a2.notion.site/6-02-reducer-action-dispatch-d02d261ca2a5440db81b8b03989d0a40){:target="_blank"}  
   - [6-03. action 만들어 dispatch 하기](){:target="_blank"}  
   - [6-04. 틱택토 구현하기](){:target="_blank"}  
   - [6-05. 테이블 최적화하기](){:target="_blank"}  
