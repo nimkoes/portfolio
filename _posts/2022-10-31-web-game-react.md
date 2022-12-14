@@ -84,7 +84,7 @@ inflearn 강의를 보고 정리한 자료
   - [6-04. 틱택토 구현하기](https://inky-bug-9a2.notion.site/6-04-26efd3a6273648f593ea49540a5ceee2){:target="_blank"}  
   - [6-05. 테이블 최적화하기](https://inky-bug-9a2.notion.site/6-05-a9fc5c4029604f7b900301c6ad21b790){:target="_blank"}  
 - **섹션 7. 지뢰찾기**
-  - [7-01. Context API 소개와 지뢰찾기](){:target="_blank"}  
+  - [7-01. Context API 소개와 지뢰찾기](https://inky-bug-9a2.notion.site/7-01-Context-API-01a17ccb85754ec09b51974507edb7ba){:target="_blank"}  
   - [7-02. createContext와 Provider](){:target="_blank"}  
   - [7-03. useContext 사용해 지뢰 칸 렌더링](){:target="_blank"}  
   - [7-04. 왼쪽 오른쪽 클릭 로직 작성하기](){:target="_blank"}  
