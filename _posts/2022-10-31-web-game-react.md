@@ -82,7 +82,7 @@ inflearn 강의를 보고 정리한 자료
   - [6-02. reducer, action. dispatch의 관계](https://inky-bug-9a2.notion.site/6-02-reducer-action-dispatch-d02d261ca2a5440db81b8b03989d0a40){:target="_blank"}  
   - [6-03. action 만들어 dispatch 하기](https://inky-bug-9a2.notion.site/6-03-action-dispatch-a9b4c6a3dbad45408e222e36e561933a){:target="_blank"}  
   - [6-04. 틱택토 구현하기](https://inky-bug-9a2.notion.site/6-04-26efd3a6273648f593ea49540a5ceee2){:target="_blank"}  
-  - [6-05. 테이블 최적화하기](){:target="_blank"}  
+  - [6-05. 테이블 최적화하기](https://inky-bug-9a2.notion.site/6-05-a9fc5c4029604f7b900301c6ad21b790){:target="_blank"}  
 - **섹션 7. 지뢰찾기**
   - [7-01. Context API 소개와 지뢰찾기](){:target="_blank"}  
   - [7-02. createContext와 Provider](){:target="_blank"}  
