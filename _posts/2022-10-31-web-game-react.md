@@ -87,8 +87,8 @@ inflearn 강의를 보고 정리한 자료
   - [7-01. Context API 소개와 지뢰찾기](https://inky-bug-9a2.notion.site/7-01-Context-API-01a17ccb85754ec09b51974507edb7ba){:target="_blank"}  
   - [7-02. createContext와 Provider](https://inky-bug-9a2.notion.site/7-02-createContext-Provider-b8659cb68b8346d98afac9765b80f82f){:target="_blank"}  
   - [7-03. useContext 사용해 지뢰 칸 렌더링](https://inky-bug-9a2.notion.site/7-03-useContext-769b756634f3401caed4b5ef62d33282){:target="_blank"}  
-  - [7-04. 왼쪽 오른쪽 클릭 로직 작성하기](){:target="_blank"}  
-  - [7-05. 지뢰 개수 표시하기](){:target="_blank"}  
+  - [7-04. 왼쪽 오른쪽 클릭 로직 작성하기](https://inky-bug-9a2.notion.site/7-04-f66b484d34324730a2d2d455fb2f566f){:target="_blank"}  
+  - [7-05. 지뢰 개수 표시하기](https://inky-bug-9a2.notion.site/7-05-058d5bad4b874bdfbe8b37df1609f830){:target="_blank"}  
   - [7-06. 빈 칸들 한 번에 열기](){:target="_blank"}  
   - [7-07. 승리 조건 체크와 타이머](){:target="_blank"}  
   - [7-08. Context api 최적화](){:target="_blank"}  
