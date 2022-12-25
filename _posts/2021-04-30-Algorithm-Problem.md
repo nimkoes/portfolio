@@ -313,8 +313,6 @@ author: "nimkoes"
 
 
 
-[link_github]:https://github.com/nimkoes/programmers_code
-
 [link_lc_level_medium_001]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/leetcode/medium/Solution_001.java
 [link_lc_level_medium_002]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/leetcode/medium/Solution_002.java
 
