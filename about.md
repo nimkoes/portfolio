@@ -29,7 +29,7 @@ subtitle: I work diligently to become lazy ☕
 * SQL (SQLD certified)
 * Spring Web MVC, Spring Boot
 * Spring Data JPA, querydsl
-* WebSocket
+* WebSocket(stomp)
 * jQuery, jqGrid
 * HTML, CSS, JavaScript, JSP, jQuery, jqGrid
 * Git, Subversion
@@ -38,11 +38,11 @@ subtitle: I work diligently to become lazy ☕
   
 ##### ***experienced***
 * Go, C, C#, ASP.NET, python
-* Windows Server
+* Node.js, Windows Server
 * Redis, MongoDB
 * MSSQL, MySQL, DB2
 * PL/SQL, stored procedure
-* thymeleaf
+* React, thymeleaf
 * Jenkins, Hudson
 * Docker
 * TinyOS
