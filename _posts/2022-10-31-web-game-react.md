@@ -90,7 +90,7 @@ inflearn 강의를 보고 정리한 자료
   - [7-04. 왼쪽 오른쪽 클릭 로직 작성하기](https://inky-bug-9a2.notion.site/7-04-f66b484d34324730a2d2d455fb2f566f){:target="_blank"}  
   - [7-05. 지뢰 개수 표시하기](https://inky-bug-9a2.notion.site/7-05-058d5bad4b874bdfbe8b37df1609f830){:target="_blank"}  
   - [7-06. 빈 칸들 한 번에 열기](https://inky-bug-9a2.notion.site/7-06-7682af736daa4424a5720a448f2ca2df){:target="_blank"}  
-  - [7-07. 승리 조건 체크와 타이머](){:target="_blank"}  
+  - [7-07. 승리 조건 체크와 타이머](https://inky-bug-9a2.notion.site/7-07-96a40703ca594c7b9e87d74cad0f256b){:target="_blank"}  
   - [7-08. Context api 최적화](){:target="_blank"}  
 　  
 　  
