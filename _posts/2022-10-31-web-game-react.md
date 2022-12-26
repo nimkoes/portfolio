@@ -93,7 +93,7 @@ inflearn 강의를 보고 정리한 자료
   - [7-07. 승리 조건 체크와 타이머](https://inky-bug-9a2.notion.site/7-07-96a40703ca594c7b9e87d74cad0f256b){:target="_blank"}  
   - [7-08. Context api 최적화](https://inky-bug-9a2.notion.site/7-08-Context-api-66af62e526ce40988118555deda108c5){:target="_blank"}  
 - **섹션 8. React18**
-  - [8-01. useEffect, useLayoutEffect, useTransition, useDeferredValue](){:target="_blank"}  
+  - [8-01. useEffect, useLayoutEffect, useTransition, useDeferredValue](https://inky-bug-9a2.notion.site/8-01-useEffect-useLayoutEffect-useTransition-useDeferredValue-9f83ecffbc91427fad92282a543b39c8){:target="_blank"}  
 　  
 　  
 　  
