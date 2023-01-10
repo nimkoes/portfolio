@@ -51,6 +51,7 @@ author: "nimkoes"
 ---
   
 - 001 : [**<u>2144. Minimum Cost of Buying Candies With Discount</u>**][link_lc_level_easy_001]
+- 001 : [**<u>605. Can Place Flowers</u>**][link_lc_level_easy_002]
 
 
 
@@ -313,6 +314,7 @@ author: "nimkoes"
 
 
 [link_lc_level_easy_001]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/leetcode/easy/Solution_001.java
+[link_lc_level_easy_002]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/leetcode/easy/Solution_002.java
 
 [link_lc_level_medium_001]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/leetcode/medium/Solution_001.java
 [link_lc_level_medium_002]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/leetcode/medium/Solution_002.java
