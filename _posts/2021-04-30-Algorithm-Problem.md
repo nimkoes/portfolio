@@ -233,6 +233,7 @@ author: "nimkoes"
 - 053 : [**<u>수박수박수박수박수박수?</u>**<sub>연습문제</sub>][link_level_1_053]
 - 054 : [**<u>삼총사</u>**<sub>연습문제</sub>][link_level_1_054]
 - 055 : [**<u>가장 가까운 같은 글자</u>**<sub>연습문제</sub>][link_level_1_055]
+- 056 : [**<u>크기가 작은 부분문자열</u>**<sub>연습문제</sub>][link_level_1_056]
 
 
 ### programmers level 2
@@ -475,6 +476,7 @@ author: "nimkoes"
 [link_level_1_053]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/programmers/level1/Solution_053.java
 [link_level_1_054]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/programmers/level1/Solution_054.java
 [link_level_1_055]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/programmers/level1/Solution_055.java
+[link_level_1_056]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/programmers/level1/Solution_056.java
 
 [link_level_2_001]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/programmers/level2/Solution_001.java
 [link_level_2_002]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/programmers/level2/Solution_002.java
