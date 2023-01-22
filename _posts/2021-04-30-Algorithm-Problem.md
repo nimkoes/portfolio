@@ -25,6 +25,7 @@ author: "nimkoes"
   
 - 001 : [**<u>1038. Binary Search Tree to Greater Sum Tree</u>**][link_lc_level_medium_001]
 - 002 : [**<u>2125. Number of Laser Beams in a Bank</u>**][link_lc_level_medium_002]
+- 002 : [**<u>78. Subsets</u>**][link_lc_level_medium_003]
 
 
 ### leetcode level hard
@@ -282,6 +283,7 @@ author: "nimkoes"
 
 [link_lc_level_medium_001]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/leetcode/medium/Solution_001.java
 [link_lc_level_medium_002]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/leetcode/medium/Solution_002.java
+[link_lc_level_medium_003]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/leetcode/medium/Solution_003.java
 
 [link_level_0_001]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/programmers/level0/Solution_001.java
 [link_level_0_002]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/programmers/level0/Solution_002.java
