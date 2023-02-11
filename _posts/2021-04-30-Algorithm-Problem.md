@@ -28,6 +28,7 @@ author: "nimkoes"
 - 003 : [**<u>78. Subsets</u>**][link_lc_level_medium_003]
 - 004 : [**<u>1884. Egg Drop With 2 Eggs and N Floors</u>**][link_lc_level_medium_004]
 - 005 : [**<u>763. Partition Labels</u>**][link_lc_level_medium_005]
+- 005 : [**<u>55. Jump Game</u>**][link_lc_level_medium_006]
 
 
 ### leetcode level hard
@@ -288,6 +289,7 @@ author: "nimkoes"
 [link_lc_level_medium_003]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/leetcode/medium/Solution_003.java
 [link_lc_level_medium_004]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/leetcode/medium/Solution_004.java
 [link_lc_level_medium_005]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/leetcode/medium/Solution_005.java
+[link_lc_level_medium_006]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/leetcode/medium/Solution_006.java
 
 [link_level_0_001]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/programmers/level0/Solution_001.java
 [link_level_0_002]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/programmers/level0/Solution_002.java
