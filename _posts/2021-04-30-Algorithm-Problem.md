@@ -25,7 +25,14 @@ author: "nimkoes"
   
 - 001 : [**<u>1038. Binary Search Tree to Greater Sum Tree</u>**][link_lc_level_medium_001]
 - 002 : [**<u>2125. Number of Laser Beams in a Bank</u>**][link_lc_level_medium_002]
-- 002 : [**<u>78. Subsets</u>**][link_lc_level_medium_003]
+- 003 : [**<u>78. Subsets</u>**][link_lc_level_medium_003]
+- 004 : [**<u>1884. Egg Drop With 2 Eggs and N Floors</u>**][link_lc_level_medium_004]
+- 005 : [**<u>763. Partition Labels</u>**][link_lc_level_medium_005]
+- 006 : [**<u>55. Jump Game</u>**][link_lc_level_medium_006]
+- 007 : [**<u>371. Sum of Two Integers</u>**][link_lc_level_medium_007]
+- 008 : [**<u>2033. Minimum Operations to Make a Uni-Value Grid</u>**][link_lc_level_medium_008]
+- 009 : [**<u>1828. Queries on Number of Points Inside a Circle</u>**][link_lc_level_medium_009]
+- 010 : [**<u>1561. Maximum Number of Coins You Can Get</u>**][link_lc_level_medium_010]
 
 
 ### leetcode level hard
@@ -284,6 +291,13 @@ author: "nimkoes"
 [link_lc_level_medium_001]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/leetcode/medium/Solution_001.java
 [link_lc_level_medium_002]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/leetcode/medium/Solution_002.java
 [link_lc_level_medium_003]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/leetcode/medium/Solution_003.java
+[link_lc_level_medium_004]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/leetcode/medium/Solution_004.java
+[link_lc_level_medium_005]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/leetcode/medium/Solution_005.java
+[link_lc_level_medium_006]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/leetcode/medium/Solution_006.java
+[link_lc_level_medium_007]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/leetcode/medium/Solution_007.java
+[link_lc_level_medium_008]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/leetcode/medium/Solution_008.java
+[link_lc_level_medium_009]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/leetcode/medium/Solution_009.java
+[link_lc_level_medium_010]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/leetcode/medium/Solution_010.java
 
 [link_level_0_001]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/programmers/level0/Solution_001.java
 [link_level_0_002]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/programmers/level0/Solution_002.java
