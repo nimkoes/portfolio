@@ -35,6 +35,9 @@ author: "nimkoes"
 - 010 : [**<u>1561. Maximum Number of Coins You Can Get</u>**][link_lc_level_medium_010]
 - 011 : [**<u>2317. Maximum XOR After Operations</u>**][link_lc_level_medium_011]
 - 012 : [**<u>2442. Count Number of Distinct Integers After Reverse Operations</u>**][link_lc_level_medium_012]
+- 013 : [**<u>2221. Find Triangular Sum of an Array</u>**][link_lc_level_medium_013]
+- 014 : [**<u>1823. Find the Winner of the Circular Game</u>**][link_lc_level_medium_014]
+- 015 : [**<u>1442. Count Triplets That Can Form Two Arrays of Equal XOR</u>**][link_lc_level_medium_015]
 
 
 ### leetcode level hard
@@ -302,6 +305,9 @@ author: "nimkoes"
 [link_lc_level_medium_010]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/leetcode/medium/Solution_010.java
 [link_lc_level_medium_011]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/leetcode/medium/Solution_011.java
 [link_lc_level_medium_012]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/leetcode/medium/Solution_012.java
+[link_lc_level_medium_013]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/leetcode/medium/Solution_013.java
+[link_lc_level_medium_014]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/leetcode/medium/Solution_014.java
+[link_lc_level_medium_015]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/leetcode/medium/Solution_015.java
 
 [link_level_0_001]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/programmers/level0/Solution_001.java
 [link_level_0_002]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/programmers/level0/Solution_002.java
