@@ -38,6 +38,9 @@ author: "nimkoes"
 - 013 : [**<u>2221. Find Triangular Sum of an Array</u>**][link_lc_level_medium_013]
 - 014 : [**<u>1823. Find the Winner of the Circular Game</u>**][link_lc_level_medium_014]
 - 015 : [**<u>1442. Count Triplets That Can Form Two Arrays of Equal XOR</u>**][link_lc_level_medium_015]
+- 016 : [**<u>1806. Minimum Number of Operations to Reinitialize a Permutation</u>**][link_lc_level_medium_016]
+- 017 : [**<u>48. Rotate Image</u>**][link_lc_level_medium_017]
+- 018 : [**<u>2527. Find Xor-Beauty of Array</u>**][link_lc_level_medium_018]
 
 
 ### leetcode level hard
@@ -308,6 +311,9 @@ author: "nimkoes"
 [link_lc_level_medium_013]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/leetcode/medium/Solution_013.java
 [link_lc_level_medium_014]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/leetcode/medium/Solution_014.java
 [link_lc_level_medium_015]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/leetcode/medium/Solution_015.java
+[link_lc_level_medium_016]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/leetcode/medium/Solution_016.java
+[link_lc_level_medium_017]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/leetcode/medium/Solution_017.java
+[link_lc_level_medium_018]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/leetcode/medium/Solution_018.java
 
 [link_level_0_001]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/programmers/level0/Solution_001.java
 [link_level_0_002]:https://github.com/nimkoes/Algorithm_Solutions/blob/master/src/com/nimkoes/programmers/level0/Solution_002.java
