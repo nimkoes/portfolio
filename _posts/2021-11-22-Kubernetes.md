@@ -19,45 +19,45 @@ inflearn 강의를 보고 정리한 자료
 ---
 
 - **intro**
-  - Introduction [<sub>introduction</sub>](https://inky-bug-9a2.notion.site/Introduction-e291b18ece2546bd93326ebc76ee1ac1){:target="_blank"}
+  - Introduction [<sub>introduction</sub>](https://nimkoes.notion.site/Introduction-dec90eab62db4856a7d966b7cdf37116?pvs=4){:target="_blank"}
 
 - **(기초) 기초 다지기**
-  - Why Kubernetes?                      [<sub>쿠버네티스 사용 이유</sub>](https://inky-bug-9a2.notion.site/Why-Kubernetes-4bdeef9821e54b18b59beb8f69cae525){:target="_blank"}  
-  - VM vs Container                      [<sub>VM 과 Container 비교</sub>](https://inky-bug-9a2.notion.site/VM-vs-Container-cf0a270b8e1d499687b463f598cf057f){:target="_blank"}  
-  - Getting started - Kubernetes         [<sub>Kubernetes 시작하기</sub>](https://inky-bug-9a2.notion.site/Getting-started-Kubernetes-43a28a5ac53c4f3daf34febd43960e3e){:target="_blank"}  
-  - Kubernetes Overview                  [<sub>쿠버네티스 훑어보기</sub> ](https://inky-bug-9a2.notion.site/Kubernetes-Overview-72f57cd08ba248ecafb152abd25674ac){:target="_blank"}  
+  - Why Kubernetes?                      [<sub>쿠버네티스 사용 이유</sub>](https://nimkoes.notion.site/Why-Kubernetes-414babdb86584014b2dbb42347a40114?pvs=4){:target="_blank"}  
+  - VM vs Container                      [<sub>VM 과 Container 비교</sub>](https://nimkoes.notion.site/VM-vs-Container-d1d4497cd8a6456e8b9654db2c554424?pvs=4){:target="_blank"}  
+  - Getting started - Kubernetes         [<sub>Kubernetes 시작하기</sub>](https://nimkoes.notion.site/Getting-started-Kubernetes-62a191ae8aaf4da1b6bb1a6970457598?pvs=4){:target="_blank"}  
+  - Kubernetes Overview                  [<sub>쿠버네티스 훑어보기</sub> ](https://nimkoes.notion.site/Kubernetes-Overview-2dbb5978277645f39e1f4ccd753de2a7?pvs=4){:target="_blank"}  
 - **(기초) 기본 오브젝트**
-  - Pod - Container, Label, NodeSchedule        [<sub>Pod (Container, Label, NodeSchedule)</sub>](https://inky-bug-9a2.notion.site/Pod-Container-Label-NodeSchedule-4a1ed94cc7234de998c8f59b80b0d7c0){:target="_blank"}  
-  - Service - ClusterIP, NodePort, LoadBalancer [<sub>Service (ClusterIP, NodePort, LoadBalancer)</sub>](https://inky-bug-9a2.notion.site/Service-ClusterIP-NodePort-LoadBalancer-68f2357916804e2cbc5157845f3eb84f){:target="_blank"}  
-  - Volume - emptyDir, hostPath, PV/PVC         [<sub>Volume (emptyDir, hostPath, PVC/PV)</sub>](https://inky-bug-9a2.notion.site/Volume-emptyDir-hostPath-PVC-PV-8a51676bf0454647b827e16bb0caa688){:target="_blank"}  
-  - ConfigMap, Secret - Env, Mount              [<sub>ConfigMap, Secret (Env, Mount)</sub>](https://inky-bug-9a2.notion.site/ConfigMap-Secret-Env-Mount-5b1750a16de44653a33e200c0b6a2d11){:target="_blank"}  
-  - Namespace, ResourceQuota, LimitRange        [<sub>Namespace, ResourceQuota, LimitRange</sub>](https://inky-bug-9a2.notion.site/Namespace-ResourceQuota-LimitRange-d64e89da928140a48c39e7452c8263c6){:target="_blank"}  
+  - Pod - Container, Label, NodeSchedule        [<sub>Pod (Container, Label, NodeSchedule)</sub>](https://nimkoes.notion.site/Pod-Container-Label-NodeSchedule-5879a8d11d4845b2b7705fb225d1abd4?pvs=4){:target="_blank"}  
+  - Service - ClusterIP, NodePort, LoadBalancer [<sub>Service (ClusterIP, NodePort, LoadBalancer)</sub>](https://nimkoes.notion.site/Service-ClusterIP-NodePort-LoadBalancer-d931987cd8c5429dba9aca3a374af2d4?pvs=4){:target="_blank"}  
+  - Volume - emptyDir, hostPath, PV/PVC         [<sub>Volume (emptyDir, hostPath, PVC/PV)</sub>](https://nimkoes.notion.site/Volume-emptyDir-hostPath-PVC-PV-0580925693e848a2998de91af924931f?pvs=4){:target="_blank"}  
+  - ConfigMap, Secret - Env, Mount              [<sub>ConfigMap, Secret (Env, Mount)</sub>](https://nimkoes.notion.site/ConfigMap-Secret-Env-Mount-3691e51b1d744afea22c3b445690f497?pvs=4){:target="_blank"}  
+  - Namespace, ResourceQuota, LimitRange        [<sub>Namespace, ResourceQuota, LimitRange</sub>](https://nimkoes.notion.site/Namespace-ResourceQuota-LimitRange-701951b324af433abd815525d910f80d?pvs=4){:target="_blank"}  
 - **(기초) 컨트롤러**
-  - Replication Controller, ReplicaSet - Template, Replicas, Selector [<sub>Replication Controller, ReplicaSet (Template, Replicas, Selector)</sub>](https://inky-bug-9a2.notion.site/Replication-Controller-ReplicaSet-Template-Replicas-Selector-e5c7cc7cb2d4484084f127983dfe278f){:target="_blank"}  
-  - Deployment - Recreate, RollingUpdate                              [<sub>Deployment (Recreate, RollingUpdate)</sub>](https://inky-bug-9a2.notion.site/Deployment-Recreate-RollingUpdate-cf999c3724c24b9da4947b98c5012681){:target="_blank"}  
-  - DaemonSet, Job, CronJob                                           [<sub>DaemonSet, Job, CronJob</sub>](https://inky-bug-9a2.notion.site/DaemonSet-Job-CronJob-d3fd08aa986c43479ecef6ca69b5a2df){:target="_blank"}
+  - Replication Controller, ReplicaSet - Template, Replicas, Selector [<sub>Replication Controller, ReplicaSet (Template, Replicas, Selector)</sub>](https://nimkoes.notion.site/Replication-Controller-ReplicaSet-Template-Replicas-Selector-6385b0123c5e48aba182b6baf80f54c5?pvs=4){:target="_blank"}  
+  - Deployment - Recreate, RollingUpdate                              [<sub>Deployment (Recreate, RollingUpdate)</sub>](https://nimkoes.notion.site/Deployment-Recreate-RollingUpdate-565a951f8a4e4d9fa32a996d9cd68c3e?pvs=4){:target="_blank"}  
+  - DaemonSet, Job, CronJob                                           [<sub>DaemonSet, Job, CronJob</sub>](https://nimkoes.notion.site/DaemonSet-Job-CronJob-35f2eca91a6945e8bd6892cd3b867ffc?pvs=4){:target="_blank"}
 - **(중급) Pod**
-  - Pod - Lifecycle                     [<sub>Pod (Lifecycle)</sub>](https://inky-bug-9a2.notion.site/Pod-Lifecycle-f890c1c8fac145b4bc96ddee11ab842a){:target="_blank"}  
-  - Pod - ReadinessProbe, LivenessProbe [<sub>Pod (ReadinessProbe, LivenessProbe)</sub>](https://inky-bug-9a2.notion.site/Pod-ReadinessProbe-LivenessProbe-0b5d9c09755d4e9ba9fd84ee229c0898){:target="_blank"}  
-  - Pod - QoS Classes                   [<sub>Pod (QoS Classes)</sub>](https://inky-bug-9a2.notion.site/Pod-QoS-Classes-c09f43640f8c4e608949f32bf2cd358a){:target="_blank"}  
-  - Pod - Node Scheduling               [<sub>Pod (Node Scheduling)</sub>](https://inky-bug-9a2.notion.site/Pod-Node-Scheduling-2d9b4f767bb74c568c96229c9b9adc3d){:target="_blank"}  
+  - Pod - Lifecycle                     [<sub>Pod (Lifecycle)</sub>](https://nimkoes.notion.site/Pod-Lifecycle-2a9f5f1fda0e45078e2caea02694ca95?pvs=4){:target="_blank"}  
+  - Pod - ReadinessProbe, LivenessProbe [<sub>Pod (ReadinessProbe, LivenessProbe)</sub>](https://nimkoes.notion.site/Pod-ReadinessProbe-LivenessProbe-92a77b821b914b3cbc0308a736ce22ce?pvs=4){:target="_blank"}  
+  - Pod - QoS Classes                   [<sub>Pod (QoS Classes)</sub>](https://nimkoes.notion.site/Pod-QoS-Classes-6fda2dcf94c44e3482bd1069b4d8b2f7?pvs=4){:target="_blank"}  
+  - Pod - Node Scheduling               [<sub>Pod (Node Scheduling)</sub>](https://nimkoes.notion.site/Pod-Node-Scheduling-b46bf471fcd345438f8355fab68ce790?pvs=4){:target="_blank"}  
 - **(중급) 기본 오브젝트**
-  - Service - Headless, Endpoint, ExternalName                         [<sub>Service (Headless, Endpoint, ExternalName)</sub>](https://inky-bug-9a2.notion.site/Service-Headless-Endpoint-ExternalName-264ba44a0db141acb2842f6ff9129188){:target="_blank"}  
-  - Volume - Dynamic Provisioning, StorageClass, Status, ReclaimPolicy [<sub>Volume (Dynamic Provisioning, StorageClass, Status, ReclaimPolicy)</sub>](https://inky-bug-9a2.notion.site/Volume-Dynamic-Provisioning-StorageClass-Status-ReclaimPolicy-7081229163074f23a6d3f4b6f7698aa9){:target="_blank"}  
-  - Accessing API - Overview                                           [<sub>Accessing API (Overview)</sub>](https://inky-bug-9a2.notion.site/Accessing-API-Overview-c63616108aed4590a244b7dfad89aef1){:target="_blank"}  
-  - Authentication - X509 Certs, kubectl, ServiceAccount               [<sub>Authentication (X509 Certs, kubectl, ServiceAccount)</sub>](https://inky-bug-9a2.notion.site/Authentication-X509-Certs-kubectl-ServiceAccount-0184906630e8496db7636cbbf1f58e64){:target="_blank"}  
-  - Authorization - RBAC, Role, RoleBinding                            [<sub>Authorization (RBAC, Role, RoleBinding)</sub>](https://inky-bug-9a2.notion.site/Authorization-RBAC-Role-RoleBinding-7914f989e9324557809a8d775f6ecdf1){:target="_blank"}  
-  - Kubernetes Dashboard                                               [<sub>Kubernetes Dashboard</sub>](https://inky-bug-9a2.notion.site/Kubernetes-Dashboard-454dc8281d9e47dca85a25e5d8e1e9bd){:target="_blank"}
+  - Service - Headless, Endpoint, ExternalName                         [<sub>Service (Headless, Endpoint, ExternalName)</sub>](https://nimkoes.notion.site/Service-Headless-Endpoint-ExternalName-8398b481d89e473dbcfd0d3787554e5a?pvs=4){:target="_blank"}  
+  - Volume - Dynamic Provisioning, StorageClass, Status, ReclaimPolicy [<sub>Volume (Dynamic Provisioning, StorageClass, Status, ReclaimPolicy)</sub>](https://nimkoes.notion.site/Volume-Dynamic-Provisioning-StorageClass-Status-ReclaimPolicy-e6fa119e7f8247bf80a053f7f88283c2?pvs=4){:target="_blank"}  
+  - Accessing API - Overview                                           [<sub>Accessing API (Overview)</sub>](https://nimkoes.notion.site/Accessing-API-Overview-7e09a987a31444b8a21aa8ddc36587c2?pvs=4){:target="_blank"}  
+  - Authentication - X509 Certs, kubectl, ServiceAccount               [<sub>Authentication (X509 Certs, kubectl, ServiceAccount)</sub>](https://nimkoes.notion.site/Authentication-X509-Certs-kubectl-ServiceAccount-51bf3c60c40a481f964d18328cd80b3c?pvs=4){:target="_blank"}  
+  - Authorization - RBAC, Role, RoleBinding                            [<sub>Authorization (RBAC, Role, RoleBinding)</sub>](https://nimkoes.notion.site/Authorization-RBAC-Role-RoleBinding-b8dadb01ccfc4ab59729e26f9157b459?pvs=4){:target="_blank"}  
+  - Kubernetes Dashboard                                               [<sub>Kubernetes Dashboard</sub>](https://nimkoes.notion.site/Kubernetes-Dashboard-6d1faf9c84974d7eb96b88f797d348a4?pvs=4){:target="_blank"}
 - **(중급) 컨트롤러**
-  - StatefulSet      [<sub>StatefulSet</sub>](https://inky-bug-9a2.notion.site/StatefulSet-dca938a479e646cb9adbb4f1d7684959){:target="_blank"}  
-  - Ingress - Nginx  [<sub>Ingress (Nginx)</sub>](https://inky-bug-9a2.notion.site/Ingress-Nginx-a3b35e77479a4a78bc0f28b919cce800){:target="_blank"}  
-  - Autoscaler - HPA [<sub>Autoscaler (HPA)</sub>](https://inky-bug-9a2.notion.site/Autoscaler-HPA-25a28f3b1f2b4faeb9277c3928c0a21f){:target="_blank"}  
+  - StatefulSet      [<sub>StatefulSet</sub>](https://nimkoes.notion.site/StatefulSet-6482638fc9b341c689b4260227662da4?pvs=4){:target="_blank"}  
+  - Ingress - Nginx  [<sub>Ingress (Nginx)</sub>](https://nimkoes.notion.site/Ingress-Nginx-7adb3c0b86be48aaacb0f32c4f41ea91?pvs=4){:target="_blank"}  
+  - Autoscaler - HPA [<sub>Autoscaler (HPA)</sub>](https://nimkoes.notion.site/Autoscaler-HPA-ebfa20ba9ac848379fb9b37b9ec2ba6e?pvs=4){:target="_blank"}  
 - **(중급) 아키택처**
-  - Kubernetes Architecture 개요[<sub>Kubernetes Architecture 개요</sub>](https://inky-bug-9a2.notion.site/Kubernetes-Architecture-6621b551f3324f34826dd044036a7200){:target="_blank"}  
-  - Component - kube-apiserver, etcd, kube-schedule, kube-proxy, kube-controller-manager [<sub>Component (kube-apiserver, etcd, kube-schedule, kube-proxy, kube-controller-manager)</sub>](https://inky-bug-9a2.notion.site/Component-kube-apiserver-etcd-kube-schedule-kube-proxy-kube-controller-manager-96a112f32f4944359d59a8c569ab0805){:target="_blank"}  
-  - Networking - Pod / Service Network (Calico), Pause Container                         [<sub>Networking (Pod / Service Network (Calico), Pause Container)</sub>](https://inky-bug-9a2.notion.site/Networking-Pod-Service-Network-Calico-Pause-Container-d44f87c39f23413a8f84d1e5ae7be87a){:target="_blank"}  
-  - Storage - NFS(FileStorage), Longhorn(BlockStorage)                                   [<sub>Storage (NFS(FileStorage), Longhorn(BlockStorage))</sub>](https://inky-bug-9a2.notion.site/Storage-NFS-FileStorage-Longhorn-BlockStorage-ad1d5dcfa23e43f9b1bbf95b3f89ae43){:target="_blank"}  
-  - Logging - PLG Stack                                                                  [<sub>Logging (PLG Stack)</sub>](https://inky-bug-9a2.notion.site/Logging-PLG-Stack-9fe6c4f56603490eb2bfc1ac7d635338){:target="_blank"}  
+  - Kubernetes Architecture 개요[<sub>Kubernetes Architecture 개요</sub>](https://nimkoes.notion.site/Kubernetes-Architecture-f060d9063c81474ea21e58e0739251bd?pvs=4){:target="_blank"}  
+  - Component - kube-apiserver, etcd, kube-schedule, kube-proxy, kube-controller-manager [<sub>Component (kube-apiserver, etcd, kube-schedule, kube-proxy, kube-controller-manager)</sub>](https://nimkoes.notion.site/Component-kube-apiserver-etcd-kube-schedule-kube-proxy-kube-controller-manager-a86880e388cf482a9b850fa29b14947c?pvs=4){:target="_blank"}  
+  - Networking - Pod / Service Network (Calico), Pause Container                         [<sub>Networking (Pod / Service Network (Calico), Pause Container)</sub>](https://nimkoes.notion.site/Networking-Pod-Service-Network-Calico-Pause-Container-57063064005242e994be5bc79d18c3a0?pvs=4){:target="_blank"}  
+  - Storage - NFS(FileStorage), Longhorn(BlockStorage)                                   [<sub>Storage (NFS(FileStorage), Longhorn(BlockStorage))</sub>](https://nimkoes.notion.site/Storage-NFS-FileStorage-Longhorn-BlockStorage-c8300b7cea8248498acc68b814caba42?pvs=4){:target="_blank"}  
+  - Logging - PLG Stack                                                                  [<sub>Logging (PLG Stack)</sub>](https://nimkoes.notion.site/Logging-PLG-Stack-aed904a831d34be2ae42f4dc1e1b9109?pvs=4){:target="_blank"}  
 　  
 　  
 　  
