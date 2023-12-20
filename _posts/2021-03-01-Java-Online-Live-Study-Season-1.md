@@ -239,8 +239,8 @@ IT 전반적인 뉴스는 아니었고 자바라는 특정 언어에 대한 소�
 [link_week_10]:https://nimkoes.notion.site/10-d2e2f6124d464a0a95bc74ebb11e616e?pvs=4
 [link_week_11]:https://nimkoes.notion.site/11-Enum-96d59bb8c36d4e53a10278932ae9e2e3?pvs=4
 [link_week_12]:https://nimkoes.notion.site/12-7bc9602436574e478c1afcf805f0c88a?pvs=4
-[link_week_14]:https://xxxelppa.tistory.com/206?category=858435
-[link_week_15]:https://xxxelppa.tistory.com/207?category=858435
+[link_week_14]:https://nimkoes.notion.site/14-7c7995610ffd4166a1fbe158e93b08ab?pvs=4
+[link_week_15]:https://nimkoes.notion.site/15-a62a3903897f471f8b84653abcef0c1f?pvs=4
 
 [link_whiteship_youtube_study_info_01]:https://www.youtube.com/watch?v=peEXNN-oob4&list=PLfI752FpVCS96fSsQe2E3HzYTgdmbz6LU&index=2
 [link_whiteship_youtube_study_info_02]:https://www.youtube.com/watch?v=rPYhY5kFD5k&list=PLfI752FpVCS96fSsQe2E3HzYTgdmbz6LU&index=5
