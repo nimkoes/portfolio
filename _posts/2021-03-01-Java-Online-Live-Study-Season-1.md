@@ -230,15 +230,15 @@ IT 전반적인 뉴스는 아니었고 자바라는 특정 언어에 대한 소�
 [link_week_01]:https://nimkoes.notion.site/1-JVM-81613c2f9fc2414dbeb53b3ada689c36?pvs=4
 [link_week_02]:https://nimkoes.notion.site/2-3effad8043b8438492a04be3c92ff416?pvs=4
 [link_week_03]:https://nimkoes.notion.site/3-de7821c8797f44349a1e5e18d3ed980e?pvs=4
-[link_week_04]:https://xxxelppa.tistory.com/197?category=858435
-[link_week_05]:https://xxxelppa.tistory.com/198?category=858435
-[link_week_06]:https://xxxelppa.tistory.com/199?category=858435
-[link_week_07]:https://xxxelppa.tistory.com/200?category=858435
-[link_week_08]:https://xxxelppa.tistory.com/201?category=858435
-[link_week_09]:https://xxxelppa.tistory.com/202?category=858435
-[link_week_10]:https://xxxelppa.tistory.com/203?category=858435
-[link_week_11]:https://xxxelppa.tistory.com/204?category=858435
-[link_week_12]:https://xxxelppa.tistory.com/205?category=858435
+[link_week_04]:https://nimkoes.notion.site/4-f32b6b09de754b1ab6b0824214f7ea32?pvs=4
+[link_week_05]:https://nimkoes.notion.site/5-0d135e38d73c48cd96beab998cb7abf6?pvs=4
+[link_week_06]:https://nimkoes.notion.site/6-e10227fde2764c7b94c06395b18ab87e?pvs=4
+[link_week_07]:https://nimkoes.notion.site/7-04bf951015824ac1b77f7828e8b628e8?pvs=4
+[link_week_08]:https://nimkoes.notion.site/8-41570a8772104378805d1135362f385a?pvs=4
+[link_week_09]:https://nimkoes.notion.site/9-a909a0954dd743b0a93fa792eb98f6e5?pvs=4
+[link_week_10]:https://nimkoes.notion.site/10-d2e2f6124d464a0a95bc74ebb11e616e?pvs=4
+[link_week_11]:https://nimkoes.notion.site/11-Enum-96d59bb8c36d4e53a10278932ae9e2e3?pvs=4
+[link_week_12]:https://nimkoes.notion.site/12-7bc9602436574e478c1afcf805f0c88a?pvs=4
 [link_week_14]:https://xxxelppa.tistory.com/206?category=858435
 [link_week_15]:https://xxxelppa.tistory.com/207?category=858435
 
