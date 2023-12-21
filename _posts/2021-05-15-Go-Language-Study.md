@@ -118,13 +118,13 @@ author: "nimkoes"
 [link_blog_011]:https://nimkoes.notion.site/Go-Map-afa98623c426495fbc6d693e08dbe756?pvs=4
 [link_blog_012]:https://nimkoes.notion.site/Go-Struct-9266379689e84b1b95d480833df34a07?pvs=4
 
-[link_blog_013]:https://xxxelppa.tistory.com/282
-[link_blog_014]:https://xxxelppa.tistory.com/283
-[link_blog_015]:https://xxxelppa.tistory.com/284
-[link_blog_016]:https://xxxelppa.tistory.com/285
-[link_blog_017]:https://xxxelppa.tistory.com/286
-[link_blog_018]:https://xxxelppa.tistory.com/287
-[link_blog_019]:https://xxxelppa.tistory.com/288
+[link_blog_013]:https://nimkoes.notion.site/Account-NewAccount-9e46452445204cdaa4f4ec9aa40528aa?pvs=4
+[link_blog_014]:https://nimkoes.notion.site/Methods-part-One-ec2dd2bbcbf6495da49032dcb7af8582?pvs=4
+[link_blog_015]:https://nimkoes.notion.site/Methods-part-Two-43c2b011a136480ea477ce58bae4f5df?pvs=4
+[link_blog_016]:https://nimkoes.notion.site/Finishing-Up-4ef4971aca4f4471b31965b77d06ef0a?pvs=4
+[link_blog_017]:https://nimkoes.notion.site/Dictionary-part-One-03ba4ba0eedb4f75b7f81d4cb7994808?pvs=4
+[link_blog_018]:https://nimkoes.notion.site/Add-Method-in-map-9741738a36974cfcab10b46b6c45d043?pvs=4
+[link_blog_019]:https://nimkoes.notion.site/Update-Delete-in-map-cbc9f222c6b24c7b9e16929ac6eb0a1b?pvs=4
 
 [link_blog_020]:https://xxxelppa.tistory.com/289
 [link_blog_021]:https://xxxelppa.tistory.com/290
