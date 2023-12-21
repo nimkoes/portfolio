@@ -105,18 +105,18 @@ author: "nimkoes"
 [link_my_go_repository]:https://github.com/nimkoes/learngo
   
   
-[link_blog_001]:https://xxxelppa.tistory.com/270
-[link_blog_002]:https://xxxelppa.tistory.com/271
-[link_blog_003]:https://xxxelppa.tistory.com/272
-[link_blog_004]:https://xxxelppa.tistory.com/273
-[link_blog_005]:https://xxxelppa.tistory.com/274
-[link_blog_006]:https://xxxelppa.tistory.com/275
-[link_blog_007]:https://xxxelppa.tistory.com/276
-[link_blog_008]:https://xxxelppa.tistory.com/277
-[link_blog_009]:https://xxxelppa.tistory.com/278
-[link_blog_010]:https://xxxelppa.tistory.com/279
-[link_blog_011]:https://xxxelppa.tistory.com/280
-[link_blog_012]:https://xxxelppa.tistory.com/281
+[link_blog_001]:https://nimkoes.notion.site/Go-Hello-World-using-VS-Code-86b2584fc31042e498898eff00224b97?pvs=4
+[link_blog_002]:https://nimkoes.notion.site/Go-package-import-1b58f588c71c4686a03b2a0b5ef02c76?pvs=4
+[link_blog_003]:https://nimkoes.notion.site/Go-fb39bbd5a7314ed19cb7d6853c80f3b3?pvs=4
+[link_blog_004]:https://nimkoes.notion.site/Go-part-1-ce6a9117cf2f4463a6e262a6527a6309?pvs=4
+[link_blog_005]:https://nimkoes.notion.site/Go-part-2-naked-return-defer-d58c5caa8e0448f1813748fd2208d4a9?pvs=4
+[link_blog_006]:https://nimkoes.notion.site/Go-for-range-args-8d79e12826f54fb4b22779b2e1b9155b?pvs=4
+[link_blog_007]:https://nimkoes.notion.site/Go-if-a1e7c05ed2a14e9aad75f13ce846dae8?pvs=4
+[link_blog_008]:https://nimkoes.notion.site/Go-switch-fd320fc4bf0441d0b7c4b2970a47fc92?pvs=4
+[link_blog_009]:https://nimkoes.notion.site/Go-139e1d211a0a433896a360d658dee7f2?pvs=4
+[link_blog_010]:https://nimkoes.notion.site/Go-Array-Slice-13db26cf716f43c4aa6ee59f730aab7e?pvs=4
+[link_blog_011]:https://nimkoes.notion.site/Go-Map-afa98623c426495fbc6d693e08dbe756?pvs=4
+[link_blog_012]:https://nimkoes.notion.site/Go-Struct-9266379689e84b1b95d480833df34a07?pvs=4
 
 [link_blog_013]:https://xxxelppa.tistory.com/282
 [link_blog_014]:https://xxxelppa.tistory.com/283
