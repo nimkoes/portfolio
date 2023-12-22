@@ -82,7 +82,7 @@ inflearn 강의를 보고 정리한 자료
   - [6-02. reducer, action. dispatch의 관계](https://nimkoes.notion.site/6-02-reducer-action-dispatch-43e08b9189ae46848e2cad4ff380fd5e?pvs=4){:target="_blank"}  
   - [6-03. action 만들어 dispatch 하기](https://nimkoes.notion.site/6-03-action-dispatch-9ba7ad22fe9040e9a548df9226cfcd85?pvs=4){:target="_blank"}  
   - [6-04. 틱택토 구현하기](https://nimkoes.notion.site/6-04-d45cade8cbfc4750b95bf329394735e9?pvs=4){:target="_blank"}  
-    - [6-05. 테이블 최적화하기](https://nimkoes.notion.site/6-05-a3bb5ca9dfa2460493e163a90cddadbd?pvs=4){:target="_blank"}  
+  - [6-05. 테이블 최적화하기](https://nimkoes.notion.site/6-05-a3bb5ca9dfa2460493e163a90cddadbd?pvs=4){:target="_blank"}  
 - **섹션 7. 지뢰찾기**
   - [7-01. Context API 소개와 지뢰찾기](https://nimkoes.notion.site/7-01-Context-API-972cca1587104d02b2d8f6c13441e74c?pvs=4){:target="_blank"}  
   - [7-02. createContext와 Provider](https://nimkoes.notion.site/7-02-createContext-Provider-512e0dee6aae4392926dffb9a9186253?pvs=4){:target="_blank"}  
