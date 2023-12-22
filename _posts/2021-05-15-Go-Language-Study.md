@@ -126,22 +126,22 @@ author: "nimkoes"
 [link_blog_018]:https://nimkoes.notion.site/Add-Method-in-map-9741738a36974cfcab10b46b6c45d043?pvs=4
 [link_blog_019]:https://nimkoes.notion.site/Update-Delete-in-map-cbc9f222c6b24c7b9e16929ac6eb0a1b?pvs=4
 
-[link_blog_020]:https://xxxelppa.tistory.com/289
-[link_blog_021]:https://xxxelppa.tistory.com/290
-[link_blog_022]:https://xxxelppa.tistory.com/291
-[link_blog_023]:https://xxxelppa.tistory.com/292
-[link_blog_024]:https://xxxelppa.tistory.com/293
-[link_blog_025]:https://xxxelppa.tistory.com/294
-[link_blog_026]:https://xxxelppa.tistory.com/295
-[link_blog_027]:https://xxxelppa.tistory.com/296
+[link_blog_020]:https://nimkoes.notion.site/hitURL-HTTP-GET-REQUEST-13a335ae6c664e5fae4dab4654ffcad8?pvs=4
+[link_blog_021]:https://nimkoes.notion.site/Slow-URLChecker-empty-map-72670bb808824277b78eaf8f5e8c9245?pvs=4
+[link_blog_022]:https://nimkoes.notion.site/Goroutines-7c64525e555c458e83d2ba196f133f1f?pvs=4
+[link_blog_023]:https://nimkoes.notion.site/Channels-b3b50a14c0fe4dbd8b33683ae8c85e8f?pvs=4
+[link_blog_024]:https://nimkoes.notion.site/Channels-Recap-channel-response-receive-using-loop-blocking-0709dc5a3a8f4cd5b4aad13cc98b14b6?pvs=4
+[link_blog_025]:https://nimkoes.notion.site/Channels-One-more-Recap-4ac6422bae68494290a4572cf2b7dafb?pvs=4
+[link_blog_026]:https://nimkoes.notion.site/URL-Checker-Go-Routines-57100d5694b34a9dbfa274f43e7a8055?pvs=4
+[link_blog_027]:https://nimkoes.notion.site/FAST-URL-Checker-95cbc0eb9b9c47ff8466808a2e2807ce?pvs=4
 
-[link_blog_028]:https://xxxelppa.tistory.com/297
-[link_blog_029]:https://xxxelppa.tistory.com/299
-[link_blog_030]:https://xxxelppa.tistory.com/300
-[link_blog_031]:https://xxxelppa.tistory.com/301
-[link_blog_032]:https://xxxelppa.tistory.com/302
-[link_blog_033]:https://xxxelppa.tistory.com/303
+[link_blog_028]:https://nimkoes.notion.site/getPages-part-one-goquery-go-get-fbc13432553a47c5a35f5af8181721b2?pvs=4
+[link_blog_029]:https://nimkoes.notion.site/getPages-part-two-9aae0628302d4717830c46d5395badd0?pvs=4
+[link_blog_030]:https://nimkoes.notion.site/extractJob-part-one-d6a6b30d06a44872962b4311a293ccd2?pvs=4
+[link_blog_031]:https://nimkoes.notion.site/extractJob-part-two-b76dc1df793c446091ec5ccbf7481011?pvs=4
+[link_blog_032]:https://nimkoes.notion.site/Writing-Jobs-save-extracted-data-to-csv-file-10b4cbc491594036a693ba2b8cc475b6?pvs=4
+[link_blog_033]:https://nimkoes.notion.site/Channels-Time-More-Channels-Baby-goroutine-7842eff182864cafa4e94e30708238d8?pvs=4
 
-[link_blog_034]:https://xxxelppa.tistory.com/304
-[link_blog_035]:https://xxxelppa.tistory.com/305
+[link_blog_034]:https://nimkoes.notion.site/Setup-Part-One-modify-to-callable-scraper-download-echo-a2b9ba3a52584425880af2213baf0d82?pvs=4
+[link_blog_035]:https://nimkoes.notion.site/Setup-Part-Two-File-Download-using-ECHO-98199060ac4c4ee486bead326c726592?pvs=4
 
