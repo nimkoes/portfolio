@@ -65,11 +65,11 @@ author: "nimkoes"
 　  
 　  
   
-[link_self_001]:https://xxxelppa.tistory.com/187?category=858434
-[link_self_002]:https://xxxelppa.tistory.com/188?category=858434
-[link_self_003]:https://xxxelppa.tistory.com/189?category=858434
-[link_self_004]:https://xxxelppa.tistory.com/190?category=858434
-[link_self_005]:https://xxxelppa.tistory.com/191?category=858434
-[link_self_006]:https://xxxelppa.tistory.com/192?category=858434
-[link_self_007]:https://xxxelppa.tistory.com/193?category=858434
+[link_self_001]:https://nimkoes.notion.site/c15abc1feae243f7bad672c7ad8f8e8c?pvs=4
+[link_self_002]:https://nimkoes.notion.site/77464209636b46a9a55b079b797a2bd0?pvs=4
+[link_self_003]:https://nimkoes.notion.site/data-type-f2a58277feba4288b6d01921cf39a6be?pvs=4
+[link_self_004]:https://nimkoes.notion.site/16e24070dc2c4e3cb37363f445f3950b?pvs=4
+[link_self_005]:https://nimkoes.notion.site/1-5fa17b0aa94442599aa7a9fdf8e18fd5?pvs=4
+[link_self_006]:https://nimkoes.notion.site/2-9129167efdfb4c69a7dc242026369b08?pvs=4
+[link_self_007]:https://nimkoes.notion.site/b4975c3a9df04ae9ae4d7807c0dcaad9?pvs=4
 
