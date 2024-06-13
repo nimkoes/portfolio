@@ -1,1 +1,17 @@
-["Java", "Spring Boot", "Data JPA", "querydsl", "SQL", "Azure", "k8s", "Maven"]
+[
+  "Gradle",
+  "Maven",
+  "ANT",
+
+  "MongoDB",
+  "Redis",
+  "SQL(MSSQL,Oracle,DB2)",
+  "QueryDSL",
+  "Data JPA",
+  "Spring Boot",
+
+  "JavaScript",
+  "Java",
+  "k8s",
+  "Azure"
+]
