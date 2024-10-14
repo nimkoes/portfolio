@@ -2,6 +2,7 @@
   "TDD",
   "DDD",
   "XP(eXtreme Programming)",
+  "Tidy First",
 
   "Gradle",
   "Maven",
@@ -9,7 +10,7 @@
 
   "MongoDB",
   "Redis",
-  "SQL(MSSQL,Oracle,DB2)",
+  "SQL(SQLD)",
   "QueryDSL",
   "Data JPA",
 
