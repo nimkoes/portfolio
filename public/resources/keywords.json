@@ -1,15 +1,8 @@
 [
-  "TDD",
-  "DDD",
-  "XP(eXtreme Programming)",
   "Tidy First",
 
-  "Gradle",
   "Maven",
-  "ANT",
 
-  "MongoDB",
-  "Redis",
   "SQL(SQLD)",
   "QueryDSL",
   "Data JPA",
@@ -19,7 +12,6 @@
   "gRPC",
   "REST API",
 
-  "JavaScript",
   "Java",
 
   "k8s",
