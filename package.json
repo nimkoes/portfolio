@@ -1,8 +1,8 @@
 {
-  "name": "duflow89.github.io",
+  "name": "nimkoes.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://duflow89.github.io/blog",
+  "homepage": "https://nimkoes.github.io/portfolio",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

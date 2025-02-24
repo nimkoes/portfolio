@@ -955,9 +955,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"duflow89.github.io@workspace:.":
+"nimkoes.github.io@workspace:.":
   version: 0.0.0-use.local
-  resolution: "duflow89.github.io@workspace:."
+  resolution: "nimkoes.github.io@workspace:."
   dependencies:
     "@types/node": ^20.12.8
     "@types/react": ^18.3.1
