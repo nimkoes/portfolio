@@ -5,7 +5,7 @@ import keywordList from "@resources/keywords.json";
 const Aside = () => (
   <aside className={styles.aside}>
     <div className={styles.asideProfile}>
-      <Image src="/images/thumbnail.jpg" className={styles.asideThumb} alt="nimkoes thumbnail" width={130} height={130} priority />
+      <Image src="/portfolio/images/thumbnail.jpg" className={styles.asideThumb} alt="nimkoes thumbnail" width={130} height={130} priority />
       <h1 className={styles.asideTitle}>nimkoes</h1>
     </div>
 
