@@ -2,12 +2,14 @@
   "Tidy First",
 
   "Maven",
+  "Gradle",
 
   "SQL(SQLD)",
   "QueryDSL",
   "Data JPA",
 
   "Spring Boot",
+  "Spring Security",
 
   "gRPC",
   "REST API",
