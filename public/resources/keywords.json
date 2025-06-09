@@ -1,12 +1,13 @@
 [
   "Tidy First",
+  "Extreme Programming",
 
   "Maven",
   "Gradle",
 
   "SQL(SQLD)",
-  "QueryDSL",
   "Data JPA",
+  "QueryDSL",
 
   "Spring Boot",
   "Spring Security",
@@ -16,6 +17,7 @@
 
   "Java",
 
+  "docker",
   "k8s",
   "Azure"
 ]
