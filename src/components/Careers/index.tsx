@@ -6,13 +6,14 @@ const Careers = () => (
     <h2>CAREER</h2>
 
     <ol className={styles.careerList}>
-      {careerList.sort((a, b) => b.id - a.id).map(({ id, from, to, contents }) => (
+      {careerList.sort((a, b) => b.id - a.id).map(({ id, company, from, to, contents }) => (
         <li className={styles.careerItem} key={id}>
-          <div className={styles.careerPeriod}>
+          {company && <span className={styles.careerCompany}>{company}</span>}
+          <span className={styles.careerPeriod}>
             {from && <span className={styles.careerPeriodFrom}>{from}</span>}
             {" ~ "}
             {to && <span className={styles.careerPeriodTo}>{to}</span>}
-          </div>
+          </span>
 
           <div className={styles.careerContents}>
             {contents && contents.length > 0 && contents.map((content) => <p key={content}>{content}</p>)}

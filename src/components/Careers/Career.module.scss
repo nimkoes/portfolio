@@ -62,6 +62,18 @@
     background-color: hsl(var(--background));
   }
 
+  &-company {
+    display: inline-block;
+    font-size: var(--text-2xl);
+    font-weight: 700;
+    margin-top: calc(0.225rem + 0.25rem - (var(--text-2xl) * 1.2 / 2));
+    margin-bottom: 0.3rem;
+    margin-right: 0.3rem;
+    vertical-align: middle;
+    color: hsl(var(--zinc-600));
+    line-height: 1.2;
+  }
+
   &-period {
     display: inline-block;
     margin-bottom: 0.5rem;
