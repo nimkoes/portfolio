@@ -50,11 +50,13 @@ const contactLinks = [
 
 const Aside = () => (
   <aside className={styles.aside} aria-label="프로필">
-    <div className={styles.asideThemeToggle}>
-      <ThemeToggle />
-    </div>
     <div className={styles.asideProfile}>
       <Image src="/portfolio/images/thumbnail.jpg" className={styles.asideThumb} alt="nimkoes thumbnail" width={130} height={130} priority />
+    </div>
+    <div className={styles.asideTitleRow}>
+      <div className={styles.asideThemeToggle}>
+        <ThemeToggle />
+      </div>
       <h1 className={styles.asideTitle}>nimkoes</h1>
     </div>
     <p className={styles.asideRole}>Backend Engineer | 2015 – Present</p>

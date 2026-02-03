@@ -8,11 +8,17 @@
   gap: 1.2rem;
   padding: 0 1rem;
 
+  &-titleRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 100%;
+  }
+
   &-themeToggle {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 0.5rem 0.75rem;
+    position: static;
   }
 
   &-profile {
@@ -38,6 +44,7 @@
     text-align: center;
     text-indent: -3px;
     color: hsla(var(--primary-color));
+    margin: 0;
   }
 
   &-role {
@@ -160,6 +167,13 @@
     padding: 3rem 1rem 1rem;
     background-color: hsla(var(--card-bg), 0.8);
     border-radius: var(--rounded-4xl);
+
+    &-themeToggle {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 0.5rem 0.75rem;
+    }
 
     &-thumb {
       width: 130px;
