@@ -1,0 +1,26 @@
+/* Semantic theme variables - light (default) and dark */
+
+:root,
+[data-theme="light"] {
+  --background: var(--zinc-100);
+  --text-primary: var(--zinc-800);
+  --text-muted: var(--zinc-500);
+  --card-bg: var(--zinc-50);
+  --card-border: var(--zinc-200);
+  --primary-color: var(--teal-600);
+  --primary-color-foreground: var(--teal-50);
+  --focus-ring: var(--teal-500);
+  --sticky-bg: hsla(var(--zinc-100), 0.92);
+}
+
+[data-theme="dark"] {
+  --background: var(--zinc-950);
+  --text-primary: var(--zinc-100);
+  --text-muted: var(--zinc-500);
+  --card-bg: var(--zinc-900);
+  --card-border: var(--zinc-700);
+  --primary-color: var(--teal-400);
+  --primary-color-foreground: var(--zinc-950);
+  --focus-ring: var(--teal-400);
+  --sticky-bg: hsla(var(--zinc-950), 0.92);
+}

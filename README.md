@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio
 
-## Getting Started
+Next.js 기반 포트폴리오. 콘텐츠는 `public/resources/` JSON으로 관리한다.
 
-First, run the development server:
+## 실행
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+브라우저에서 [http://localhost:3000](http://localhost:3000) 접속.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 데이터 필드 설명
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **careers.json**: 경력. 선택 필드: `techDecisions`(문자열 배열), `troubleshooting`(`{ title, problem, solution }[]`), `infra`(문자열 배열).
+- **projects.json**: 프로젝트. 선택 필드: `techStack`(`{ name, reason? }[]`), `troubleshooting`, `infra`. `details`, `links` 유지.
+- **activities.json**: `items`(활동/수상 문자열 배열), `articles`(배열). 각 아티클: `id`, `title`, `summary`(선택), `image`(선택).
 
-## Learn More
+**아티클 이미지**: `image`에 값이 있으면 리스트에서 해당 항목 클릭 시 이미지가 중앙 팝업으로 열린다. `public/` 기준 경로(예: `/images/thumbnail.jpg`) 또는 외부 URL. 바깥 클릭·Esc로 닫기.
 
-To learn more about Next.js, take a look at the following resources:
+## 참고
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Next.js 문서](https://nextjs.org/docs)
+- [Vercel 배포](https://vercel.com/docs/deployments/overview)

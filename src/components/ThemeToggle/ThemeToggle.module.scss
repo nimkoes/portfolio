@@ -1,0 +1,30 @@
+.toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  min-width: 2.75rem;
+  height: 2.75rem;
+  padding: 0;
+  border: none;
+  border-radius: var(--rounded-full);
+  background: transparent;
+  color: hsl(var(--text-primary));
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+
+  &:hover {
+    background-color: hsl(var(--card-border));
+    color: hsl(var(--primary-color));
+  }
+
+  &:focus-visible {
+    outline: 2px solid hsl(var(--focus-ring));
+    outline-offset: 2px;
+  }
+}
+
+.icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "프로젝트 예시",
+    "period": "0000.00 ~ 9999.99",
+    "summary": "프로젝트 요약정보",
+    "details": ["주요 업무 1", "주요 업무 2"],
+    "goals": ["목표 1", "목표 2"],
+    "techStack": [
+      {"name": "tech 001", "reason": "환경에 대한 추가 설명 1"},
+      {"name": "framework", "reason": "프레임워크"},
+      {"name": "database", "reason": "데이터베이스"}
+    ],
+    "troubleshooting": [
+      {"title": "문제 상황 1", "problem": "구체적인 문제 상황 1", "solution": "문제 해결 방법 1"},
+      {"title": "문제 상황 2", "problem": "구체적인 문제 상황 2", "solution": "문제 해결 방법 2"}
+    ],
+    "infra": [],
+    "achievements": ["성과 1", "성과 2"],
+    "links": []
+  }
+]
