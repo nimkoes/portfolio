@@ -9,8 +9,14 @@
   "articles": [
     {
       "id": 1,
-      "title": "예시 아티클",
-      "summary": "한 줄 요약을 입력합니다.",
+      "title": "국가공인 SQL 개발자 (SQLD)",
+      "summary": "",
+      "image": "/portfolio/images/activities_award/Award_01.png"
+    },
+    {
+      "id": 2,
+      "title": "예시 아티클2",
+      "summary": "",
       "image": "/images/thumbnail.jpg"
     }
   ]
