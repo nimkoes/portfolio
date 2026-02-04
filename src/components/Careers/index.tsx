@@ -28,7 +28,7 @@ const Careers = () => {
   const [openId, setOpenId] = useState<number | null>(null);
 
   return (
-    <div className={styles.career}>
+    <div id="careers" className={styles.career}>
       <h2>CAREER</h2>
       <ol className={styles.careerList}>
         {sortedCareers.map(({ id, company, role, from, to, contents, techDecisions, troubleshooting, infra }) => {

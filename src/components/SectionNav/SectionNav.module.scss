@@ -1,0 +1,78 @@
+.sectionNav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 67px; // 48px * 1.4 = 67.2px (40% 증가)
+  height: 100vh;
+  z-index: 10;
+  display: none;
+  pointer-events: none;
+
+  @media all and (max-width: 767px) {
+    display: block;
+  }
+}
+
+.minimap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: hsla(var(--card-bg), 0.05);
+  border-right: 1px solid hsla(var(--card-border), 0.2);
+  overflow: hidden;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.minimapContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  opacity: 0.5; // 음영 처리된 미리보기 효과
+  filter: brightness(0.7) contrast(0.85); // 약간 어둡게 처리하여 VSCode 스타일
+  // 실제 페이지 콘텐츠가 여기에 복제되어 축소되어 표시됨
+  
+  // 복제된 콘텐츠 내부 요소들의 스타일 조정
+  :global(*) {
+    // 모든 텍스트를 작게 유지
+    font-size: inherit !important;
+    line-height: inherit !important;
+    
+    // 이미지는 표시하지 않거나 매우 작게
+    img {
+      max-width: 2px !important;
+      max-height: 2px !important;
+      opacity: 0.3 !important;
+    }
+    
+    // 버튼과 인터랙티브 요소는 표시하지 않음
+    button,
+    a,
+    input,
+    select,
+    textarea {
+      pointer-events: none !important;
+    }
+  }
+}
+
+.highlightBox {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  min-height: 4px;
+  // 현재 뷰포트 위치를 표시하는 하이라이트 박스 (VSCode 스타일)
+  // 색상을 더 연하게 조정
+  background-color: hsla(var(--primary-color), 0.15); // 0.25 → 0.15로 감소
+  border: 2px solid hsla(var(--primary-color), 0.5); // 0.7 → 0.5로 감소
+  border-left: 3px solid hsla(var(--primary-color), 0.6); // hsl → hsla로 변경하고 투명도 추가
+  border-radius: 1px;
+  pointer-events: none;
+  box-shadow: 0 0 4px hsla(var(--primary-color), 0.3); // 0.4 → 0.3으로 감소
+  z-index: 10;
+  transition: top 0.05s linear, height 0.05s linear; // 부드러운 스크롤 추적
+}

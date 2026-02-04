@@ -6,17 +6,24 @@
   left: 0;
   right: 0;
   z-index: 2;
-  padding: 1rem 0 0.5rem;
+  padding: 0.75rem 0 0.5rem;
   background-color: var(--sticky-bg);
   margin-bottom: 1.5rem;
-  font-size: var(--text-3xl);
+  font-size: var(--text-xl);
   font-weight: 800;
   color: hsla(var(--primary-color));
-  backdrop-filter: blur(20px) saturate(180%);
   text-align: center;
   transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
+  @media (prefers-reduced-motion: no-preference) {
+    @media all and (min-width: 768px) {
+      backdrop-filter: blur(20px) saturate(180%);
+    }
+  }
+
   @media all and (min-width: 768px) {
+    padding: 1rem 0 0.5rem;
+    font-size: var(--text-3xl);
     text-align: left;
   }
 }
@@ -30,8 +37,10 @@
   transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1),
     transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
-  &:hover {
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.04);
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.04);
+    }
   }
 
   &:focus-within {

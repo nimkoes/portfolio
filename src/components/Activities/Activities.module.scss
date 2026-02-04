@@ -25,15 +25,23 @@
     box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1),
     border-color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 
-  &:hover {
-    transform: translateY(-2px);
-    border-color: hsl(var(--primary-color));
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      transform: translateY(-2px);
+      border-color: hsl(var(--primary-color));
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+    }
   }
 
   &:focus-visible {
     outline: 2px solid hsl(var(--focus-ring));
     outline-offset: 2px;
+  }
+
+  &:active {
+    transform: scale(0.97);
+    opacity: 0.8;
+    transition: transform 0.1s, opacity 0.1s;
   }
 }
 
@@ -63,6 +71,11 @@
     opacity 0.3s ease-out,
     padding 0.4s cubic-bezier(0.4, 0, 0.2, 1),
     border-color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+
+  // 모바일에서 Activities 하위 내용 텍스트 크기를 70%로 줄임
+  @media all and (max-width: 767px) {
+    font-size: 70%;
+  }
 }
 
 .activityBodyOpen {
@@ -79,6 +92,11 @@
   margin: 0 0 1.25rem;
   padding: 0;
   list-style: none;
+
+  @media all and (max-width: 767px) {
+    // 모바일에서 목록 줄간격을 80%로 줄임
+    gap: calc(0.4rem * 0.8);
+  }
 }
 
 .activityItem {
@@ -90,6 +108,16 @@
   text-wrap: balance;
   word-break: keep-all;
   transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media all and (max-width: 767px) {
+    word-break: break-word;
+    overflow-wrap: break-word;
+    // 모바일에서 Activities 하위 목록의 글씨 크기를 70%로 줄임 (프로젝트/Career 상세 정보와 동일)
+    font-size: 70%;
+    // 모바일에서 목록 줄간격을 80%로 줄임
+    padding: calc(0.35rem * 0.8) 0 calc(0.35rem * 0.8) 1.25rem;
+    line-height: calc(1.6 * 0.8);
+  }
 
   &::before {
     content: "•";
@@ -112,13 +140,20 @@
   cursor: pointer;
   transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
-  &:hover {
-    color: hsl(var(--primary-color));
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      color: hsl(var(--primary-color));
+    }
   }
 
   &:focus-visible {
     outline: 2px solid hsl(var(--focus-ring));
     outline-offset: 2px;
+  }
+
+  &:active {
+    opacity: 0.7;
+    transition: opacity 0.1s;
   }
 }
 
@@ -142,20 +177,31 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
+  padding: 1rem;
   background-color: rgba(0, 0, 0, 0.6);
   cursor: pointer;
+
+  @media all and (min-width: 768px) {
+    padding: 2rem;
+  }
 }
 
 .popupImageWrap {
-  max-width: 90vw;
-  max-height: 85vh;
+  max-width: 95vw;
+  max-height: 90vh;
+  margin: 1rem;
   overflow: hidden;
   border-radius: var(--rounded-2xl);
   border: 1px solid hsl(var(--card-border));
   background-color: hsl(var(--card-bg));
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
   cursor: default;
+
+  @media all and (min-width: 768px) {
+    max-width: 90vw;
+    max-height: 85vh;
+    margin: 0;
+  }
 }
 
 .popupImage {

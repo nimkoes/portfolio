@@ -6,20 +6,20 @@ import Projects from "~/components/Projects";
 
 const HomePage = () => (
   <main className={styles.home}>
-    <div className={styles.homeLeft}>
-      <Aside />
-      <div className={styles.activitiesDesktop}>
-        <Activities />
+      <div className={styles.homeLeft}>
+        <Aside />
+        <div className={styles.activitiesDesktop}>
+          <Activities />
+        </div>
       </div>
-    </div>
-    <div className={styles.homeContainer}>
-      <Careers />
-      <Projects />
-      <div className={styles.activitiesMobile}>
-        <Activities />
+      <div className={styles.homeContainer}>
+        <Careers />
+        <Projects />
+        <div className={styles.activitiesMobile}>
+          <Activities />
+        </div>
       </div>
-    </div>
-  </main>
+    </main>
 );
 
 export default HomePage;

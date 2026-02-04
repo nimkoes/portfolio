@@ -1,6 +1,11 @@
 html {
   scroll-padding-top: 4rem;
   scroll-behavior: smooth;
+  
+  // 모바일에서 모든 텍스트 크기를 90%로 줄임
+  @media all and (max-width: 767px) {
+    font-size: 90%;
+  }
 }
 
 body {

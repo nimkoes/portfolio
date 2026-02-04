@@ -1,10 +1,17 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import "~/styles/index.scss";
 
 export const metadata: Metadata = {
   title: "About nimkoes",
   description: "github pages for nimkoes",
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+  userScalable: true,
 };
 
 const themeScript = `

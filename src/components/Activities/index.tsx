@@ -45,7 +45,7 @@ const Activities = () => {
   }, [openImageUrl, closePopup]);
 
   return (
-    <div className={styles.activity}>
+    <div id="activities" className={styles.activity}>
       <button
         type="button"
         className={styles.activityHeader}

@@ -3,21 +3,21 @@
   display: flex;
   flex-direction: column;
   max-width: 1024px;
-  gap: 3.5rem;
+  gap: 2.5rem;
   margin: auto;
-  padding: 3.5rem 1.25rem 10rem;
+  padding: 2rem 1rem 6rem;
 
   &-left {
     display: flex;
     flex-direction: column;
-    gap: 3.5rem;
+    gap: 2.5rem;
   }
 
   &-container {
     margin: auto;
     display: flex;
     flex-direction: column;
-    gap: 5rem;
+    gap: 3rem;
 
     > section,
     > div {
@@ -31,14 +31,24 @@
       left: 0;
       right: 0;
       z-index: 2;
-      padding: 1rem 0 0.5rem;
+      padding: 0.75rem 0 0.5rem;
       background-color: var(--sticky-bg);
       margin-bottom: 1.5rem;
-      font-size: var(--text-3xl);
+      font-size: var(--text-xl);
       font-weight: 800;
       color: hsla(var(--primary-color));
-      backdrop-filter: blur(20px) saturate(180%);
       text-align: center;
+
+      @media (prefers-reduced-motion: no-preference) {
+        @media all and (min-width: 768px) {
+          backdrop-filter: blur(20px) saturate(180%);
+        }
+      }
+
+      @media all and (min-width: 768px) {
+        padding: 1rem 0 0.5rem;
+        font-size: var(--text-3xl);
+      }
     }
   }
 }
@@ -54,17 +64,35 @@
 @media all and (min-width: 768px) {
   .home {
     flex-direction: row;
-    align-items: flex-start;
+    align-items: flex-start; // flex-start로 설정하여 각 컬럼이 독립적으로 높이 결정
     justify-content: flex-start;
+    gap: 3.5rem;
+    padding: 3.5rem 1.25rem 10rem;
 
     &-left {
       flex: 0 0 300px;
       max-width: 300px;
       width: 100%;
+      gap: 3.5rem;
+      // PC 버전에서 독립적으로 동작하도록 sticky positioning 사용
+      position: sticky;
+      top: 0;
+      align-self: flex-start;
+      // 높이를 뷰포트에 맞추고 스크롤 가능하게 설정
+      max-height: calc(100vh - 7rem); // 상하 패딩 고려
+      overflow-y: auto;
+      overflow-x: hidden;
+      // 본문 영역의 높이에 영향을 주지 않도록
+      height: fit-content;
     }
 
     &-container {
       flex: 1 1 auto;
+      gap: 5rem;
+      // 본문 영역이 독립적으로 높이를 결정하도록
+      min-width: 0;
+      // 왼쪽 영역의 높이에 영향을 받지 않도록
+      align-self: flex-start;
 
       > div > h2 {
         text-align: left;
@@ -82,6 +110,16 @@
 }
 
 @media all and (max-width: 767px) {
+  .home {
+    // 본문 영역 폭 100% 가운데 정렬
+    width: 100%;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   .activitiesDesktop {
     display: none;
   }
