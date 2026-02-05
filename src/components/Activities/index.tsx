@@ -35,20 +35,11 @@ const Activities = () => {
 
   const closePopup = useCallback(() => setOpenImageUrl(null), []);
 
-  // 이미지 팝업이 열려있을 때 배경 스크롤 방지
+  // Escape 키로 팝업 닫기
   useEffect(() => {
     if (openImageUrl === null) {
-      // 팝업이 닫히면 스크롤 복원
-      document.body.style.overflow = "";
       return;
     }
-
-    // 팝업이 열리면 배경 스크롤 방지
-    const scrollY = window.scrollY;
-    document.body.style.overflow = "hidden";
-    document.body.style.position = "fixed";
-    document.body.style.top = `-${scrollY}px`;
-    document.body.style.width = "100%";
 
     const onKeyDown = (e: KeyboardEvent) => {
       if (e.key === "Escape") closePopup();
@@ -57,12 +48,6 @@ const Activities = () => {
 
     return () => {
       window.removeEventListener("keydown", onKeyDown);
-      // 스크롤 복원
-      document.body.style.overflow = "";
-      document.body.style.position = "";
-      document.body.style.top = "";
-      document.body.style.width = "";
-      window.scrollTo(0, scrollY);
     };
   }, [openImageUrl, closePopup]);
 
