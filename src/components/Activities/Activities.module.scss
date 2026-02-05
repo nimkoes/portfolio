@@ -103,7 +103,7 @@
   position: relative;
   padding: 0.35rem 0 0.35rem 1.25rem;
   font-weight: 600;
-  font-size: var(--text-sm);
+  // Careers의 목록과 동일하게 부모 폰트 크기 상속
   color: hsl(var(--text-primary));
   text-wrap: balance;
   word-break: keep-all;
@@ -113,7 +113,7 @@
     word-break: break-word;
     overflow-wrap: break-word;
     // 모바일에서 Activities 하위 목록의 글씨 크기를 70%로 줄임 (프로젝트/Career 상세 정보와 동일)
-    font-size: 70%;
+    // 부모인 .activityBody의 font-size: 70%를 상속받음
     // 모바일에서 목록 줄간격을 80%로 줄임
     padding: calc(0.35rem * 0.8) 0 calc(0.35rem * 0.8) 1.25rem;
     line-height: calc(1.6 * 0.8);
