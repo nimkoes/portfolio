@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useCallback, useEffect } from "react";
+import { createPortal } from "react-dom";
 import activityData from "@resources/activities.json";
 import styles from "./Activities.module.scss";
 
@@ -111,27 +112,30 @@ const Activities = () => {
         )}
       </div>
 
-      {openImageUrl !== null && (
-        <div
-          className={styles.popupOverlay}
-          role="dialog"
-          aria-modal="true"
-          aria-label="이미지 보기"
-          onClick={closePopup}
-        >
+      {openImageUrl !== null &&
+        typeof window !== "undefined" &&
+        createPortal(
           <div
-            className={styles.popupImageWrap}
-            onClick={(e) => e.stopPropagation()}
+            className={styles.popupOverlay}
+            role="dialog"
+            aria-modal="true"
+            aria-label="이미지 보기"
+            onClick={closePopup}
           >
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={openImageUrl}
-              alt=""
-              className={styles.popupImage}
-            />
-          </div>
-        </div>
-      )}
+            <div
+              className={styles.popupImageWrap}
+              onClick={(e) => e.stopPropagation()}
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={openImageUrl}
+                alt=""
+                className={styles.popupImage}
+              />
+            </div>
+          </div>,
+          document.body
+        )}
     </div>
   );
 };
