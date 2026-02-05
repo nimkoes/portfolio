@@ -1,23 +1,48 @@
 {
   "items": [
-    "국가공인 SQL 개발자 (SQLD)",
-    "프로그래머스 월간 코딩 챌린지 2020년 10월 상위 4%",
-    "프로그래머스 월간 코딩 챌린지 2020년 09월 상위 5%",
-    "COS pro Java 1급, COS scratch 1급",
-    "컴퓨터공학사, 정보처리기사"
   ],
   "articles": [
     {
-      "id": 1,
+      "id": 7,
       "title": "국가공인 SQL 개발자 (SQLD)",
       "summary": "",
-      "image": "/portfolio/images/activities_award/Award_01.png"
+      "image": "/portfolio/images/activities_award/Award_07.png"
+    },
+    {
+      "id": 6,
+      "title": "프로그래머스 월간 코딩 챌린지 2020년 10월 상위 4%",
+      "summary": "",
+      "image": "/portfolio/images/activities_award/Award_06.png"
+    },
+    {
+      "id": 5,
+      "title": "프로그래머스 월간 코딩 챌린지 2020년 09월 상위 5%",
+      "summary": "",
+      "image": "/portfolio/images/activities_award/Award_05.png"
+    },
+    {
+      "id": 4,
+      "title": "COS pro Java 1급",
+      "summary": "",
+      "image": "/portfolio/images/activities_award/Award_04.png"
+    },
+    {
+      "id": 3,
+      "title": "COS scratch 1급",
+      "summary": "",
+      "image": "/portfolio/images/activities_award/Award_03.png"
     },
     {
       "id": 2,
-      "title": "예시 아티클2",
+      "title": "정보처리기사",
       "summary": "",
-      "image": "/images/thumbnail.jpg"
+      "image": "/portfolio/images/activities_award/Award_02.png"
+    },
+    {
+      "id": 1,
+      "title": "컴퓨터공학사",
+      "summary": "",
+      "image": "/portfolio/images/activities_award/Award_01.png"
     }
   ]
 }
