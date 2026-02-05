@@ -211,8 +211,9 @@
   @media all and (min-width: 768px) {
     // PC 버전에서 적절한 크기로 제한하여 중앙에 표시
     // 이미지가 잘리지 않도록 충분한 높이 확보
-    max-width: min(80vw, 1200px);
-    max-height: 85vh;
+    // 현재 크기의 75% 수준으로 설정
+    max-width: min(60vw, 900px);
+    max-height: 63.75vh;
     margin: 0;
     padding: 1.5rem;
   }
@@ -229,7 +230,7 @@
   vertical-align: middle;
   
   @media all and (min-width: 768px) {
-    // PC 버전에서 패딩을 고려한 높이 설정
-    max-height: calc(85vh - 3rem);
+    // PC 버전에서 패딩을 고려한 높이 설정 (75% 크기)
+    max-height: calc(63.75vh - 3rem);
   }
 }
