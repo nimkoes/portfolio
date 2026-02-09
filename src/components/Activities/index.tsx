@@ -30,11 +30,20 @@ const { items, articles } = normalizeData(activityData as ActivitiesData);
 
 const SECTION_BODY_ID = "activities-section-body";
 
+// 이미지 경로에서 WebP 버전 경로 생성
+const getWebPImageUrl = (imageUrl: string): string => {
+  return imageUrl.replace(/\.(png|jpg|jpeg)$/i, ".webp");
+};
+
 const Activities = () => {
   const [isSectionOpen, setIsSectionOpen] = useState(false);
   const [openImageUrl, setOpenImageUrl] = useState<string | null>(null);
+  const [openImageTitle, setOpenImageTitle] = useState<string | null>(null);
 
-  const closePopup = useCallback(() => setOpenImageUrl(null), []);
+  const closePopup = useCallback(() => {
+    setOpenImageUrl(null);
+    setOpenImageTitle(null);
+  }, []);
 
   // Escape 키로 팝업 닫기
   useEffect(() => {
@@ -91,7 +100,10 @@ const Activities = () => {
                   <button
                     type="button"
                     className={styles.articleLink}
-                    onClick={() => setOpenImageUrl(image)}
+                    onClick={() => {
+                      setOpenImageUrl(image);
+                      setOpenImageTitle(title);
+                    }}
                   >
                     <span className={styles.articleLinkTitle}>{title}</span>
                     {summary && (
@@ -126,12 +138,18 @@ const Activities = () => {
               className={styles.popupImageWrap}
               onClick={(e) => e.stopPropagation()}
             >
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={openImageUrl}
-                alt=""
-                className={styles.popupImage}
-              />
+              <picture>
+                <source srcSet={getWebPImageUrl(openImageUrl)} type="image/webp" />
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={openImageUrl}
+                  alt={openImageTitle || "이미지"}
+                  className={styles.popupImage}
+                  loading="lazy"
+                  decoding="async"
+                  fetchPriority="low"
+                />
+              </picture>
             </div>
           </div>,
           document.body
