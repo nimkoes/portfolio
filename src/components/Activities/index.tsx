@@ -138,18 +138,15 @@ const Activities = () => {
               className={styles.popupImageWrap}
               onClick={(e) => e.stopPropagation()}
             >
-              <picture>
-                <source srcSet={getWebPImageUrl(openImageUrl)} type="image/webp" />
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src={openImageUrl}
-                  alt={openImageTitle || "이미지"}
-                  className={styles.popupImage}
-                  loading="lazy"
-                  decoding="async"
-                  fetchPriority="low"
-                />
-              </picture>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={openImageUrl}
+                alt={openImageTitle || "이미지"}
+                className={styles.popupImage}
+                loading="lazy"
+                decoding="async"
+                fetchPriority="low"
+              />
             </div>
           </div>,
           document.body
