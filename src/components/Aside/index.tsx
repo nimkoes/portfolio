@@ -51,7 +51,7 @@ const contactLinks = [
 const Aside = () => (
   <aside className={styles.aside} aria-label="프로필">
     <div className={styles.asideProfile}>
-      <Image src="/portfolio/images/thumbnail.jpg" className={styles.asideThumb} alt="nimkoes thumbnail" width={130} height={130} priority />
+      <Image src="/images/thumbnail.jpg" className={styles.asideThumb} alt="nimkoes thumbnail" width={130} height={130} priority />
     </div>
     <div className={styles.asideTitleRow}>
       <div className={styles.asideThemeToggle}>

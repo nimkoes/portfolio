@@ -4,233 +4,182 @@
   min-width: 0;
 }
 
-.activityHeader {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.5rem 1rem;
-  width: 100%;
-  min-height: 44px;
-  padding: 1rem 1.25rem;
+.activityTitle {
+  position: relative;
+  z-index: 8;
+  padding: 0 0 0 calc(var(--graph-branch-target-x, 3.6rem) + 0.5rem);
+  background-color: transparent;
+  margin: 0 0 0.95rem;
+  font-size: var(--text-xl);
+  font-weight: 800;
+  color: hsla(var(--primary-color));
   text-align: left;
-  border: 1px solid hsl(var(--card-border));
-  border-radius: var(--rounded-2xl);
-  background-color: hsl(var(--card-bg));
-  color: hsl(var(--text-primary));
-  font-size: var(--text-sm);
-  font-family: inherit;
-  cursor: pointer;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.04);
-  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 0.4s cubic-bezier(0.4, 0, 0.2, 1),
-    border-radius 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 
-  // 열렸을 때 아래쪽 모서리를 둥글지 않게 만들어 바디와 자연스럽게 연결
-  &[aria-expanded="true"] {
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-  }
-
-  @media (hover: hover) and (pointer: fine) {
-    &:hover {
-      transform: translateY(-2px);
-      border-color: hsl(var(--primary-color));
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
-    }
-  }
-
-  &:focus-visible {
-    outline: 2px solid hsl(var(--focus-ring));
-    outline-offset: 2px;
-  }
-
-  &:active {
-    transform: scale(0.97);
-    opacity: 0.8;
-    transition: transform 0.1s, opacity 0.1s;
+  @media all and (min-width: 768px) {
+    padding: 0 0 0 calc(var(--graph-branch-target-x, 3.8rem) + 0.55rem);
+    font-size: var(--text-3xl);
   }
 }
 
-.activityHeaderTitle {
-  font-size: var(--text-lg);
-  font-weight: 700;
-  color: hsl(var(--primary-color));
-}
+.activityTimelineContainer {
+  position: relative;
+  min-width: 0;
+  --timeline-line-left: var(--section-commit-line-left, 1.8rem);
+  --timeline-item-padding-left: 5.25rem;
+  --timeline-node-top: 0.5rem;
+  --timeline-node-width: 3.9rem;
+  --timeline-line-width: var(--graph-line-width, 2px);
+  --timeline-connector-top: 1.05rem;
+  --timeline-connector-width: calc(var(--timeline-item-padding-left) - var(--timeline-line-left) - 0.4rem);
+  --timeline-merge-node-size: 0.8rem;
+  --timeline-commit-size: 0.5rem;
 
-.activityHeaderChevron {
-  margin-left: auto;
-  font-size: 0.65rem;
-  color: hsl(var(--text-muted));
-}
-
-.activityBody {
-  max-height: 0;
-  overflow: hidden;
-  padding: 0 1.25rem;
-  border: 1px solid transparent;
-  border-top: none;
-  border-radius: 0 0 var(--rounded-2xl) var(--rounded-2xl);
-  background-color: hsl(var(--card-bg));
-  opacity: 0;
-  transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1),
-    opacity 0.3s ease-out,
-    padding 0.4s cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-
-  // 모바일에서 Activities 하위 내용 텍스트 크기를 70%로 줄임
   @media all and (max-width: 767px) {
-    font-size: 70%;
+    --timeline-line-left: var(--section-commit-line-left, 1.4rem);
+    --timeline-item-padding-left: 4.35rem;
+    --timeline-node-width: 3.1rem;
+    --timeline-line-width: var(--graph-line-width, 1.5px);
+    --timeline-connector-top: 0.9rem;
+    --timeline-merge-node-size: 0.68rem;
+    --timeline-commit-size: 0.44rem;
   }
 }
 
-.activityBodyOpen {
-  max-height: 2000px;
-  padding: 1rem 1.25rem 1.25rem;
-  border-color: hsl(var(--card-border));
-  opacity: 1;
+.activityTimelineLine {
+  position: absolute;
+  left: var(--timeline-line-left);
+  top: 0;
+  bottom: var(--graph-branch-anchor-offset, var(--graph-branch-anchor-from-bottom, 0.36rem));
+  width: var(--timeline-line-width);
+  background-color: hsl(var(--card-border));
+  z-index: 0;
 }
 
-.activityList {
-  display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
-  margin: 0 0 1.25rem;
+.activityTimelineContent {
+  position: relative;
+  z-index: 1;
+  margin: 0;
   padding: 0;
   list-style: none;
-
-  @media all and (max-width: 767px) {
-    // 모바일에서 목록 줄간격을 80%로 줄임
-    gap: calc(0.4rem * 0.8);
-  }
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
-.activityItem {
+.activityTimelineItem {
   position: relative;
-  padding: 0.35rem 0 0.35rem 1.25rem;
-  font-weight: 600;
-  // Careers의 목록과 동일하게 부모 폰트 크기 상속
-  color: hsl(var(--text-primary));
-  text-wrap: balance;
-  word-break: keep-all;
-  transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-
-  @media all and (max-width: 767px) {
-    word-break: break-word;
-    overflow-wrap: break-word;
-    // 모바일에서 Activities 하위 목록의 글씨 크기를 70%로 줄임 (프로젝트/Career 상세 정보와 동일)
-    // 부모인 .activityBody의 font-size: 70%를 상속받음
-    // 모바일에서 목록 줄간격을 80%로 줄임
-    padding: calc(0.35rem * 0.8) 0 calc(0.35rem * 0.8) 1.25rem;
-    line-height: calc(1.6 * 0.8);
-  }
+  padding-left: var(--timeline-item-padding-left);
+  min-width: 0;
+  z-index: 1;
 
   &::before {
-    content: "•";
+    content: "";
     position: absolute;
-    left: 0;
-    color: hsl(var(--primary-color));
-    font-weight: 700;
+    left: var(--timeline-line-left);
+    top: var(--timeline-connector-top);
+    width: var(--timeline-connector-width);
+    height: 2px;
+    background-color: hsl(var(--card-border));
+    z-index: 0;
+  }
+
+}
+
+.activityTimelineNode {
+  position: absolute;
+  left: 0;
+  top: var(--timeline-node-top);
+  width: var(--timeline-node-width);
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+
+.activityDateBadge {
+  position: relative;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 3.55rem;
+  padding: 0.3rem 0.45rem;
+  border-radius: 9999px;
+  border: 1px solid hsl(var(--card-border));
+  background-color: hsl(var(--card-bg));
+  color: hsl(var(--text-muted));
+  font-size: 0.68rem;
+  font-weight: 700;
+  line-height: 1;
+  white-space: nowrap;
+
+  @media all and (max-width: 767px) {
+    min-width: 2.7rem;
+    padding: 0.22rem 0.3rem;
+    font-size: 0.58rem;
   }
 }
 
-.articleLink {
-  display: inline-block;
-  width: 100%;
-  padding: 0;
-  border: none;
-  background: none;
-  text-align: left;
-  font: inherit;
-  color: inherit;
-  cursor: pointer;
-  transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+.activityCard {
+  position: relative;
+  z-index: 1;
+  min-width: 0;
+  background-color: hsl(var(--card-bg));
+  border: 1px solid hsl(var(--card-border));
+  border-radius: var(--rounded-2xl);
+  padding: 1rem 1.25rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.04);
 
   @media (hover: hover) and (pointer: fine) {
+    transition: border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
     &:hover {
-      color: hsl(var(--primary-color));
+      border-color: hsl(var(--primary-color));
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.04);
     }
   }
 
-  &:focus-visible {
-    outline: 2px solid hsl(var(--focus-ring));
-    outline-offset: 2px;
-  }
-
-  &:active {
-    opacity: 0.7;
-    transition: opacity 0.1s;
+  @media all and (max-width: 767px) {
+    padding: 0.85rem 1rem;
   }
 }
 
-.articleLinkTitle {
-  font-weight: 600;
+.activityItemTitle {
+  margin: 0;
+  font-size: var(--text-lg);
+  font-weight: 700;
   color: hsl(var(--text-primary));
+  word-break: break-word;
+  overflow-wrap: anywhere;
+
+  @media all and (max-width: 767px) {
+    font-size: var(--text-base);
+  }
 }
 
-.articleLinkSummary {
-  display: block;
-  margin-top: 0.15rem;
-  font-size: var(--text-xs);
-  font-weight: 500;
+.activityItemOrganizer {
+  margin: 0.28rem 0 0;
   color: hsl(var(--text-muted));
-}
+  font-weight: 500;
+  font-size: calc(var(--text-lg) * 0.85);
+  line-height: 1.4;
+  word-break: break-word;
 
-.popupOverlay {
-  position: fixed;
-  inset: 0;
-  z-index: 1000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
-  background-color: rgba(0, 0, 0, 0.6);
-  cursor: pointer;
-
-  @media all and (min-width: 768px) {
-    padding: 2rem;
-    // PC 버전에서 최상단에 표시되도록 z-index 증가
-    z-index: 9999;
+  @media all and (max-width: 767px) {
+    font-size: calc(var(--text-base) * 0.85);
   }
 }
 
-.popupImageWrap {
-  max-width: 95vw;
-  max-height: 90vh;
-  margin: 1rem;
-  overflow: hidden;
-  border-radius: var(--rounded-2xl);
-  border: 1px solid hsl(var(--card-border));
-  background-color: hsl(var(--card-bg));
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
-  cursor: default;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.activityFallbackList {
+  margin: 0;
+  padding-left: 1.1rem;
+}
 
-  @media all and (min-width: 768px) {
-    // PC 버전에서 적절한 크기로 제한하여 중앙에 표시
-    // 이미지가 잘리지 않도록 충분한 높이 확보
-    // 현재 크기의 75% 수준으로 설정
-    max-width: min(60vw, 900px);
-    max-height: 63.75vh;
-    margin: 0;
-    padding: 1.5rem;
+.activityFallbackItem {
+  margin-bottom: 0.35rem;
+  color: hsl(var(--text-primary));
+
+  &:last-child {
+    margin-bottom: 0;
   }
 }
 
-.popupImage {
-  display: block;
-  max-width: calc(100% - 0px);
-  max-height: calc(100% - 0px);
-  width: auto;
-  height: auto;
-  object-fit: contain;
-  object-position: center;
-  vertical-align: middle;
-  
-  @media all and (min-width: 768px) {
-    // PC 버전에서 패딩을 고려한 높이 설정 (75% 크기)
-    max-height: calc(63.75vh - 3rem);
-  }
-}

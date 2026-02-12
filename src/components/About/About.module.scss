@@ -1,0 +1,136 @@
+.about {
+  flex: 1 1 auto;
+  width: 100%;
+  min-width: 0;
+}
+
+.aboutTitle {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  padding: 0.75rem 0 0.5rem;
+  background-color: var(--sticky-bg);
+  margin-bottom: 1.5rem;
+  font-size: var(--text-xl);
+  font-weight: 800;
+  color: hsla(var(--primary-color));
+  text-align: center;
+  transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media (prefers-reduced-motion: no-preference) {
+    @media all and (min-width: 768px) {
+      backdrop-filter: blur(20px) saturate(180%);
+    }
+  }
+
+  @media all and (min-width: 768px) {
+    padding: 1rem 0 0.5rem;
+    font-size: var(--text-3xl);
+    text-align: left;
+  }
+}
+
+.aboutHeader {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1rem;
+  width: 100%;
+  min-height: 44px;
+  padding: 1rem 1.25rem;
+  text-align: left;
+  border: 1px solid hsl(var(--card-border));
+  border-radius: var(--rounded-2xl);
+  background-color: hsl(var(--card-bg));
+  color: hsl(var(--text-primary));
+  font-size: var(--text-sm);
+  font-family: inherit;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.04);
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    border-radius 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+
+  // 열렸을 때 아래쪽 모서리를 둥글지 않게 만들어 바디와 자연스럽게 연결
+  &[aria-expanded="true"] {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      transform: translateY(-2px);
+      border-color: hsl(var(--primary-color));
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+    }
+  }
+
+  &:focus-visible {
+    outline: 2px solid hsl(var(--focus-ring));
+    outline-offset: 2px;
+  }
+
+  &:active {
+    transform: scale(0.97);
+    opacity: 0.8;
+    transition: transform 0.1s, opacity 0.1s;
+  }
+}
+
+.aboutHeaderTitle {
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: hsl(var(--primary-color));
+}
+
+.aboutHeaderChevron {
+  margin-left: auto;
+  font-size: 0.65rem;
+  color: hsl(var(--text-muted));
+}
+
+.aboutBody {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 1.25rem;
+  border: 1px solid transparent;
+  border-top: none;
+  border-radius: 0 0 var(--rounded-2xl) var(--rounded-2xl);
+  background-color: hsl(var(--card-bg));
+  opacity: 0;
+  transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 0.3s ease-out,
+    padding 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.aboutBodyOpen {
+  max-height: 2000px;
+  padding: 1rem 1.25rem 1.25rem;
+  border-color: hsl(var(--card-border));
+  opacity: 1;
+}
+
+.aboutContent {
+  p {
+    margin: 0 0 1rem;
+    line-height: 1.7;
+    color: hsl(var(--text-primary));
+    word-break: keep-all;
+    text-wrap: balance;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    @media all and (max-width: 767px) {
+      font-size: 90%;
+      line-height: 1.6;
+      word-break: break-word;
+      overflow-wrap: break-word;
+    }
+  }
+}

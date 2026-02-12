@@ -1,14 +1,15 @@
 "use client";
 
-import { useState, useCallback, useEffect } from "react";
-import { createPortal } from "react-dom";
 import activityData from "@resources/activities.json";
 import styles from "./Activities.module.scss";
+import { toYearMonth, toYearMonthSortValue } from "~/utils/date";
 
 type ArticleItem = {
   id: number;
   title: string;
   summary?: string;
+  organizer?: string;
+  date?: string;
   image?: string;
 };
 
@@ -28,130 +29,56 @@ const normalizeData = (data: ActivitiesData): { items: string[]; articles: Artic
 
 const { items, articles } = normalizeData(activityData as ActivitiesData);
 
-const SECTION_BODY_ID = "activities-section-body";
-
-// 이미지 경로에서 WebP 버전 경로 생성
-const getWebPImageUrl = (imageUrl: string): string => {
-  return imageUrl.replace(/\.(png|jpg|jpeg)$/i, ".webp");
-};
-
 const Activities = () => {
-  const [isSectionOpen, setIsSectionOpen] = useState(false);
-  const [openImageUrl, setOpenImageUrl] = useState<string | null>(null);
-  const [openImageTitle, setOpenImageTitle] = useState<string | null>(null);
-
-  const closePopup = useCallback(() => {
-    setOpenImageUrl(null);
-    setOpenImageTitle(null);
-  }, []);
-
-  // Escape 키로 팝업 닫기
-  useEffect(() => {
-    if (openImageUrl === null) {
-      return;
-    }
-
-    const onKeyDown = (e: KeyboardEvent) => {
-      if (e.key === "Escape") closePopup();
-    };
-    window.addEventListener("keydown", onKeyDown);
-
-    return () => {
-      window.removeEventListener("keydown", onKeyDown);
-    };
-  }, [openImageUrl, closePopup]);
+  const timelineArticles = articles
+    .map(({ id, title, organizer, date }) => {
+      const formattedDate = toYearMonth(date);
+      return {
+        id,
+        title: title?.trim() ?? "",
+        organizer: organizer?.trim() ?? "",
+        date: formattedDate,
+      };
+    })
+    .filter(({ title, organizer, date }) => Boolean(title || organizer || date))
+    .sort((a, b) => toYearMonthSortValue(b.date) - toYearMonthSortValue(a.date));
 
   return (
-    <div id="activities" className={styles.activity}>
-      <button
-        type="button"
-        className={styles.activityHeader}
-        onClick={() => setIsSectionOpen((prev) => !prev)}
-        aria-expanded={isSectionOpen}
-        aria-controls={SECTION_BODY_ID}
-        id="activities-section-trigger"
-      >
-        <span className={styles.activityHeaderTitle}>Activities & Award</span>
-        <span className={styles.activityHeaderChevron} aria-hidden>
-          {isSectionOpen ? "▲" : "▼"}
-        </span>
-      </button>
-      <div
-        id={SECTION_BODY_ID}
-        className={`${styles.activityBody} ${isSectionOpen ? styles.activityBodyOpen : ""}`}
-        role="region"
-        aria-labelledby="activities-section-trigger"
-        aria-hidden={!isSectionOpen}
-      >
-        {items.length > 0 && (
-          <ul className={styles.activityList}>
-            {items.map((activity) => (
-              <li className={styles.activityItem} key={activity}>
-                {activity}
-              </li>
-            ))}
-          </ul>
-        )}
-        {articles.length > 0 && (
-          <ul className={styles.activityList}>
-            {articles.map(({ id, title, summary, image }) => (
-              <li className={styles.activityItem} key={id}>
-                {image ? (
-                  <button
-                    type="button"
-                    className={styles.articleLink}
-                    onClick={() => {
-                      setOpenImageUrl(image);
-                      setOpenImageTitle(title);
-                    }}
-                  >
-                    <span className={styles.articleLinkTitle}>{title}</span>
-                    {summary && (
-                      <span className={styles.articleLinkSummary}>{summary}</span>
-                    )}
-                  </button>
-                ) : (
-                  <>
-                    <span className={styles.articleLinkTitle}>{title}</span>
-                    {summary && (
-                      <span className={styles.articleLinkSummary}>{summary}</span>
-                    )}
-                  </>
-                )}
-              </li>
-            ))}
-          </ul>
-        )}
-      </div>
+    <section id="activities" className={styles.activity} aria-labelledby="activities-heading">
+      <h2 id="activities-heading" className={styles.activityTitle}>
+        ACTIVITIES & AWARD
+      </h2>
 
-      {openImageUrl !== null &&
-        typeof window !== "undefined" &&
-        createPortal(
-          <div
-            className={styles.popupOverlay}
-            role="dialog"
-            aria-modal="true"
-            aria-label="이미지 보기"
-            onClick={closePopup}
-          >
-            <div
-              className={styles.popupImageWrap}
-              onClick={(e) => e.stopPropagation()}
-            >
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={openImageUrl}
-                alt={openImageTitle || "이미지"}
-                className={styles.popupImage}
-                loading="lazy"
-                decoding="async"
-                fetchPriority="low"
-              />
-            </div>
-          </div>,
-          document.body
-        )}
-    </div>
+      <div className={styles.activityTimelineContainer}>
+        <div className={styles.activityTimelineLine} aria-hidden="true" />
+        <ol className={styles.activityTimelineContent}>
+          {timelineArticles.map(({ id, title, organizer, date }) => (
+            <li className={styles.activityTimelineItem} key={id}>
+              <div className={styles.activityTimelineNode}>
+                <span className={styles.activityDateBadge}>{date || "-"}</span>
+              </div>
+              <article className={styles.activityCard}>
+                {title && <h3 className={styles.activityItemTitle}>{title}</h3>}
+                {organizer && <p className={styles.activityItemOrganizer}>{organizer}</p>}
+              </article>
+            </li>
+          ))}
+          {timelineArticles.length === 0 && items.length > 0 && (
+            <li className={styles.activityTimelineItem}>
+              <article className={styles.activityCard}>
+                <ul className={styles.activityFallbackList}>
+                  {items.map((activity) => (
+                    <li className={styles.activityFallbackItem} key={activity}>
+                      {activity}
+                    </li>
+                  ))}
+                </ul>
+              </article>
+            </li>
+          )}
+        </ol>
+      </div>
+    </section>
   );
 };
 
