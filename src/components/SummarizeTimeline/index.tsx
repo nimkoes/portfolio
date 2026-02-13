@@ -394,7 +394,8 @@ const SummarizeTimeline = () => {
   const graphElements = useMemo(() => {
     if (!layout.width || !layout.height) return null;
 
-    const shapes: JSX.Element[] = [];
+    const lineShapes: JSX.Element[] = [];
+    const nodeShapes: JSX.Element[] = [];
     const mainNodeYKeys = new Set<string>();
     const nodeKeyForY = (value: number) => `${Math.round(value * 10) / 10}`;
     const branchMergeYById = new Map<BranchId, number>();
@@ -416,7 +417,7 @@ const SummarizeTimeline = () => {
         const mergeMainY = stemTopY - layout.mergeRise;
         branchMergeYById.set(branch.id, mergeMainY);
 
-        shapes.push(
+        lineShapes.push(
           <line
             key={`${branch.id}-vertical`}
             className={styles.summaryGraphStroke}
@@ -427,7 +428,7 @@ const SummarizeTimeline = () => {
           />,
         );
 
-        shapes.push(
+        lineShapes.push(
           <line
             key={`${branch.id}-merge`}
             className={styles.summaryGraphStroke}
@@ -441,7 +442,7 @@ const SummarizeTimeline = () => {
         const branchMergeKey = nodeKeyForY(mergeMainY);
         if (!mainNodeYKeys.has(branchMergeKey)) {
           mainNodeYKeys.add(branchMergeKey);
-          shapes.push(
+          nodeShapes.push(
             <circle
               key={`${branch.id}-merge-node`}
               className={styles.summaryGraphNode}
@@ -455,7 +456,7 @@ const SummarizeTimeline = () => {
         const openTopY = isLatestEntry
           ? mostRecent.topY - layout.transitionGap
           : mostRecent.centerY;
-        shapes.push(
+        lineShapes.push(
           <line
             key={`${branch.id}-vertical-open`}
             className={styles.summaryGraphStroke}
@@ -467,7 +468,7 @@ const SummarizeTimeline = () => {
         );
       }
 
-      shapes.push(
+      lineShapes.push(
         <line
           key={`${branch.id}-split`}
           className={styles.summaryGraphStroke}
@@ -481,7 +482,7 @@ const SummarizeTimeline = () => {
       const branchSplitKey = nodeKeyForY(splitY);
       if (!mainNodeYKeys.has(branchSplitKey)) {
         mainNodeYKeys.add(branchSplitKey);
-        shapes.push(
+        nodeShapes.push(
           <circle
             key={`${branch.id}-split-node`}
             className={styles.summaryGraphNode}
@@ -525,7 +526,7 @@ const SummarizeTimeline = () => {
       const topY = Math.min(mergeToMain && isLatestEntry ? openTopY : mergeChildY, splitY);
       const bottomY = Math.max(mergeChildY, splitY);
 
-      shapes.push(
+      lineShapes.push(
         <line
           key={`${segment.id}-vertical`}
           className={styles.summaryGraphChildLane}
@@ -536,7 +537,7 @@ const SummarizeTimeline = () => {
         />,
       );
 
-      shapes.push(
+      lineShapes.push(
         <line
           key={`${segment.id}-split`}
           className={styles.summaryGraphStroke}
@@ -547,7 +548,7 @@ const SummarizeTimeline = () => {
         />,
       );
 
-      shapes.push(
+      nodeShapes.push(
         <circle
           key={`${segment.id}-split-node-parent`}
           className={styles.summaryGraphNode}
@@ -558,7 +559,7 @@ const SummarizeTimeline = () => {
       );
 
       if (!(mergeToMain && isLatestEntry)) {
-        shapes.push(
+        lineShapes.push(
           <line
             key={`${segment.id}-merge`}
             className={styles.summaryGraphStroke}
@@ -573,7 +574,7 @@ const SummarizeTimeline = () => {
           const segmentMergeKey = nodeKeyForY(mergeMainY);
           if (!mainNodeYKeys.has(segmentMergeKey)) {
             mainNodeYKeys.add(segmentMergeKey);
-            shapes.push(
+            nodeShapes.push(
               <circle
                 key={`${segment.id}-merge-node-main`}
                 className={styles.summaryGraphNode}
@@ -584,7 +585,7 @@ const SummarizeTimeline = () => {
             );
           }
         } else {
-          shapes.push(
+          nodeShapes.push(
             <circle
               key={`${segment.id}-merge-node-career`}
               className={styles.summaryGraphNode}
@@ -597,7 +598,7 @@ const SummarizeTimeline = () => {
       }
     });
 
-    return shapes;
+    return [...lineShapes, ...nodeShapes];
   }, [branchRenderMeta, childSegments, entryMap, layout]);
 
   return (

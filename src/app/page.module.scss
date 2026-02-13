@@ -237,7 +237,7 @@
       --graph-merge-rise: 0.62rem;
       --graph-merge-stem-height: 6px;
       --graph-main-color: hsl(var(--primary-color));
-      --timeline-sticky-top: 0;
+      --timeline-sticky-top: calc(env(safe-area-inset-top, 0px) + 2.36rem);
     }
   }
 

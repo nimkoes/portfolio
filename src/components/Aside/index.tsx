@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import styles from "./Aside.module.scss";
 import keywordList from "@resources/keywords.json";
@@ -54,39 +55,77 @@ const contactLinks = [
   },
 ];
 
-const Aside = ({ isOneline, onToggleOneline }: AsideProps) => (
-  <aside className={styles.aside} aria-label="프로필">
-    <div className={styles.asideProfile}>
-      <Image src="/portfolio/images/thumbnail.jpg" className={styles.asideThumb} alt="nimkoes thumbnail" width={130} height={130} priority />
-    </div>
-    <div className={styles.asideTitleRow}>
-      <h1 className={styles.asideTitle}>nimkoes</h1>
-      <div className={styles.asideControls}>
-        <ThemeToggle />
-        <OnelineToggle enabled={isOneline} onToggle={onToggleOneline} />
+const Aside = ({ isOneline, onToggleOneline }: AsideProps) => {
+  const titleSentinelRef = useRef<HTMLDivElement | null>(null);
+  const titleRowRef = useRef<HTMLDivElement | null>(null);
+  const [isTitleRowFixed, setIsTitleRowFixed] = useState(false);
+  const [titleRowHeight, setTitleRowHeight] = useState(0);
+
+  useEffect(() => {
+    const updateMobileTitleRow = () => {
+      if (typeof window === "undefined") return;
+
+      if (window.innerWidth >= 768) {
+        setIsTitleRowFixed(false);
+        setTitleRowHeight(0);
+        return;
+      }
+
+      const titleRowRect = titleRowRef.current?.getBoundingClientRect();
+      if (titleRowRect && titleRowRect.height > 0) {
+        setTitleRowHeight(titleRowRect.height);
+      }
+
+      const sentinelTop = titleSentinelRef.current?.getBoundingClientRect().top ?? Number.POSITIVE_INFINITY;
+      setIsTitleRowFixed(sentinelTop <= 4);
+    };
+
+    updateMobileTitleRow();
+    window.addEventListener("scroll", updateMobileTitleRow, { passive: true });
+    window.addEventListener("resize", updateMobileTitleRow);
+
+    return () => {
+      window.removeEventListener("scroll", updateMobileTitleRow);
+      window.removeEventListener("resize", updateMobileTitleRow);
+    };
+  }, []);
+
+  return (
+    <aside className={styles.aside} aria-label="프로필">
+      <div className={styles.asideProfile}>
+        <Image src="/portfolio/images/thumbnail.jpg" className={styles.asideThumb} alt="nimkoes thumbnail" width={130} height={130} priority />
       </div>
-    </div>
-    <p className={styles.asideRole}>Backend Engineer | 2015 – Present</p>
-    <div className={styles.asideComment}>I work diligently to become lazy ☕</div>
+      <div ref={titleSentinelRef} className={styles.asideTitleRowSentinel} aria-hidden />
+      <div ref={titleRowRef} className={`${styles.asideTitleRow} ${isTitleRowFixed ? styles.asideTitleRowFixed : ""}`}>
+        <h1 className={styles.asideTitle}>nimkoes</h1>
+        <div className={styles.asideControls}>
+          <ThemeToggle />
+          <OnelineToggle enabled={isOneline} onToggle={onToggleOneline} />
+        </div>
+      </div>
+      {isTitleRowFixed ? <div className={styles.asideTitleRowSpacer} style={{ height: `${titleRowHeight}px` }} aria-hidden /> : null}
+      <p className={styles.asideRole}>Backend Engineer | 2015 – Present</p>
+      <div className={styles.asideComment}>I work diligently to become lazy ☕</div>
 
-    <ul className={styles.asideKeyword}>
-      {keywordList.map((keyword) => (
-        <li key={keyword}>{keyword}</li>
-      ))}
-    </ul>
+      <ul className={styles.asideKeyword}>
+        {keywordList.map((keyword) => (
+          <li key={keyword}>{keyword}</li>
+        ))}
+      </ul>
 
-    <nav className={styles.asideLink} aria-label="연락처 및 링크">
-      {contactLinks.map(({ href, label, style, icon }) => (
-        <a key={href} href={href} target="_blank" rel="noopener noreferrer" className={style} aria-label={label}>
-          {icon}
-          <span>{label}</span>
-          <svg viewBox="0 0 24 24" className={styles.asideLinkArrow} aria-hidden>
-            <path d="M7 17L17 7M17 7H8M17 7V16" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
-        </a>
-      ))}
-    </nav>
-  </aside>
-);
+      <nav className={styles.asideLink} aria-label="연락처 및 링크">
+        {contactLinks.map(({ href, label, style, icon }) => (
+          <a key={href} href={href} target="_blank" rel="noopener noreferrer" className={style} aria-label={label}>
+            {icon}
+            <span>{label}</span>
+            <svg viewBox="0 0 24 24" className={styles.asideLinkArrow} aria-hidden>
+              <path d="M7 17L17 7M17 7H8M17 7V16" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </a>
+        ))}
+      </nav>
+    </aside>
+  );
+};
 
 export default Aside;
