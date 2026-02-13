@@ -398,6 +398,7 @@ const SummarizeTimeline = () => {
     const mainNodeYKeys = new Set<string>();
     const nodeKeyForY = (value: number) => `${Math.round(value * 10) / 10}`;
     const branchMergeYById = new Map<BranchId, number>();
+    const latestEntryId = summarizeEntries[0]?.id ?? null;
 
     branchRenderMeta.forEach((branch) => {
       const laneX = layout.mainX + layout.branchIndent + branch.laneIndex * layout.laneGap;
@@ -408,8 +409,9 @@ const SummarizeTimeline = () => {
 
       const splitY = split.centerY;
       const oldestY = oldest.centerY;
+      const isLatestEntry = latestEntryId !== null && branch.mostRecentEntryId === latestEntryId;
 
-      if (branch.isMerge) {
+      if (branch.isMerge && !isLatestEntry) {
         const stemTopY = mostRecent.topY - layout.mergeStemHeight;
         const mergeMainY = stemTopY - layout.mergeRise;
         branchMergeYById.set(branch.id, mergeMainY);
@@ -450,12 +452,15 @@ const SummarizeTimeline = () => {
           );
         }
       } else {
+        const openTopY = isLatestEntry
+          ? mostRecent.topY - layout.transitionGap
+          : mostRecent.centerY;
         shapes.push(
           <line
             key={`${branch.id}-vertical-open`}
             className={styles.summaryGraphStroke}
             x1={laneX}
-            y1={mostRecent.centerY}
+            y1={openTopY}
             x2={laneX}
             y2={oldestY}
           />,
@@ -514,8 +519,10 @@ const SummarizeTimeline = () => {
       const mergeToMain = !segment.mergeAnchorEntryId;
       const mergeCareerY = mergeChildY - layout.mergeRise;
       const mergeMainY = branchMergeYById.get(segment.parentBranchId) ?? mergeCareerY;
+      const isLatestEntry = latestEntryId !== null && segment.mostRecentEntryId === latestEntryId;
 
-      const topY = Math.min(mergeChildY, splitY);
+      const openTopY = mostRecent.topY - layout.transitionGap;
+      const topY = Math.min(mergeToMain && isLatestEntry ? openTopY : mergeChildY, splitY);
       const bottomY = Math.max(mergeChildY, splitY);
 
       shapes.push(
@@ -550,41 +557,43 @@ const SummarizeTimeline = () => {
         />,
       );
 
-      shapes.push(
-        <line
-          key={`${segment.id}-merge`}
-          className={styles.summaryGraphStroke}
-          x1={childX}
-          y1={mergeChildY}
-          x2={mergeToMain ? layout.mainX : parentX}
-          y2={mergeToMain ? mergeMainY : mergeCareerY}
-        />,
-      );
+      if (!(mergeToMain && isLatestEntry)) {
+        shapes.push(
+          <line
+            key={`${segment.id}-merge`}
+            className={styles.summaryGraphStroke}
+            x1={childX}
+            y1={mergeChildY}
+            x2={mergeToMain ? layout.mainX : parentX}
+            y2={mergeToMain ? mergeMainY : mergeCareerY}
+          />,
+        );
 
-      if (mergeToMain) {
-        const segmentMergeKey = nodeKeyForY(mergeMainY);
-        if (!mainNodeYKeys.has(segmentMergeKey)) {
-          mainNodeYKeys.add(segmentMergeKey);
+        if (mergeToMain) {
+          const segmentMergeKey = nodeKeyForY(mergeMainY);
+          if (!mainNodeYKeys.has(segmentMergeKey)) {
+            mainNodeYKeys.add(segmentMergeKey);
+            shapes.push(
+              <circle
+                key={`${segment.id}-merge-node-main`}
+                className={styles.summaryGraphNode}
+                cx={layout.mainX}
+                cy={mergeMainY}
+                r={layout.nodeRadius}
+              />,
+            );
+          }
+        } else {
           shapes.push(
             <circle
-              key={`${segment.id}-merge-node-main`}
+              key={`${segment.id}-merge-node-career`}
               className={styles.summaryGraphNode}
-              cx={layout.mainX}
-              cy={mergeMainY}
+              cx={parentX}
+              cy={mergeCareerY}
               r={layout.nodeRadius}
             />,
           );
         }
-      } else {
-        shapes.push(
-          <circle
-            key={`${segment.id}-merge-node-career`}
-            className={styles.summaryGraphNode}
-            cx={parentX}
-            cy={mergeCareerY}
-            r={layout.nodeRadius}
-          />,
-        );
       }
     });
 
@@ -593,9 +602,22 @@ const SummarizeTimeline = () => {
 
   return (
     <section id="summarize" className={styles.summarizeSection} aria-labelledby="summarize-heading">
-      <h2 id="summarize-heading" className={styles.summarizeTitle}>
-        SUMMARIZE
-      </h2>
+      <div className={styles.summarizeHeaderRow}>
+        <h2 id="summarize-heading" className={styles.summarizeTitle}>
+          SUMMARIZE
+        </h2>
+        <div className={styles.summarizeLegend} aria-hidden>
+          <span className={styles.summarizeLegendItem} data-entry-type="CAREER">
+            CAREER
+          </span>
+          <span className={styles.summarizeLegendItem} data-entry-type="PROJECT">
+            PROJECT
+          </span>
+          <span className={styles.summarizeLegendItem} data-entry-type="ACTIVITIES">
+            ACTIVITIES
+          </span>
+        </div>
+      </div>
       <div
         ref={containerRef}
         className={styles.summarizeContainer}
