@@ -1,15 +1,27 @@
+.projectsSection :global(.section-title) {
+  line-height: 1.2;
+
+  @media all and (min-width: 768px) {
+    line-height: 1.125;
+  }
+}
+
 .projectTimelineContainer {
   position: relative;
   min-width: 0;
+  isolation: isolate;
   --timeline-line-left: var(--section-commit-line-left, 1.8rem);
   --timeline-item-padding-left: 5.25rem;
   --timeline-node-top: 0.5rem;
   --timeline-node-width: 3.9rem;
   --timeline-line-width: var(--graph-line-width, 2px);
+  --graph-merge-run: calc(var(--timeline-line-left) - var(--graph-main-local-x));
+  --graph-merge-junction-y: calc(var(--timeline-node-top) - var(--graph-merge-stem-height));
   --timeline-connector-top: 1.05rem;
   --timeline-connector-width: calc(var(--timeline-item-padding-left) - var(--timeline-line-left) - 0.4rem);
   --timeline-merge-node-size: 0.8rem;
   --timeline-commit-size: 0.5rem;
+  --graph-branch-line-top: var(--graph-merge-junction-y);
 
   @media all and (max-width: 767px) {
     --timeline-line-left: var(--section-commit-line-left, 1.4rem);
@@ -22,10 +34,47 @@
   }
 }
 
+.projectMergeNode,
+.projectMergeSvg {
+  position: absolute;
+  opacity: var(--graph-enable-merge, 0);
+  pointer-events: none;
+}
+
+.projectMergeNode {
+  left: calc(var(--graph-main-local-x) - (var(--graph-node-size) / 2));
+  top: calc(var(--graph-branch-line-top, 0) - var(--graph-merge-rise) - (var(--graph-node-size) / 2));
+  width: var(--graph-node-size);
+  height: var(--graph-node-size);
+  border-radius: 9999px;
+  background-color: hsl(var(--primary-color));
+  border: 2px solid hsl(var(--card-bg));
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+  z-index: 1;
+}
+
+.projectMergeSvg {
+  left: var(--graph-main-local-x);
+  top: calc(var(--graph-branch-line-top, 0) - var(--graph-merge-rise));
+  width: var(--graph-merge-run);
+  height: var(--graph-merge-rise);
+  z-index: 0;
+  overflow: visible;
+}
+
+.projectMergePath {
+  fill: none;
+  stroke: hsl(var(--card-border));
+  stroke-width: var(--timeline-line-width);
+  stroke-linecap: round;
+  vector-effect: non-scaling-stroke;
+  shape-rendering: geometricPrecision;
+}
+
 .projectTimelineLine {
   position: absolute;
   left: var(--timeline-line-left);
-  top: 0;
+  top: var(--graph-branch-line-top, 0);
   bottom: var(--graph-branch-anchor-offset, var(--graph-branch-anchor-from-bottom, 0.36rem));
   width: var(--timeline-line-width);
   background-color: hsl(var(--card-border));
@@ -74,7 +123,7 @@
 
 .projectDateBadge {
   position: relative;
-  z-index: 2;
+  z-index: 3;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -395,4 +444,3 @@
   color: hsl(var(--text-muted));
   font-size: var(--text-sm);
 }
-

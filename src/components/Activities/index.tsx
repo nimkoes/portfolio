@@ -1,5 +1,3 @@
-"use client";
-
 import activityData from "@resources/activities.json";
 import styles from "./Activities.module.scss";
 import { toYearMonth, toYearMonthSortValue } from "~/utils/date";
@@ -28,21 +26,20 @@ const normalizeData = (data: ActivitiesData): { items: string[]; articles: Artic
 };
 
 const { items, articles } = normalizeData(activityData as ActivitiesData);
+const timelineArticles = articles
+  .map(({ id, title, organizer, date }) => {
+    const formattedDate = toYearMonth(date);
+    return {
+      id,
+      title: title?.trim() ?? "",
+      organizer: organizer?.trim() ?? "",
+      date: formattedDate,
+    };
+  })
+  .filter(({ title, organizer, date }) => Boolean(title || organizer || date))
+  .sort((a, b) => toYearMonthSortValue(b.date) - toYearMonthSortValue(a.date));
 
 const Activities = () => {
-  const timelineArticles = articles
-    .map(({ id, title, organizer, date }) => {
-      const formattedDate = toYearMonth(date);
-      return {
-        id,
-        title: title?.trim() ?? "",
-        organizer: organizer?.trim() ?? "",
-        date: formattedDate,
-      };
-    })
-    .filter(({ title, organizer, date }) => Boolean(title || organizer || date))
-    .sort((a, b) => toYearMonthSortValue(b.date) - toYearMonthSortValue(a.date));
-
   return (
     <section id="activities" className={styles.activity} aria-labelledby="activities-heading">
       <h2 id="activities-heading" className={styles.activityTitle}>
@@ -50,6 +47,16 @@ const Activities = () => {
       </h2>
 
       <div className={styles.activityTimelineContainer}>
+        <span className={styles.activityMergeNode} aria-hidden="true" />
+        <svg
+          className={styles.activityMergeSvg}
+          viewBox="0 0 100 100"
+          preserveAspectRatio="none"
+          aria-hidden="true"
+          focusable="false"
+        >
+          <line className={styles.activityMergePath} x1="0" y1="0" x2="100" y2="100" />
+        </svg>
         <div className={styles.activityTimelineLine} aria-hidden="true" />
         <ol className={styles.activityTimelineContent}>
           {timelineArticles.map(({ id, title, organizer, date }) => (

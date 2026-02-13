@@ -1,6 +1,5 @@
 .experience {
   width: 100%;
-  margin-bottom: 3rem;
 }
 
 .experienceTitle {
@@ -11,12 +10,14 @@
   margin: 0 0 0.95rem;
   font-size: var(--text-xl);
   font-weight: 800;
+  line-height: 1.2;
   color: hsla(var(--primary-color));
   text-align: left;
 
   @media all and (min-width: 768px) {
     padding: 0 0 0 calc(var(--graph-branch-target-x, 3.8rem) + 0.55rem);
     font-size: var(--text-3xl);
+    line-height: 1.125;
   }
 }
 
@@ -24,6 +25,7 @@
   position: relative;
   min-width: 0;
   overflow-x: hidden;
+  isolation: isolate;
   --timeline-line-left: var(--section-commit-line-left, 1.8rem);
   --timeline-item-padding-left: 5.25rem;
   --timeline-node-top: 0.5rem;

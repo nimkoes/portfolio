@@ -23,33 +23,25 @@
     width: 100%;
     min-width: 0;
     --graph-line-width: 2px;
+    --graph-half-line-width: calc(var(--graph-line-width) / 2);
     --graph-main-width: 2px;
     --graph-main-x: 1rem;
-    --graph-node-radius: 0.45rem;
+    --graph-node-size: 0.9rem;
     --graph-branch-indent: 2.75rem;
-    --graph-branch-anchor-from-bottom: 0.36rem;
     --section-commit-line-left: 1.8rem;
-    --graph-branch-drop-height: 2rem;
-    --graph-branch-target-x: 4.87rem;
-    --graph-branch-extend: 0.34rem;
+    --graph-main-local-x: calc(var(--graph-main-x) - var(--graph-branch-indent));
+    --graph-branch-lane-x: calc(var(--graph-branch-indent) + var(--section-commit-line-left));
+    --graph-branch-anchor-from-bottom: 0.36rem;
+    --graph-merge-entry-y: 0.78rem;
+    --graph-merge-rise: 0.64rem;
+    --graph-merge-stem-height: 6px;
+    --graph-branch-target-x: calc(var(--graph-branch-lane-x) + 0.35rem);
     --graph-main-color: hsl(var(--primary-color));
+    --graph-branch-color: hsl(var(--card-border));
 
     > section,
-    > div {
+    > .graphBranchSection {
       position: relative;
-    }
-
-    &::before {
-      content: "";
-      position: absolute;
-      left: calc(var(--graph-main-x) - (var(--graph-main-width) / 2));
-      top: 0;
-      bottom: 0;
-      width: var(--graph-main-width);
-      background-color: var(--graph-main-color);
-      box-shadow: 0 0 0.36rem hsla(var(--primary-color), 0.26);
-      z-index: 6;
-      pointer-events: none;
     }
 
     > section > h2.section-title,
@@ -89,22 +81,31 @@
   width: var(--graph-main-width);
   background-color: var(--graph-main-color);
   box-shadow: 0 0 0.36rem hsla(var(--primary-color), 0.26);
-  z-index: 6;
+  z-index: 0;
   pointer-events: none;
 }
 
 .graphBranchSection {
+  --graph-branch-line-top: 0;
   --graph-branch-anchor-offset: var(--graph-branch-anchor-from-bottom);
+  --graph-enable-merge: 0;
   position: relative;
-  z-index: 2;
+  z-index: 1;
+  isolation: isolate;
   padding-left: var(--graph-branch-indent);
+
+  > section {
+    position: relative;
+    z-index: 3;
+  }
 
   &[data-branch-state="open"] {
     --graph-branch-anchor-offset: calc(var(--graph-branch-anchor-from-bottom) + 0.42rem);
   }
 
   &[data-branch-state="merge"] {
-    padding-bottom: 1.85rem;
+    --graph-enable-merge: 1;
+    --graph-branch-line-top: var(--graph-merge-entry-y);
   }
 
   &::after {
@@ -115,11 +116,11 @@
 
 .graphNode {
   position: absolute;
-  left: calc(var(--graph-main-x) - 0.45rem);
+  left: calc(var(--graph-main-x) - (var(--graph-node-size) / 2));
   top: auto;
-  bottom: calc(var(--graph-branch-anchor-offset) - var(--graph-node-radius));
-  width: 0.9rem;
-  height: 0.9rem;
+  bottom: calc(var(--graph-branch-anchor-offset) - (var(--graph-node-size) / 2));
+  width: var(--graph-node-size);
+  height: var(--graph-node-size);
   border-radius: 9999px;
   background-color: hsl(var(--primary-color));
   border: 2px solid hsl(var(--card-bg));
@@ -129,43 +130,14 @@
 
 .graphBranchLine {
   position: absolute;
-  left: 0.9rem;
-  top: auto;
-  bottom: var(--graph-branch-anchor-offset);
-  width: 1.9rem;
-  height: var(--graph-line-width);
-  background-color: hsl(var(--card-border));
-  border-radius: 9999px;
-  z-index: 3;
-}
-
-.graphBranchDrop {
-  position: absolute;
-  left: 2.76rem;
-  top: auto;
-  bottom: var(--graph-branch-anchor-offset);
-  width: var(--graph-line-width);
-  height: 3rem;
-  background-color: hsl(var(--card-border));
-  z-index: 3;
-}
-
-.graphBranchElbow {
-  display: none;
-}
-
-.graphMergeLine {
-  display: none !important;
-  position: absolute;
   left: var(--graph-main-x);
-  bottom: 0;
-  width: 0;
+  top: auto;
+  bottom: var(--graph-branch-anchor-offset);
+  width: calc(var(--graph-branch-lane-x) - var(--graph-main-x));
   height: var(--graph-line-width);
-  background-color: hsl(var(--card-border));
+  background-color: var(--graph-branch-color);
   border-radius: 9999px;
-  transform-origin: left center;
-  transform: none;
-  z-index: 3;
+  z-index: 1;
 }
 
 @media all and (min-width: 768px) {
@@ -197,12 +169,13 @@
       align-self: flex-start;
       width: 100%;
       --graph-main-x: 1.25rem;
-      --graph-node-radius: 0.5rem;
+      --graph-node-size: 1rem;
       --graph-branch-indent: 3rem;
       --graph-branch-anchor-from-bottom: 1.38rem;
       --section-commit-line-left: 1.8rem;
-      --graph-branch-drop-height: 3rem;
-      --graph-branch-extend: 0.32rem;
+      --graph-merge-entry-y: 0.92rem;
+      --graph-merge-rise: 0.8rem;
+      --graph-merge-stem-height: 6px;
       --graph-main-width: 2px;
       --graph-main-color: hsl(var(--primary-color));
 
@@ -212,12 +185,9 @@
     }
   }
 
-  .graphNode {
-    width: 1rem;
-    height: 1rem;
+  .graphBranchSection[data-branch-state="open"] {
+    --graph-branch-anchor-offset: calc(var(--graph-branch-anchor-from-bottom) + 0.42rem);
   }
-
-  .graphBranchElbow { display: none; }
 }
 
 @media all and (max-width: 767px) {
@@ -237,25 +207,18 @@
       --graph-line-width: 2px;
       --graph-main-width: 1.5px;
       --graph-main-x: 0.8rem;
-      --graph-node-radius: 0.39rem;
+      --graph-node-size: 0.78rem;
       --graph-branch-indent: 1.35rem;
       --graph-branch-anchor-from-bottom: 1.42rem;
       --section-commit-line-left: 1.4rem;
-      --graph-branch-drop-height: 1.46rem;
-      --graph-branch-extend: 0.05rem;
+      --graph-merge-entry-y: 0.78rem;
+      --graph-merge-rise: 0.62rem;
+      --graph-merge-stem-height: 6px;
       --graph-main-color: hsl(var(--primary-color));
     }
-  }
-
-  .graphNode {
-    left: calc(var(--graph-main-x) - 0.39rem);
-    width: 0.78rem;
-    height: 0.78rem;
   }
 
   .graphBranchSection[data-branch-state="open"] {
     --graph-branch-anchor-offset: calc(var(--graph-branch-anchor-from-bottom) + 0.34rem);
   }
-
-  .graphBranchElbow { display: none; }
 }

@@ -31,23 +31,23 @@ type Project = {
 };
 
 const projects = projectList as Project[];
+const normalizedProjects = projects
+  .map((project) => {
+    const { start, end } = parseYearMonthRange(project.period);
+    return {
+      ...project,
+      startYearMonth: start,
+      periodLabel: formatYearMonthRange(start, end),
+    };
+  })
+  .sort((a, b) => toYearMonthSortValue(b.startYearMonth) - toYearMonthSortValue(a.startYearMonth));
 
 const Projects = () => {
   const [openId, setOpenId] = useState<number | null>(null);
-  const normalizedProjects = projects
-    .map((project) => {
-      const { start, end } = parseYearMonthRange(project.period);
-      return {
-        ...project,
-        startYearMonth: start,
-        periodLabel: formatYearMonthRange(start, end),
-      };
-    })
-    .sort((a, b) => toYearMonthSortValue(b.startYearMonth) - toYearMonthSortValue(a.startYearMonth));
 
   if (normalizedProjects.length === 0) {
     return (
-      <section id="projects" aria-labelledby="projects-heading">
+      <section id="projects" aria-labelledby="projects-heading" className={styles.projectsSection}>
         <h2 id="projects-heading" className="section-title">
           PROJECTS
         </h2>
@@ -59,11 +59,21 @@ const Projects = () => {
   }
 
   return (
-    <section id="projects" aria-labelledby="projects-heading">
+    <section id="projects" aria-labelledby="projects-heading" className={styles.projectsSection}>
       <h2 id="projects-heading" className="section-title">
         PROJECTS
       </h2>
       <div className={styles.projectTimelineContainer}>
+        <span className={styles.projectMergeNode} aria-hidden="true" />
+        <svg
+          className={styles.projectMergeSvg}
+          viewBox="0 0 100 100"
+          preserveAspectRatio="none"
+          aria-hidden="true"
+          focusable="false"
+        >
+          <line className={styles.projectMergePath} x1="0" y1="0" x2="100" y2="100" />
+        </svg>
         <div className={styles.projectTimelineLine} aria-hidden="true" />
         <ol className={styles.projectTimelineContent}>
           {normalizedProjects.map(({ id, title, periodLabel, startYearMonth, summary, details, goals, techStack, troubleshooting, infra, achievements, links }) => {

@@ -23,7 +23,7 @@ type CareerItem = {
   infra?: string[];
 };
 
-const sortedCareers = (careerList as CareerItem[]).sort((a, b) => {
+const sortedCareers = [...(careerList as CareerItem[])].sort((a, b) => {
   // to가 빈 문자열이면 현재 재직중이므로 가장 위로
   if (!a.to && b.to) return -1;
   if (a.to && !b.to) return 1;
@@ -150,4 +150,3 @@ const ExperienceTimeline = () => {
 };
 
 export default ExperienceTimeline;
-
