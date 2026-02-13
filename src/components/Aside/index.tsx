@@ -4,6 +4,12 @@ import Image from "next/image";
 import styles from "./Aside.module.scss";
 import keywordList from "@resources/keywords.json";
 import ThemeToggle from "~/components/ThemeToggle";
+import OnelineToggle from "~/components/OnelineToggle";
+
+type AsideProps = {
+  isOneline: boolean;
+  onToggleOneline: () => void;
+};
 
 const contactLinks = [
   {
@@ -48,16 +54,17 @@ const contactLinks = [
   },
 ];
 
-const Aside = () => (
+const Aside = ({ isOneline, onToggleOneline }: AsideProps) => (
   <aside className={styles.aside} aria-label="프로필">
     <div className={styles.asideProfile}>
       <Image src="/portfolio/images/thumbnail.jpg" className={styles.asideThumb} alt="nimkoes thumbnail" width={130} height={130} priority />
     </div>
     <div className={styles.asideTitleRow}>
-      <div className={styles.asideThemeToggle}>
-        <ThemeToggle />
-      </div>
       <h1 className={styles.asideTitle}>nimkoes</h1>
+      <div className={styles.asideControls}>
+        <ThemeToggle />
+        <OnelineToggle enabled={isOneline} onToggle={onToggleOneline} />
+      </div>
     </div>
     <p className={styles.asideRole}>Backend Engineer | 2015 – Present</p>
     <div className={styles.asideComment}>I work diligently to become lazy ☕</div>

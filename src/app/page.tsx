@@ -1,9 +1,12 @@
-import type { ReactNode } from "react";
+"use client";
+
+import { useState, type ReactNode } from "react";
 import styles from "./page.module.scss";
 import Aside from "~/components/Aside";
 import ExperienceTimeline from "~/components/ExperienceTimeline";
 import Activities from "~/components/Activities";
 import Projects from "~/components/Projects";
+import SummarizeTimeline from "~/components/SummarizeTimeline";
 
 type BranchState = "open" | "merge";
 
@@ -15,24 +18,36 @@ const GraphBranchSection = ({ branchState, children }: { branchState: BranchStat
   </div>
 );
 
-const HomePage = () => (
-  <main className={styles.home}>
-    <div className={styles.homeLeft}>
-      <Aside />
-    </div>
-    <div className={styles.homeContainer}>
-      <div className={styles.graphLayout} aria-hidden />
-      <GraphBranchSection branchState="open">
-        <ExperienceTimeline />
-      </GraphBranchSection>
-      <GraphBranchSection branchState="merge">
-        <Activities />
-      </GraphBranchSection>
-      <GraphBranchSection branchState="merge">
-        <Projects />
-      </GraphBranchSection>
-    </div>
-  </main>
-);
+const HomePage = () => {
+  const [isOneline, setIsOneline] = useState(false);
+
+  return (
+    <main className={styles.home}>
+      <div className={styles.homeLeft}>
+        <Aside isOneline={isOneline} onToggleOneline={() => setIsOneline((prev) => !prev)} />
+      </div>
+      <div className={styles.homeContainer} data-mode={isOneline ? "summarize" : "default"}>
+        <div className={styles.graphLayout} aria-hidden />
+        {isOneline ? (
+          <div className={styles.graphSummarizeSection}>
+            <SummarizeTimeline />
+          </div>
+        ) : (
+          <>
+            <GraphBranchSection branchState="open">
+              <ExperienceTimeline />
+            </GraphBranchSection>
+            <GraphBranchSection branchState="merge">
+              <Activities />
+            </GraphBranchSection>
+            <GraphBranchSection branchState="merge">
+              <Projects />
+            </GraphBranchSection>
+          </>
+        )}
+      </div>
+    </main>
+  );
+};
 
 export default HomePage;

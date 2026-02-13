@@ -44,15 +44,31 @@
       position: relative;
     }
 
+    > .graphSummarizeSection {
+      position: relative;
+      z-index: 2;
+      padding-left: var(--graph-branch-indent);
+      isolation: isolate;
+    }
+
     > section > h2.section-title,
-    > div > h2 {
+    > div > h2,
+    > .graphBranchSection > section > h2,
+    > .graphSummarizeSection > section > h2 {
       position: sticky;
-      top: 0;
+      top: var(--timeline-sticky-top, 0);
       left: 0;
       right: 0;
       z-index: 8;
       padding: 0 0 0 calc(var(--graph-branch-target-x) + 0.5rem);
-      background-color: transparent;
+      background: linear-gradient(
+        to bottom,
+        hsla(var(--card-bg), 0.94) 0%,
+        hsla(var(--card-bg), 0.82) 70%,
+        hsla(var(--card-bg), 0) 100%
+      );
+      -webkit-backdrop-filter: blur(10px) saturate(150%);
+      backdrop-filter: blur(10px) saturate(150%);
       margin-bottom: 0.95rem;
       font-size: var(--text-xl);
       font-weight: 800;
@@ -62,6 +78,7 @@
       @media (prefers-reduced-motion: no-preference) {
         @media all and (min-width: 768px) {
           backdrop-filter: blur(20px) saturate(180%);
+          -webkit-backdrop-filter: blur(20px) saturate(180%);
         }
       }
 
@@ -140,6 +157,11 @@
   z-index: 1;
 }
 
+.graphSummarizeSection {
+  position: relative;
+  z-index: 2;
+}
+
 @media all and (min-width: 768px) {
   .home {
     flex-direction: row;
@@ -178,6 +200,7 @@
       --graph-merge-stem-height: 6px;
       --graph-main-width: 2px;
       --graph-main-color: hsl(var(--primary-color));
+      --timeline-sticky-top: 0;
 
       > div > h2 {
         text-align: left;
@@ -198,11 +221,11 @@
     margin-right: 0;
     padding-left: 1rem;
     padding-right: 1rem;
-    overflow-x: hidden;
+    overflow-x: clip;
 
     &-container {
       width: 100%;
-      overflow-x: hidden;
+      overflow-x: clip;
       min-width: 0;
       --graph-line-width: 2px;
       --graph-main-width: 1.5px;
@@ -215,6 +238,7 @@
       --graph-merge-rise: 0.62rem;
       --graph-merge-stem-height: 6px;
       --graph-main-color: hsl(var(--primary-color));
+      --timeline-sticky-top: 0;
     }
   }
 
