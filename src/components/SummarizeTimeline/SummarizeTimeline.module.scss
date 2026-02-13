@@ -199,7 +199,7 @@
   box-shadow: inset 0 1px 0 hsla(var(--text-primary), 0.08);
 
   @media all and (max-width: 767px) {
-    font-size: 0.56rem;
+    font-size: 0.48rem;
     padding: 0.22rem 0.3rem;
   }
 }
@@ -226,12 +226,13 @@
   word-break: normal;
 
   @media all and (max-width: 767px) {
-    font-size: calc(var(--text-sm) * 0.9);
+    font-size: var(--mobile-list-body-size, 0.92rem);
+    line-height: var(--mobile-list-line-height, 1.45);
   }
 }
 
 .summarizeLine[data-entry-type="CAREER"] {
-  font-weight: 700;
+  font-weight: 650;
   color: hsl(var(--text-primary));
   align-items: flex-start;
 }
@@ -307,30 +308,27 @@
   }
 
   .summarizeTypeBadge {
-    width: 0.98rem;
-    min-width: 0.98rem;
-    height: 0.98rem;
-    padding: 0;
-    border-radius: 9999px;
-    margin-right: 0.22rem;
-    font-size: 0;
-    color: transparent;
-    border-width: 1.5px;
-    box-shadow: 0 0 0 2px hsla(var(--card-bg), 0.88);
+    display: none;
   }
 
-  .summarizeTypeBadge[data-entry-type="CAREER"] {
-    border-color: hsla(var(--primary-color), 0.6);
-    box-shadow: 0 0 0 2px hsla(var(--card-bg), 0.88), 0 0 0.35rem hsla(var(--primary-color), 0.28);
+  .summarizeDateBadge[data-entry-type="CAREER"] {
+    border-color: hsla(var(--primary-color), 0.5);
+    color: hsla(var(--primary-color), 0.95);
+    background: linear-gradient(180deg, hsla(var(--primary-color), 0.12) 0%, hsla(var(--card-bg), 0.9) 100%);
+    box-shadow: inset 0 1px 0 hsla(var(--text-primary), 0.08), 0 0 0.3rem hsla(var(--primary-color), 0.2);
   }
 
-  .summarizeTypeBadge[data-entry-type="ACTIVITIES"] {
-    border-color: hsla(32, 90%, 68%, 0.68);
-    box-shadow: 0 0 0 2px hsla(var(--card-bg), 0.88), 0 0 0.32rem hsla(32, 90%, 68%, 0.25);
+  .summarizeDateBadge[data-entry-type="PROJECT"] {
+    border-color: hsla(212, 90%, 72%, 0.55);
+    color: hsl(212 90% 72%);
+    background: linear-gradient(180deg, hsla(212, 90%, 72%, 0.13) 0%, hsla(var(--card-bg), 0.9) 100%);
+    box-shadow: inset 0 1px 0 hsla(var(--text-primary), 0.08), 0 0 0.3rem hsla(212, 90%, 72%, 0.2);
   }
 
-  .summarizeTypeBadge[data-entry-type="PROJECT"] {
-    border-color: hsla(212, 90%, 72%, 0.7);
-    box-shadow: 0 0 0 2px hsla(var(--card-bg), 0.88), 0 0 0.32rem hsla(212, 90%, 72%, 0.26);
+  .summarizeDateBadge[data-entry-type="ACTIVITIES"] {
+    border-color: hsla(32, 90%, 68%, 0.55);
+    color: hsl(32 90% 68%);
+    background: linear-gradient(180deg, hsla(32, 90%, 68%, 0.13) 0%, hsla(var(--card-bg), 0.9) 100%);
+    box-shadow: inset 0 1px 0 hsla(var(--text-primary), 0.08), 0 0 0.3rem hsla(32, 90%, 68%, 0.2);
   }
 }

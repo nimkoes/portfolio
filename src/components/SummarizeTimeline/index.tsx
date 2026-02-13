@@ -185,7 +185,7 @@ const branchMetas: BranchMeta[] = [studentBranchMeta, ...careerBranchMetas].filt
 
 const lineText = (entry: SummarizeEntry) => {
   if (entry.type === "CAREER") {
-    return `start at ${entry.title} - ${entry.org || "-"}`;
+    return `${entry.title} - ${entry.org || "-"}`;
   }
   if (entry.type === "PROJECT") {
     return entry.title;
@@ -657,6 +657,7 @@ const SummarizeTimeline = () => {
                     badgeRefs.current[entry.id] = node;
                   }}
                   className={styles.summarizeDateBadge}
+                  data-entry-type={entry.type}
                 >
                   {entry.date}
                 </span>

@@ -41,9 +41,10 @@
   @media all and (max-width: 767px) {
     --timeline-line-left: var(--section-commit-line-left, 1.4rem);
     --timeline-item-padding-left: 4.35rem;
+    --timeline-node-top: 0.95rem;
     --timeline-node-width: 3.1rem;
     --timeline-line-width: var(--graph-line-width, 1.5px);
-    --timeline-connector-top: 0.9rem;
+    --timeline-connector-top: calc(var(--timeline-node-top) + 0.46rem);
     --timeline-commit-size: 0.46rem;
     --career-top-extension: 2.8rem;
     padding-right: 0;
@@ -73,7 +74,7 @@
   @media all and (max-width: 767px) {
     min-width: 2.7rem;
     padding: 0.22rem 0.3rem;
-    font-size: 0.58rem;
+    font-size: 0.49rem;
   }
 }
 
@@ -153,7 +154,7 @@
   @media all and (max-width: 767px) {
     min-width: 2.75rem;
     padding: 0.22rem 0.3rem;
-    font-size: 0.58rem;
+    font-size: 0.49rem;
   }
 }
 
@@ -242,7 +243,8 @@
   word-break: break-word;
 
   @media all and (max-width: 767px) {
-    font-size: var(--text-base);
+    font-size: var(--mobile-list-title-size, 1rem);
+    line-height: 1.35;
   }
 }
 
@@ -254,7 +256,8 @@
   word-break: break-word;
 
   @media all and (max-width: 767px) {
-    font-size: 85%;
+    font-size: var(--mobile-list-meta-size, 0.82rem);
+    line-height: var(--mobile-list-line-height, 1.45);
   }
 }
 
@@ -277,7 +280,8 @@
   white-space: nowrap;
 
   @media all and (max-width: 767px) {
-    font-size: 85%;
+    font-size: var(--mobile-list-meta-size, 0.82rem);
+    line-height: var(--mobile-list-line-height, 1.45);
     flex-shrink: 1;
     min-width: 0;
   }
@@ -289,6 +293,10 @@
   color: hsl(var(--text-muted));
   flex-shrink: 0;
   transition: color 0.2s;
+
+  @media all and (max-width: 767px) {
+    font-size: 0.55rem;
+  }
 }
 
 .careerDetails {
@@ -329,7 +337,8 @@
     font-size: var(--text-sm);
 
     @media all and (max-width: 767px) {
-      font-size: 90%;
+      font-size: var(--mobile-list-detail-size, 0.84rem);
+      line-height: var(--mobile-list-line-height, 1.45);
     }
 
     &:last-child {
@@ -343,6 +352,10 @@
   font-weight: 700;
   color: hsl(var(--primary-color));
   margin: 0 0 0.5rem;
+
+  @media all and (max-width: 767px) {
+    font-size: var(--mobile-list-detail-size, 0.84rem);
+  }
 }
 
 .troubleshootingList {
@@ -366,6 +379,10 @@
     margin-bottom: 0.5rem;
     color: hsl(var(--text-primary));
     font-size: var(--text-sm);
+
+    @media all and (max-width: 767px) {
+      font-size: var(--mobile-list-detail-size, 0.84rem);
+    }
   }
 
   p {
@@ -373,6 +390,11 @@
     font-size: var(--text-sm);
     color: hsl(var(--text-primary));
     line-height: 1.6;
+
+    @media all and (max-width: 767px) {
+      font-size: var(--mobile-list-detail-size, 0.84rem);
+      line-height: var(--mobile-list-line-height, 1.45);
+    }
 
     em {
       font-weight: 600;

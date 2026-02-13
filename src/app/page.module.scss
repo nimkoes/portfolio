@@ -221,6 +221,11 @@
     &-container {
       width: 100%;
       min-width: 0;
+      --mobile-list-title-size: 0.85rem;
+      --mobile-list-body-size: 0.78rem;
+      --mobile-list-meta-size: 0.7rem;
+      --mobile-list-detail-size: 0.71rem;
+      --mobile-list-line-height: 1.45;
       --graph-line-width: 2px;
       --graph-main-width: 1.5px;
       --graph-main-x: 0.8rem;

@@ -65,8 +65,12 @@ const Activities = () => {
                 <span className={styles.activityDateBadge}>{date || "-"}</span>
               </div>
               <article className={styles.activityCard}>
-                {title && <h3 className={styles.activityItemTitle}>{title}</h3>}
-                {organizer && <p className={styles.activityItemOrganizer}>{organizer}</p>}
+                {(title || organizer) && (
+                  <h3 className={styles.activityItemTitle}>
+                    {title && <span className={styles.activityItemTitleText}>{title}</span>}
+                    {organizer && <span className={styles.activityItemOrganizerInline}>{organizer}</span>}
+                  </h3>
+                )}
               </article>
             </li>
           ))}
