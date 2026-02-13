@@ -24,6 +24,7 @@
 
   @media all and (min-width: 768px) {
     padding: 0 0 0.4rem calc(var(--graph-main-x, 1.25rem) + 1.1rem);
+    margin-bottom: 0.9rem;
     -webkit-backdrop-filter: blur(20px) saturate(180%);
     backdrop-filter: blur(20px) saturate(180%);
   }
@@ -291,9 +292,12 @@
 
 @media all and (max-width: 767px) {
   .summarizeHeaderRow {
-    align-items: flex-start;
+    align-items: center;
     flex-direction: row;
     gap: 0.3rem;
+    min-height: 2.35rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
     padding-left: calc(var(--graph-main-x, 0.8rem) + 0.45rem);
   }
 

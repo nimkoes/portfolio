@@ -163,6 +163,7 @@
 
 @media all and (min-width: 768px) {
   .home {
+    max-width: 1320px;
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
@@ -175,12 +176,8 @@
       width: 100%;
       gap: 3.5rem;
       position: sticky;
-      top: 0;
+      top: 1.25rem;
       align-self: flex-start;
-      max-height: calc(100vh - 7rem);
-      overflow-y: auto;
-      overflow-x: hidden;
-      height: fit-content;
     }
 
     &-container {
