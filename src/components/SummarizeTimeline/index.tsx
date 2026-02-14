@@ -163,7 +163,7 @@ const summarizeEntries: SummarizeEntry[] = [
 const careerBranchesByLatest = [...careers].sort((a, b) => b.fromSort - a.fromSort);
 
 const careerBranchMetas: BranchMeta[] = careerBranchesByLatest.map(
-  (career, index): BranchMeta => ({
+  (career): BranchMeta => ({
     id: `career-${career.id}` as BranchId,
     label: career.company,
     // Every branch is created from main, so all branch commits stay on the same depth lane.
