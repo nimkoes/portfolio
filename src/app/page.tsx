@@ -1,12 +1,20 @@
 "use client";
 
 import { useState, type ReactNode } from "react";
+import dynamic from "next/dynamic";
 import styles from "./page.module.scss";
 import Aside from "~/components/Aside";
 import ExperienceTimeline from "~/components/ExperienceTimeline";
 import Activities from "~/components/Activities";
 import Projects from "~/components/Projects";
-import SummarizeTimeline from "~/components/SummarizeTimeline";
+
+const SummarizeTimeline = dynamic(() => import("~/components/SummarizeTimeline"), {
+  loading: () => (
+    <section className={styles.graphSummarizeLoading} aria-live="polite">
+      Loading summarize timeline...
+    </section>
+  ),
+});
 
 type BranchState = "open" | "merge";
 

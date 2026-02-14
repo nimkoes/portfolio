@@ -110,6 +110,7 @@ const Projects = () => {
                   role="region"
                   aria-labelledby={`project-trigger-${id}`}
                   aria-hidden={!isOpen}
+                  hidden={!isOpen}
                 >
                   {(summary || (details && details.length > 0)) && (
                     <div className={styles.projectBlock}>
@@ -183,7 +184,15 @@ const Projects = () => {
                   {links && links.length > 0 && (
                     <div className={styles.projectLinks}>
                       {links.map(({ label, url }) => (
-                        <a key={url} href={url} target="_blank" rel="noopener noreferrer" className={styles.projectLink}>
+                        <a
+                          key={url}
+                          href={url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className={styles.projectLink}
+                          tabIndex={isOpen ? undefined : -1}
+                          aria-hidden={!isOpen}
+                        >
                           {label}
                         </a>
                       ))}

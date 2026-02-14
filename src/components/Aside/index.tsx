@@ -55,6 +55,8 @@ const contactLinks = [
   },
 ];
 
+const assetBasePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 const Aside = ({ isOneline, onToggleOneline }: AsideProps) => {
   const titleSentinelRef = useRef<HTMLDivElement | null>(null);
   const titleRowRef = useRef<HTMLDivElement | null>(null);
@@ -93,7 +95,14 @@ const Aside = ({ isOneline, onToggleOneline }: AsideProps) => {
   return (
     <aside className={styles.aside} aria-label="프로필">
       <div className={styles.asideProfile}>
-        <Image src="/portfolio/images/thumbnail.jpg" className={styles.asideThumb} alt="nimkoes thumbnail" width={130} height={130} priority />
+        <Image
+          src={`${assetBasePath}/images/thumbnail.jpg`}
+          className={styles.asideThumb}
+          alt="nimkoes thumbnail"
+          width={130}
+          height={130}
+          priority
+        />
       </div>
       <div ref={titleSentinelRef} className={styles.asideTitleRowSentinel} aria-hidden />
       <div ref={titleRowRef} className={`${styles.asideTitleRow} ${isTitleRowFixed ? styles.asideTitleRowFixed : ""}`}>

@@ -13,12 +13,30 @@ const webpack = (config) => {
   return config;
 };
 
+const normalizeBasePath = (value) => {
+  if (!value || value === "/") return "";
+  const withLeadingSlash = value.startsWith("/") ? value : `/${value}`;
+  return withLeadingSlash.replace(/\/$/, "");
+};
+
+const isGithubPagesBuild = process.env.GITHUB_PAGES === "true" || process.env.GITHUB_ACTIONS === "true";
+const basePath = isGithubPagesBuild ? normalizeBasePath(process.env.GITHUB_PAGES_BASE_PATH || "/portfolio") : "";
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
   output: "export",
+  ...(basePath
+    ? {
+        basePath,
+        assetPrefix: basePath,
+      }
+    : {}),
   images: {
     unoptimized: true,
+  },
+  env: {
+    NEXT_PUBLIC_BASE_PATH: basePath,
   },
   webpack,
 };
