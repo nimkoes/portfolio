@@ -9,12 +9,30 @@
     ],
     "goals": [],
     "techStack": [
-      {"name": "Java", "reason": "개발 언어"},
-      {"name": "JavaScript (jQuery)", "reason": "프론트엔드"},
-      {"name": "JSP", "reason": "뷰 템플릿"},
-      {"name": "Oracle", "reason": "데이터베이스"},
-      {"name": "Spring", "reason": "프레임워크"},
-      {"name": "MyBatis", "reason": "ORM"}
+      {
+        "name": "Java",
+        "layer": "Language"
+      },
+      {
+        "name": "JavaScript (jQuery)",
+        "layer": "Frontend"
+      },
+      {
+        "name": "JSP",
+        "layer": "View Template"
+      },
+      {
+        "name": "Oracle",
+        "layer": "Database"
+      },
+      {
+        "name": "Spring",
+        "layer": "Framework"
+      },
+      {
+        "name": "MyBatis",
+        "layer": "ORM"
+      }
     ],
     "troubleshooting": [],
     "infra": [],
@@ -33,18 +51,35 @@
     ],
     "goals": [],
     "techStack": [
-      {"name": "Java", "reason": "개발 언어"},
-      {"name": "JavaScript (jQuery)", "reason": "프론트엔드"},
-      {"name": "JSP", "reason": "뷰 템플릿"},
-      {"name": "DB2", "reason": "데이터베이스"},
-      {"name": "Spring", "reason": "프레임워크"},
-      {"name": "MyBatis", "reason": "ORM"},
-      {"name": "Morpheus", "reason": "프레임워크"}
+      {
+        "name": "Java",
+        "layer": "Language"
+      },
+      {
+        "name": "JavaScript (jQuery)",
+        "layer": "Frontend"
+      },
+      {
+        "name": "JSP",
+        "layer": "View Template"
+      },
+      {
+        "name": "DB2",
+        "layer": "Database"
+      },
+      {
+        "name": "Spring",
+        "layer": "Framework"
+      },
+      {
+        "name": "MyBatis",
+        "layer": "ORM"
+      }
     ],
     "troubleshooting": [],
     "infra": [],
     "achievements": [
-      "프로젝트 중간에 투입되어 끝나기 전 다른 프로젝트에 투입 되었지만 새로운 모바일 앱 플랫폼을 경험"
+      "모바일 앱 플랫폼 경험"
     ],
     "links": []
   },
@@ -58,14 +93,20 @@
     ],
     "goals": [],
     "techStack": [
-      {"name": "Pro*C", "reason": "개발 언어"},
-      {"name": "Oracle", "reason": "데이터베이스"}
+      {
+        "name": "Pro*C",
+        "layer": "Language"
+      },
+      {
+        "name": "Oracle",
+        "layer": "Database"
+      }
     ],
     "troubleshooting": [],
     "infra": [],
     "achievements": [
-      "웹 애플리케이션이 아닌 프로그램 개발 경험",
-      "sp를 접하며 DB에 관심을 가지고 추후 SQLD 자격 취득하는 계기가 됨"
+      "Pro*C 기반 프로그램 및 프로시저 개발 경험",
+      "Stored Procedure 분석·수정·개발 경험을 바탕으로 SQLD 자격 취득"
     ],
     "links": []
   },
@@ -80,18 +121,42 @@
     ],
     "goals": [],
     "techStack": [
-      {"name": "Java", "reason": "개발 언어"},
-      {"name": "JavaScript (jQuery)", "reason": "프론트엔드"},
-      {"name": "JSP", "reason": "뷰 템플릿"},
-      {"name": "DB2", "reason": "데이터베이스"},
-      {"name": "Spring", "reason": "프레임워크"},
-      {"name": "MyBatis", "reason": "ORM"}
+      {
+        "name": "Java",
+        "layer": "Language"
+      },
+      {
+        "name": "JavaScript (jQuery)",
+        "layer": "Frontend"
+      },
+      {
+        "name": "JSP",
+        "layer": "View Template"
+      },
+      {
+        "name": "DB2",
+        "layer": "Database"
+      },
+      {
+        "name": "Spring",
+        "layer": "Framework"
+      },
+      {
+        "name": "MyBatis",
+        "layer": "ORM"
+      }
     ],
     "troubleshooting": [],
     "infra": [
-      "jeus"
+      {
+        "name": "jeus",
+        "layer": "Application Server"
+      }
     ],
-    "achievements": [],
+    "achievements": [
+      "검출된 SQL Injection, XSS 등 보안 취약점 해결",
+      "Critical/High 레벨 이슈를 모두 해소"
+    ],
     "links": []
   },
   {
@@ -100,23 +165,34 @@
     "period": "2016.04 ~ 2016.11",
     "summary": "자사 수입관리 솔루션 고객사 요구에 맞춰 개선하여 구축",
     "details": [
-      "프로젝트 개발 환경 구성",
+      "프로젝트 초기 개발 환경 구성",
       "사용자 매뉴얼 작성",
       "sp(Stored Procedure) 수정 및 작성"
     ],
     "goals": [],
     "techStack": [
-      {"name": "C#", "reason": "개발 언어"},
-      {"name": "ASPX", "reason": "뷰 템플릿"},
-      {"name": "MSSQL", "reason": "데이터베이스"},
-      {"name": "ASP.NET", "reason": "프레임워크"}
+      {
+        "name": "C#",
+        "layer": "Language"
+      },
+      {
+        "name": "ASPX",
+        "layer": "View Template"
+      },
+      {
+        "name": "MSSQL",
+        "layer": "Database"
+      },
+      {
+        "name": "ASP.NET",
+        "layer": "Framework"
+      }
     ],
     "troubleshooting": [],
     "infra": [],
     "achievements": [
-      "새로운 개발 환경을 사용했지만 전체 개발 환경을 구성하는 등 주도적으로 개발에 참여",
-      "GAC 개념과 dll 등록 사용 경험",
-      "openssl 사용 파일 암호화 경험"
+      "초기 전체 개발 환경 구성",
+      "프로젝트 기간 내 고객사 요구사항을 반영한 수입관리 솔루션 전달 완료"
     ],
     "links": []
   },
@@ -126,23 +202,41 @@
     "period": "2016.12 ~ 2017.04",
     "summary": "제주항공 수입관리 ABB 정산 시스템 웹 애플리케이션 개발",
     "details": [
-      "ABB 정산 데이터 레포트 화면 프론트엔드 개발 (집계, 상세)",
-      "판매 데이터(RET 데이터) 레포트 화면 프론트엔드 개발 (집계, 상세)",
-      "로컬 스토리지 데이터 레포트 화면 프론트엔드 개발 (집계, 상세)",
-      "판매 데이터와 로컬 스토리지 데이터 비교 레포트 화면 프론트엔드 개발 (집계, 상세)"
+      "ABB 정산 시스템 레포트·대사 기능(집계/상세) 개발"
     ],
     "goals": [],
     "techStack": [
-      {"name": "Java", "reason": "개발 언어"},
-      {"name": "JavaScript (jQuery, jqGrid)", "reason": "프론트엔드"},
-      {"name": "JSP", "reason": "뷰 템플릿"},
-      {"name": "Oracle", "reason": "데이터베이스"},
-      {"name": "Spring", "reason": "프레임워크"},
-      {"name": "MyBatis", "reason": "ORM"}
+      {
+        "name": "Java",
+        "layer": "Language"
+      },
+      {
+        "name": "JavaScript (jQuery, jqGrid)",
+        "layer": "Frontend"
+      },
+      {
+        "name": "JSP",
+        "layer": "View Template"
+      },
+      {
+        "name": "Oracle",
+        "layer": "Database"
+      },
+      {
+        "name": "Spring",
+        "layer": "Framework"
+      },
+      {
+        "name": "MyBatis",
+        "layer": "ORM"
+      }
     ],
     "troubleshooting": [],
     "infra": [
-      "jeus"
+      {
+        "name": "jeus",
+        "layer": "Application Server"
+      }
     ],
     "achievements": [],
     "links": []
@@ -158,17 +252,35 @@
     ],
     "goals": [],
     "techStack": [
-      {"name": "Java", "reason": "개발 언어"},
-      {"name": "JavaScript (jQuery)", "reason": "프론트엔드"},
-      {"name": "JSP", "reason": "뷰 템플릿"},
-      {"name": "Spring", "reason": "프레임워크"}
+      {
+        "name": "Java",
+        "layer": "Language"
+      },
+      {
+        "name": "JavaScript (jQuery)",
+        "layer": "Frontend"
+      },
+      {
+        "name": "JSP",
+        "layer": "View Template"
+      },
+      {
+        "name": "Spring",
+        "layer": "Framework"
+      }
     ],
-    "troubleshooting": [],
+    "troubleshooting": [
+      {
+        "title": "번역 오류로 인한 전면 재작업",
+        "problem": "프로젝트 후반 번역 품질이 낮은것 인지, 사이트 전체 재반영 필요",
+        "solution": "사전 제작한 '번역→JSON' 변환 유틸로 전체 페이지 번역 데이터를 수분 내 재생성·반영해 일정 지연 없이 완료"
+      }
+    ],
     "infra": [],
     "achievements": [
-      "json 형식 파일에서 locale을 읽어 한글 문구를 중복을 제거하여 파일로 저장하는 자바 프로그램 작성하여 업무 자동화",
-      "정규식을 사용하여 기존 json 파일 내 오류 검출",
-      "프로젝트 말미 번역 전체가 잘못되어 처음부터 모두 다시 작업해야 했으나 작성해둔 자바 프로그램으로 기한 내 이슈 없이 완료"
+      "프로젝트 후반 번역 오류로 전면 재작업이 필요한 상황에서도 일정 지연 없이 기간 내 완료",
+      "json locale 기반 다국어 리소스 변환·적용 프로세스를 통해 다국어 처리 경험",
+      "사전 제작한 자동화 유틸로 반복 반영 작업을 수분 단위로 단축, 재작업 리스크 최소화"
     ],
     "links": []
   },
@@ -183,20 +295,39 @@
     ],
     "goals": [],
     "techStack": [
-      {"name": "Java", "reason": "개발 언어"},
-      {"name": "JavaScript (jQuery)", "reason": "프론트엔드"},
-      {"name": "JSP", "reason": "뷰 템플릿"},
-      {"name": "DB2", "reason": "데이터베이스"},
-      {"name": "Spring", "reason": "프레임워크"},
-      {"name": "MyBatis", "reason": "ORM"}
+      {
+        "name": "Java",
+        "layer": "Language"
+      },
+      {
+        "name": "JavaScript (jQuery)",
+        "layer": "Frontend"
+      },
+      {
+        "name": "JSP",
+        "layer": "View Template"
+      },
+      {
+        "name": "DB2",
+        "layer": "Database"
+      },
+      {
+        "name": "Spring",
+        "layer": "Framework"
+      },
+      {
+        "name": "MyBatis",
+        "layer": "ORM"
+      }
     ],
     "troubleshooting": [],
     "infra": [
-      "jeus"
+      {
+        "name": "jeus",
+        "layer": "Application Server"
+      }
     ],
-    "achievements": [
-      "다양한 테스트로 특정 단말기에서만 발생하는 이슈 검출 (텍스트 자동완성 기능을 사용할 경우 비정상 작동)"
-    ],
+    "achievements": [],
     "links": []
   },
   {
@@ -206,20 +337,41 @@
     "summary": "국내선 항공권 특가, 할인, 일반 운임 체계를 Fly, Flybag, Flybag+ 운임 체계로 전환",
     "details": [
       "프론트엔드 화면 개발",
-      "팀원으로 참여 하였으며 항공권 구매 및 변경 시 구매 가능한 항공권 조회 화면 개발"
+      "항공권 구매 및 변경 시 구매 가능한 항공권 조회 화면 개발"
     ],
     "goals": [],
     "techStack": [
-      {"name": "Java", "reason": "개발 언어"},
-      {"name": "JavaScript (jQuery)", "reason": "프론트엔드"},
-      {"name": "JSP", "reason": "뷰 템플릿"},
-      {"name": "Oracle", "reason": "데이터베이스"},
-      {"name": "Spring", "reason": "프레임워크"},
-      {"name": "MyBatis", "reason": "ORM"}
+      {
+        "name": "Java",
+        "layer": "Language"
+      },
+      {
+        "name": "JavaScript (jQuery)",
+        "layer": "Frontend"
+      },
+      {
+        "name": "JSP",
+        "layer": "View Template"
+      },
+      {
+        "name": "Oracle",
+        "layer": "Database"
+      },
+      {
+        "name": "Spring",
+        "layer": "Framework"
+      },
+      {
+        "name": "MyBatis",
+        "layer": "ORM"
+      }
     ],
     "troubleshooting": [],
     "infra": [
-      "jeus"
+      {
+        "name": "jeus",
+        "layer": "Application Server"
+      }
     ],
     "achievements": [],
     "links": []
@@ -232,22 +384,39 @@
     "details": [
       "매출 집계 및 에러매출 현황 등 오류 개선",
       "gpg 방식으로 암호화된 판매 데이터 파일 ftp 접속 다운로드 및 데이터베이스 저장 배치 프로그램 개발",
-      "새로 추가된 결제 방식(UATP)에 대한 레포트 화면 개발"
+      "신규 레포트 화면 개발"
     ],
     "goals": [],
     "techStack": [
-      {"name": "Java", "reason": "개발 언어"},
-      {"name": "JavaScript (jQuery)", "reason": "프론트엔드"},
-      {"name": "JSP", "reason": "뷰 템플릿"},
-      {"name": "Oracle", "reason": "데이터베이스"},
-      {"name": "Spring", "reason": "프레임워크"},
-      {"name": "MyBatis", "reason": "ORM"}
+      {
+        "name": "Java",
+        "layer": "Language"
+      },
+      {
+        "name": "JavaScript (jQuery)",
+        "layer": "Frontend"
+      },
+      {
+        "name": "JSP",
+        "layer": "View Template"
+      },
+      {
+        "name": "Oracle",
+        "layer": "Database"
+      },
+      {
+        "name": "Spring",
+        "layer": "Framework"
+      },
+      {
+        "name": "MyBatis",
+        "layer": "ORM"
+      }
     ],
     "troubleshooting": [],
     "infra": [],
     "achievements": [
-      "저장 데이터 증가로 속도 이슈가 발생한 조회 쿼리 성능 개선 경험 (인덱스 활용 및 조인 순서 변경 등)",
-      "gpg 암복호화 프로그램 개발 경험을 통한 공개키 암호화 방식에 대한 이해"
+      "저장 데이터 증가로 느려진 조회 쿼리, 인덱스 최적화와 조인 순서 개선으로 체감 성능 70~85% 단축"
     ],
     "links": []
   },
@@ -257,22 +426,42 @@
     "period": "2019.02 ~ 2019.06",
     "summary": "국제선 항공권 특가, 할인, 일반 운임 체계를 Fly, Flybag, Flybag+ 운임 체계로 전환",
     "details": [
-      "프론트엔드 화면 개발",
-      "팀원으로 참여 하였으며 항공권 구매 및 변경 시 구매 가능한 항공권 조회 화면 개발",
-      "신입 직원 멘토링 역할 수행"
+      "항공권 구매 및 변경 시 구매 가능한 항공권 조회 화면 개발",
+      "신입 직원 멘토링"
     ],
     "goals": [],
     "techStack": [
-      {"name": "Java", "reason": "개발 언어"},
-      {"name": "JavaScript (jQuery)", "reason": "프론트엔드"},
-      {"name": "JSP", "reason": "뷰 템플릿"},
-      {"name": "Oracle", "reason": "데이터베이스"},
-      {"name": "Spring", "reason": "프레임워크"},
-      {"name": "MyBatis", "reason": "ORM"}
+      {
+        "name": "Java",
+        "layer": "Language"
+      },
+      {
+        "name": "JavaScript (jQuery)",
+        "layer": "Frontend"
+      },
+      {
+        "name": "JSP",
+        "layer": "View Template"
+      },
+      {
+        "name": "Oracle",
+        "layer": "Database"
+      },
+      {
+        "name": "Spring",
+        "layer": "Framework"
+      },
+      {
+        "name": "MyBatis",
+        "layer": "ORM"
+      }
     ],
     "troubleshooting": [],
     "infra": [
-      "jeus"
+      {
+        "name": "jeus",
+        "layer": "Application Server"
+      }
     ],
     "achievements": [],
     "links": []
@@ -283,17 +472,34 @@
     "period": "2019.06 ~ 2019.09",
     "summary": "제주항공 항공권 운임 체계 Fly, Flybag, Flybag+ 에 새로운 뉴클래스 운임 개념 추가",
     "details": [
-      "프론트엔드 화면 개발",
-      "팀원으로 참여 하였으며 항공권 구매 및 변경 시 구매 가능한 항공권 조회 화면 고도화"
+      "항공권 구매 및 변경 시 구매 가능한 항공권 조회 화면 고도화"
     ],
     "goals": [],
     "techStack": [
-      {"name": "Java", "reason": "개발 언어"},
-      {"name": "JavaScript (jQuery)", "reason": "프론트엔드"},
-      {"name": "JSP", "reason": "뷰 템플릿"},
-      {"name": "Oracle", "reason": "데이터베이스"},
-      {"name": "Spring", "reason": "프레임워크"},
-      {"name": "MyBatis", "reason": "ORM"}
+      {
+        "name": "Java",
+        "layer": "Language"
+      },
+      {
+        "name": "JavaScript (jQuery)",
+        "layer": "Frontend"
+      },
+      {
+        "name": "JSP",
+        "layer": "View Template"
+      },
+      {
+        "name": "Oracle",
+        "layer": "Database"
+      },
+      {
+        "name": "Spring",
+        "layer": "Framework"
+      },
+      {
+        "name": "MyBatis",
+        "layer": "ORM"
+      }
     ],
     "troubleshooting": [],
     "infra": [],
@@ -306,26 +512,45 @@
     "period": "2019.12 ~ 2020.03",
     "summary": "ASP.NET 기반 수입관리 솔루션 Spring Framework 기반으로 개발",
     "details": [
-      "프론트엔드, 백엔드 개발 환경 구성",
+      "Project Leader 역할을 수행하며, 애플리케이션 개발 환경 구성 및 주요 공통 기능 개발",
       "배치 프로그램 실행 환경 구성",
-      "데이터베이스 설치와 개발 환경 구성",
-      "C# 언어로 작성된 코드 java 언어로 변환하는 가이드 정의",
-      "PL 역할을 수행하며 환경 구성 및 주요 공통 기능 개발"
+      "C# 언어로 작성된 코드 java 언어로 변환하는 가이드 작성 및 배포"
     ],
     "goals": [],
     "techStack": [
-      {"name": "Java", "reason": "개발 언어"},
-      {"name": "JavaScript (jQuery, jqGrid)", "reason": "프론트엔드"},
-      {"name": "JSP", "reason": "뷰 템플릿"},
-      {"name": "MSSQL", "reason": "데이터베이스"},
-      {"name": "Spring", "reason": "프레임워크"},
-      {"name": "Bootstrap", "reason": "CSS 프레임워크"},
-      {"name": "MyBatis", "reason": "ORM"}
+      {
+        "name": "Java",
+        "layer": "Language"
+      },
+      {
+        "name": "JavaScript (jQuery, jqGrid)",
+        "layer": "Frontend"
+      },
+      {
+        "name": "JSP",
+        "layer": "View Template"
+      },
+      {
+        "name": "MSSQL",
+        "layer": "Database"
+      },
+      {
+        "name": "Spring",
+        "layer": "Framework"
+      },
+      {
+        "name": "Bootstrap",
+        "layer": "CSS Framework"
+      },
+      {
+        "name": "MyBatis",
+        "layer": "ORM"
+      }
     ],
     "troubleshooting": [],
     "infra": [],
     "achievements": [
-      "Spring을 처음 접하는 신입 직원 교육",
+      "애플리케이션 수준 마이그레이션 경험",
       "웹 애플리케이션 개발 환경 전체 구성 경험"
     ],
     "links": []
@@ -336,55 +561,41 @@
     "period": "2020.03 ~ 2020.07",
     "summary": "아시아나항공 여행사 전용 내부 웹 애플리케이션 로그 기록 기능 개선 및 보안 강화",
     "details": [
-      "로그인 보안 관련 테이블 정의 및 수정",
       "로그인 보안 관련 기능 추가 (일정 주기마다 비밀번호 강제 변경, 특정 횟수 이상 암호 불일치할 경우 계정 잠금, 최근 사용한 암호 재사용 불가)",
-      "사용자 그룹별 브라우저 이벤트 내역 데이터베이스 적재 기능 추가",
-      "서버 응답 결과 중 서버 정보 등 보안 문제 가능성 있는 부분 수정",
-      "기존에 존재하던 심각한 중복 코드 수정",
-      "개발 PM으로 투입되어 일정 관리 및 기능 전체 개발"
+      "사용자 그룹별 브라우저 이벤트 내역 데이터베이스 적재 기능 추가"
     ],
     "goals": [],
     "techStack": [
-      {"name": "Java", "reason": "개발 언어"},
-      {"name": "JavaScript (jQuery)", "reason": "프론트엔드"},
-      {"name": "MSSQL", "reason": "데이터베이스"},
-      {"name": "Spring", "reason": "프레임워크"},
-      {"name": "webSquare", "reason": "프레임워크"},
-      {"name": "MyBatis", "reason": "ORM"}
+      {
+        "name": "Java",
+        "layer": "Language"
+      },
+      {
+        "name": "JavaScript (jQuery)",
+        "layer": "Frontend"
+      },
+      {
+        "name": "MSSQL",
+        "layer": "Database"
+      },
+      {
+        "name": "Spring",
+        "layer": "Framework"
+      },
+      {
+        "name": "webSquare",
+        "layer": "Framework"
+      },
+      {
+        "name": "MyBatis",
+        "layer": "ORM"
+      }
     ],
     "troubleshooting": [],
     "infra": [],
     "achievements": [
-      "보안 강화된 계정 관리 정책 적용",
-      "사용자별 웹 애플리케이션 사용 이력 적재",
-      "애노테이션과 리플렉션 활용 중복 코드 제거로 유지 보수성 증가"
-    ],
-    "links": []
-  },
-  {
-    "id": 15,
-    "title": "항공권 결제 프로세스 내 3DS 2.0 인증 적용",
-    "period": "2020.10 ~ 2020.12",
-    "summary": "아시아나항공 항공권 결제시 3DS 2.0 인증 기능 추가",
-    "details": [
-      "3DS 2.0 처리 프로세스 정리 및 연동",
-      "3DS 2.0 설정 관련 관리자 페이지 개발",
-      "관련된 관리자 페이지 전체 기능 개발 및 3DS 2.0 인증 연동 기능 개발"
-    ],
-    "goals": [],
-    "techStack": [
-      {"name": "Java", "reason": "개발 언어"},
-      {"name": "JavaScript (jQuery)", "reason": "프론트엔드"},
-      {"name": "MSSQL", "reason": "데이터베이스"},
-      {"name": "Spring", "reason": "프레임워크"},
-      {"name": "jQuery", "reason": "프론트엔드 라이브러리"},
-      {"name": "MyBatis", "reason": "ORM"}
-    ],
-    "troubleshooting": [],
-    "infra": [],
-    "achievements": [
-      "3D 인증 및 2.0 프로세스 이해",
-      "spring 기반 관리자 페이지 개발 프레임워크 사용"
+      "개발 PM 으로 투입되어 일정 관리 및 기능 전체 개발 주도",
+      "애노테이션과 리플렉션 활용, 중복 코드 제거로 유지 보수성 증대"
     ],
     "links": []
   }

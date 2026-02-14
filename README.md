@@ -13,7 +13,7 @@ npm run dev
 ## 데이터 필드 설명
 
 - **careers.json**: 경력. 선택 필드: `techDecisions`(문자열 배열), `troubleshooting`(`{ title, problem, solution }[]`), `infra`(문자열 배열).
-- **projects.json**: 프로젝트. 선택 필드: `techStack`(`{ name, reason? }[]`), `troubleshooting`, `infra`. `details`, `links` 유지.
+- **projects.json**: 프로젝트. 선택 필드: `techStack`(`{ name, layer? }[]`), `infra`(`{ name, layer? }[]`), `troubleshooting`. `details`, `links` 유지.
 - **activities.json**: `items`(활동/수상 문자열 배열), `articles`(배열). 각 아티클: `id`, `title`, `summary`(선택), `organizer`(선택), `date`(선택).
 
 ## 경로 정책

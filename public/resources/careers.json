@@ -6,7 +6,7 @@
       "SSO (Single Sign-On) 환경 설계 및 구축"
     ]
   },
-  {"id": 2, "company": "Eximbay", "role": "R&D Division 1 Manager", "from": "2020.10", "to": "2021.08", "contents": [
+  {"id": 2, "company": "Eximbay", "role": "R&D Division 1 Manager", "from": "2020.12", "to": "2021.08", "contents": [
       "Spring Boot, Maven 기반 신규 프로젝트 개발 환경 구성",
       "결제 프로세스 내 3DS 2.0 인증 프로세스 적용",
       "결제 및 정산 내역 조회 api 개발",

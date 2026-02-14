@@ -11,8 +11,14 @@ type TroubleshootingItem = {
   solution: string;
 };
 
-type TechStackItem = {
+type EnvironmentItem = {
   name: string;
+  layer?: string;
+};
+
+type RawEnvironmentItem = string | {
+  name: string;
+  layer?: string;
   reason?: string;
 };
 
@@ -23,12 +29,28 @@ type Project = {
   summary: string;
   details: string[];
   goals?: string[];
-  techStack?: TechStackItem[];
+  techStack?: RawEnvironmentItem[];
   troubleshooting?: TroubleshootingItem[];
-  infra?: string[];
+  infra?: RawEnvironmentItem[];
   achievements?: string[];
   links: { label: string; url: string }[];
 };
+
+const normalizeEnvironmentItems = (items?: RawEnvironmentItem[]): EnvironmentItem[] =>
+  (items ?? [])
+    .map((item) => {
+      if (typeof item === "string") {
+        const name = item.trim();
+        return name ? { name } : null;
+      }
+
+      const name = item.name?.trim();
+      if (!name) return null;
+
+      const layer = item.layer?.trim() || item.reason?.trim();
+      return layer ? { name, layer } : { name };
+    })
+    .filter((item): item is EnvironmentItem => item !== null);
 
 const projects = projectList as Project[];
 const normalizedProjects = projects
@@ -126,6 +148,20 @@ const Projects = () => {
           {normalizedProjects.map(({ id, title, periodLabel, startYearMonth, summary, details, goals, techStack, troubleshooting, infra, achievements, links }) => {
           const isOpen = openIds.has(id);
           const contentId = `project-content-${id}`;
+          const normalizedTechStack = normalizeEnvironmentItems(techStack);
+          const normalizedInfra = normalizeEnvironmentItems(infra);
+          const developmentEnvironmentItems = [
+            ...normalizedTechStack.map((item, index) => ({
+              key: `tech-${item.name}-${item.layer ?? ""}-${index}`,
+              name: item.name,
+              layer: item.layer,
+            })),
+            ...normalizedInfra.map((item, index) => ({
+              key: `infra-${item.name}-${item.layer ?? ""}-${index}`,
+              name: item.name,
+              layer: item.layer,
+            })),
+          ];
           return (
             <li key={id} className={styles.projectTimelineItem}>
               <div className={styles.projectTimelineNode}>
@@ -159,17 +195,14 @@ const Projects = () => {
                   aria-hidden={!isOpen}
                 >
                   <div className={styles.projectDetailsInner}>
-                    {(summary || (details && details.length > 0)) && (
+                    {details && details.length > 0 && (
                       <div className={styles.projectBlock}>
                         <h3 className={styles.projectSubtitle}>개요</h3>
-                        {summary && <p>{summary}</p>}
-                        {details && details.length > 0 && (
-                          <ul>
-                            {details.map((d) => (
-                              <li key={d}>{d}</li>
-                            ))}
-                          </ul>
-                        )}
+                        <ul>
+                          {details.map((d) => (
+                            <li key={d}>{d}</li>
+                          ))}
+                        </ul>
                       </div>
                     )}
                     {goals && goals.length > 0 && (
@@ -182,13 +215,16 @@ const Projects = () => {
                         </ul>
                       </div>
                     )}
-                    {techStack && techStack.length > 0 && (
+                    {developmentEnvironmentItems.length > 0 && (
                       <div className={styles.projectBlock}>
-                        <h3 className={styles.projectSubtitle}>주요 기술</h3>
-                        <ul>
-                          {techStack.map((item) => (
-                            <li key={item.name}>
-                              {item.reason ? `${item.name} (${item.reason})` : item.name}
+                        <h3 className={styles.projectSubtitle}>개발 환경</h3>
+                        <ul className={styles.environmentList}>
+                          {developmentEnvironmentItems.map((item) => (
+                            <li key={item.key} className={styles.environmentItem}>
+                              <span className={styles.environmentName}>{item.name}</span>
+                              {item.layer && (
+                                <span className={styles.environmentLayer}>{item.layer}</span>
+                              )}
                             </li>
                           ))}
                         </ul>
@@ -201,8 +237,14 @@ const Projects = () => {
                           {troubleshooting.map(({ title, problem, solution }) => (
                             <li key={title} className={styles.troubleshootingItem}>
                               <strong>{title}</strong>
-                              <p><em>이슈:</em> {problem}</p>
-                              <p><em>해결:</em> {solution}</p>
+                              <p>
+                                <span className={`${styles.troubleshootingLabel} ${styles.issueLabel}`}>이슈</span>
+                                {problem}
+                              </p>
+                              <p>
+                                <span className={`${styles.troubleshootingLabel} ${styles.solutionLabel}`}>해결</span>
+                                {solution}
+                              </p>
                             </li>
                           ))}
                         </ul>
@@ -214,16 +256,6 @@ const Projects = () => {
                         <ul>
                           {achievements.map((a) => (
                             <li key={a}>{a}</li>
-                          ))}
-                        </ul>
-                      </div>
-                    )}
-                    {infra && infra.length > 0 && (
-                      <div className={styles.projectBlock}>
-                        <h3 className={styles.projectSubtitle}>인프라·협업</h3>
-                        <ul>
-                          {infra.map((item) => (
-                            <li key={item}>{item}</li>
                           ))}
                         </ul>
                       </div>
