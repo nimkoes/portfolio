@@ -11,6 +11,9 @@
   --primary-color-foreground: var(--teal-50);
   --focus-ring: var(--teal-500);
   --sticky-bg: hsla(var(--zinc-100), 0.92);
+  --disclosure-duration: 360ms;
+  --disclosure-fade-duration: 260ms;
+  --disclosure-ease: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 [data-theme="dark"] {
@@ -23,4 +26,7 @@
   --primary-color-foreground: var(--zinc-950);
   --focus-ring: var(--teal-400);
   --sticky-bg: hsla(var(--zinc-950), 0.92);
+  --disclosure-duration: 360ms;
+  --disclosure-fade-duration: 260ms;
+  --disclosure-ease: cubic-bezier(0.22, 1, 0.36, 1);
 }

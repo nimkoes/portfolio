@@ -2,14 +2,31 @@
   width: 100%;
 }
 
-.experienceTitle {
+.experienceHeading {
   position: -webkit-sticky;
   position: sticky;
   top: var(--timeline-sticky-top, 0);
   z-index: 8;
-  padding: 0 0 0 calc(var(--graph-branch-target-x, 3.6rem) + 0.5rem);
-  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
   margin: 0 0 0.95rem;
+  padding: 0.15rem 0;
+  background-color: var(--sticky-bg);
+  backdrop-filter: blur(6px);
+
+  @media all and (max-width: 767px) {
+    gap: 0.45rem;
+    padding: 0.08rem 0;
+  }
+}
+
+.experienceTitle {
+  flex: 1;
+  min-width: 0;
+  padding: 0 0 0 calc(var(--graph-branch-target-x, 3.6rem) + 0.5rem);
+  margin: 0;
   font-size: var(--text-xl);
   font-weight: 800;
   line-height: 1.2;
@@ -21,6 +38,61 @@
     font-size: var(--text-3xl);
     line-height: 1.125;
   }
+}
+
+.bulkActions {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-left: auto;
+  flex-shrink: 0;
+
+  @media all and (max-width: 767px) {
+    gap: 0.3rem;
+  }
+}
+
+.bulkActionButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  width: 2rem;
+  padding: 0;
+  border: 1px solid hsl(var(--card-border));
+  border-radius: 9999px;
+  background-color: hsl(var(--card-bg));
+  color: hsl(var(--text-muted));
+  cursor: pointer;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+
+  @media (hover: hover) and (pointer: fine) {
+    &:hover:not(:disabled) {
+      background-color: hsl(var(--card-border) / 0.32);
+      border-color: hsl(var(--text-muted) / 0.36);
+      color: hsl(var(--text-primary));
+    }
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.45;
+  }
+
+  &:focus-visible {
+    outline: 2px solid hsl(var(--focus-ring));
+    outline-offset: 2px;
+  }
+
+  @media all and (max-width: 767px) {
+    height: 1.85rem;
+    width: 1.85rem;
+  }
+}
+
+.bulkActionIcon {
+  font-size: 0.95rem;
+  line-height: 1;
 }
 
 .timelineContainer {
@@ -331,21 +403,38 @@
 }
 
 .careerDetails {
-  max-height: 0;
-  overflow: hidden;
+  display: grid;
+  grid-template-rows: 0fr;
   opacity: 0;
-  transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1),
-    opacity 0.3s ease-out,
-    padding 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  margin-top: 0;
   padding-top: 0;
+  border-top: 1px solid transparent;
+  pointer-events: none;
+  transition: grid-template-rows var(--disclosure-duration) var(--disclosure-ease),
+    opacity var(--disclosure-fade-duration) ease-out,
+    margin-top var(--disclosure-duration) var(--disclosure-ease),
+    padding-top var(--disclosure-duration) var(--disclosure-ease),
+    border-color var(--disclosure-duration) var(--disclosure-ease);
+}
+
+.careerDetailsInner {
+  min-height: 0;
+  overflow: hidden;
 }
 
 .careerDetailsOpen {
-  max-height: 5000px;
+  grid-template-rows: 1fr;
   opacity: 1;
   padding-top: 1rem;
   margin-top: 1rem;
-  border-top: 1px solid hsl(var(--card-border));
+  border-color: hsl(var(--card-border));
+  pointer-events: auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .careerDetails {
+    transition: none;
+  }
 }
 
 .detailBlock {

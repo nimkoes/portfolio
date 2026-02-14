@@ -32,13 +32,58 @@ const sortedCareers = [...(careerList as CareerItem[])].sort((a, b) => {
 });
 
 const ExperienceTimeline = () => {
-  const [openId, setOpenId] = useState<number | null>(null);
+  const [openIds, setOpenIds] = useState<Set<number>>(() => new Set());
   const now = new Date();
   const currentYearMonth = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}`;
+  const careerIds = sortedCareers.map(({ id }) => id);
+  const hasOpenCareer = openIds.size > 0;
+  const isAllCareerOpen = sortedCareers.length > 0 && sortedCareers.every(({ id }) => openIds.has(id));
+
+  const toggleCareer = (id: number) => {
+    setOpenIds((prev) => {
+      const next = new Set(prev);
+      if (next.has(id)) {
+        next.delete(id);
+      } else {
+        next.add(id);
+      }
+      return next;
+    });
+  };
+  const openAllCareers = () => setOpenIds(new Set(careerIds));
+  const closeAllCareers = () => setOpenIds(new Set());
 
   return (
     <section id="experience" className={styles.experience}>
-      <h2 className={styles.experienceTitle}>CAREER</h2>
+      <div className={styles.experienceHeading}>
+        <h2 className={styles.experienceTitle}>CAREER</h2>
+        <div className={styles.bulkActions} role="group" aria-label="CAREER 일괄 열기 제어">
+          <button
+            type="button"
+            className={styles.bulkActionButton}
+            onClick={openAllCareers}
+            disabled={isAllCareerOpen}
+            aria-label="CAREER 전체 펼치기"
+            title="전체 펼치기"
+          >
+            <span className={styles.bulkActionIcon} aria-hidden>
+              📂
+            </span>
+          </button>
+          <button
+            type="button"
+            className={styles.bulkActionButton}
+            onClick={closeAllCareers}
+            disabled={!hasOpenCareer}
+            aria-label="CAREER 전체 접기"
+            title="전체 접기"
+          >
+            <span className={styles.bulkActionIcon} aria-hidden>
+              📁
+            </span>
+          </button>
+        </div>
+      </div>
       <div className={styles.timelineContainer}>
         <span className={styles.careerCurrentBadge} aria-hidden>
           {currentYearMonth}
@@ -47,7 +92,7 @@ const ExperienceTimeline = () => {
 
         <div className={styles.timelineContent}>
           {sortedCareers.map((career) => {
-            const isOpen = openId === career.id;
+            const isOpen = openIds.has(career.id);
             const contentId = `career-content-${career.id}`;
             const normalizedFrom = toYearMonth(career.from);
             const normalizedTo = toYearMonth(career.to);
@@ -62,7 +107,7 @@ const ExperienceTimeline = () => {
                   <button
                     type="button"
                     className={styles.careerHeader}
-                    onClick={() => setOpenId(isOpen ? null : career.id)}
+                    onClick={() => toggleCareer(career.id)}
                     aria-expanded={isOpen}
                     aria-controls={contentId}
                     id={`career-header-${career.id}`}
@@ -88,56 +133,58 @@ const ExperienceTimeline = () => {
                     aria-labelledby={`career-header-${career.id}`}
                     aria-hidden={!isOpen}
                   >
-                    {career.contents && career.contents.length > 0 && (
-                      <div className={styles.detailBlock}>
-                        <ul>
-                          {career.contents.map((content, idx) => (
-                            <li key={idx}>{content}</li>
-                          ))}
-                        </ul>
-                      </div>
-                    )}
+                    <div className={styles.careerDetailsInner}>
+                      {career.contents && career.contents.length > 0 && (
+                        <div className={styles.detailBlock}>
+                          <ul>
+                            {career.contents.map((content, idx) => (
+                              <li key={idx}>{content}</li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
 
-                    {career.techDecisions && career.techDecisions.length > 0 && (
-                      <div className={styles.detailBlock}>
-                        <h4 className={styles.detailTitle}>기술 의사결정</h4>
-                        <ul>
-                          {career.techDecisions.map((item, idx) => (
-                            <li key={idx}>{item}</li>
-                          ))}
-                        </ul>
-                      </div>
-                    )}
+                      {career.techDecisions && career.techDecisions.length > 0 && (
+                        <div className={styles.detailBlock}>
+                          <h4 className={styles.detailTitle}>기술 의사결정</h4>
+                          <ul>
+                            {career.techDecisions.map((item, idx) => (
+                              <li key={idx}>{item}</li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
 
-                    {career.troubleshooting && career.troubleshooting.length > 0 && (
-                      <div className={styles.detailBlock}>
-                        <h4 className={styles.detailTitle}>트러블슈팅</h4>
-                        <ul className={styles.troubleshootingList}>
-                          {career.troubleshooting.map(({ title, problem, solution }) => (
-                            <li key={title} className={styles.troubleshootingItem}>
-                              <strong>{title}</strong>
-                              <p>
-                                <em>문제:</em> {problem}
-                              </p>
-                              <p>
-                                <em>해결:</em> {solution}
-                              </p>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    )}
+                      {career.troubleshooting && career.troubleshooting.length > 0 && (
+                        <div className={styles.detailBlock}>
+                          <h4 className={styles.detailTitle}>트러블슈팅</h4>
+                          <ul className={styles.troubleshootingList}>
+                            {career.troubleshooting.map(({ title, problem, solution }) => (
+                              <li key={title} className={styles.troubleshootingItem}>
+                                <strong>{title}</strong>
+                                <p>
+                                  <em>문제:</em> {problem}
+                                </p>
+                                <p>
+                                  <em>해결:</em> {solution}
+                                </p>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
 
-                    {career.infra && career.infra.length > 0 && (
-                      <div className={styles.detailBlock}>
-                        <h4 className={styles.detailTitle}>인프라·협업</h4>
-                        <ul>
-                          {career.infra.map((item, idx) => (
-                            <li key={idx}>{item}</li>
-                          ))}
-                        </ul>
-                      </div>
-                    )}
+                      {career.infra && career.infra.length > 0 && (
+                        <div className={styles.detailBlock}>
+                          <h4 className={styles.detailTitle}>인프라·협업</h4>
+                          <ul>
+                            {career.infra.map((item, idx) => (
+                              <li key={idx}>{item}</li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
+                    </div>
                   </div>
                 </div>
               </div>

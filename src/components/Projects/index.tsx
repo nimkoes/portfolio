@@ -43,14 +43,33 @@ const normalizedProjects = projects
   .sort((a, b) => toYearMonthSortValue(b.startYearMonth) - toYearMonthSortValue(a.startYearMonth));
 
 const Projects = () => {
-  const [openId, setOpenId] = useState<number | null>(null);
+  const [openIds, setOpenIds] = useState<Set<number>>(() => new Set());
+  const projectIds = normalizedProjects.map(({ id }) => id);
+  const hasOpenProject = openIds.size > 0;
+  const isAllProjectOpen = normalizedProjects.length > 0 && normalizedProjects.every(({ id }) => openIds.has(id));
+
+  const toggleProject = (id: number) => {
+    setOpenIds((prev) => {
+      const next = new Set(prev);
+      if (next.has(id)) {
+        next.delete(id);
+      } else {
+        next.add(id);
+      }
+      return next;
+    });
+  };
+  const openAllProjects = () => setOpenIds(new Set(projectIds));
+  const closeAllProjects = () => setOpenIds(new Set());
 
   if (normalizedProjects.length === 0) {
     return (
       <section id="projects" aria-labelledby="projects-heading" className={styles.projectsSection}>
-        <h2 id="projects-heading" className="section-title">
-          PROJECTS
-        </h2>
+        <div className={styles.projectsHeading}>
+          <h2 id="projects-heading" className="section-title">
+            PROJECTS
+          </h2>
+        </div>
         <div className="section-card">
           <p className={styles.empty}>등록된 프로젝트가 없습니다.</p>
         </div>
@@ -60,9 +79,37 @@ const Projects = () => {
 
   return (
     <section id="projects" aria-labelledby="projects-heading" className={styles.projectsSection}>
-      <h2 id="projects-heading" className="section-title">
-        PROJECTS
-      </h2>
+      <div className={styles.projectsHeading}>
+        <h2 id="projects-heading" className="section-title">
+          PROJECTS
+        </h2>
+        <div className={styles.bulkActions} role="group" aria-label="PROJECTS 일괄 열기 제어">
+          <button
+            type="button"
+            className={styles.bulkActionButton}
+            onClick={openAllProjects}
+            disabled={isAllProjectOpen}
+            aria-label="PROJECTS 전체 펼치기"
+            title="전체 펼치기"
+          >
+            <span className={styles.bulkActionIcon} aria-hidden>
+              📂
+            </span>
+          </button>
+          <button
+            type="button"
+            className={styles.bulkActionButton}
+            onClick={closeAllProjects}
+            disabled={!hasOpenProject}
+            aria-label="PROJECTS 전체 접기"
+            title="전체 접기"
+          >
+            <span className={styles.bulkActionIcon} aria-hidden>
+              📁
+            </span>
+          </button>
+        </div>
+      </div>
       <div className={styles.projectTimelineContainer}>
         <span className={styles.projectMergeNode} aria-hidden="true" />
         <svg
@@ -77,7 +124,7 @@ const Projects = () => {
         <div className={styles.projectTimelineLine} aria-hidden="true" />
         <ol className={styles.projectTimelineContent}>
           {normalizedProjects.map(({ id, title, periodLabel, startYearMonth, summary, details, goals, techStack, troubleshooting, infra, achievements, links }) => {
-          const isOpen = openId === id;
+          const isOpen = openIds.has(id);
           const contentId = `project-content-${id}`;
           return (
             <li key={id} className={styles.projectTimelineItem}>
@@ -88,7 +135,7 @@ const Projects = () => {
                 <button
                   type="button"
                   className={styles.projectCard}
-                  onClick={() => setOpenId(isOpen ? null : id)}
+                  onClick={() => toggleProject(id)}
                   aria-expanded={isOpen}
                   aria-controls={contentId}
                   id={`project-trigger-${id}`}
@@ -110,94 +157,95 @@ const Projects = () => {
                   role="region"
                   aria-labelledby={`project-trigger-${id}`}
                   aria-hidden={!isOpen}
-                  hidden={!isOpen}
                 >
-                  {(summary || (details && details.length > 0)) && (
-                    <div className={styles.projectBlock}>
-                      <h3 className={styles.projectSubtitle}>개요</h3>
-                      {summary && <p>{summary}</p>}
-                      {details && details.length > 0 && (
+                  <div className={styles.projectDetailsInner}>
+                    {(summary || (details && details.length > 0)) && (
+                      <div className={styles.projectBlock}>
+                        <h3 className={styles.projectSubtitle}>개요</h3>
+                        {summary && <p>{summary}</p>}
+                        {details && details.length > 0 && (
+                          <ul>
+                            {details.map((d) => (
+                              <li key={d}>{d}</li>
+                            ))}
+                          </ul>
+                        )}
+                      </div>
+                    )}
+                    {goals && goals.length > 0 && (
+                      <div className={styles.projectBlock}>
+                        <h3 className={styles.projectSubtitle}>목표</h3>
                         <ul>
-                          {details.map((d) => (
-                            <li key={d}>{d}</li>
+                          {goals.map((g) => (
+                            <li key={g}>{g}</li>
                           ))}
                         </ul>
-                      )}
-                    </div>
-                  )}
-                  {goals && goals.length > 0 && (
-                    <div className={styles.projectBlock}>
-                      <h3 className={styles.projectSubtitle}>목표</h3>
-                      <ul>
-                        {goals.map((g) => (
-                          <li key={g}>{g}</li>
+                      </div>
+                    )}
+                    {techStack && techStack.length > 0 && (
+                      <div className={styles.projectBlock}>
+                        <h3 className={styles.projectSubtitle}>주요 기술</h3>
+                        <ul>
+                          {techStack.map((item) => (
+                            <li key={item.name}>
+                              {item.reason ? `${item.name} (${item.reason})` : item.name}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+                    {troubleshooting && troubleshooting.length > 0 && (
+                      <div className={styles.projectBlock}>
+                        <h3 className={styles.projectSubtitle}>트러블 슈팅</h3>
+                        <ul className={styles.troubleshootingList}>
+                          {troubleshooting.map(({ title, problem, solution }) => (
+                            <li key={title} className={styles.troubleshootingItem}>
+                              <strong>{title}</strong>
+                              <p><em>이슈:</em> {problem}</p>
+                              <p><em>해결:</em> {solution}</p>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+                    {achievements && achievements.length > 0 && (
+                      <div className={styles.projectBlock}>
+                        <h3 className={styles.projectSubtitle}>성과</h3>
+                        <ul>
+                          {achievements.map((a) => (
+                            <li key={a}>{a}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+                    {infra && infra.length > 0 && (
+                      <div className={styles.projectBlock}>
+                        <h3 className={styles.projectSubtitle}>인프라·협업</h3>
+                        <ul>
+                          {infra.map((item) => (
+                            <li key={item}>{item}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+                    {links && links.length > 0 && (
+                      <div className={styles.projectLinks}>
+                        {links.map(({ label, url }) => (
+                          <a
+                            key={url}
+                            href={url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={styles.projectLink}
+                            tabIndex={isOpen ? undefined : -1}
+                            aria-hidden={!isOpen}
+                          >
+                            {label}
+                          </a>
                         ))}
-                      </ul>
-                    </div>
-                  )}
-                  {techStack && techStack.length > 0 && (
-                    <div className={styles.projectBlock}>
-                      <h3 className={styles.projectSubtitle}>주요 기술</h3>
-                      <ul>
-                        {techStack.map((item) => (
-                          <li key={item.name}>
-                            {item.reason ? `${item.name} (${item.reason})` : item.name}
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
-                  {troubleshooting && troubleshooting.length > 0 && (
-                    <div className={styles.projectBlock}>
-                      <h3 className={styles.projectSubtitle}>트러블 슈팅</h3>
-                      <ul className={styles.troubleshootingList}>
-                        {troubleshooting.map(({ title, problem, solution }) => (
-                          <li key={title} className={styles.troubleshootingItem}>
-                            <strong>{title}</strong>
-                            <p><em>이슈:</em> {problem}</p>
-                            <p><em>해결:</em> {solution}</p>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
-                  {achievements && achievements.length > 0 && (
-                    <div className={styles.projectBlock}>
-                      <h3 className={styles.projectSubtitle}>성과</h3>
-                      <ul>
-                        {achievements.map((a) => (
-                          <li key={a}>{a}</li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
-                  {infra && infra.length > 0 && (
-                    <div className={styles.projectBlock}>
-                      <h3 className={styles.projectSubtitle}>인프라·협업</h3>
-                      <ul>
-                        {infra.map((item) => (
-                          <li key={item}>{item}</li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
-                  {links && links.length > 0 && (
-                    <div className={styles.projectLinks}>
-                      {links.map(({ label, url }) => (
-                        <a
-                          key={url}
-                          href={url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className={styles.projectLink}
-                          tabIndex={isOpen ? undefined : -1}
-                          aria-hidden={!isOpen}
-                        >
-                          {label}
-                        </a>
-                      ))}
-                    </div>
-                  )}
+                      </div>
+                    )}
+                  </div>
                 </div>
               </div>
             </li>
