@@ -18,11 +18,16 @@ type CareerItem = {
 type ActivityItem = {
   id: number;
   title: string;
+  affiliation?: string;
   organizer?: string;
   date?: string;
 };
 
-type ActivitiesData = string[] | { items: string[]; articles?: ActivityItem[] };
+type ActivitiesData = {
+  activities?: ActivityItem[];
+  awards?: ActivityItem[];
+  articles?: ActivityItem[];
+};
 
 type ProjectItem = {
   id: number;
@@ -70,15 +75,17 @@ const careers = (careerList as CareerItem[])
   .sort((a, b) => a.fromSort - b.fromSort);
 
 const normalizeActivities = (data: ActivitiesData): ActivityItem[] => {
-  if (Array.isArray(data)) return [];
-  return data.articles ?? [];
+  const activities = data.activities ?? [];
+  // Backward compatible: if awards is missing, use legacy articles payload.
+  const awards = data.awards ?? data.articles ?? [];
+  return [...activities, ...awards];
 };
 
 const activities = normalizeActivities(activityData as ActivitiesData)
   .map((item, index) => ({
     id: item.id,
     title: item.title?.trim() || "-",
-    organizer: item.organizer?.trim() || "-",
+    organizer: item.affiliation?.trim() || item.organizer?.trim() || "-",
     date: toYearMonth(item.date),
     originalIndex: index,
   }))

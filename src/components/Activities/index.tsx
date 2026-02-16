@@ -6,33 +6,33 @@ type ArticleItem = {
   id: number;
   title: string;
   summary?: string;
+  affiliation?: string;
   organizer?: string;
   date?: string;
   image?: string;
 };
 
 type ActivitiesData =
-  | string[]
-  | { items: string[]; articles?: ArticleItem[] };
+  | { activities?: ArticleItem[]; awards?: ArticleItem[]; articles?: ArticleItem[] };
 
-const normalizeData = (data: ActivitiesData): { items: string[]; articles: ArticleItem[] } => {
-  if (Array.isArray(data)) {
-    return { items: data, articles: [] };
-  }
+const normalizeData = (data: ActivitiesData): { entries: ArticleItem[] } => {
+  const activities = data.activities ?? [];
+  // Backward compatible: if awards is missing, use legacy articles payload.
+  const awards = data.awards ?? data.articles ?? [];
+
   return {
-    items: data.items ?? [],
-    articles: data.articles ?? [],
+    entries: [...activities, ...awards],
   };
 };
 
-const { items, articles } = normalizeData(activityData as ActivitiesData);
-const timelineArticles = articles
-  .map(({ id, title, organizer, date }) => {
+const { entries } = normalizeData(activityData as ActivitiesData);
+const timelineArticles = entries
+  .map(({ id, title, affiliation, organizer, date }) => {
     const formattedDate = toYearMonth(date);
     return {
       id,
       title: title?.trim() ?? "",
-      organizer: organizer?.trim() ?? "",
+      organizer: affiliation?.trim() || organizer?.trim() || "",
       date: formattedDate,
     };
   })
@@ -74,19 +74,6 @@ const Activities = () => {
               </article>
             </li>
           ))}
-          {timelineArticles.length === 0 && items.length > 0 && (
-            <li className={styles.activityTimelineItem}>
-              <article className={styles.activityCard}>
-                <ul className={styles.activityFallbackList}>
-                  {items.map((activity) => (
-                    <li className={styles.activityFallbackItem} key={activity}>
-                      {activity}
-                    </li>
-                  ))}
-                </ul>
-              </article>
-            </li>
-          )}
         </ol>
       </div>
     </section>
