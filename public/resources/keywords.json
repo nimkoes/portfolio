@@ -1,22 +1,22 @@
 [
   "Tidy First",
   "Extreme Programming",
-
-  "Maven",
-  "Gradle",
-
-  "SQL(SQLD)",
-  "Data JPA",
-  "QueryDSL",
-
+  "Java",
+  "Kotlin",
   "Spring Boot",
   "Spring Security",
-
+  "Spring Data JPA",
+  "QueryDSL",
   "REST API",
-
-  "Java",
-
-  "docker",
-  "k8s",
-  "Azure"
+  "CQRS",
+  "SQL(SQLD)",
+  "Redis",
+  "gRPC",
+  "Maven/Gradle",
+  "Kubernetes",
+  "Azure",
+  "Azure DevOps",
+  "Datadog",
+  "SendGrid",
+  "Pipedrive"
 ]
