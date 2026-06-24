@@ -652,11 +652,11 @@
   {
     "id": 16,
     "title": "수출입 물류 지원 솔루션 ZimGo 서비스 개발",
-    "period": "2021.11 ~ 2023.08",
-    "summary": "ZimGo 서비스 백엔드 서버 개발",
+    "period": "2021.11 ~ 2026.04",
+    "summary": "ZimGo 서비스 백엔드 개발 및 외부 연동 안정화",
     "details": [
-      "백엔드 서버 개발 리드",
-      "기능 전방에 대한 설계 및 구현"
+      "수출입 물류 SaaS 백엔드 설계·개발·운영 리드",
+      "기능 전반에 대한 설계 및 구현"
     ],
     "goals": [],
     "techStack": [
@@ -681,7 +681,6 @@
         "layer": "Database"
       }
     ],
-    "troubleshooting": [],
     "infra": [
       {
         "name": "azure",
@@ -695,19 +694,21 @@
     "achievements": [
       "신규 수출입 물류 SaaS의 개발 초기 단계부터 운영 환경 런칭까지 전 과정(설계-개발-배포-운영)을 경험",
       "서버 간 통신 구조와 도메인별 데이터베이스 설계로 기능 확장",
-      "백엔드 개발 리드로서 코드 리뷰와 구현 방향 정렬을 통해 팀 개발 품질 향상에 기여"
+      "백엔드 개발 리드로서 코드 리뷰와 구현 방향 정렬을 통해 팀 개발 품질 향상에 기여",
+      "외부 연동 장애 대응과 배포 파이프라인 정리까지 맡아 운영 안정성 향상"
     ],
     "links": []
   },
   {
     "id": 17,
     "title": "OV (Ocean Visibility) 트래킹 구조 통합 및 CQRS 적용",
-    "period": "2025.01 ~ ",
+    "period": "2026.01 ~ 2026.06",
     "summary": "B/L, Container, Booking 트래킹 구조를 통합하고 조회·등록 성능을 개선한 OV 서비스 최적화 프로젝트",
     "details": [
       "B/L, Container, Booking 트래킹 데이터 구조를 단일 모델로 통합",
       "트래킹 ID 기반 통합 조회 구조를 설계해 단일 화면/API에서 일괄 조회 가능한 기반 마련",
-      "B/L 등록 차감 로직 개선으로 대량 등록 처리 시간 단축 및 동일 건수 기준 처리 시간 일관성 확보"
+      "B/L 등록 차감 로직 개선으로 대량 등록 처리 시간 단축 및 동일 건수 기준 처리 시간 일관성 확보",
+      "대형 고객사의 대량 호출 패턴을 분석하고 운영 기준을 정리"
     ],
     "goals": [],
     "techStack": [
@@ -740,7 +741,6 @@
         "layer": "Database"
       }
     ],
-    "troubleshooting": [],
     "infra": [
       {
         "name": "azure",
@@ -750,8 +750,113 @@
         "name": "Azure kubernetes Service",
         "layer": "Container Orchestration"
       }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Backoffice 권한관리 시스템 정리",
+    "period": "2026.03 ~ 2026.04",
+    "summary": "부서별 접근 권한과 관리자 기능을 갖춘 Backoffice 거버넌스 체계 정리",
+    "details": [
+      "관리자 전용 권한관리 페이지 추가",
+      "메뉴 및 역할 하드코딩 제거와 역할 기반 메뉴 제어 구조 적용"
     ],
-    "achievements": [],
+    "goals": [],
+    "techStack": [
+      {
+        "name": "TypeScript",
+        "layer": "Language"
+      },
+      {
+        "name": "Next.js",
+        "layer": "Framework"
+      },
+      {
+        "name": "React",
+        "layer": "Frontend"
+      },
+      {
+        "name": "MUI",
+        "layer": "CSS Framework"
+      },
+      {
+        "name": "NestJS",
+        "layer": "Framework"
+      },
+      {
+        "name": "Prisma",
+        "layer": "ORM"
+      },
+      {
+        "name": "MSSQL",
+        "layer": "Database"
+      },
+      {
+        "name": "Flyway",
+        "layer": "Database Migration"
+      }
+    ],
+    "infra": [
+      {
+        "name": "Azure",
+        "layer": "Cloud"
+      },
+      {
+        "name": "Azure Kubernetes Service",
+        "layer": "Container Orchestration"
+      }
+    ],
+    "achievements": [
+      "관리자·부서별 권한 모델을 도입해 보안과 운영 효율 강화"
+    ],
+    "links": []
+  },
+  {
+    "id": 19,
+    "title": "Growth Pipeline 최적화 프로젝트 / Pipedrive 자동화 개선",
+    "period": "2026.03 ~ 2026.06",
+    "summary": "Pipedrive 연동과 nurturing 메일 규칙 개선으로 영업 데이터 운영 흐름을 고도화",
+    "details": [
+      "Country → Continent 자동 분류 규칙 추가",
+      "nurturing 메일 발송 기간 연장과 중단 조건 변경",
+      "영업/마케팅 운영에 맞춘 리드 데이터 정합성 개선"
+    ],
+    "goals": [],
+    "techStack": [
+      {
+        "name": "TypeScript",
+        "layer": "Language"
+      },
+      {
+        "name": "NestJS",
+        "layer": "Framework"
+      },
+      {
+        "name": "Prisma",
+        "layer": "ORM"
+      },
+      {
+        "name": "MSSQL",
+        "layer": "Database"
+      },
+      {
+        "name": "Pipedrive API",
+        "layer": "CRM"
+      },
+      {
+        "name": "SendGrid",
+        "layer": "External Service"
+      },
+      {
+        "name": "Azure Service Bus",
+        "layer": "Message Queue"
+      }
+    ],
+    "infra": [],
+    "achievements": [
+      "영업 데이터 자동화 흐름을 운영 기준에 맞게 재정비",
+      "리드 분류와 nurturing 규칙을 개선해 수작업 감소"
+    ],
     "links": []
   }
 ]
