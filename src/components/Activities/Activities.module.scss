@@ -84,7 +84,7 @@
 
 .activityMergePath {
   fill: none;
-  stroke: hsl(var(--card-border));
+  stroke: hsla(var(--card-border), 0.78);
   stroke-width: var(--timeline-line-width);
   stroke-linecap: round;
   vector-effect: non-scaling-stroke;
@@ -97,7 +97,7 @@
   top: var(--graph-branch-line-top, 0);
   bottom: var(--graph-branch-anchor-offset, var(--graph-branch-anchor-from-bottom, 0.36rem));
   width: var(--timeline-line-width);
-  background-color: hsl(var(--card-border));
+  background-color: hsla(var(--card-border), 0.78);
   z-index: 0;
 }
 
@@ -125,10 +125,9 @@
     top: var(--timeline-connector-top);
     width: var(--timeline-connector-width);
     height: 2px;
-    background-color: hsl(var(--card-border));
+    background-color: hsla(var(--card-border), 0.78);
     z-index: 0;
   }
-
 }
 
 .activityTimelineNode {
@@ -179,14 +178,20 @@
   border: 1px solid hsl(var(--card-border));
   border-radius: var(--rounded-2xl);
   padding: 1rem 1.25rem;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.04);
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.08),
+    0 1px 2px rgba(0, 0, 0, 0.04);
 
   @media (hover: hover) and (pointer: fine) {
-    transition: border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transition:
+      border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+      box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     &:hover {
       border-color: hsl(var(--primary-color));
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.04);
+      box-shadow:
+        0 4px 6px rgba(0, 0, 0, 0.07),
+        0 2px 4px rgba(0, 0, 0, 0.04);
     }
   }
 
@@ -200,12 +205,15 @@
   font-size: var(--text-lg);
   font-weight: 600;
   color: hsl(var(--text-primary));
-  display: block;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  display: flex;
+  align-items: baseline;
+  gap: 0.42rem;
+  min-width: 0;
 
   @media all and (max-width: 767px) {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.18rem;
     font-size: var(--mobile-list-title-size, 1rem);
     line-height: 1.35;
   }
@@ -213,16 +221,46 @@
 
 .activityItemTitleText {
   color: hsl(var(--text-primary));
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  @media all and (max-width: 767px) {
+    width: 100%;
+  }
 }
 
 .activityItemOrganizerInline {
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 auto;
   color: hsl(var(--text-muted));
   font-size: 0.86em;
   font-weight: 500;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 0.24rem;
+    height: 0.24rem;
+    margin-right: 0.38rem;
+    border-radius: 9999px;
+    background-color: currentColor;
+    opacity: 0.45;
+  }
+
+  @media all and (max-width: 767px) {
+    font-size: var(--mobile-list-meta-size, 0.82rem);
+
+    &::before {
+      content: none;
+    }
+  }
 }
 
 .activityItemTitleText + .activityItemOrganizerInline {
-  margin-left: 0.38rem;
+  margin-left: 0;
 }
 
 .activityFallbackList {

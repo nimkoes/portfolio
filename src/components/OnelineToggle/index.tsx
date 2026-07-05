@@ -8,6 +8,8 @@ type OnelineToggleProps = {
 };
 
 const OnelineToggle = ({ enabled, onToggle }: OnelineToggleProps) => {
+  const label = enabled ? "전체" : "요약";
+
   return (
     <button
       type="button"
@@ -18,8 +20,8 @@ const OnelineToggle = ({ enabled, onToggle }: OnelineToggleProps) => {
       aria-label={enabled ? "기본 모드로 전환" : "oneline 모드로 전환"}
       title={enabled ? "기본 모드로 전환" : "oneline 모드로 전환"}
     >
-      <span className={styles.toggleTrack}>
-        <span className={styles.toggleThumb} aria-hidden>
+      <span className={styles.toggleSurface}>
+        <span className={styles.toggleIconWrap} aria-hidden>
           {enabled ? (
             <svg viewBox="0 0 24 24" className={styles.toggleIcon}>
               <g stroke="currentColor" strokeWidth="2.2" strokeLinecap="round">
@@ -39,6 +41,7 @@ const OnelineToggle = ({ enabled, onToggle }: OnelineToggleProps) => {
             </svg>
           )}
         </span>
+        <span className={styles.toggleLabel}>{label}</span>
       </span>
     </button>
   );

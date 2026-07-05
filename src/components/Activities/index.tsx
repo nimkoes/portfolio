@@ -12,8 +12,7 @@ type ArticleItem = {
   image?: string;
 };
 
-type ActivitiesData =
-  | { activities?: ArticleItem[]; awards?: ArticleItem[]; articles?: ArticleItem[] };
+type ActivitiesData = { activities?: ArticleItem[]; awards?: ArticleItem[]; articles?: ArticleItem[] };
 
 const normalizeData = (data: ActivitiesData): { entries: ArticleItem[] } => {
   const activities = data.activities ?? [];
@@ -43,18 +42,12 @@ const Activities = () => {
   return (
     <section id="activities" className={styles.activity} aria-labelledby="activities-heading">
       <h2 id="activities-heading" className={styles.activityTitle}>
-        ACTIVITIES & AWARD
+        ACTIVITIES & AWARDS
       </h2>
 
       <div className={styles.activityTimelineContainer}>
         <span className={styles.activityMergeNode} aria-hidden="true" />
-        <svg
-          className={styles.activityMergeSvg}
-          viewBox="0 0 100 100"
-          preserveAspectRatio="none"
-          aria-hidden="true"
-          focusable="false"
-        >
+        <svg className={styles.activityMergeSvg} viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true" focusable="false">
           <line className={styles.activityMergePath} x1="0" y1="0" x2="100" y2="100" />
         </svg>
         <div className={styles.activityTimelineLine} aria-hidden="true" />
@@ -66,7 +59,7 @@ const Activities = () => {
               </div>
               <article className={styles.activityCard}>
                 {(title || organizer) && (
-                  <h3 className={styles.activityItemTitle}>
+                  <h3 className={styles.activityItemTitle} aria-label={[title, organizer].filter(Boolean).join(" / ")}>
                     {title && <span className={styles.activityItemTitleText}>{title}</span>}
                     {organizer && <span className={styles.activityItemOrganizerInline}>{organizer}</span>}
                   </h3>

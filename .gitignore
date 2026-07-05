@@ -59,3 +59,6 @@ Thumbs.db
 *.pem
 *.key
 *.crt
+
+# Local tool settings
+/.claude/

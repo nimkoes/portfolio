@@ -43,34 +43,31 @@
 .bulkActions {
   display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
   margin-left: auto;
   flex-shrink: 0;
-
-  @media all and (max-width: 767px) {
-    gap: 0.3rem;
-  }
 }
 
 .bulkActionButton {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 2rem;
-  width: 2rem;
-  padding: 0;
-  border: 1px solid hsl(var(--card-border));
+  gap: 0.24rem;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0 0.3rem;
+  border: 0;
   border-radius: 9999px;
-  background-color: hsl(var(--card-bg));
+  background-color: transparent;
   color: hsl(var(--text-muted));
   cursor: pointer;
-  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
 
   @media (hover: hover) and (pointer: fine) {
     &:hover:not(:disabled) {
-      background-color: hsl(var(--card-border) / 0.32);
-      border-color: hsl(var(--text-muted) / 0.36);
-      color: hsl(var(--text-primary));
+      background-color: hsla(var(--card-border), 0.32);
+      color: hsl(var(--primary-color));
     }
   }
 
@@ -85,14 +82,25 @@
   }
 
   @media all and (max-width: 767px) {
-    height: 1.85rem;
-    width: 1.85rem;
+    padding: 0 0.24rem;
   }
 }
 
 .bulkActionIcon {
-  font-size: 0.95rem;
+  width: 0.92rem;
+  height: 0.92rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.bulkActionLabel {
+  font-size: 0.7rem;
+  font-weight: 700;
   line-height: 1;
+  white-space: nowrap;
 }
 
 .timelineContainer {
@@ -162,7 +170,7 @@
   top: calc(var(--career-top-extension) * -1);
   bottom: var(--graph-branch-anchor-offset, var(--graph-branch-anchor-from-bottom, 0.36rem));
   width: var(--timeline-line-width);
-  background-color: hsl(var(--card-border));
+  background-color: hsla(var(--card-border), 0.78);
   z-index: 0;
 }
 
@@ -195,10 +203,9 @@
     top: var(--timeline-connector-top);
     width: var(--timeline-connector-width);
     height: 2px;
-    background-color: hsl(var(--card-border));
+    background-color: hsla(var(--card-border), 0.78);
     z-index: 0;
   }
-
 }
 
 .timelineNode {
@@ -251,13 +258,18 @@
   border: 1px solid hsl(var(--card-border));
   border-radius: var(--rounded-2xl);
   padding: 1.25rem 1.5rem;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.04);
-  transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.08),
+    0 1px 2px rgba(0, 0, 0, 0.04);
+  transition:
+    box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1),
     border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
   @media (hover: hover) and (pointer: fine) {
     &:hover {
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.04);
+      box-shadow:
+        0 4px 6px rgba(0, 0, 0, 0.07),
+        0 2px 4px rgba(0, 0, 0, 0.04);
       border-color: hsl(var(--primary-color));
     }
   }
@@ -276,6 +288,7 @@
   justify-content: space-between;
   align-items: flex-start;
   gap: 1rem;
+  min-height: 44px;
   margin-bottom: 0.5rem;
   flex-wrap: wrap;
   width: 100%;
@@ -396,10 +409,32 @@
   transition: color 0.2s;
 
   @media all and (max-width: 767px) {
-    grid-area: chevron;
-    justify-self: end;
     font-size: 0.55rem;
   }
+}
+
+.careerAction {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.22rem;
+  padding: 0;
+  background-color: transparent;
+  color: hsl(var(--text-muted));
+  font-size: 0.7rem;
+  font-weight: 700;
+  line-height: 1;
+  white-space: nowrap;
+
+  @media all and (max-width: 767px) {
+    grid-area: chevron;
+    justify-self: end;
+    font-size: 0.62rem;
+  }
+}
+
+.careerActionText {
+  color: inherit;
 }
 
 .careerDetails {
@@ -410,7 +445,8 @@
   padding-top: 0;
   border-top: 1px solid transparent;
   pointer-events: none;
-  transition: grid-template-rows var(--disclosure-duration) var(--disclosure-ease),
+  transition:
+    grid-template-rows var(--disclosure-duration) var(--disclosure-ease),
     opacity var(--disclosure-fade-duration) ease-out,
     margin-top var(--disclosure-duration) var(--disclosure-ease),
     padding-top var(--disclosure-duration) var(--disclosure-ease),

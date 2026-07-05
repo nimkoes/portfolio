@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "아시아나항공 홈페이지 고도화",
+    "title": "아시아나항공 홈페이지 할인 코드 관리 기능 개발",
     "period": "2015.01 ~ 2015.03",
     "summary": "아시아나 항공 홈페이지 기능 개선",
     "details": [
@@ -85,7 +85,7 @@
   },
   {
     "id": 3,
-    "title": "BSP/CASS 선도개발",
+    "title": "BSP/CASS 항공권 정산 시스템 선도개발",
     "period": "2015.06 ~ 2016.01",
     "summary": "은행 합병으로 인한 BSP 정산 업무 통합 환경 구축",
     "details": [
@@ -149,7 +149,7 @@
     "troubleshooting": [],
     "infra": [
       {
-        "name": "jeus",
+        "name": "JEUS",
         "layer": "Application Server"
       }
     ],
@@ -234,7 +234,7 @@
     "troubleshooting": [],
     "infra": [
       {
-        "name": "jeus",
+        "name": "JEUS",
         "layer": "Application Server"
       }
     ],
@@ -323,7 +323,7 @@
     "troubleshooting": [],
     "infra": [
       {
-        "name": "jeus",
+        "name": "JEUS",
         "layer": "Application Server"
       }
     ],
@@ -332,7 +332,7 @@
   },
   {
     "id": 9,
-    "title": "제주항공 홈페이지 국내선 Fare family",
+    "title": "제주항공 국내선 Fare Family 운임 체계 전환",
     "period": "2017.12 ~ 2018.05",
     "summary": "국내선 항공권 특가, 할인, 일반 운임 체계를 Fly, Flybag, Flybag+ 운임 체계로 전환",
     "details": [
@@ -369,7 +369,7 @@
     "troubleshooting": [],
     "infra": [
       {
-        "name": "jeus",
+        "name": "JEUS",
         "layer": "Application Server"
       }
     ],
@@ -422,7 +422,7 @@
   },
   {
     "id": 11,
-    "title": "제주항공 홈페이지 국제선 Fare family",
+    "title": "제주항공 국제선 Fare Family 운임 체계 전환",
     "period": "2019.02 ~ 2019.06",
     "summary": "국제선 항공권 특가, 할인, 일반 운임 체계를 Fly, Flybag, Flybag+ 운임 체계로 전환",
     "details": [
@@ -459,7 +459,7 @@
     "troubleshooting": [],
     "infra": [
       {
-        "name": "jeus",
+        "name": "JEUS",
         "layer": "Application Server"
       }
     ],
@@ -468,7 +468,7 @@
   },
   {
     "id": 12,
-    "title": "제주항공 홈페이지 뉴클래스 적용",
+    "title": "제주항공 뉴클래스 운임 체계 추가",
     "period": "2019.06 ~ 2019.09",
     "summary": "제주항공 항공권 운임 체계 Fly, Flybag, Flybag+ 에 새로운 뉴클래스 운임 개념 추가",
     "details": [
@@ -508,7 +508,7 @@
   },
   {
     "id": 13,
-    "title": "수입관리 솔루션 마이그레이션",
+    "title": "수입관리 솔루션 ASP.NET → Spring 마이그레이션",
     "period": "2019.12 ~ 2020.03",
     "summary": "ASP.NET 기반 수입관리 솔루션 Spring Framework 기반으로 개발",
     "details": [
@@ -557,7 +557,7 @@
   },
   {
     "id": 14,
-    "title": "업무용 애플리케이션 고도화",
+    "title": "아시아나항공 내부 시스템 접속 보안 강화",
     "period": "2020.03 ~ 2020.07",
     "summary": "아시아나항공 여행사 전용 내부 웹 애플리케이션 로그 기록 기능 개선 및 보안 강화",
     "details": [
@@ -601,7 +601,7 @@
   },
   {
     "id": 15,
-    "title": "통합 회원 관리",
+    "title": "통합 회원 인증(SSO) 체계 도입",
     "period": "2021.09 ~ 2021.11",
     "summary": "통합 회원 인증 프로세스 개발",
     "details": [
@@ -627,14 +627,14 @@
         "layer": "Database"
       },
       {
-        "name": "redis",
+        "name": "Redis",
         "layer": "Database"
       }
     ],
     "troubleshooting": [],
     "infra": [
       {
-        "name": "azure",
+        "name": "Azure",
         "layer": "Cloud"
       },
       {
@@ -652,11 +652,13 @@
   {
     "id": 16,
     "title": "수출입 물류 지원 솔루션 ZimGo 서비스 개발",
-    "period": "2021.11 ~ 2026.04",
+    "period": "2021.11 ~ 2026.06",
     "summary": "ZimGo 서비스 백엔드 개발 및 외부 연동 안정화",
     "details": [
       "수출입 물류 SaaS 백엔드 설계·개발·운영 리드",
-      "기능 전반에 대한 설계 및 구현"
+      "회원, 화물, 운임, 부킹, 메일, 배치 등 도메인 모듈 전반 설계 및 구현",
+      "Unipass 통관 조회 등 외부 기관 연동과 네트워크 오류 예외 처리",
+      "트래킹 데이터 구조 통합에 따른 ZimGo → OV 요청 API 전환 개발"
     ],
     "goals": [],
     "techStack": [
@@ -677,13 +679,17 @@
         "layer": "Database"
       },
       {
-        "name": "redis",
+        "name": "MongoDB",
+        "layer": "Database"
+      },
+      {
+        "name": "Redis",
         "layer": "Database"
       }
     ],
     "infra": [
       {
-        "name": "azure",
+        "name": "Azure",
         "layer": "Cloud"
       },
       {
@@ -701,16 +707,22 @@
   },
   {
     "id": 17,
-    "title": "OV (Ocean Visibility) 트래킹 구조 통합 및 CQRS 적용",
-    "period": "2026.01 ~ 2026.06",
-    "summary": "B/L, Container, Booking 트래킹 구조를 통합하고 조회·등록 성능을 개선한 OV 서비스 최적화 프로젝트",
+    "title": "OV (Ocean Visibility) 트래킹 구조 통합 및 CQRS 패턴 적용",
+    "period": "2025.12 ~ 2026.06",
+    "summary": "B/L, Container, Booking 트래킹 구조를 단일 모델로 통합한 OV 서비스 최적화 프로젝트 정의·제안 및 실행 리드",
     "details": [
-      "B/L, Container, Booking 트래킹 데이터 구조를 단일 모델로 통합",
+      "연간 트래킹 기능 개발 실적을 직접 집계해 B/L·Container/Booking 중복 구현 비용 구조를 정량 분석하고 프로젝트 정의서·제안서 작성",
+      "B/L, Container, Booking 트래킹 데이터 구조를 단일 모델로 통합하는 1·2차 프로젝트 에픽 오너 수행",
       "트래킹 ID 기반 통합 조회 구조를 설계해 단일 화면/API에서 일괄 조회 가능한 기반 마련",
-      "B/L 등록 차감 로직 개선으로 대량 등록 처리 시간 단축 및 동일 건수 기준 처리 시간 일관성 확보",
-      "대형 고객사의 대량 호출 패턴을 분석하고 운영 기준을 정리"
+      "트래킹 데이터 마이그레이션 및 정합성 검증 수행",
+      "Growth Pipeline, Pipedrive 연동, ZimGo 등 주변 시스템의 신규 트래킹 구조 전환 개발",
+      "티켓 단위 feature flag 운영 프로세스를 정의해 무중단 전환과 단계적 코드 정리 체계 마련"
     ],
-    "goals": [],
+    "goals": [
+      "용량 대비 비용이 높은 Redis 선적 정보 캐시 제거",
+      "B/L 번호 단일 조건이던 조회를 다중 조건 조회로 확장",
+      "다건 일괄 등록 처리 시간 단축과 동일 건수 기준 처리 시간 일관성 확보"
+    ],
     "techStack": [
       {
         "name": "Java",
@@ -737,25 +749,31 @@
         "layer": "Database"
       },
       {
-        "name": "redis",
+        "name": "Redis",
         "layer": "Database"
       }
     ],
     "infra": [
       {
-        "name": "azure",
+        "name": "Azure",
         "layer": "Cloud"
       },
       {
-        "name": "Azure kubernetes Service",
+        "name": "Azure Kubernetes Service",
         "layer": "Container Orchestration"
       }
-    ]
+    ],
+    "achievements": [
+      "티켓 단위 feature flag로 단계 전환과 검증·모니터링을 거쳐 1차(2026.03)·2차(2026.06) 전환 완료",
+      "Redis 캐시 제거와 통합 저장소 전환으로 트래킹 기능의 중복 개발 구조 해소",
+      "B/L에 구현된 기능을 Container/Booking에 중복 구현하던 구조를 단일 구현으로 전환해 개발 리소스 절감"
+    ],
+    "links": []
   },
   {
     "id": 18,
     "title": "Backoffice 권한관리 시스템 정리",
-    "period": "2026.03 ~ 2026.04",
+    "period": "2026.02 ~ 2026.04",
     "summary": "부서별 접근 권한과 관리자 기능을 갖춘 Backoffice 거버넌스 체계 정리",
     "details": [
       "관리자 전용 권한관리 페이지 추가",
@@ -814,12 +832,14 @@
   {
     "id": 19,
     "title": "Growth Pipeline 최적화 프로젝트 / Pipedrive 자동화 개선",
-    "period": "2026.03 ~ 2026.06",
+    "period": "2026.01 ~ 2026.07",
     "summary": "Pipedrive 연동과 nurturing 메일 규칙 개선으로 영업 데이터 운영 흐름을 고도화",
     "details": [
-      "Country → Continent 자동 분류 규칙 추가",
-      "nurturing 메일 발송 기간 연장과 중단 조건 변경",
-      "영업/마케팅 운영에 맞춘 리드 데이터 정합성 개선"
+      "Country → Continent 자동 분류 규칙 추가 및 데이터 마이그레이션",
+      "독일·포르투갈어 사용 국가 등 언어·지역별 nurturing 메일 자동화와 발송 기간 연장, 중단 조건 변경",
+      "국가별 Lead 담당자 자동 배정 규칙 운영 및 리드 데이터 정합성 개선",
+      "Pipedrive 배치(동기화·트라이얼 만료 알림) 실행 오류 분석 및 수정",
+      "Pipedrive API v1 → v2 전환 대응 계획과 연동 경로별(직접 연동·Zapier·Make) 마이그레이션 가이드 작성"
     ],
     "goals": [],
     "techStack": [
@@ -855,7 +875,130 @@
     "infra": [],
     "achievements": [
       "영업 데이터 자동화 흐름을 운영 기준에 맞게 재정비",
-      "리드 분류와 nurturing 규칙을 개선해 수작업 감소"
+      "리드 분류와 nurturing 규칙을 개선해 수작업 감소",
+      "Pipedrive API v2 전환 설계로 연동 효율과 응답 속도 개선 기반 마련"
+    ],
+    "links": []
+  },
+  {
+    "id": 20,
+    "title": "OV 모니터링·장애 대응 체계 구축",
+    "period": "2025.12 ~ 2026.07",
+    "summary": "Datadog 기반 선제 탐지와 장애 대응 프로세스 정립으로 운영 안정성 강화",
+    "details": [
+      "Datadog 알람 최적화 및 운영 클러스터 로그 수집 대상 화이트리스트 정비",
+      "장애 발생 → 개발팀 인지 → 원인 파악 → VOC 유입 시각을 추적하는 장애 지표 운영",
+      "Slack 장애/버그 제보 채널 개설과 P0~P4 장애 등급, 제보·종합 레포트 템플릿 정의",
+      "장애 레포트 정리·리뷰 체계 운영과 원인 이력 문서화로 유사 상황 대응 시간 단축"
+    ],
+    "goals": [
+      "장애를 사용자 인지 전에 선제적으로 탐지하고 대응하는 체계 구축",
+      "재발 방지 모니터링 적용으로 동일 원인 장애의 재발 차단"
+    ],
+    "techStack": [
+      {
+        "name": "Datadog",
+        "layer": "Monitoring"
+      },
+      {
+        "name": "Slack",
+        "layer": "Incident Report"
+      }
+    ],
+    "infra": [
+      {
+        "name": "Azure",
+        "layer": "Cloud"
+      },
+      {
+        "name": "Azure Kubernetes Service",
+        "layer": "Container Orchestration"
+      }
+    ],
+    "achievements": [
+      "사용자 인지 전 선제 탐지가 기본이 되는 모니터링 운영 체계 정착",
+      "제보 → 등급 판정 → 원인 분석 → 재발 방지의 장애 대응 사이클 표준화",
+      "장애 제보 채널·등급 체계 도입으로 장애 커뮤니케이션 표준화"
+    ],
+    "links": []
+  },
+  {
+    "id": 21,
+    "title": "개발자 문서 포털 Postman 전환",
+    "period": "2026.06 ~ 2026.07",
+    "summary": "API 문서를 Postman 기반 포털로 전환해 고객이 문의 없이 직접 연동 가능한 환경 구축",
+    "details": [
+      "외부 노출 API 전수 조사 및 현황 문서화",
+      "Postman에 API 엔드포인트 등록, 요청 테스트, 커스텀 도메인(docs.tradlinx.com) 설정 및 배포",
+      "tradlinx.com/docs → docs.tradlinx.com 리다이렉트 구성",
+      "기존 문서 서비스의 단계적 축소와 리소스 정리"
+    ],
+    "goals": [
+      "문서, 샌드박스, 테스트 기능 제공으로 고객이 문의 없이 직접 연동할 수 있는 환경 구축"
+    ],
+    "techStack": [
+      {
+        "name": "Postman",
+        "layer": "API Platform"
+      },
+      {
+        "name": "Next.js",
+        "layer": "Framework"
+      }
+    ],
+    "infra": [
+      {
+        "name": "Azure",
+        "layer": "Cloud"
+      },
+      {
+        "name": "Azure Kubernetes Service",
+        "layer": "Container Orchestration"
+      }
+    ],
+    "achievements": [
+      "문서·샌드박스·테스트 기능 제공으로 API 연동 과정의 기술 문의 감소"
+    ],
+    "links": []
+  },
+  {
+    "id": 22,
+    "title": "AKS 클러스터 무중단 업그레이드 및 운영 정비",
+    "period": "2026.01 ~ 2026.07",
+    "summary": "운영 클러스터 버전 업그레이드와 DNS·모니터링 정비로 무중단 운영 기반 확보",
+    "details": [
+      "운영 클러스터 AKS 버전 업그레이드를 위험 분석과 계획 수립부터 실행까지 단독 수행",
+      "사전 위험 분석에 따른 PDB 적용과 취약 구성 서비스 사전 보강으로 무중단 업그레이드 수행",
+      "업그레이드 과정에서 발견한 서비스 구성 취약점의 원인을 규명하고 당일 보강해 재발 방지",
+      "운영 클러스터 LocalDNS 적용으로 CoreDNS 부하 감소와 DNS 장애 내성 확보",
+      "경보 디바운스 적용 등 모니터링 오탐 제거",
+      "재사용 가능한 업그레이드 사전 체크리스트와 실행 순서 원칙 문서화"
+    ],
+    "goals": [],
+    "techStack": [
+      {
+        "name": "Kubernetes",
+        "layer": "Container Orchestration"
+      },
+      {
+        "name": "Datadog",
+        "layer": "Monitoring"
+      }
+    ],
+    "infra": [
+      {
+        "name": "Azure",
+        "layer": "Cloud"
+      },
+      {
+        "name": "Azure Kubernetes Service",
+        "layer": "Container Orchestration"
+      }
+    ],
+    "achievements": [
+      "사전 보강을 선행한 핵심 서비스의 무중단 업그레이드 달성",
+      "불필요한 비용 증가 없이 업그레이드 완료",
+      "업그레이드 과정에서 발견한 취약 서비스 구성을 전 클러스터에 일괄 보강 권고"
     ],
     "links": []
   }
