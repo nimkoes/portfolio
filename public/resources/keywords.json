@@ -1,22 +1,15 @@
 [
   "Tidy First",
-  "Extreme Programming",
   "Java",
   "Kotlin",
   "Spring Boot",
-  "Spring Security",
   "Spring Data JPA",
-  "QueryDSL",
   "REST API",
   "CQRS",
-  "SQL(SQLD)",
-  "Redis",
-  "gRPC",
-  "Maven/Gradle",
+  "SQL",
   "Kubernetes",
   "Azure",
   "Azure DevOps",
   "Datadog",
-  "SendGrid",
-  "Pipedrive"
+  "AI Agent (Claude Code)"
 ]
