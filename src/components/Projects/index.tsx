@@ -54,6 +54,21 @@ type ProjectArchitecture = {
   };
 };
 
+type ProjectSystemOverview = {
+  inputLabel: string;
+  inputs: string[];
+  core: {
+    label: string;
+    detail: string;
+  };
+  paths: {
+    role: string;
+    label: string;
+    target: string;
+  }[];
+  note?: string;
+};
+
 type Project = {
   id: number;
   title: string;
@@ -63,6 +78,7 @@ type Project = {
   goals?: string[];
   techStack?: RawEnvironmentItem[];
   architecture?: ProjectArchitecture;
+  systemOverview?: ProjectSystemOverview;
   troubleshooting?: TroubleshootingItem[];
   infra?: RawEnvironmentItem[];
   achievements?: string[];
@@ -294,6 +310,7 @@ const Projects = () => {
               goals,
               techStack,
               architecture,
+              systemOverview,
               troubleshooting,
               infra,
               achievements,
@@ -465,6 +482,52 @@ const Projects = () => {
                             </div>
                           </div>
                         ) : null}
+                        {systemOverview && (
+                          <div className={styles.projectBlock}>
+                            <h3 className={styles.projectSubtitle}>시스템 개요</h3>
+                            <div className={styles.systemOverview}>
+                              <section
+                                className={styles.systemOverviewInputs}
+                                aria-labelledby={`project-${id}-system-inputs`}
+                              >
+                                <h4 id={`project-${id}-system-inputs`}>{systemOverview.inputLabel}</h4>
+                                <ul>
+                                  {systemOverview.inputs.map((input) => (
+                                    <li key={input}>{input}</li>
+                                  ))}
+                                </ul>
+                              </section>
+                              <span className={styles.systemOverviewArrow} aria-hidden>
+                                →
+                              </span>
+                              <section
+                                className={styles.systemOverviewCore}
+                                aria-labelledby={`project-${id}-system-core`}
+                              >
+                                <h4 id={`project-${id}-system-core`}>{systemOverview.core.label}</h4>
+                                <p>{systemOverview.core.detail}</p>
+                              </section>
+                              <span className={styles.systemOverviewArrow} aria-hidden>
+                                →
+                              </span>
+                              <div
+                                className={styles.systemOverviewPaths}
+                                aria-label={`${systemOverview.core.label}의 연결 대상`}
+                              >
+                                {systemOverview.paths.map(({ role, label, target }) => (
+                                  <section key={role} className={styles.systemOverviewPath}>
+                                    <span>{role}</span>
+                                    <div>
+                                      <h4>{target}</h4>
+                                      <p>{label}</p>
+                                    </div>
+                                  </section>
+                                ))}
+                              </div>
+                              {systemOverview.note && <p className={styles.systemOverviewNote}>{systemOverview.note}</p>}
+                            </div>
+                          </div>
+                        )}
                         {troubleshooting && troubleshooting.length > 0 && (
                           <div className={styles.projectBlock}>
                             <h3 className={styles.projectSubtitle}>트러블 슈팅</h3>

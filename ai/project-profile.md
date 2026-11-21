@@ -50,7 +50,8 @@ npm run ai:loop
 ### projects.json
 
 - 필수 필드: `id`, `title`, `period`, `summary`, `details`, `links`
-- 권장 필드: `goals`, `techStack`, `infra`, `troubleshooting`, `achievements`
+- 권장 필드: `goals`, `techStack`, `infra`, `architecture`, `systemOverview`, `troubleshooting`, `achievements`
+- `architecture`는 기술 간 구성 관계를, `systemOverview`는 주요 입력·처리·저장 또는 출력 흐름을 표현합니다.
 - `period`는 `YYYY.MM ~ YYYY.MM` 형식을 기본으로 봅니다.
 - 진행 중인 프로젝트는 종료 월이 비어 있을 수 있습니다.
 

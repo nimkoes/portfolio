@@ -4,9 +4,7 @@
     "title": "아시아나항공 홈페이지 할인 코드 관리 기능 개발",
     "period": "2015.01 ~ 2015.03",
     "summary": "아시아나 항공 홈페이지 기능 개선",
-    "details": [
-      "여행 동반자 추가 할인 코드 관리 관리자 화면 개발"
-    ],
+    "details": ["여행 동반자 추가 할인 코드 관리 관리자 화면 개발"],
     "goals": [],
     "techStack": [
       {
@@ -36,9 +34,7 @@
     ],
     "troubleshooting": [],
     "infra": [],
-    "achievements": [
-      "처음 맡은 개발 업무로 Spring을 사용한 웹 애플리케이션 개발과 항공업무에 대한 전반적인 이해를 갖춤"
-    ],
+    "achievements": ["처음 맡은 개발 업무로 Spring을 사용한 웹 애플리케이션 개발과 항공업무에 대한 전반적인 이해를 갖춤"],
     "links": []
   },
   {
@@ -46,9 +42,7 @@
     "title": "제주항공 기업우대 서비스 구축",
     "period": "2015.04 ~ 2015.06",
     "summary": "제주항공 홈페이지 기업회원 우대 기능 및 관리 기능 구축",
-    "details": [
-      "기업 회원 가입 프론트엔드 개발 (pc, 모바일 웹, 모바일 앱)"
-    ],
+    "details": ["기업 회원 가입 프론트엔드 개발 (pc, 모바일 웹, 모바일 앱)"],
     "goals": [],
     "techStack": [
       {
@@ -78,9 +72,7 @@
     ],
     "troubleshooting": [],
     "infra": [],
-    "achievements": [
-      "모바일 앱 플랫폼 경험"
-    ],
+    "achievements": ["모바일 앱 플랫폼 경험"],
     "links": []
   },
   {
@@ -88,9 +80,7 @@
     "title": "BSP/CASS 항공권 정산 시스템 선도개발",
     "period": "2015.06 ~ 2016.01",
     "summary": "은행 합병으로 인한 BSP 정산 업무 통합 환경 구축",
-    "details": [
-      "C언어 기반 pro*c언어로 작성된 소스 코드와 호출하는 sp(stored procedure) 분석, 수정 및 디버깅"
-    ],
+    "details": ["C언어 기반 pro*c언어로 작성된 소스 코드와 호출하는 sp(stored procedure) 분석, 수정 및 디버깅"],
     "goals": [],
     "techStack": [
       {
@@ -104,10 +94,7 @@
     ],
     "troubleshooting": [],
     "infra": [],
-    "achievements": [
-      "Pro*C 기반 프로그램 및 프로시저 개발 경험",
-      "Stored Procedure 분석·수정·개발 경험을 바탕으로 SQLD 자격 취득"
-    ],
+    "achievements": ["Pro*C 기반 프로그램 및 프로시저 개발 경험", "Stored Procedure 분석·수정·개발 경험을 바탕으로 SQLD 자격 취득"],
     "links": []
   },
   {
@@ -115,10 +102,7 @@
     "title": "제주항공 사전수하물 구매 기능 추가",
     "period": "2016.02 ~ 2016.04",
     "summary": "사전 수하물 온라인 판매 시스템 구축",
-    "details": [
-      "모바일 웹, 모바일 앱 프론트엔드 개발",
-      "보안성 검토 솔루션인 Code-Ray 사용하여 취약점 개선"
-    ],
+    "details": ["모바일 웹, 모바일 앱 프론트엔드 개발", "보안성 검토 솔루션인 Code-Ray 사용하여 취약점 개선"],
     "goals": [],
     "techStack": [
       {
@@ -153,10 +137,7 @@
         "layer": "Application Server"
       }
     ],
-    "achievements": [
-      "검출된 SQL Injection, XSS 등 보안 취약점 해결",
-      "Critical/High 레벨 이슈를 모두 해소"
-    ],
+    "achievements": ["검출된 SQL Injection, XSS 등 보안 취약점 해결", "Critical/High 레벨 이슈를 모두 해소"],
     "links": []
   },
   {
@@ -164,11 +145,7 @@
     "title": "에어서울 수입관리 시스템 개발",
     "period": "2016.04 ~ 2016.11",
     "summary": "자사 수입관리 솔루션 고객사 요구에 맞춰 개선하여 구축",
-    "details": [
-      "프로젝트 초기 개발 환경 구성",
-      "사용자 매뉴얼 작성",
-      "sp(Stored Procedure) 수정 및 작성"
-    ],
+    "details": ["프로젝트 초기 개발 환경 구성", "사용자 매뉴얼 작성", "sp(Stored Procedure) 수정 및 작성"],
     "goals": [],
     "techStack": [
       {
@@ -190,10 +167,7 @@
     ],
     "troubleshooting": [],
     "infra": [],
-    "achievements": [
-      "초기 전체 개발 환경 구성",
-      "프로젝트 기간 내 고객사 요구사항을 반영한 수입관리 솔루션 전달 완료"
-    ],
+    "achievements": ["초기 전체 개발 환경 구성", "프로젝트 기간 내 고객사 요구사항을 반영한 수입관리 솔루션 전달 완료"],
     "links": []
   },
   {
@@ -201,9 +175,7 @@
     "title": "제주항공 ABB 정산 시스템 구축",
     "period": "2016.12 ~ 2017.04",
     "summary": "제주항공 수입관리 ABB 정산 시스템 웹 애플리케이션 개발",
-    "details": [
-      "ABB 정산 시스템 레포트·대사 기능(집계/상세) 개발"
-    ],
+    "details": ["ABB 정산 시스템 레포트·대사 기능(집계/상세) 개발"],
     "goals": [],
     "techStack": [
       {
@@ -246,10 +218,7 @@
     "title": "제주항공 홈페이지 러시아어 추가",
     "period": "2017.07 ~ 2017.10",
     "summary": "제주항공 홈페이지 다국어 (러시아어) 추가",
-    "details": [
-      "홈페이지 내 한글 문구 정리하여 번역 요청",
-      "러시아어 번역 문구 json 형식으로 작성 및 적용"
-    ],
+    "details": ["홈페이지 내 한글 문구 정리하여 번역 요청", "러시아어 번역 문구 json 형식으로 작성 및 적용"],
     "goals": [],
     "techStack": [
       {
@@ -289,10 +258,7 @@
     "title": "제주항공 홈페이지 최저가 운임 적용",
     "period": "2017.09 ~ 2017.12",
     "summary": "모바일 판매 채널에 최저가 운임 조회 기능 적용",
-    "details": [
-      "모바일 웹 최저가 검색 화면 개발",
-      "여행 테마별, 월별, 일별 최저 운임 데이터 조회 기능 개발"
-    ],
+    "details": ["모바일 웹 최저가 검색 화면 개발", "여행 테마별, 월별, 일별 최저 운임 데이터 조회 기능 개발"],
     "goals": [],
     "techStack": [
       {
@@ -335,10 +301,7 @@
     "title": "제주항공 국내선 Fare Family 운임 체계 전환",
     "period": "2017.12 ~ 2018.05",
     "summary": "국내선 항공권 특가, 할인, 일반 운임 체계를 Fly, Flybag, Flybag+ 운임 체계로 전환",
-    "details": [
-      "프론트엔드 화면 개발",
-      "항공권 구매 및 변경 시 구매 가능한 항공권 조회 화면 개발"
-    ],
+    "details": ["프론트엔드 화면 개발", "항공권 구매 및 변경 시 구매 가능한 항공권 조회 화면 개발"],
     "goals": [],
     "techStack": [
       {
@@ -415,9 +378,27 @@
     ],
     "troubleshooting": [],
     "infra": [],
-    "achievements": [
-      "저장 데이터 증가로 느려진 조회 쿼리, 인덱스 최적화와 조인 순서 개선으로 체감 성능 70~85% 단축"
-    ],
+    "systemOverview": {
+    "inputLabel": "입력 데이터",
+      "inputs": ["GPG 판매 데이터", "FTP"],
+      "core": {
+        "label": "통합정산 배치",
+        "detail": "판매 데이터 수집·검증·적재"
+      },
+      "paths": [
+        {
+          "role": "저장",
+          "label": "정산 데이터 적재",
+          "target": "Oracle"
+        },
+        {
+          "role": "조회",
+          "label": "매출·오류 현황",
+          "target": "통합정산 리포트"
+        }
+      ]
+    },
+    "achievements": ["저장 데이터 증가로 느려진 조회 쿼리, 인덱스 최적화와 조인 순서 개선으로 체감 성능 70~85% 단축"],
     "links": []
   },
   {
@@ -425,10 +406,7 @@
     "title": "제주항공 국제선 Fare Family 운임 체계 전환",
     "period": "2019.02 ~ 2019.06",
     "summary": "국제선 항공권 특가, 할인, 일반 운임 체계를 Fly, Flybag, Flybag+ 운임 체계로 전환",
-    "details": [
-      "항공권 구매 및 변경 시 구매 가능한 항공권 조회 화면 개발",
-      "신입 직원 멘토링"
-    ],
+    "details": ["항공권 구매 및 변경 시 구매 가능한 항공권 조회 화면 개발", "신입 직원 멘토링"],
     "goals": [],
     "techStack": [
       {
@@ -471,9 +449,7 @@
     "title": "제주항공 뉴클래스 운임 체계 추가",
     "period": "2019.06 ~ 2019.09",
     "summary": "제주항공 항공권 운임 체계 Fly, Flybag, Flybag+ 에 새로운 뉴클래스 운임 개념 추가",
-    "details": [
-      "항공권 구매 및 변경 시 구매 가능한 항공권 조회 화면 고도화"
-    ],
+    "details": ["항공권 구매 및 변경 시 구매 가능한 항공권 조회 화면 고도화"],
     "goals": [],
     "techStack": [
       {
@@ -549,10 +525,7 @@
     ],
     "troubleshooting": [],
     "infra": [],
-    "achievements": [
-      "애플리케이션 수준 마이그레이션 경험",
-      "웹 애플리케이션 개발 환경 전체 구성 경험"
-    ],
+    "achievements": ["애플리케이션 수준 마이그레이션 경험", "웹 애플리케이션 개발 환경 전체 구성 경험"],
     "links": []
   },
   {
@@ -604,10 +577,7 @@
     "title": "통합 회원 인증(SSO) 체계 도입",
     "period": "2021.09 ~ 2021.11",
     "summary": "통합 회원 인증 프로세스 개발",
-    "details": [
-      "마이크로 서비스 간 통합 인증 환경 제공",
-      "통합 회원 정보 관리 서비스 개발"
-    ],
+    "details": ["마이크로 서비스 간 통합 인증 환경 제공", "통합 회원 정보 관리 서비스 개발"],
     "goals": [],
     "techStack": [
       {
@@ -642,6 +612,27 @@
         "layer": "Container Orchestration"
       }
     ],
+    "systemOverview": {
+    "inputLabel": "인증 요청",
+      "inputs": ["서비스 로그인", "토큰 재발급", "로그아웃"],
+      "core": {
+        "label": "통합 인증·회원 관리",
+        "detail": "여러 서비스가 같은 인증 흐름 사용"
+      },
+      "paths": [
+        {
+          "role": "인증 상태",
+          "label": "로그인 기기·세션",
+          "target": "Redis"
+        },
+        {
+          "role": "회원 원장",
+          "label": "통합 회원 정보",
+          "target": "MSSQL"
+        }
+      ],
+      "note": "공유 쿠키와 토큰으로 tradlinx.com 하위 서비스에 SSO 제공"
+    },
     "achievements": [
       "마이크로서비스 간 공통으로 사용할 수 있는 통합 로그인 처리 흐름을 설계·구현해 인증 체계 일원화",
       "서비스 간 통합 로그인 환경을 제공하여 사용자 인증 경험과 운영 효율 개선",
@@ -697,6 +688,27 @@
         "layer": "Container Orchestration"
       }
     ],
+    "systemOverview": {
+    "inputLabel": "핵심 도메인",
+      "inputs": ["회원", "화물", "운임", "부킹"],
+      "core": {
+        "label": "ZimGo 백엔드",
+        "detail": "수출입 물류 도메인 통합 처리"
+      },
+      "paths": [
+        {
+          "role": "외부 연동",
+          "label": "통관 조회·오류 예외 처리",
+          "target": "Unipass"
+        },
+        {
+          "role": "트래킹",
+          "label": "통합 요청 API 전환",
+          "target": "OV"
+        }
+      ],
+      "note": "메일·배치 등 서비스 공통 기능 함께 운영"
+    },
     "achievements": [
       "신규 수출입 물류 SaaS의 개발 초기 단계부터 운영 환경 런칭까지 전 과정(설계-개발-배포-운영)을 경험",
       "서버 간 통신 구조와 도메인별 데이터베이스 설계로 기능 확장",
@@ -763,6 +775,27 @@
         "layer": "Container Orchestration"
       }
     ],
+    "systemOverview": {
+    "inputLabel": "트래킹 유형",
+      "inputs": ["B/L", "Container", "Booking"],
+      "core": {
+        "label": "통합 트래킹 서비스",
+        "detail": "세 유형을 단일 트래킹 모델로 처리"
+      },
+      "paths": [
+        {
+          "role": "쓰기 모델",
+          "label": "등록·상태 관리",
+          "target": "MSSQL"
+        },
+        {
+          "role": "읽기 모델",
+          "label": "통합 조회",
+          "target": "Azure Cosmos DB"
+        }
+      ],
+      "note": "Feature flag · 데이터 마이그레이션 · 정합성 검증으로 단계 전환"
+    },
     "achievements": [
       "티켓 단위 feature flag로 단계 전환과 검증·모니터링을 거쳐 1차(2026.03)·2차(2026.06) 전환 완료",
       "Redis 캐시 제거와 통합 저장소 전환으로 트래킹 기능의 중복 개발 구조 해소",
@@ -775,10 +808,7 @@
     "title": "Backoffice 권한관리 시스템 정리",
     "period": "2026.02 ~ 2026.04",
     "summary": "부서별 접근 권한과 관리자 기능을 갖춘 Backoffice 거버넌스 체계 정리",
-    "details": [
-      "관리자 전용 권한관리 페이지 추가",
-      "메뉴 및 역할 하드코딩 제거와 역할 기반 메뉴 제어 구조 적용"
-    ],
+    "details": ["관리자 전용 권한관리 페이지 추가", "메뉴 및 역할 하드코딩 제거와 역할 기반 메뉴 제어 구조 적용"],
     "goals": [],
     "techStack": [
       {
@@ -824,9 +854,28 @@
         "layer": "Container Orchestration"
       }
     ],
-    "achievements": [
-      "관리자·부서별 권한 모델을 도입해 보안과 운영 효율 강화"
-    ],
+    "systemOverview": {
+    "inputLabel": "권한 기준",
+      "inputs": ["관리자", "부서", "역할"],
+      "core": {
+        "label": "권한관리 서비스",
+        "detail": "역할별 메뉴·기능 권한 판정"
+      },
+      "paths": [
+        {
+          "role": "설정",
+          "label": "메뉴·역할·권한",
+          "target": "MSSQL"
+        },
+        {
+          "role": "적용",
+          "label": "화면·기능 접근 제어",
+          "target": "Backoffice"
+        }
+      ],
+      "note": "하드코딩을 제거하고 관리자 전용 권한관리 화면으로 운영"
+    },
+    "achievements": ["관리자·부서별 권한 모델을 도입해 보안과 운영 효율 강화"],
     "links": []
   },
   {
@@ -873,6 +922,27 @@
       }
     ],
     "infra": [],
+    "systemOverview": {
+    "inputLabel": "리드 정보",
+      "inputs": ["Lead", "국가·언어", "활동 상태"],
+      "core": {
+        "label": "Growth 자동화 규칙",
+        "detail": "분류·담당자·중단 조건 판정"
+      },
+      "paths": [
+        {
+          "role": "CRM",
+          "label": "리드 동기화·담당자 배정",
+          "target": "Pipedrive"
+        },
+        {
+          "role": "메일",
+          "label": "Nurturing 자동 발송",
+          "target": "SendGrid"
+        }
+      ],
+      "note": "배치 동기화 · 트라이얼 만료 알림 · API v2 전환"
+    },
     "achievements": [
       "영업 데이터 자동화 흐름을 운영 기준에 맞게 재정비",
       "리드 분류와 nurturing 규칙을 개선해 수작업 감소",
@@ -892,10 +962,7 @@
       "Slack 장애/버그 제보 채널 개설과 P0~P4 장애 등급, 제보·종합 레포트 템플릿 정의",
       "과거 장애 레포트를 같은 형식으로 정리하고 원인과 재발 방지 조치를 추적하는 리뷰 체계 운영"
     ],
-    "goals": [
-      "장애를 사용자 인지 전에 선제적으로 탐지하고 대응하는 체계 구축",
-      "재발 방지 모니터링 적용으로 동일 원인 장애의 재발 차단"
-    ],
+    "goals": ["장애를 사용자 인지 전에 선제적으로 탐지하고 대응하는 체계 구축", "재발 방지 모니터링 적용으로 동일 원인 장애의 재발 차단"],
     "techStack": [
       {
         "name": "Datadog",
@@ -916,6 +983,27 @@
         "layer": "Container Orchestration"
       }
     ],
+    "systemOverview": {
+    "inputLabel": "관측 대상",
+      "inputs": ["API 요청", "웹훅 발송", "클러스터 로그"],
+      "core": {
+        "label": "Datadog 관측",
+        "detail": "고객별 오류·공백·적체 탐지"
+      },
+      "paths": [
+        {
+          "role": "확인",
+          "label": "고객 영향 대시보드",
+          "target": "Datadog"
+        },
+        {
+          "role": "대응",
+          "label": "제보·등급·장애 레포트",
+          "target": "Slack"
+        }
+      ],
+      "note": "장애 리뷰에서 원인과 재발 방지 조치까지 추적"
+    },
     "achievements": [
       "웹훅 발송량 급감 모니터링을 적용하고, 적용 5일 뒤 발생한 중단을 고객 제보보다 먼저 탐지",
       "고객별 API·웹훅 요청과 오류를 경로 단위로 확인할 수 있는 대시보드 구축",
@@ -934,9 +1022,7 @@
       "tradlinx.com/docs → docs.tradlinx.com 리다이렉트 구성",
       "기존 문서 서비스의 단계적 축소와 리소스 정리"
     ],
-    "goals": [
-      "문서, 샌드박스, 테스트 기능 제공으로 고객이 문의 없이 직접 연동할 수 있는 환경 구축"
-    ],
+    "goals": ["문서, 샌드박스, 테스트 기능 제공으로 고객이 문의 없이 직접 연동할 수 있는 환경 구축"],
     "techStack": [
       {
         "name": "Postman",
@@ -957,9 +1043,28 @@
         "layer": "Container Orchestration"
       }
     ],
-    "achievements": [
-      "문서·샌드박스·테스트 기능 제공으로 API 연동 과정의 기술 문의 감소"
-    ],
+    "systemOverview": {
+    "inputLabel": "문서 소스",
+      "inputs": ["API 명세", "요청 예시", "테스트 결과"],
+      "core": {
+        "label": "Postman 개발자 포털",
+        "detail": "문서·샌드박스·테스트 통합"
+      },
+      "paths": [
+        {
+          "role": "공개",
+          "label": "고객 셀프 연동",
+          "target": "docs.tradlinx.com"
+        },
+        {
+          "role": "이관",
+          "label": "리다이렉트·단계적 축소",
+          "target": "기존 문서 경로"
+        }
+      ],
+      "note": "외부 노출 API 전수 조사 후 엔드포인트 등록·검증"
+    },
+    "achievements": ["문서·샌드박스·테스트 기능 제공으로 API 연동 과정의 기술 문의 감소"],
     "links": []
   },
   {
@@ -1014,10 +1119,7 @@
       "서비스 트래픽에 따라 Datadog 정기 API 점검 주기를 3단계로 재설계",
       "Datadog 지표별 참조 자산을 확인해 사용되지 않는 커스텀 지표 4종 제거"
     ],
-    "goals": [
-      "관리 정책 없이 누적된 클라우드 리소스의 저장 비용 절감",
-      "서비스 중요도와 트래픽에 맞게 모니터링 범위와 비용의 균형 조정"
-    ],
+    "goals": ["관리 정책 없이 누적된 클라우드 리소스의 저장 비용 절감", "서비스 중요도와 트래픽에 맞게 모니터링 범위와 비용의 균형 조정"],
     "techStack": [
       {
         "name": "Azure Container Registry",
@@ -1046,40 +1148,40 @@
         "layer": "Container Orchestration"
       }
     ],
-  "architecture": {
-    "groups": [
-      {
-        "id": "management",
-        "label": "관리 도구",
-        "items": ["Azure CLI"]
-      },
-      {
-        "id": "azure",
-        "label": "Azure",
-        "items": [
-          {
-            "name": "Azure Container Registry",
-            "detail": "컨테이너 이미지 저장소"
-          },
-          {
-            "name": "Azure Kubernetes Service",
-            "detail": "Kubernetes 기반 실행 환경"
-          }
-        ]
+    "architecture": {
+      "groups": [
+        {
+          "id": "management",
+          "label": "관리 도구",
+          "items": ["Azure CLI"]
+        },
+        {
+          "id": "azure",
+          "label": "Azure",
+          "items": [
+            {
+              "name": "Azure Container Registry",
+              "detail": "컨테이너 이미지 저장소"
+            },
+            {
+              "name": "Azure Kubernetes Service",
+              "detail": "Kubernetes 기반 실행 환경"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "from": "management",
+          "to": "azure",
+          "label": "관리"
+        }
+      ],
+      "support": {
+        "label": "관측·비용 최적화",
+        "items": ["Datadog"]
       }
-    ],
-    "relations": [
-      {
-        "from": "management",
-        "to": "azure",
-        "label": "관리"
-      }
-    ],
-    "support": {
-      "label": "관측·비용 최적화",
-      "items": ["Datadog"]
-    }
-  },
+    },
     "achievements": [
       "컨테이너 이미지 33,049건을 정리해 저장 용량을 1,869GB에서 390GB로 84% 절감",
       "정기 API 점검 비용을 월 559.87달러에서 68.43달러로 88% 절감",
@@ -1116,9 +1218,27 @@
       }
     ],
     "infra": [],
-    "achievements": [
-      "108,000행 생성 시 발생하던 메모리 부족 오류를 해소하고 처리 시간 1.8초, 힙 사용량 164MiB로 개선"
-    ],
+    "systemOverview": {
+    "inputLabel": "생성 입력",
+      "inputs": ["조회 데이터", "그룹 헤더", "대용량 행"],
+      "core": {
+        "label": "스트리밍 엑셀 생성",
+        "detail": "헤더 선행 생성 후 행 단위 순차 기록"
+      },
+      "paths": [
+        {
+          "role": "처리",
+          "label": "전체 데이터 메모리 보관 제거",
+          "target": "SXSSFWorkbook"
+        },
+        {
+          "role": "결과",
+          "label": "메모리 사용량 제한",
+          "target": "다운로드 파일"
+        }
+      ]
+    },
+    "achievements": ["108,000행 생성 시 발생하던 메모리 부족 오류를 해소하고 처리 시간 1.8초, 힙 사용량 164MiB로 개선"],
     "links": []
   },
   {
