@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { Fragment, useState } from "react";
 import projectList from "@resources/projects.json";
 import styles from "./Projects.module.scss";
 import { formatYearMonthRange, parseYearMonthRange, toYearMonthSortValue } from "~/utils/date";
@@ -24,6 +24,36 @@ type RawEnvironmentItem =
       reason?: string;
     };
 
+type ArchitectureItem =
+  | string
+  | {
+      name: string;
+      detail?: string;
+    };
+
+type ArchitectureGroup = {
+  id: string;
+  label: string;
+  items: ArchitectureItem[];
+  flow?: boolean;
+};
+
+type ArchitectureRelation = {
+  from: string;
+  to: string;
+  label: string;
+};
+
+type ProjectArchitecture = {
+  trigger?: string;
+  groups: ArchitectureGroup[];
+  relations: ArchitectureRelation[];
+  support?: {
+    label: string;
+    items: ArchitectureItem[];
+  };
+};
+
 type Project = {
   id: number;
   title: string;
@@ -32,6 +62,7 @@ type Project = {
   details: string[];
   goals?: string[];
   techStack?: RawEnvironmentItem[];
+  architecture?: ProjectArchitecture;
   troubleshooting?: TroubleshootingItem[];
   infra?: RawEnvironmentItem[];
   achievements?: string[];
@@ -53,6 +84,111 @@ const normalizeEnvironmentItems = (items?: RawEnvironmentItem[]): EnvironmentIte
       return layer ? { name, layer } : { name };
     })
     .filter((item): item is EnvironmentItem => item !== null);
+
+type AutomaticGroupDefinition = {
+  id: string;
+  label: string;
+  layers: readonly string[];
+};
+
+const automaticGroupDefinitions: AutomaticGroupDefinition[] = [
+  {
+    id: "interface",
+    label: "UI·접점",
+    layers: ["Frontend", "View Template", "CSS Framework", "API Platform"],
+  },
+  {
+    id: "application",
+    label: "애플리케이션",
+    layers: ["Language", "Framework", "Document Processing", "AI Agent"],
+  },
+  {
+    id: "data-integration",
+    label: "데이터·연동",
+    layers: ["ORM", "Database", "Database Migration", "CRM", "External Service", "Message Queue", "Collaboration"],
+  },
+];
+
+const platformLayers = ["Application Server", "Cloud", "Container Orchestration", "Container Registry"];
+const operationLayers = ["Monitoring", "Operation Tool", "Scheduler", "Incident Report", "Automation"];
+
+const isAzureKubernetesService = (name: string) => name.toLowerCase() === "azure kubernetes service";
+
+const describePlatformItems = (names: string[]): ArchitectureItem[] => {
+  const hasAzureKubernetesService = names.some(isAzureKubernetesService);
+  const seen = new Set<string>();
+
+  return names.flatMap((name) => {
+    const normalizedName = name.toLowerCase();
+
+    if (hasAzureKubernetesService && (normalizedName === "azure" || normalizedName === "kubernetes")) {
+      return [];
+    }
+
+    const item: ArchitectureItem = isAzureKubernetesService(name)
+      ? { name: "Azure Kubernetes Service", detail: "Azure · Kubernetes 기반" }
+      : normalizedName === "azure container registry"
+        ? { name, detail: "Azure · 컨테이너 이미지 저장소" }
+        : name;
+    const itemName = typeof item === "string" ? item : item.name;
+    const itemKey = itemName.toLowerCase();
+
+    if (seen.has(itemKey)) return [];
+    seen.add(itemKey);
+    return [item];
+  });
+};
+
+const getArchitectureItemName = (item: ArchitectureItem) => (typeof item === "string" ? item : item.name);
+const getArchitectureItemDetail = (item: ArchitectureItem) => (typeof item === "string" ? undefined : item.detail);
+
+const buildAutomaticArchitecture = (items: EnvironmentItem[]): ProjectArchitecture | undefined => {
+  if (items.length === 0) return undefined;
+
+  const namesForLayers = (layers: readonly string[]) =>
+    items.filter(({ layer }) => layer && layers.includes(layer)).map(({ name }) => name);
+  const mainGroups: ArchitectureGroup[] = automaticGroupDefinitions
+    .map(({ id, label, layers }) => ({ id, label, items: namesForLayers(layers) }))
+    .filter(({ items: groupItems }) => groupItems.length > 0);
+  const platformItems = describePlatformItems(namesForLayers(platformLayers));
+  const operationItems = namesForLayers(operationLayers);
+  const knownLayers = new Set([
+    ...automaticGroupDefinitions.flatMap(({ layers }) => layers),
+    ...platformLayers,
+    ...operationLayers,
+  ]);
+  const ungroupedItems = items.filter(({ layer }) => !layer || !knownLayers.has(layer)).map(({ name }) => name);
+
+  if (ungroupedItems.length > 0) {
+    mainGroups.push({ id: "other", label: "기타 기술", items: ungroupedItems });
+  }
+
+  if (mainGroups.length === 0) {
+    if (platformItems.length > 0) {
+      mainGroups.push({ id: "platform", label: "실행 환경", items: platformItems });
+    }
+    if (operationItems.length > 0) {
+      mainGroups.push({ id: "operations", label: "운영·관측", items: operationItems });
+    }
+  }
+
+  if (mainGroups.length === 0) return undefined;
+
+  const relations: ArchitectureRelation[] = mainGroups.slice(0, -1).map((group, index) => ({
+    from: group.id,
+    to: mainGroups[index + 1].id,
+    label: "",
+  }));
+  const supportItems = mainGroups.some(({ id }) => id === "platform" || id === "operations")
+    ? []
+    : [...platformItems, ...operationItems];
+
+  return {
+    groups: mainGroups,
+    relations,
+    support: supportItems.length > 0 ? { label: "실행·운영", items: supportItems } : undefined,
+  };
+};
 
 const projects = projectList as Project[];
 const normalizedProjects = projects
@@ -157,6 +293,7 @@ const Projects = () => {
               details,
               goals,
               techStack,
+              architecture,
               troubleshooting,
               infra,
               achievements,
@@ -167,18 +304,8 @@ const Projects = () => {
               const normalizedTechStack = normalizeEnvironmentItems(techStack);
               const normalizedInfra = normalizeEnvironmentItems(infra);
               const techPreviewItems = normalizedTechStack.slice(0, 4).map((item) => item.name);
-              const developmentEnvironmentItems = [
-                ...normalizedTechStack.map((item, index) => ({
-                  key: `tech-${item.name}-${item.layer ?? ""}-${index}`,
-                  name: item.name,
-                  layer: item.layer,
-                })),
-                ...normalizedInfra.map((item, index) => ({
-                  key: `infra-${item.name}-${item.layer ?? ""}-${index}`,
-                  name: item.name,
-                  layer: item.layer,
-                })),
-              ];
+              const developmentEnvironmentItems = [...normalizedTechStack, ...normalizedInfra];
+              const displayedArchitecture = architecture ?? buildAutomaticArchitecture(developmentEnvironmentItems);
               return (
                 <li key={id} className={styles.projectTimelineItem}>
                   <div className={styles.projectTimelineNode}>
@@ -247,19 +374,97 @@ const Projects = () => {
                             </ul>
                           </div>
                         )}
-                        {developmentEnvironmentItems.length > 0 && (
+                        {displayedArchitecture && displayedArchitecture.groups.length > 0 ? (
                           <div className={styles.projectBlock}>
-                            <h3 className={styles.projectSubtitle}>개발 환경</h3>
-                            <ul className={styles.environmentList}>
-                              {developmentEnvironmentItems.map((item) => (
-                                <li key={item.key} className={styles.environmentItem}>
-                                  <span className={styles.environmentName}>{item.name}</span>
-                                  {item.layer && <span className={styles.environmentLayer}>{item.layer}</span>}
-                                </li>
-                              ))}
-                            </ul>
+                            <h3 className={styles.projectSubtitle}>기술 구성</h3>
+                            <div className={styles.architectureMap}>
+                              {displayedArchitecture.trigger && (
+                                <div className={styles.architectureTrigger}>
+                                  <span>{displayedArchitecture.trigger}</span>
+                                  <span aria-hidden>↓</span>
+                                </div>
+                              )}
+                              <div className={styles.architectureFlow}>
+                                {displayedArchitecture.groups.map((group, index) => {
+                                  const nextGroup = displayedArchitecture.groups[index + 1];
+                                  const relation = nextGroup
+                                    ? displayedArchitecture.relations.find(
+                                        ({ from, to }) => from === group.id && to === nextGroup.id,
+                                      )
+                                    : undefined;
+
+                                  return (
+                                    <Fragment key={group.id}>
+                                      <section
+                                        className={`${styles.architectureGroup} ${group.flow ? styles.architectureGroupFlow : ""}`}
+                                        aria-labelledby={`project-${id}-architecture-${group.id}`}
+                                      >
+                                        <h4
+                                          id={`project-${id}-architecture-${group.id}`}
+                                          className={styles.architectureGroupTitle}
+                                        >
+                                          {group.label}
+                                        </h4>
+                                        <ul
+                                          className={`${styles.architectureItems} ${group.flow ? styles.architectureItemsFlow : ""}`}
+                                        >
+                                          {group.items.map((item) => {
+                                            const itemName = getArchitectureItemName(item);
+                                            const itemDetail = getArchitectureItemDetail(item);
+
+                                            return (
+                                              <li key={itemName} className={styles.architectureItem}>
+                                                <span>{itemName}</span>
+                                                {itemDetail && (
+                                                  <span className={styles.architectureItemDetail}>{itemDetail}</span>
+                                                )}
+                                              </li>
+                                            );
+                                          })}
+                                        </ul>
+                                      </section>
+                                      {relation && (
+                                        <div
+                                          className={styles.architectureConnector}
+                                          aria-label={
+                                            relation.label
+                                              ? `${group.label}에서 ${nextGroup.label}(으)로 ${relation.label}`
+                                              : `${group.label}과 ${nextGroup.label}의 구성 관계`
+                                          }
+                                        >
+                                          <span className={styles.architectureArrow} aria-hidden>
+                                            →
+                                          </span>
+                                          {relation.label && <span>{relation.label}</span>}
+                                        </div>
+                                      )}
+                                    </Fragment>
+                                  );
+                                })}
+                              </div>
+                              {displayedArchitecture.support && displayedArchitecture.support.items.length > 0 && (
+                                <div className={styles.architectureSupport}>
+                                  <span className={styles.architectureSupportLabel}>{displayedArchitecture.support.label}</span>
+                                  <ul>
+                                    {displayedArchitecture.support.items.map((item) => {
+                                      const itemName = getArchitectureItemName(item);
+                                      const itemDetail = getArchitectureItemDetail(item);
+
+                                      return (
+                                        <li key={itemName}>
+                                          <span>{itemName}</span>
+                                          {itemDetail && (
+                                            <span className={styles.architectureSupportItemDetail}>{itemDetail}</span>
+                                          )}
+                                        </li>
+                                      );
+                                    })}
+                                  </ul>
+                                </div>
+                              )}
+                            </div>
                           </div>
-                        )}
+                        ) : null}
                         {troubleshooting && troubleshooting.length > 0 && (
                           <div className={styles.projectBlock}>
                             <h3 className={styles.projectSubtitle}>트러블 슈팅</h3>

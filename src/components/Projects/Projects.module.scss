@@ -492,36 +492,206 @@
   }
 }
 
-.environmentItem {
+.architectureMap {
+  padding: 0.75rem;
+  border: 1px solid hsl(var(--card-border));
+  border-radius: var(--rounded-xl);
+  background-color: hsl(var(--card-border) / 0.12);
+}
+
+.architectureTrigger {
   display: flex;
-  align-items: baseline;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  margin-bottom: 0.65rem;
+  color: hsl(var(--text-muted));
+  font-size: var(--text-xs);
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.architectureFlow {
+  display: flex;
+  align-items: stretch;
+  gap: 0.45rem;
+}
+
+.architectureGroup {
+  display: flex;
+  flex: 1 1 0;
+  min-width: 0;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.65rem;
+  border: 1px solid hsl(var(--card-border));
+  border-radius: var(--rounded-lg);
+  background-color: hsl(var(--card-bg));
+}
+
+.architectureGroupFlow {
+  flex-grow: 1.35;
+  border-color: hsl(var(--primary-color) / 0.45);
+  background-color: hsl(var(--primary-color) / 0.045);
+}
+
+.architectureGroupTitle {
+  margin: 0 0 0.45rem;
+  color: hsl(var(--text-muted));
+  font-size: var(--text-xs);
+  font-weight: 700;
+  line-height: 1.35;
+  text-align: center;
+  word-break: keep-all;
+}
+
+.architectureItems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 0.32rem;
-  flex-wrap: nowrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-.environmentName {
-  font-weight: 600;
-  color: hsl(var(--text-primary));
-}
-
-.environmentLayer {
+.architectureItem {
   display: inline-flex;
-  align-items: baseline;
-  white-space: nowrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.12rem;
+  min-height: 1.75rem;
+  padding: 0.3rem 0.48rem;
+  border: 1px solid hsl(var(--card-border));
+  border-radius: var(--rounded-md);
+  background-color: hsl(var(--card-bg));
+  color: hsl(var(--text-primary));
+  font-size: var(--text-xs);
+  font-weight: 650;
+  line-height: 1.35;
+  text-align: center;
+  word-break: keep-all;
+}
+
+.architectureItemDetail {
+  color: hsl(var(--text-muted));
   font-size: var(--text-xs);
   font-weight: 500;
-  line-height: 1.4;
-  color: hsl(var(--text-muted));
+  line-height: 1.35;
+}
 
-  &::before {
-    content: "·";
-    margin-right: 0.28rem;
-    opacity: 0.85;
+.architectureItemsFlow {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.15rem;
+
+  .architectureItem {
+    position: relative;
+    width: 100%;
+
+    &:not(:last-child)::after {
+      content: "→";
+      position: absolute;
+      top: 50%;
+      right: -0.85rem;
+      color: hsl(var(--primary-color));
+      font-weight: 700;
+      transform: translateY(-50%);
+    }
+  }
+}
+
+.architectureConnector {
+  display: flex;
+  flex: 0 0 2.45rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: hsl(var(--text-muted));
+  font-size: var(--text-xs);
+  font-weight: 700;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.architectureArrow {
+  color: hsl(var(--primary-color));
+  font-size: 1.15rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.architectureSupport {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  margin-top: 0.6rem;
+  padding-top: 0.6rem;
+  border-top: 1px dashed hsl(var(--card-border));
+}
+
+.architectureSupportLabel {
+  color: hsl(var(--text-muted));
+  font-size: var(--text-xs);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.architectureSupport ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.architectureSupport li {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.08rem;
+  padding: 0.2rem 0.42rem;
+  border: 1px dashed hsl(var(--card-border));
+  border-radius: var(--rounded-3xl);
+  color: hsl(var(--text-muted));
+  font-size: var(--text-xs);
+  font-weight: 650;
+  line-height: 1.35;
+}
+
+.architectureSupportItemDetail {
+  font-weight: 500;
+  opacity: 0.85;
+}
+
+@media all and (max-width: 767px) {
+  .architectureMap {
+    padding: 0.65rem;
   }
 
-  @media all and (max-width: 767px) {
-    font-size: var(--mobile-list-meta-size, 0.82rem);
-    line-height: var(--mobile-list-line-height, 1.45);
+  .architectureFlow {
+    flex-direction: column;
+  }
+
+  .architectureGroup {
+    width: 100%;
+  }
+
+  .architectureConnector {
+    min-height: 2rem;
+    flex-basis: auto;
+  }
+
+  .architectureArrow {
+    transform: rotate(90deg);
+  }
+
+  .architectureSupport {
+    align-items: flex-start;
+    flex-direction: column;
   }
 }
 
