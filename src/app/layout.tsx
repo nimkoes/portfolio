@@ -1,10 +1,63 @@
 import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import "~/styles/index.scss";
+import {
+  AUTHOR_NAME,
+  GOOGLE_SITE_VERIFICATION,
+  OG_IMAGE_ALT,
+  OG_IMAGE_HEIGHT,
+  OG_IMAGE_URL,
+  OG_IMAGE_WIDTH,
+  SITE_DESCRIPTION,
+  SITE_LOCALE,
+  SITE_NAME,
+  SITE_ORIGIN,
+  SITE_TITLE,
+  SITE_URL,
+  getProfilePageJsonLd,
+  serializeJsonLd,
+} from "~/utils/seo";
 
 export const metadata: Metadata = {
-  title: "About nimkoes",
-  description: "github pages for nimkoes",
+  metadataBase: new URL(SITE_ORIGIN),
+  title: SITE_TITLE,
+  description: SITE_DESCRIPTION,
+  applicationName: SITE_NAME,
+  authors: [{ name: AUTHOR_NAME, url: SITE_URL }],
+  creator: AUTHOR_NAME,
+  publisher: AUTHOR_NAME,
+  alternates: {
+    canonical: SITE_URL,
+  },
+  openGraph: {
+    type: "profile",
+    url: SITE_URL,
+    siteName: SITE_NAME,
+    title: SITE_TITLE,
+    description: SITE_DESCRIPTION,
+    locale: SITE_LOCALE,
+    images: [{ url: OG_IMAGE_URL, width: OG_IMAGE_WIDTH, height: OG_IMAGE_HEIGHT, alt: OG_IMAGE_ALT }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: SITE_TITLE,
+    description: SITE_DESCRIPTION,
+    images: [OG_IMAGE_URL],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
+  verification: {
+    google: GOOGLE_SITE_VERIFICATION,
+  },
 };
 
 export const viewport: Viewport = {
@@ -28,7 +81,6 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <html lang="ko" suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
-        <meta name="google-site-verification" content="qjAYKAWDvi1a8R2WjIvp8VV8QmEiYymdpjXx5nBcyak" />
         <link rel="preconnect" href="https://cdn.jsdelivr.net" />
         <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="" />
         <link href="https://cdn.jsdelivr.net/gh/toss/tossface/dist/tossface.css" rel="stylesheet" type="text/css" />
@@ -41,6 +93,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       </head>
 
       <body>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serializeJsonLd(getProfilePageJsonLd()) }} />
         {children}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-61Q4215G9K"

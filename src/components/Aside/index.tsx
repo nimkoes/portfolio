@@ -98,7 +98,7 @@ const Aside = ({ isOneline, onToggleOneline }: AsideProps) => {
         <Image
           src={`${assetBasePath}/images/thumbnail.jpg`}
           className={styles.asideThumb}
-          alt="nimkoes thumbnail"
+          alt="Backend Engineer nimkoes 프로필 사진"
           width={130}
           height={130}
           priority
