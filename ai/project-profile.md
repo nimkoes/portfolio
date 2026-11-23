@@ -36,6 +36,9 @@ npm run ai:loop
 - `src/components/SummarizeTimeline`: 경력, 활동, 프로젝트를 요약 그래프로 보여 주는 모드입니다.
 - `src/utils/date.ts`: 날짜 파싱과 정렬 기준입니다.
 - `public/resources`: 화면에 표시되는 원본 데이터입니다.
+- `src/utils/seo.ts`: 정식 주소, 메타데이터, JSON-LD 등 검색엔진용 값입니다.
+- `src/app/sitemap.ts`: `/portfolio/sitemap.xml`을 만듭니다.
+- `scripts/check-seo-artifacts.mjs`: 빌드 결과의 SEO 산출물을 검사합니다.
 - `scripts/portfolio-ai-harness.mjs`: AI 하네스와 콘텐츠 점검 루프입니다.
 - `ai/`: AI agent, policy, workflow 설정입니다.
 
@@ -86,7 +89,7 @@ npm run ai:loop
 - `projects.json`의 많은 프로젝트에 `goals`가 비어 있습니다.
 - 일부 프로젝트의 `achievements`가 비어 있습니다.
 - 최근 프로젝트 중 `troubleshooting`이 부족한 항목이 있습니다.
-- GitHub Actions는 배포 빌드 중심이며, 아직 `npm run ai:loop` 검증은 포함하지 않습니다.
+- GitHub Actions는 `npm run check`(ai:loop, lint, build, check:seo)를 통과해야 배포합니다.
 
 ## 우선 검증 기준
 

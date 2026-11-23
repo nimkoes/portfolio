@@ -14,6 +14,8 @@ npm run lint
 npm run build
 ```
 
+위 세 명령과 SEO 산출물 검사(`npm run check:seo`)를 한 번에 실행하려면 `npm run check`를 사용합니다. GitHub Actions도 이 명령을 통과해야 배포합니다.
+
 GitHub Pages 경로 기준 검증이 필요하면 아래 명령을 사용합니다.
 
 ```bash

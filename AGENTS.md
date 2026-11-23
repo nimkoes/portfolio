@@ -24,7 +24,7 @@ AI 작업을 시작할 때는 아래 파일을 순서대로 확인합니다.
 - 콘텐츠 원본은 `public/resources/*.json`입니다.
 - 화면은 `src/components/*`와 `src/app/*`에서 구성합니다.
 - 스타일은 SCSS module과 `src/styles`의 전역 토큰을 사용합니다.
-- GitHub Pages 배포는 `next.config.mjs`와 `.github/workflows/nextjs.yml`을 함께 봅니다.
+- GitHub Pages 배포는 `next.config.mjs`와 `.github/workflows/nextjs.yml`을 함께 봅니다. `/portfolio` 경로를 바꾸면 `src/utils/seo.ts`와 `scripts/check-seo-artifacts.mjs`도 함께 바꿉니다.
 - 콘텐츠 수정 후에는 `npm run ai:loop`를 실행합니다.
 - 코드 수정 후에는 `npm run lint`와 `npm run build`를 실행합니다.
 
